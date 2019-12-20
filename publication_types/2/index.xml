@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Peilong Li</title>
+    <link>https://Peilong.github.io/publication_types/2/</link>
+      <atom:link href="https://Peilong.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Sat, 29 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://Peilong.github.io/img/icon-192.png</url>
+      <title>2</title>
+      <link>https://Peilong.github.io/publication_types/2/</link>
+    </image>
+    
+    <item>
+      <title>Network Measurement for 100Gbps Links Using Multicore Processors</title>
+      <link>https://Peilong.github.io/publication/fgcs-2016/</link>
+      <pubDate>Sat, 29 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/fgcs-2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network measurement for 100 GbE network links using multicore processors</title>
+      <link>https://Peilong.github.io/publication/fgcs-2017/</link>
+      <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/fgcs-2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transformer: Run-time reprogrammable heterogeneous architecture for transparent acceleration of dynamic workloads</title>
+      <link>https://Peilong.github.io/publication/jpdc-2015/</link>
+      <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/jpdc-2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
