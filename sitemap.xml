@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://Peilong.github.io/courses/example/example1/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/example/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/example/example2/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/publication_types/2/</loc>
     <lastmod>2019-09-18T00:00:00+00:00</lastmod>
   </url>
@@ -152,6 +167,10 @@
   
   <url>
     <loc>https://Peilong.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/</loc>
   </url>
   
   <url>
