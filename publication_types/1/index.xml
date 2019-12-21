@@ -5,12 +5,36 @@
     <link>https://Peilong.github.io/publication_types/1/</link>
       <atom:link href="https://Peilong.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Mon, 23 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Wed, 18 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Peilong.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://Peilong.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>ChainSDI: A Software-Defined Infrastructure for Regulation-Compliant Home-Based Healthcare Services Secured by Blockchains</title>
+      <link>https://Peilong.github.io/publication/sj-2019/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/sj-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Review of Secure and Privacy-Preserving Medical Data Sharing</title>
+      <link>https://Peilong.github.io/publication/ieee-2019/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/ieee-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Blockchain Future for Secure Clinical Data Sharing: A Position Paper</title>
+      <link>https://Peilong.github.io/publication/sdn-nfv-2019/</link>
+      <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/sdn-nfv-2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>EQuery: Enable event-driven declarative queries in programmable network measurement</title>
