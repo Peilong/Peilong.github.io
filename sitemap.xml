@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://Peilong.github.io/publication_types/1/</loc>
+    <loc>https://Peilong.github.io/publication_types/2/</loc>
     <lastmod>2019-09-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/publication/sj-2019/</loc>
+    <loc>https://Peilong.github.io/publication/2019-ieee-chainsdi/</loc>
     <lastmod>2019-09-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,52 +28,57 @@
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/publication/ieee-2019/</loc>
+    <loc>https://Peilong.github.io/publication/2019-ieee-review/</loc>
     <lastmod>2019-05-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/publication/sdn-nfv-2019/</loc>
+    <loc>https://Peilong.github.io/publication_types/1/</loc>
     <lastmod>2019-03-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/publication/noms-2018/</loc>
+    <loc>https://Peilong.github.io/publication/2019-sdn-nfvsec-position/</loc>
+    <lastmod>2019-03-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/publication/2018-noms-equery/</loc>
     <lastmod>2018-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/publication/chase-2017/</loc>
+    <loc>https://Peilong.github.io/publication/2017-chase/</loc>
     <lastmod>2017-07-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/publication/icc-2017/</loc>
+    <loc>https://Peilong.github.io/publication/2017-icc/</loc>
     <lastmod>2017-05-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/publication/ancs-2017/</loc>
+    <loc>https://Peilong.github.io/publication/2017-ancs/</loc>
     <lastmod>2017-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/publication_types/2/</loc>
+    <loc>https://Peilong.github.io/publication/2016-fgcs/</loc>
     <lastmod>2017-04-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/publication/fgcs-2016/</loc>
-    <lastmod>2017-04-29T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/publication/sdn-nfvsec-2017/</loc>
+    <loc>https://Peilong.github.io/publication/2016-sdn-nfv/</loc>
     <lastmod>2017-03-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/publication/hpsr-2016/</loc>
+    <loc>https://Peilong.github.io/publication/2017-sdn-nfvsec/</loc>
+    <lastmod>2017-03-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/publication/2016-hpsr-p4gpu/</loc>
     <lastmod>2016-06-14T00:00:00+00:00</lastmod>
   </url>
   
@@ -108,23 +113,28 @@
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/publication/ancs-2016/</loc>
+    <loc>https://Peilong.github.io/publication/2016-ancs/</loc>
     <lastmod>2016-03-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/publication/fgcs-2017/</loc>
+    <loc>https://Peilong.github.io/publication/2017-fgcs/</loc>
     <lastmod>2016-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/publication/jpdc-2015/</loc>
+    <loc>https://Peilong.github.io/publication/2015-jpdc-transformer/</loc>
     <lastmod>2015-12-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/publication/nas-2015/</loc>
+    <loc>https://Peilong.github.io/publication/2015-nas-heterospark/</loc>
     <lastmod>2015-08-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/publication/2010-icicci/</loc>
+    <lastmod>2010-06-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -132,7 +142,7 @@
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/publication/fgcs-2018/</loc>
+    <loc>https://Peilong.github.io/publication/2018-fgcs/</loc>
   </url>
   
   <url>

@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="Assistant Professor">
+  <meta name="description" content="Analytics algorithms on big data sets require tremendous computational capabilities. Spark is a recent development that addresses big data challenges with data and computation distribution and in-memory caching. However, as a CPU only framework, Spark cannot leverage GPUs and a growing set of GPU libraries to achieve better performance and energy efficiency. We present HeteroSpark, a GPU-accelerated heterogeneous architecture integrated with Spark, which combines the massive compute power of GPUs and scalability of CPUs and system memory resources for applications that are both data and compute intensive. We make the following contributions in this work: (1) we integrate the GPU accelerator into current Spark framework to further leverage data parallelism and achieve algorithm acceleration; (2) we provide a plug-n-play design by augmenting Spark platform so that current Spark applications can choose to enable/disable GPU acceleration; (3) application acceleration is transparent to developers, therefore existing Spark applications can be easily ported to this heterogeneous platform without code modifications. The evaluation of HeteroSpark demonstrates up to 18× speedup on a number of machine learning applications.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://Peilong.github.io/publication_types/2/">
+  <link rel="alternate" hreflang="en-us" href="https://Peilong.github.io/publication/2015-nas-heterospark/">
 
   
 
@@ -95,14 +95,12 @@
 
 
   
-  <link rel="alternate" href="/publication_types/2/index.xml" type="application/rss+xml" title="Peilong Li">
-  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://Peilong.github.io/publication_types/2/">
+  <link rel="canonical" href="https://Peilong.github.io/publication/2015-nas-heterospark/">
 
   
   
@@ -115,18 +113,63 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Peilong Li">
-  <meta property="og:url" content="https://Peilong.github.io/publication_types/2/">
-  <meta property="og:title" content="2 | Peilong Li">
-  <meta property="og:description" content="Assistant Professor"><meta property="og:image" content="https://Peilong.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://Peilong.github.io/publication/2015-nas-heterospark/">
+  <meta property="og:title" content="HeteroSpark: A heterogeneous CPU/GPU Spark platform for machine learning algorithms | Peilong Li">
+  <meta property="og:description" content="Analytics algorithms on big data sets require tremendous computational capabilities. Spark is a recent development that addresses big data challenges with data and computation distribution and in-memory caching. However, as a CPU only framework, Spark cannot leverage GPUs and a growing set of GPU libraries to achieve better performance and energy efficiency. We present HeteroSpark, a GPU-accelerated heterogeneous architecture integrated with Spark, which combines the massive compute power of GPUs and scalability of CPUs and system memory resources for applications that are both data and compute intensive. We make the following contributions in this work: (1) we integrate the GPU accelerator into current Spark framework to further leverage data parallelism and achieve algorithm acceleration; (2) we provide a plug-n-play design by augmenting Spark platform so that current Spark applications can choose to enable/disable GPU acceleration; (3) application acceleration is transparent to developers, therefore existing Spark applications can be easily ported to this heterogeneous platform without code modifications. The evaluation of HeteroSpark demonstrates up to 18× speedup on a number of machine learning applications."><meta property="og:image" content="https://Peilong.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://Peilong.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2019-09-18T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2015-08-06T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2015-08-06T00:00:00&#43;00:00">
   
 
   
 
 
+    
 
+
+
+
+
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://Peilong.github.io/publication/2015-nas-heterospark/"
+  },
+  "headline": "HeteroSpark: A heterogeneous CPU/GPU Spark platform for machine learning algorithms",
+  
+  "datePublished": "2015-08-06T00:00:00Z",
+  "dateModified": "2015-08-06T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Peilong Li"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Peilong Li",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://Peilong.github.io/img/icon-512.png"
+    }
+  },
+  "description": "Analytics algorithms on big data sets require tremendous computational capabilities. Spark is a recent development that addresses big data challenges with data and computation distribution and in-memory caching. However, as a CPU only framework, Spark cannot leverage GPUs and a growing set of GPU libraries to achieve better performance and energy efficiency. We present HeteroSpark, a GPU-accelerated heterogeneous architecture integrated with Spark, which combines the massive compute power of GPUs and scalability of CPUs and system memory resources for applications that are both data and compute intensive. We make the following contributions in this work: (1) we integrate the GPU accelerator into current Spark framework to further leverage data parallelism and achieve algorithm acceleration; (2) we provide a plug-n-play design by augmenting Spark platform so that current Spark applications can choose to enable/disable GPU acceleration; (3) application acceleration is transparent to developers, therefore existing Spark applications can be easily ported to this heterogeneous platform without code modifications. The evaluation of HeteroSpark demonstrates up to 18× speedup on a number of machine learning applications."
+}
+</script>
+
+  
 
   
 
@@ -134,10 +177,13 @@
   
 
 
+  
 
 
 
-  <title>2 | Peilong Li</title>
+
+
+  <title>HeteroSpark: A heterogeneous CPU/GPU Spark platform for machine learning algorithms | Peilong Li</title>
 
 </head>
 
@@ -430,6 +476,92 @@
 </nav>
 
 
+  <div class="pub">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>HeteroSpark: A heterogeneous CPU/GPU Spark platform for machine learning algorithms</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span>Peilong Li</span>, <span>Yan Luo</span>, <span>Ning Zhang</span>, <span>Yu Cao</span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    August 2015
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
   
 
 
@@ -439,94 +571,222 @@
 
 
 
-
-
-
-
-  
-
-  
-  
   
     
   
-<div class="universal-wrapper pt-3">
-  <h1>2</h1>
 
-  
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.researchgate.net/profile/Peilong_Li/publication/282865411_HeteroSpark_A_Heterogeneous_CPUGPU_Spark_Platform_for_Machine_Learning_Algorithms/links/56205bd908aed8dd19404816/HeteroSpark-A-Heterogeneous-CPU-GPU-Spark-Platform-for-Machine-Learning-Algorithms.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+  <div class="article-container">
+
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract">Analytics algorithms on big data sets require tremendous computational capabilities. Spark is a recent development that addresses big data challenges with data and computation distribution and in-memory caching. However, as a CPU only framework, Spark cannot leverage GPUs and a growing set of GPU libraries to achieve better performance and energy efficiency. We present HeteroSpark, a GPU-accelerated heterogeneous architecture integrated with Spark, which combines the massive compute power of GPUs and scalability of CPUs and system memory resources for applications that are both data and compute intensive. We make the following contributions in this work: (1) we integrate the GPU accelerator into current Spark framework to further leverage data parallelism and achieve algorithm acceleration; (2) we provide a plug-n-play design by augmenting Spark platform so that current Spark applications can choose to enable/disable GPU acceleration; (3) application acceleration is transparent to developers, therefore existing Spark applications can be easily ported to this heterogeneous platform without code modifications. The evaluation of HeteroSpark demonstrates up to 18× speedup on a number of machine learning applications.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">In <em>Networking, Architecture and Storage (NAS)</em>, IEEE.</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
+
+    
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://Peilong.github.io/publication/2015-nas-heterospark/&amp;text=HeteroSpark:%20A%20heterogeneous%20CPU/GPU%20Spark%20platform%20for%20machine%20learning%20algorithms" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://Peilong.github.io/publication/2015-nas-heterospark/&amp;t=HeteroSpark:%20A%20heterogeneous%20CPU/GPU%20Spark%20platform%20for%20machine%20learning%20algorithms" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=HeteroSpark:%20A%20heterogeneous%20CPU/GPU%20Spark%20platform%20for%20machine%20learning%20algorithms&amp;body=https://Peilong.github.io/publication/2015-nas-heterospark/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://Peilong.github.io/publication/2015-nas-heterospark/&amp;title=HeteroSpark:%20A%20heterogeneous%20CPU/GPU%20Spark%20platform%20for%20machine%20learning%20algorithms" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=HeteroSpark:%20A%20heterogeneous%20CPU/GPU%20Spark%20platform%20for%20machine%20learning%20algorithms%20https://Peilong.github.io/publication/2015-nas-heterospark/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://Peilong.github.io/publication/2015-nas-heterospark/&amp;title=HeteroSpark:%20A%20heterogeneous%20CPU/GPU%20Spark%20platform%20for%20machine%20learning%20algorithms" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
   
   
-  <div>
-    <h2><a href="/publication/2019-ieee-chainsdi/">ChainSDI: A Software-Defined Infrastructure for Regulation-Compliant Home-Based Healthcare Services Secured by Blockchains</a></h2>
-    <div class="article-style">
-      
-      Healthcare networking and computing infrastructure is rapidly changing from closed environments to open environments that incorporate ubiquitous medical devices and novel application scenarios. For example, home-based healthcare involves the …
-      
-    </div>
-  </div>
+    
   
-  <div>
-    <h2><a href="/publication/2019-ieee-review/">A Review of Secure and Privacy-Preserving Medical Data Sharing</a></h2>
-    <div class="article-style">
-      
-      In the digital healthcare era, it is of the utmost importance to harness medical information scattered across healthcare institutions to support in-depth data analysis and achieve personalized healthcare. However, the cyberinfrastructure boundaries …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/2016-fgcs/">Network Measurement for 100Gbps Links Using Multicore Processors</a></h2>
-    <div class="article-style">
-      
-      Network measurement has been playing a crucial role in network operations, since it can not only detect the anomalies, but also facilitate traffic engineering. With the fast development of high speed network of 100Gbps and beyond, how to efficiently …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/2017-fgcs/">Network measurement for 100 GbE network links using multicore processors</a></h2>
-    <div class="article-style">
-      
-      Network measurement has been playing a crucial role in network operations, since it cannot only detect the anomalies, but also facilitate traffic engineering. With the fast development of high speed network of 100 Gbps and beyond, how to efficiently …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/2015-jpdc-transformer/">Transformer: Run-time reprogrammable heterogeneous architecture for transparent acceleration of dynamic workloads</a></h2>
-    <div class="article-style">
-      
-      Heterogeneous architectures face challenges regarding transparent acceleration as well as the allocation of resources to cores and accelerators. The “Transformer”, a run-time reprogrammable, heterogeneous architecture consisting of cores and …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/2018-fgcs/">A programmable policy engine to facilitate time-efficient science DMZ management.</a></h2>
-    <div class="article-style">
-      
-      The Science DMZ model employs dedicated network infrastructures and advanced software techniques for large-volume scientific research traffic flows targeting high-throughput and low-latency data transfer. However, current Science DMZ framework lacks …
-      
-    </div>
-  </div>
   
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
   
 
+
+
+  </div>
 </div>
 
       
 
     
+    
+    
+    <script src="/js/mathjax-config.js"></script>
     
 
     
@@ -548,6 +808,8 @@
       
 
       
+      
+      <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
 

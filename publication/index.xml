@@ -14,121 +14,137 @@
     
     <item>
       <title>ChainSDI: A Software-Defined Infrastructure for Regulation-Compliant Home-Based Healthcare Services Secured by Blockchains</title>
-      <link>https://Peilong.github.io/publication/sj-2019/</link>
+      <link>https://Peilong.github.io/publication/2019-ieee-chainsdi/</link>
       <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/sj-2019/</guid>
+      <guid>https://Peilong.github.io/publication/2019-ieee-chainsdi/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Review of Secure and Privacy-Preserving Medical Data Sharing</title>
-      <link>https://Peilong.github.io/publication/ieee-2019/</link>
+      <link>https://Peilong.github.io/publication/2019-ieee-review/</link>
       <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/ieee-2019/</guid>
+      <guid>https://Peilong.github.io/publication/2019-ieee-review/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A Blockchain Future for Secure Clinical Data Sharing: A Position Paper</title>
-      <link>https://Peilong.github.io/publication/sdn-nfv-2019/</link>
+      <link>https://Peilong.github.io/publication/2019-sdn-nfvsec-position/</link>
       <pubDate>Wed, 27 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/sdn-nfv-2019/</guid>
+      <guid>https://Peilong.github.io/publication/2019-sdn-nfvsec-position/</guid>
       <description></description>
     </item>
     
     <item>
       <title>EQuery: Enable event-driven declarative queries in programmable network measurement</title>
-      <link>https://Peilong.github.io/publication/noms-2018/</link>
+      <link>https://Peilong.github.io/publication/2018-noms-equery/</link>
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/noms-2018/</guid>
+      <guid>https://Peilong.github.io/publication/2018-noms-equery/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CareNet: Building Regulation-Compliant Home-Based Healthcare Services with Software-Defined Infrastructure</title>
-      <link>https://Peilong.github.io/publication/chase-2017/</link>
+      <link>https://Peilong.github.io/publication/2017-chase/</link>
       <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/chase-2017/</guid>
+      <guid>https://Peilong.github.io/publication/2017-chase/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dynamic Virtual Measurement Function scheduling in software-oriented measurement environment</title>
-      <link>https://Peilong.github.io/publication/icc-2017/</link>
+      <link>https://Peilong.github.io/publication/2017-icc/</link>
       <pubDate>Sun, 21 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/icc-2017/</guid>
+      <guid>https://Peilong.github.io/publication/2017-icc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Designing Virtual Network Functions for 100 GbE Network Using Multicore Processors</title>
-      <link>https://Peilong.github.io/publication/ancs-2017/</link>
+      <link>https://Peilong.github.io/publication/2017-ancs/</link>
       <pubDate>Thu, 18 May 2017 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/ancs-2017/</guid>
+      <guid>https://Peilong.github.io/publication/2017-ancs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Network Measurement for 100Gbps Links Using Multicore Processors</title>
-      <link>https://Peilong.github.io/publication/fgcs-2016/</link>
+      <link>https://Peilong.github.io/publication/2016-fgcs/</link>
       <pubDate>Sat, 29 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/fgcs-2016/</guid>
+      <guid>https://Peilong.github.io/publication/2016-fgcs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CareNet: Building a Secure Software-defined Infrastructure for Home-based Healthcare</title>
-      <link>https://Peilong.github.io/publication/sdn-nfvsec-2017/</link>
+      <link>https://Peilong.github.io/publication/2016-sdn-nfv/</link>
       <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/sdn-nfvsec-2017/</guid>
+      <guid>https://Peilong.github.io/publication/2016-sdn-nfv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CareNet: Building a Secure Software-defined Infrastructure for Home-based Healthcare</title>
+      <link>https://Peilong.github.io/publication/2017-sdn-nfvsec/</link>
+      <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2017-sdn-nfvsec/</guid>
       <description></description>
     </item>
     
     <item>
       <title>P4GPU: Acceleration of programmable data plane using a CPU-GPU heterogeneous architecture</title>
-      <link>https://Peilong.github.io/publication/hpsr-2016/</link>
+      <link>https://Peilong.github.io/publication/2016-hpsr-p4gpu/</link>
       <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/hpsr-2016/</guid>
+      <guid>https://Peilong.github.io/publication/2016-hpsr-p4gpu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>P4GPU: Accelerate packet processing of a P4 program with a CPU-GPU heterogeneous architecture</title>
-      <link>https://Peilong.github.io/publication/ancs-2016/</link>
+      <link>https://Peilong.github.io/publication/2016-ancs/</link>
       <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/ancs-2016/</guid>
+      <guid>https://Peilong.github.io/publication/2016-ancs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Network measurement for 100 GbE network links using multicore processors</title>
-      <link>https://Peilong.github.io/publication/fgcs-2017/</link>
+      <link>https://Peilong.github.io/publication/2017-fgcs/</link>
       <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/fgcs-2017/</guid>
+      <guid>https://Peilong.github.io/publication/2017-fgcs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Transformer: Run-time reprogrammable heterogeneous architecture for transparent acceleration of dynamic workloads</title>
-      <link>https://Peilong.github.io/publication/jpdc-2015/</link>
+      <link>https://Peilong.github.io/publication/2015-jpdc-transformer/</link>
       <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/jpdc-2015/</guid>
+      <guid>https://Peilong.github.io/publication/2015-jpdc-transformer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HeteroSpark: A heterogeneous CPU/GPU Spark platform for machine learning algorithms</title>
-      <link>https://Peilong.github.io/publication/nas-2015/</link>
+      <link>https://Peilong.github.io/publication/2015-nas-heterospark/</link>
       <pubDate>Thu, 06 Aug 2015 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/nas-2015/</guid>
+      <guid>https://Peilong.github.io/publication/2015-nas-heterospark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Study of Image Segmentation Algorithm Based on Textural Features and Neural Network</title>
+      <link>https://Peilong.github.io/publication/2010-icicci/</link>
+      <pubDate>Tue, 22 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2010-icicci/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A programmable policy engine to facilitate time-efficient science DMZ management.</title>
-      <link>https://Peilong.github.io/publication/fgcs-2018/</link>
+      <link>https://Peilong.github.io/publication/2018-fgcs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/fgcs-2018/</guid>
+      <guid>https://Peilong.github.io/publication/2018-fgcs/</guid>
       <description></description>
     </item>
     

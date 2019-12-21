@@ -5,7 +5,7 @@
     <link>https://Peilong.github.io/publication_types/2/</link>
       <atom:link href="https://Peilong.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Sat, 29 Apr 2017 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Wed, 18 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Peilong.github.io/img/icon-192.png</url>
       <title>2</title>
@@ -13,26 +13,50 @@
     </image>
     
     <item>
+      <title>ChainSDI: A Software-Defined Infrastructure for Regulation-Compliant Home-Based Healthcare Services Secured by Blockchains</title>
+      <link>https://Peilong.github.io/publication/2019-ieee-chainsdi/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2019-ieee-chainsdi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Review of Secure and Privacy-Preserving Medical Data Sharing</title>
+      <link>https://Peilong.github.io/publication/2019-ieee-review/</link>
+      <pubDate>Tue, 14 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2019-ieee-review/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Network Measurement for 100Gbps Links Using Multicore Processors</title>
-      <link>https://Peilong.github.io/publication/fgcs-2016/</link>
+      <link>https://Peilong.github.io/publication/2016-fgcs/</link>
       <pubDate>Sat, 29 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/fgcs-2016/</guid>
+      <guid>https://Peilong.github.io/publication/2016-fgcs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Network measurement for 100 GbE network links using multicore processors</title>
-      <link>https://Peilong.github.io/publication/fgcs-2017/</link>
+      <link>https://Peilong.github.io/publication/2017-fgcs/</link>
       <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/fgcs-2017/</guid>
+      <guid>https://Peilong.github.io/publication/2017-fgcs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Transformer: Run-time reprogrammable heterogeneous architecture for transparent acceleration of dynamic workloads</title>
-      <link>https://Peilong.github.io/publication/jpdc-2015/</link>
+      <link>https://Peilong.github.io/publication/2015-jpdc-transformer/</link>
       <pubDate>Thu, 31 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/jpdc-2015/</guid>
+      <guid>https://Peilong.github.io/publication/2015-jpdc-transformer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A programmable policy engine to facilitate time-efficient science DMZ management.</title>
+      <link>https://Peilong.github.io/publication/2018-fgcs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2018-fgcs/</guid>
       <description></description>
     </item>
     
