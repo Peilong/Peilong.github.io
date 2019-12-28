@@ -168,7 +168,7 @@
 &lt;li&gt;&lt;strong&gt;20%&lt;/strong&gt;: 2 equally weighted lab tests - 10% for each test.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;25%&lt;/strong&gt;: 2 midterm exams: 10% for lower grade, and 15% for higher grade.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;5%&lt;/strong&gt;: Persistence. Pop quizzes, attendance and in-class question answering.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: Final exam.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20%&lt;/strong&gt;: Final exam.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Grades will be computed by rounding numerical percentages to the nearest integer and applying the following table:&lt;/p&gt;
 &lt;table&gt;
@@ -302,11 +302,11 @@ Typically, you will have about three weeks to complete each project. &lt;strong&
       <description>&lt;h2 id=&#34;grading-weights&#34;&gt;Grading Weights&lt;/h2&gt;
 &lt;p&gt;The final grade for this course depends upon the grades and scores earned on course components weighted as follows:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;32%&lt;/strong&gt;: 8 equally weighted in-class labs &amp;ndash; 4% for each lab.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;32%&lt;/strong&gt;: 8 equally weighted in-class labs - 4% for each lab.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;20%&lt;/strong&gt;: 5 equally weighted homework assignments – 4% for each assignment.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;25%&lt;/strong&gt;: 2 midterm exams: 10% for lower grade, and 15% for higher grade.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;8%&lt;/strong&gt;: Paper Presentation: peer evaluation (50%), instructor evaluation (50%)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: Final Project: project proposal (10%). Midterm check (10%). Project demonstration and presentation (40%). Final project report and revised code (40%).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;25%&lt;/strong&gt;: 2 midterm exams - 10% for lower grade, and 15% for higher grade.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;8%&lt;/strong&gt;: Paper Presentation - peer evaluation (50%), instructor evaluation (50%).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: Final Project - project proposal (10%). Midterm check (10%). Project demonstration and presentation (40%). Final project report and revised code (40%).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Grades will be computed by rounding numerical percentages to the nearest integer and applying the following table:&lt;/p&gt;
 &lt;table&gt;
@@ -360,14 +360,14 @@ Typically, you will have about two weeks to complete each assignment. All assign
 &lt;h2 id=&#34;in-class-labs&#34;&gt;In-class labs&lt;/h2&gt;
 &lt;p&gt;All labs are to be completed individually in class, with the assistance of the instructor.  Each lab will be given near the beginning of a class and must be uploaded to Canvas (&lt;a href=&#34;https://etown.instructure.com/&#34;&gt;https://etown.instructure.com/&lt;/a&gt;) before the end of the class.  Exercises submitted after class is over will not be accepted.  To receive full credit, the source code must be well commented and executed without errors, but partial credit will be considered by the instructor based on the understanding of the material demonstrated by the student’s code.&lt;/p&gt;
 &lt;h2 id=&#34;technical-paper-presentation&#34;&gt;Technical Paper Presentation&lt;/h2&gt;
-&lt;p&gt;Presenting data analysis results to public is one of the highly demanded skills from data science employers. As part of the final grade of this course, students are required to read one to two technical papers from the provided paper list (or other papers agreed by the instructor), and present the paper during the last week of class. The grading of the paper presentation consists of 50% from peers and 50% from the instructor. The evaluation rubrics will be provide via Canvas.&lt;/p&gt;
+&lt;p&gt;Presenting data analysis results to public is one of the highly demanded skills from data science employers. As part of the final grade of this course, students are required to read one to two technical papers from the provided paper list (or other papers agreed by the instructor), and present the paper during the last week of class. The grading of the paper presentation consists of 50% from peers and 50% from the instructor. The evaluation rubrics will be provided via Canvas.&lt;/p&gt;
 &lt;h2 id=&#34;final-project&#34;&gt;Final Project&lt;/h2&gt;
 &lt;p&gt;The final project best demonstrates students’ understanding of the lecture contents and their capability of solving data science problems as a team or individually. The topic of the final project is left open for the students to solicitate, but the final choice has to be decided upon the instructor’s agreement. A good list of potential projects can be found at Kaggle (&lt;a href=&#34;https://www.kaggle.com/datasets&#34;&gt;https://www.kaggle.com/datasets&lt;/a&gt;) and &lt;a href=&#34;https://github.com/awesomedata/awesome-public-datasets&#34;&gt;here&lt;/a&gt;. Teams are responsible for finding the project of their interest and discussing the project feasibility face-to-face with the project manager, a.k.a., the instructor 1 week before the due date of the proposal. Since the teams have to work on different project topics, the finalization of the project title is on a rolling basis – meaning formerly finalized projects cannot be taken again by another team. The deliverable of the final project contains three major components:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;10%: the project proposal (including the conversation with the instructor);&lt;/li&gt;
 &lt;li&gt;10%: mid-term project check;&lt;/li&gt;
 &lt;li&gt;40%: the project demonstration; code and slides are due the night before the presentation day;&lt;/li&gt;
-&lt;li&gt;40%: the project report; revised code and the project are due on Friday of the final week.&lt;/li&gt;
+&lt;li&gt;40%: the project report; revised code and the report are due on Friday of the final week.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Students are allowed to form a team of no more than 2 people. The requirements and grading rubric for each component of the project will be posted on Canvas. Under no circumstances should any student copy the code from an outside source. Source code similarity tools will be used to detect plagiarism.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;
@@ -1553,6 +1553,18 @@ Points will be deducted from 100% for the following reasons:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;All the software and operating systems are available on the computers in the Esbenshade 281, Hoover 108 and Nicarry 208 computer laboratories and in the Computer Science commons area (E284).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://Peilong.github.io/courses/ds200/software/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://Peilong.github.io/courses/ds200/software/</guid>
+      <description>&lt;h2 id=&#34;anaconda-distribution&#34;&gt;Anaconda Distribution&lt;/h2&gt;
+&lt;p&gt;In this course the only software you will need to install and play with is the Anaconda Distribution. It is a popular data science platform that consists of almost all the packages you will ever need in Python and R. Find the download link for your system from here: &lt;a href=&#34;https://www.anaconda.com/distribution/&#34;&gt;https://www.anaconda.com/distribution/&lt;/a&gt;. You must download the Python 3.x version.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Anaconda Distribution is available on the computers in the Esbenshade 281, Hoover 108 and Nicarry 208 computer laboratories and in the Computer Science commons area (E284).&lt;/p&gt;
 </description>
     </item>
     
