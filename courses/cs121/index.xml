@@ -124,17 +124,18 @@
 &lt;/table&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Note&#34;&gt;&lt;/code&gt;&lt;/pre&gt;
 &lt;h2 id=&#34;projects&#34;&gt;Projects&lt;/h2&gt;
-&lt;p&gt;All projects have to be completed individually in this course.  Each project must be uploaded into Canvas (&lt;a href=&#34;https://etown.instructure.com/)&#34;&gt;https://etown.instructure.com/)&lt;/a&gt;.  Projects must &lt;em&gt;NOT&lt;/em&gt; be stored in a public folder.  All submissions must follow the provided file name requirements or risk a score of 0.&lt;br&gt;
-Typically, you will have about three weeks to complete each project. &lt;strong&gt;If the project does not compile, the student will only receive a maximum score of 40.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;All assignments will be graded based on the following criteria:&lt;/p&gt;
+&lt;p&gt;All projects are team projects in this course. For each project, all students must form teams of two (or three in the case of an odd number of students). Students are permitted to select their own teams; however, no two students may partner up for more than one project. In other words, each team will be different for each project. Students should select their teams by using the Groups tab under People, on the Canvas webpage.&lt;/p&gt;
+&lt;p&gt;Teams are responsible for dividing their workload. Except under extreme circumstances, all members of the team will receive the same grade for each project. One member of each team is designated the leader. The files for each project should be zipped up and uploaded by the team leader using Canvas before the due date. Projects must not be stored in a public folder. All project submissions must follow the provided file name requirements or risk a score of 0. &lt;strong&gt;If the project does not compile, the student will receive a score of 0.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Projects will be graded based on the following criteria:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Correctness: Finding the right answer&lt;/li&gt;
 &lt;li&gt;Formatting:	Displaying the right answer according to instructions&lt;/li&gt;
 &lt;li&gt;Style and Documentation: Producing readable code with appropriate comments&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;In general, projects will be graded with the &lt;em&gt;diff&lt;/em&gt; utility. For that reason, it is imperative that project output matches sample output to the character.&lt;/p&gt;
 &lt;p&gt;Late assignment will lose 2^(n-1) points per day, including weekends and holidays. For example, -1 after 1 day, -2 after 2 days, -4 after 3 days … until 8+ days students will receive 0 score.  Under no circumstances should any student disclose their code, or copy the code written by other students or from an outside source. Both students will receive 0 score on the disclosed/copied assignment.&lt;/p&gt;
 &lt;h2 id=&#34;in-class-labs&#34;&gt;In-class Labs&lt;/h2&gt;
-&lt;p&gt;All labs are to be done individually, in class, with the assistance of the instructor. Each assignment will be given near the beginning of a class and must be uploaded to Canvas (&lt;a href=&#34;https://etown.instructure.com/&#34;&gt;https://etown.instructure.com/&lt;/a&gt;) before the end of the class. Exercises submitted after class is over will not be accepted. To receive full credit, a programming assignment must compile, but partial credit will be awarded based on the understanding of the material demonstrated by the student’s code.&lt;/p&gt;
+&lt;p&gt;All labs are to be done in class, with the assistance of the instructor. Each assignment will be given near the beginning of a class and must be uploaded to Canvas (&lt;a href=&#34;https://etown.instructure.com/&#34;&gt;https://etown.instructure.com/&lt;/a&gt;) before the end of the class. Exercises submitted after class is over will not be accepted. To receive full credit, a programming assignment must compile, but partial credit will be awarded based on the understanding of the material demonstrated by the student’s code.&lt;/p&gt;
 </description>
     </item>
     
