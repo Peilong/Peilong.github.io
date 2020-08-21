@@ -28,11 +28,11 @@
   
     
   
-  <meta name="description" content="Grading Weights The final grade for this course depends upon the grades and scores earned on course components weighted as follows:
- 12%: 3 equally weighted projects - 4% for each. 20%: 10 equally weighted in-class labs – 2% for each lab. 20%: 2 equally weighted lab tests - 10% for each test. 20%: 2 midterm exams - 10% for each exam. 6%: Pop quizzes. 2%: Persistence. Attendance and in-class question answering.">
+  <meta name="description" content="Code Grading rubrics for code submission in terms of percentage:
+100%:  Functionality: For assignments that have well-specified behavior, the code should be able to pass (or very nearly pass, e.g. there may be minor output formatting issues) automated unit testing of all required features. For open-ended assignments the code must be easy to run without modification and implement all of the required functionality. Documentation: all functions are commented with appropriate doc strings.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://Peilong.github.io/courses/cs121/grading/">
+  <link rel="alternate" hreflang="en-us" href="https://Peilong.github.io/courses/ds420/rubrics/">
 
   
 
@@ -101,7 +101,7 @@
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://Peilong.github.io/courses/cs121/grading/">
+  <link rel="canonical" href="https://Peilong.github.io/courses/ds420/rubrics/">
 
   
   
@@ -117,10 +117,10 @@
   <meta property="twitter:creator" content="@@LiPeilong">
   
   <meta property="og:site_name" content="Peilong Li">
-  <meta property="og:url" content="https://Peilong.github.io/courses/cs121/grading/">
-  <meta property="og:title" content="Grading Policies | Peilong Li">
-  <meta property="og:description" content="Grading Weights The final grade for this course depends upon the grades and scores earned on course components weighted as follows:
- 12%: 3 equally weighted projects - 4% for each. 20%: 10 equally weighted in-class labs – 2% for each lab. 20%: 2 equally weighted lab tests - 10% for each test. 20%: 2 midterm exams - 10% for each exam. 6%: Pop quizzes. 2%: Persistence. Attendance and in-class question answering."><meta property="og:image" content="https://Peilong.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://Peilong.github.io/courses/ds420/rubrics/">
+  <meta property="og:title" content="Grading Rubrics | Peilong Li">
+  <meta property="og:description" content="Code Grading rubrics for code submission in terms of percentage:
+100%:  Functionality: For assignments that have well-specified behavior, the code should be able to pass (or very nearly pass, e.g. there may be minor output formatting issues) automated unit testing of all required features. For open-ended assignments the code must be easy to run without modification and implement all of the required functionality. Documentation: all functions are commented with appropriate doc strings."><meta property="og:image" content="https://Peilong.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://Peilong.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -145,7 +145,7 @@
 
 
 
-  <title>Grading Policies | Peilong Li</title>
+  <title>Grading Rubrics | Peilong Li</title>
 
 </head>
 
@@ -496,34 +496,38 @@
   
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/courses/cs121/">CS 121</a>
+    <a class="docs-toc-link" href="/courses/ds420/">DS 420</a>
 
   </div>
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/courses/cs121/schedule/">Schedule</a>
+    <a class="docs-toc-link" href="/courses/ds420/schedule/">Schedule</a>
 
   </div>
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/courses/cs121/software/">Software</a>
+    <a class="docs-toc-link" href="/courses/ds420/software/">Software</a>
 
   </div>
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/courses/cs121/overview/">Syllabus</a>
+    <a class="docs-toc-link" href="/courses/ds420/overview/">Syllabus</a>
     <ul class="nav docs-sidenav">
       
       <li >
-        <a href="/courses/cs121/overview/">Overview</a>
+        <a href="/courses/ds420/overview/">Overview</a>
       </li>
       
       <li >
-        <a href="/courses/cs121/policy/">Policies</a>
+        <a href="/courses/ds420/policy/">Policies</a>
+      </li>
+      
+      <li >
+        <a href="/courses/ds420/grading/">Grading Policies</a>
       </li>
       
       <li class="active">
-        <a href="/courses/cs121/grading/">Grading Policies</a>
+        <a href="/courses/ds420/rubrics/">Grading Rubrics</a>
       </li>
       
     </ul>
@@ -544,9 +548,22 @@
 
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#grading-weights">Grading Weights</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#in-class-labs">In-class Labs</a></li>
+    <li><a href="#code">Code</a>
+      <ul>
+        <li><a href="#100">100%:</a></li>
+        <li><a href="#80">80%:</a></li>
+        <li><a href="#60">60%:</a></li>
+        <li><a href="#40">40%:</a></li>
+        <li><a href="#20">20%:</a></li>
+        <li><a href="#0">0%:</a></li>
+      </ul>
+    </li>
+    <li><a href="#notebook-assignments">Notebook Assignments</a>
+      <ul>
+        <li><a href="#100-1">100%:</a></li>
+      </ul>
+    </li>
+    <li><a href="#writing">Writing</a></li>
   </ul>
 </nav>
 
@@ -559,82 +576,68 @@
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>Grading Policies</h1>
+          <h1>Grading Rubrics</h1>
 
           <div class="article-style">
-            <h2 id="grading-weights">Grading Weights</h2>
-<p>The final grade for this course depends upon the grades and scores earned on course components weighted as follows:</p>
+            <h2 id="code">Code</h2>
+<p>Grading rubrics for code submission in terms of percentage:</p>
+<h3 id="100">100%:</h3>
 <ul>
-<li><strong>12%</strong>: 3 equally weighted projects - 4% for each.</li>
-<li><strong>20%</strong>: 10 equally weighted in-class labs – 2% for each lab.</li>
-<li><strong>20%</strong>: 2 equally weighted lab tests - 10% for each test.</li>
-<li><strong>20%</strong>: 2 midterm exams - 10% for each exam.</li>
-<li><strong>6%</strong>: Pop quizzes.</li>
-<li><strong>2%</strong>: Persistence. Attendance and in-class question answering.</li>
-<li><strong>20%</strong>: Final exam.</li>
+<li>Functionality: For assignments that have well-specified behavior, the code should be able to pass (or very nearly pass, e.g. there may be minor output formatting issues) automated unit testing of all required features. For open-ended assignments the code must be easy to run without modification and implement all of the required functionality.</li>
+<li>Documentation: all functions are commented with appropriate doc strings. For open-ended assignments there is a README file discussing how to run the program and what it is supposed to do.</li>
+<li>Style: the program exhibits effective modular design. The code does not have unnecessary cut and paste code or magic numbers. Variable and function names are sensibly chosen.</li>
 </ul>
-<p>Grades will be computed by rounding numerical percentages to the nearest integer and applying the following table:</p>
-<table>
-<thead>
-<tr>
-<th>Letter</th>
-<th>Range</th>
-<th>Letter</th>
-<th>Range</th>
-<th>Letter</th>
-<th>Range</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>A</td>
-<td>93-100</td>
-<td>B-</td>
-<td>80-82</td>
-<td>D+</td>
-<td>67-69</td>
-</tr>
-<tr>
-<td>A-</td>
-<td>90-92</td>
-<td>C+</td>
-<td>77-79</td>
-<td>D</td>
-<td>63-66</td>
-</tr>
-<tr>
-<td>B+</td>
-<td>87-89</td>
-<td>C</td>
-<td>73-76</td>
-<td>D-</td>
-<td>60-62</td>
-</tr>
-<tr>
-<td>B</td>
-<td>83-86</td>
-<td>C-</td>
-<td>70-72</td>
-<td>F</td>
-<td>0-59</td>
-</tr>
-</tbody>
-</table>
-<pre><code class="language-Grades"></code></pre>
-<h2 id="projects">Projects</h2>
-<p>All projects are team projects in this course. For each project, all students must form teams of two (or three in the case of an odd number of students). Students are permitted to select their own teams; however, no two students may partner up for more than one project. In other words, each team will be different for each project. Students should select their teams by using the Groups tab under People, on the Canvas webpage.</p>
-<p>Teams are responsible for dividing their workload. Except under extreme circumstances, all members of the team will receive the same grade for each project. One member of each team is designated the leader. The files for each project should be zipped up and uploaded by the team leader using Canvas before the due date. Projects must not be stored in a public folder. All project submissions must follow the provided file name requirements or risk a score of 0. <strong>If the project does not compile, the student will receive a score of 0.</strong></p>
-<p>Projects will be graded based on the following criteria:</p>
+<h3 id="80">80%:</h3>
 <ul>
-<li>Correctness: Finding the right answer</li>
-<li>Formatting:	Displaying the right answer according to instructions</li>
-<li>Style and Documentation: Producing readable code with appropriate comments</li>
+<li>Functionality: For assignments that have well-specified behavior, the code should implement all of the required functionality. For this grade, it is possible that 10-20% of the functionality may be broken. For open-ended assignments it will be possible to get the code running with modest effort (i.e. it will not be as well documented as in a 5, but it isn’t too hard to intuit how the code works). For these types of assignments all required features must be present, however, some (10-20%) may not be functioning properly or otherwise poorly implemented.</li>
+<li>Documentation: some functions are missing doc strings. Comments are fairly minimal.</li>
+<li>Style: some aspects of the design of the program could be improved to reduce cut and paste code. Variable and function names are for the most part well-chosen.</li>
 </ul>
-<p>In general, projects will be graded with the <em>diff</em> utility. For that reason, it is imperative that project output matches sample output to the character.</p>
-<p>Late assignment will lose <img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cfn_phv%20%5Clarge%202%5E%7B%28n-1%29%7D" alt="equation"> points per day, including weekends and holidays. For example, -1 after 1 day, -2 after 2 days, -4 after 3 days … until 8+ days students will receive 0 score.  Under no circumstances should any student disclose their code, or copy the code written by other students or from an outside source. Both students will receive 0 score on the disclosed/copied assignment.</p>
-<h2 id="in-class-labs">In-class Labs</h2>
-<p>All labs are to be done individually, in class, with the assistance of the instructor. Each assignment will be given near the beginning of a class and must be uploaded to Canvas (<a href="https://etown.instructure.com/">https://etown.instructure.com/</a>) <code>before the end of the class without late penalty</code>. <code>Extended submission is due on the same day before midnight, but any submission during this grace period will receive 15 points (out of 100) of late penalty</code>. Submissions beyond midnight the same day will not be accepted.
-To receive full credit, a programming assignment must compile, but partial credit will be awarded based on the understanding of the material demonstrated by the student’s code.</p>
+<h3 id="60">60%:</h3>
+<ul>
+<li>Functionality: The code should implement almost all of the required features (it is okay if roughly 20% are not implemented). A significant portion, 30-50%, of the code may not work as it is supposed to.</li>
+<li>Documentation: Docstrings are mostly absent For well-defined assignments the code does not run as it should based on the assignment spec. For open-ended assignments there may not be any indication of how to run the program, and it is not easy for a NINJA to figure out how the code works (a good test is if you have to e-mail someone to ask them how their code runs, they are probably at this level).</li>
+<li>Style: the program design needs improvement. The code would be a lot cleaner if the author had done a better job thinking through the appropriate functional decomposition. The code has lots of cut and paste and magic numbers. Variable and function names are hard to interpret.</li>
+</ul>
+<h3 id="40">40%:</h3>
+<ul>
+<li>Functionality: the assignment is incomplete (~50% of the functionality is not implemented). The functionality that is implemented is not 100% correct.</li>
+<li>Documentation: mostly absent.</li>
+<li>Style: design is poor. Very little attention has been paid to choosing a sensible functional decomposition.  Variable and function names are chosen almost arbitrarily.</li>
+</ul>
+<h3 id="20">20%:</h3>
+<ul>
+<li>Functionality: only minimal functionality is present.</li>
+<li>Documentation: little or none.</li>
+<li>Style: Code is not “readable”. Poor choice of variable and function names.</li>
+</ul>
+<h3 id="0">0%:</h3>
+<ul>
+<li>nothing turned in.</li>
+</ul>
+<h2 id="notebook-assignments">Notebook Assignments</h2>
+<p>Jupyter notebooks are the files you need to submit for labs and homework assignments.</p>
+<h3 id="100-1">100%:</h3>
+<p>Thorough engagement with each section of the reading.  Each exercise has either been completed, or you have articulated a well-thought out set of questions for each of the problems you didn't answer.
+Points will be deducted from 100% for the following reasons:</p>
+<ul>
+<li>Exercises are not filled out (either with a solution or a question)</li>
+<li>The answer to the exercise does not demonstrate a good faith attempt to complete it.</li>
+</ul>
+<h2 id="writing">Writing</h2>
+<p>Writing will be evaluated for clarity, concision, and comprehensiveness.  The particular style that you should use will depend on the assignment and your audience.  The bottom line is don't cut corners with writing in this class.  Your ability to communicate what you have done is just as important as what you have done.  Don't make the mistake of spending all of your time writing code, and then rush through the writing parts of the assignment.  See below for some stylistic guidance.</p>
+<ul>
+<li>Since the dawn of time, college students have been writing introductions that are too grandiose (and often false).  Just get into it; you don't have to zoom in from space (and make stuff up).  Write the abstract last and summarize the most important result.</li>
+<li>The passive voice is a hoax. Please write in the first person (singular or plural).</li>
+<li>Write in the present tense whenever possible.  Some actions happen in the past, but all research exists in an eternal present: &ldquo;Using data from BRFSS, they plot weight versus height and find that tall respondents are heavier, on average, than shorter respondents.  Our results are consistent with this conclusion.&rdquo;</li>
+<li>When you edit, try to remove words.</li>
+<li>Avoid using &ldquo;significant&rdquo; unless you mean &ldquo;statistically significant;&rdquo; a good alternative is &ldquo;substantial.&rdquo;  Avoid using &ldquo;correlation&rdquo; unless you mean a coefficient of correlation.  In general, there might be a &ldquo;relationship&rdquo; between variables and you might characterize it with a correlation.</li>
+<li>&ldquo;Trend&rdquo; usually means something is changing in time; &ldquo;pattern&rdquo; is more general.</li>
+<li>Provide indicators of logical flow.  If I ask you to answer a set of question in your report, don't just paste the questions as your section headings.  You should create your own document structure based on what makes sense for your project.</li>
+<li>Explain your motivation.  Avoid &ldquo;We were interested&rdquo; and &ldquo;We wanted&rdquo; as pseudo-motivation.  And don't look at the camera; that is, don't use &ldquo;because we were told to&rdquo; as motivation, and avoid &ldquo;for this project&rdquo;.</li>
+<li>When you refer to figures and tables, capitalize &ldquo;Figure&rdquo; and &ldquo;Table.&rdquo;  Formal figures have a number and a caption, and they can float.  Informal figures are part of the text flow.  If a figure doesn't contain much information, summarize it in text.</li>
+<li>Find an authorial voice that is casual enough to be engaging (without overdoing it).</li>
+</ul>
 
           </div>
 
@@ -651,14 +654,14 @@ To receive full credit, a programming assignment must compile, but partial credi
   
   <div class="post-nav-item">
     <div class="meta-nav">Previous</div>
-    <a href="/courses/cs121/policy/" rel="next">Policy Statements</a>
+    <a href="/courses/ds420/grading/" rel="next">Grading Policies</a>
   </div>
   
   
   
   <div class="post-nav-item">
     <div class="meta-nav">Next</div>
-    <a href="/courses/cs121/schedule/" rel="prev">Course Schedule</a>
+    <a href="/courses/ds420/schedule/" rel="prev">Course Schedule</a>
   </div>
   
 </div>

@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DS 420 Big Data | Peilong Li</title>
+    <link>https://Peilong.github.io/courses/ds420/</link>
+      <atom:link href="https://Peilong.github.io/courses/ds420/index.xml" rel="self" type="application/rss+xml" />
+    <description>DS 420 Big Data</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://Peilong.github.io/img/icon-192.png</url>
+      <title>DS 420 Big Data</title>
+      <link>https://Peilong.github.io/courses/ds420/</link>
+    </image>
+    
+    <item>
+      <title>Course Overview</title>
+      <link>https://Peilong.github.io/courses/ds420/overview/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://Peilong.github.io/courses/ds420/overview/</guid>
+      <description>&lt;h2 id=&#34;course-coverage&#34;&gt;Course Coverage&lt;/h2&gt;
+&lt;p&gt;This course covers techniques needed to collect, store, analyze, and visualize big data, particularly for applications in machine learning at scale. The MapReduce paradigm will be taught using the popular Hadoop framework. Both batch and real-time analysis of massive quantities of data will be applied to machine learning problems such as clustering, regression, and classification. Although the relational database model will be discussed, NoSQL models will have primary focus.&lt;/p&gt;
+&lt;h2 id=&#34;student-learning-outcomes&#34;&gt;Student Learning Outcomes&lt;/h2&gt;
+&lt;p&gt;By the end of the course, the successful students will be able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(Hadoop Ecosystem) Design distributed systems that manage &amp;ldquo;big data&amp;rdquo; using Hadoop and related technologies in the Hadoop Ecosystem.&lt;/li&gt;
+&lt;li&gt;(Scalability) Use HDFS and MapReduce for storing and analyzing data at scale.&lt;/li&gt;
+&lt;li&gt;(Programmability) Use Pig and Spark to create scripts to process data on a Hadoop cluster in more complex and programmable ways.&lt;/li&gt;
+&lt;li&gt;(Databases) Analyze relational data using Hive and MySQL, and analyze non-relational data using HBase and MongoDB. Learn to choose an appropriate data storage technology for your application&lt;/li&gt;
+&lt;li&gt;(Machine Learning) Deploy machine learning models at scale to process distributed big data using Spark MLlib.&lt;/li&gt;
+&lt;li&gt;(Management) Understand how Hadoop clusters are managed by Big Data Framework Managers like YARN, Mesos, Zookeeper and Oozie, etc.&lt;/li&gt;
+&lt;li&gt;(Real-time Analysis) Publish data to computing clusters using Kafka and Flume. Consume streaming data using Spark Streaming and Storm.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Policy Statements</title>
+      <link>https://Peilong.github.io/courses/ds420/policy/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://Peilong.github.io/courses/ds420/policy/</guid>
+      <description>&lt;h2 id=&#34;course-schedule&#34;&gt;Course Schedule&lt;/h2&gt;
+&lt;p&gt;The most up-to-date course schedule will be posted on course website schedule page: &lt;a href=&#34;https://peilong.github.io/courses/ds420/schedule/&#34;&gt;https://peilong.github.io/courses/ds420/schedule/&lt;/a&gt;. Students are responsible for checking the schedule regularly. Schedule page will include: 1) teaching topics for each meeting; 2) reading assignments for each week and 3) special notes on specific days.&lt;/p&gt;
+&lt;h2 id=&#34;course-announcements--discussion&#34;&gt;Course Announcements &amp;amp; Discussion&lt;/h2&gt;
+&lt;p&gt;All course announcements will be sent to your Etown email accounts via Canvas Announcements. You are responsible for signing up for this service and checking your emails regularly.&lt;/p&gt;
+&lt;p&gt;Every student should have received my invitation to join our team &amp;ldquo;DS420 Big Data FA20&amp;rdquo; on Microsoft Teams. Discussions are encouraged to be posted on the &amp;ldquo;QA&amp;rdquo; channel of the team. Private instant messages can be sent directly to your recipient, e.g. the instructor.&lt;/p&gt;
+&lt;p&gt;Missing my email to join Teams? Click this &lt;a href=&#34;https://teams.microsoft.com/l/team/19%3a1f4763190259407691bb1a2c67ccefbc%40thread.tacv2/conversations?groupId=c6d7c74e-4549-43dc-b47e-10836ce4d728&amp;amp;tenantId=1d884f12-a0d7-42f0-8b15-3a91c853bcb5&#34;&gt;link&lt;/a&gt; again.&lt;/p&gt;
+&lt;h2 id=&#34;attendance-policies&#34;&gt;Attendance Policies&lt;/h2&gt;
+&lt;p&gt;Attendance is expected of every student at every lecture. Students are responsible for all content covered in class as well as assigned book chapters. Due to their nature, pop quizzes cannot be made up.&lt;/p&gt;
+&lt;p&gt;Except in the case of documented emergencies, neither exams nor in-class labs can be made up afterwards.  For excused absences, students must arrange to take the exam or do the lab before the normally scheduled time.  Arrangements must be made with the instructor at least two weeks prior to the scheduled time.&lt;/p&gt;
+&lt;p&gt;Students are expected to maintain an attitude of respect at all times toward their colleagues, the equipment, and the instructor. Students are expected to refrain from using the computers for non-course related purposes during class time and will be penalized 1% of the final grade for each occurrence. Cell phones and similar devices should be turned off before entering the classroom. Students who use offensive language, misuse computing facilities, or are otherwise disruptive of the classroom will be asked to leave.&lt;/p&gt;
+&lt;h2 id=&#34;statement-on-school-closure&#34;&gt;Statement on School Closure&lt;/h2&gt;
+&lt;p&gt;In the event that classes do not meet because Elizabethtown College is closed or delayed due to inclement weather or some other emergency, the slides that would have been covered during the missed classes will posted through Piazza group.  Students are expected to do the assigned reading, review the slides, and e-mail the instructor with any questions.  There will also be an opportunity to ask questions about the material when classes resume.&lt;/p&gt;
+&lt;p&gt;If a scheduled exam or lab is missed, it will normally be made up on the day that classes resume.  If the College is closed on a day when a project is due, the project due date will also normally be extended until the day when classes resume.  If circumstances render either of these makeup policies unreasonable, the instructor will send an e-mail explaining an alternative makeup opportunity to each student’s Elizabethtown e-mail account.&lt;/p&gt;
+&lt;h2 id=&#34;statement-on-plagiarism&#34;&gt;Statement on Plagiarism&lt;/h2&gt;
+&lt;p&gt;Please refer to the Student Handbook for the college’s policy.  All projects and assignments must be completed by students individually, without assistance from anyone other than the instructor.  Students can discuss the course material with each other at a conceptual level, but each student must do his or her own work.  For projects, exams, and all other activities in the course, students are expected to act according to the official policy on academic dishonesty and the highest standards of personal integrity.&lt;/p&gt;
+&lt;p&gt;The first infraction of academic honesty in this course will carry a penalty of a 0 for the project, lab, or exam in question and a reduction of a full letter grade in the final grade.  If a second infraction occurs, the students involved will fail the course, and the instructor will seek the maximum penalty possible under the college’s regulations, up to and including expulsion.&lt;/p&gt;
+&lt;h2 id=&#34;statement-on-disability&#34;&gt;Statement on Disability&lt;/h2&gt;
+&lt;p&gt;Full statement can be found at &lt;a href=&#34;https://elizabethtown-my.sharepoint.com/:w:/g/personal/ouimetc_etown_edu/EfZ-QooKt_VPjgwsWJz230wB3Rb6CIHsPvE0xuqWCpr-UA?e=4%3acZzjpW&amp;amp;at=9&#34;&gt;link&lt;/a&gt;. Elizabethtown College welcomes otherwise qualified students with disabilities to participate in all of its courses, programs, services, and activities. If you have a documented disability and would like to request accommodations in order to access course material, activities, or requirements, please contact the Director of Disability Services, Lynne Davies, by phone (361-1227) or e-mail &lt;a href=&#34;mailto:daviesl@etown.edu&#34;&gt;daviesl@etown.edu&lt;/a&gt;. If your documentation meets the college’s documentation guidelines, you will be given a letter from Disability Services for each of your professors.  Students experiencing certain documented temporary conditions, such as post-concussive symptoms, may also qualify for temporary academic accommodations and adjustments. As early as possible in the semester, set up an appointment to meet with the instructor to discuss the academic adjustments specified in your accommodations letter as they pertain to my class.&lt;/p&gt;
+&lt;h2 id=&#34;covid-related-expectations&#34;&gt;COVID-related Expectations&lt;/h2&gt;
+&lt;p&gt;All students are expected to adhere to the established community expectations around safety, including: daily digital health reporting, physical distancing, proper wearing of facial coverings within buildings and classrooms and when within six feet of individuals outdoors, frequent handwashing, and participation in cleaning and sanitizing protocols as requested. You will be turned away from class if you do not have a face covering. Students diagnosed with a health condition that precludes mask wearing can contact Lynne Davies in Disability Services (&lt;a href=&#34;mailto:daviesl@etown.edu&#34;&gt;daviesl@etown.edu&lt;/a&gt;) to request remote learning as a reasonable accommodation.&lt;/p&gt;
+&lt;p&gt;If you are exhibiting any symptoms of COVID or fail to pass the daily health screen, do not come to class.
+Failure to adhere to the established community expectations around safety will result in notification of Campus Security and application of the student conduct process for failure to comply, endangering the well-being of others, and/or disorderly conduct. The student code of conduct applies also to participation in all virtual activities, including Zoom sessions and discussion boards&lt;/p&gt;
+&lt;h2 id=&#34;statement-on-religious-observances&#34;&gt;Statement on Religious Observances&lt;/h2&gt;
+&lt;p&gt;The College is eager to facilitate individual religious beliefs and practices whenever possible while retaining course student learning outcomes. It is your responsibility to meet with the class instructor in advance to request arrangements related to your religious observances that may conflict with this class, and to make appropriate plans to make up any missed work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Grading Policies</title>
+      <link>https://Peilong.github.io/courses/ds420/grading/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://Peilong.github.io/courses/ds420/grading/</guid>
+      <description>&lt;h2 id=&#34;grading-weights&#34;&gt;Grading Weights&lt;/h2&gt;
+&lt;p&gt;The final grade for this course depends upon the grades and scores earned on course components weighted as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;30%&lt;/strong&gt;: 6 equally weighted in-class labs - 5% for each lab.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20%&lt;/strong&gt;: 5 equally weighted homework assignments – 4% for each assignment.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;25%&lt;/strong&gt;: 2 midterm exams - 10% for lower grade, and 15% for higher grade.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;5%&lt;/strong&gt; : Pop quizzes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;5%&lt;/strong&gt; : Paper Presentation - peer evaluation (50%), instructor evaluation (50%).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: Final Project - project proposal (10%). Midterm check (10%). Project demonstration and presentation (40%). Final project report and revised code (40%).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Grades will be computed by rounding numerical percentages to the nearest integer and applying the following table:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Letter&lt;/th&gt;
+&lt;th&gt;Range&lt;/th&gt;
+&lt;th&gt;Letter&lt;/th&gt;
+&lt;th&gt;Range&lt;/th&gt;
+&lt;th&gt;Letter&lt;/th&gt;
+&lt;th&gt;Range&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;93-100&lt;/td&gt;
+&lt;td&gt;B-&lt;/td&gt;
+&lt;td&gt;80-82&lt;/td&gt;
+&lt;td&gt;D+&lt;/td&gt;
+&lt;td&gt;67-69&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;A-&lt;/td&gt;
+&lt;td&gt;90-92&lt;/td&gt;
+&lt;td&gt;C+&lt;/td&gt;
+&lt;td&gt;77-79&lt;/td&gt;
+&lt;td&gt;D&lt;/td&gt;
+&lt;td&gt;63-66&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;B+&lt;/td&gt;
+&lt;td&gt;87-89&lt;/td&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;73-76&lt;/td&gt;
+&lt;td&gt;D-&lt;/td&gt;
+&lt;td&gt;60-62&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;83-86&lt;/td&gt;
+&lt;td&gt;C-&lt;/td&gt;
+&lt;td&gt;70-72&lt;/td&gt;
+&lt;td&gt;F&lt;/td&gt;
+&lt;td&gt;0-59&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Grades&#34;&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;homework-assignments&#34;&gt;Homework Assignments&lt;/h2&gt;
+&lt;p&gt;All homework assignments have to be completed individually in this course. Each assignment must be uploaded into Canvas (&lt;a href=&#34;https://etown.instructure.com/)&#34;&gt;https://etown.instructure.com/)&lt;/a&gt;.  Assignments must &lt;em&gt;NOT&lt;/em&gt; be stored in a public folder. All submissions must follow the provided file name requirements or risk a score of 0.&lt;br&gt;
+Typically, you will have about two weeks to complete each assignment. All assignments will be graded based on the following criteria:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Correctness: Finding the right answer&lt;/li&gt;
+&lt;li&gt;Formatting:	Displaying the right answer according to instructions&lt;/li&gt;
+&lt;li&gt;Style and Documentation: Producing readable code with appropriate comments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Late assignment will lose &lt;img src=&#34;https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cfn_phv%20%5Clarge%202%5E%7B%28n-1%29%7D&#34; alt=&#34;equation&#34;&gt; points per day, including weekends and holidays. For example, -1 after 1 day, -2 after 2 days, -4 after 3 days … until 8+ days students will receive 0 score.  Under no circumstances should any student disclose their code, or copy the code written by other students or from an outside source. Both students will receive 0 score on the disclosed/copied assignment.&lt;/p&gt;
+&lt;h2 id=&#34;in-class-labs&#34;&gt;In-class labs&lt;/h2&gt;
+&lt;p&gt;All labs are to be done individually, in class, with the assistance of the instructor. Each assignment will be given near the beginning of a class and must be uploaded to Canvas (&lt;a href=&#34;https://etown.instructure.com/&#34;&gt;https://etown.instructure.com/&lt;/a&gt;) &lt;code&gt;before the end of the class without late penalty&lt;/code&gt;. &lt;code&gt;Extended submission is due on the same day before midnight, but any submission during this grace period will receive 15 points (out of 100) of late penalty&lt;/code&gt;. Submissions beyond midnight the same day will not be accepted. To receive full credit, the source code must be well commented and executed without errors, but partial credit will be considered by the instructor based on the understanding of the material demonstrated by the student’s code.&lt;/p&gt;
+&lt;h2 id=&#34;technical-paper-presentation&#34;&gt;Technical Paper Presentation&lt;/h2&gt;
+&lt;p&gt;Presenting data analysis results to public is one of the highly demanded skills from data science employers. As part of the final grade of this course, students are required to read one to two technical papers from the provided paper list (or other papers agreed by the instructor), and present the paper during the last week of class. The grading of the paper presentation consists of 50% from peers and 50% from the instructor. The evaluation rubrics will be provided via Canvas.&lt;/p&gt;
+&lt;h2 id=&#34;final-project&#34;&gt;Final Project&lt;/h2&gt;
+&lt;p&gt;The final project best demonstrates students’ understanding of the lecture contents and their capability of solving data science problems as a team or individually. The topic of the final project is left open for the students to solicitate, but the final choice has to be decided upon the instructor’s agreement.
+Students are allowed to form a team of no more than 2 people. Teams are responsible for finding the project of their interest and discussing the project feasibility face-to-face with the project manager, a.k.a., the instructor 1 week before the proposal is due. Since the teams have to work on different project topics, the finalization of the project title is on a rolling basis – meaning formerly finalized projects cannot be taken again by another team. The deliverable of the final project contains four major components:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;10%: the project proposal: must be approved by the instructor&lt;/li&gt;
+&lt;li&gt;10%: midterm check: must have finished essential literature search and data cleaning at this point&lt;/li&gt;
+&lt;li&gt;40%: the project verbal and visual demonstration in class: code and slides must be uploaded the day before the presentation day&lt;/li&gt;
+&lt;li&gt;40%: the project report: due on Wed of the Final Exam week. Must be completed and have included the instructor&#39;s improvement suggestions in the final version.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The requirements and grading rubric for each component of the project will be posted on Canvas. Under no circumstances should any student copy the code from an outside source. Source code similarity tools will be used to detect plagiarism.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Grading Rubrics</title>
+      <link>https://Peilong.github.io/courses/ds420/rubrics/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://Peilong.github.io/courses/ds420/rubrics/</guid>
+      <description>&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
+&lt;p&gt;Grading rubrics for code submission in terms of percentage:&lt;/p&gt;
+&lt;h3 id=&#34;100&#34;&gt;100%:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Functionality: For assignments that have well-specified behavior, the code should be able to pass (or very nearly pass, e.g. there may be minor output formatting issues) automated unit testing of all required features. For open-ended assignments the code must be easy to run without modification and implement all of the required functionality.&lt;/li&gt;
+&lt;li&gt;Documentation: all functions are commented with appropriate doc strings. For open-ended assignments there is a README file discussing how to run the program and what it is supposed to do.&lt;/li&gt;
+&lt;li&gt;Style: the program exhibits effective modular design. The code does not have unnecessary cut and paste code or magic numbers. Variable and function names are sensibly chosen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;80&#34;&gt;80%:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Functionality: For assignments that have well-specified behavior, the code should implement all of the required functionality. For this grade, it is possible that 10-20% of the functionality may be broken. For open-ended assignments it will be possible to get the code running with modest effort (i.e. it will not be as well documented as in a 5, but it isn’t too hard to intuit how the code works). For these types of assignments all required features must be present, however, some (10-20%) may not be functioning properly or otherwise poorly implemented.&lt;/li&gt;
+&lt;li&gt;Documentation: some functions are missing doc strings. Comments are fairly minimal.&lt;/li&gt;
+&lt;li&gt;Style: some aspects of the design of the program could be improved to reduce cut and paste code. Variable and function names are for the most part well-chosen.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;60&#34;&gt;60%:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Functionality: The code should implement almost all of the required features (it is okay if roughly 20% are not implemented). A significant portion, 30-50%, of the code may not work as it is supposed to.&lt;/li&gt;
+&lt;li&gt;Documentation: Docstrings are mostly absent For well-defined assignments the code does not run as it should based on the assignment spec. For open-ended assignments there may not be any indication of how to run the program, and it is not easy for a NINJA to figure out how the code works (a good test is if you have to e-mail someone to ask them how their code runs, they are probably at this level).&lt;/li&gt;
+&lt;li&gt;Style: the program design needs improvement. The code would be a lot cleaner if the author had done a better job thinking through the appropriate functional decomposition. The code has lots of cut and paste and magic numbers. Variable and function names are hard to interpret.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;40&#34;&gt;40%:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Functionality: the assignment is incomplete (~50% of the functionality is not implemented). The functionality that is implemented is not 100% correct.&lt;/li&gt;
+&lt;li&gt;Documentation: mostly absent.&lt;/li&gt;
+&lt;li&gt;Style: design is poor. Very little attention has been paid to choosing a sensible functional decomposition.  Variable and function names are chosen almost arbitrarily.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;20&#34;&gt;20%:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Functionality: only minimal functionality is present.&lt;/li&gt;
+&lt;li&gt;Documentation: little or none.&lt;/li&gt;
+&lt;li&gt;Style: Code is not “readable”. Poor choice of variable and function names.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;0&#34;&gt;0%:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;nothing turned in.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;notebook-assignments&#34;&gt;Notebook Assignments&lt;/h2&gt;
+&lt;p&gt;Jupyter notebooks are the files you need to submit for labs and homework assignments.&lt;/p&gt;
+&lt;h3 id=&#34;100-1&#34;&gt;100%:&lt;/h3&gt;
+&lt;p&gt;Thorough engagement with each section of the reading.  Each exercise has either been completed, or you have articulated a well-thought out set of questions for each of the problems you didn&#39;t answer.
+Points will be deducted from 100% for the following reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Exercises are not filled out (either with a solution or a question)&lt;/li&gt;
+&lt;li&gt;The answer to the exercise does not demonstrate a good faith attempt to complete it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;writing&#34;&gt;Writing&lt;/h2&gt;
+&lt;p&gt;Writing will be evaluated for clarity, concision, and comprehensiveness.  The particular style that you should use will depend on the assignment and your audience.  The bottom line is don&#39;t cut corners with writing in this class.  Your ability to communicate what you have done is just as important as what you have done.  Don&#39;t make the mistake of spending all of your time writing code, and then rush through the writing parts of the assignment.  See below for some stylistic guidance.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Since the dawn of time, college students have been writing introductions that are too grandiose (and often false).  Just get into it; you don&#39;t have to zoom in from space (and make stuff up).  Write the abstract last and summarize the most important result.&lt;/li&gt;
+&lt;li&gt;The passive voice is a hoax. Please write in the first person (singular or plural).&lt;/li&gt;
+&lt;li&gt;Write in the present tense whenever possible.  Some actions happen in the past, but all research exists in an eternal present: &amp;ldquo;Using data from BRFSS, they plot weight versus height and find that tall respondents are heavier, on average, than shorter respondents.  Our results are consistent with this conclusion.&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;When you edit, try to remove words.&lt;/li&gt;
+&lt;li&gt;Avoid using &amp;ldquo;significant&amp;rdquo; unless you mean &amp;ldquo;statistically significant;&amp;rdquo; a good alternative is &amp;ldquo;substantial.&amp;rdquo;  Avoid using &amp;ldquo;correlation&amp;rdquo; unless you mean a coefficient of correlation.  In general, there might be a &amp;ldquo;relationship&amp;rdquo; between variables and you might characterize it with a correlation.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Trend&amp;rdquo; usually means something is changing in time; &amp;ldquo;pattern&amp;rdquo; is more general.&lt;/li&gt;
+&lt;li&gt;Provide indicators of logical flow.  If I ask you to answer a set of question in your report, don&#39;t just paste the questions as your section headings.  You should create your own document structure based on what makes sense for your project.&lt;/li&gt;
+&lt;li&gt;Explain your motivation.  Avoid &amp;ldquo;We were interested&amp;rdquo; and &amp;ldquo;We wanted&amp;rdquo; as pseudo-motivation.  And don&#39;t look at the camera; that is, don&#39;t use &amp;ldquo;because we were told to&amp;rdquo; as motivation, and avoid &amp;ldquo;for this project&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;When you refer to figures and tables, capitalize &amp;ldquo;Figure&amp;rdquo; and &amp;ldquo;Table.&amp;rdquo;  Formal figures have a number and a caption, and they can float.  Informal figures are part of the text flow.  If a figure doesn&#39;t contain much information, summarize it in text.&lt;/li&gt;
+&lt;li&gt;Find an authorial voice that is casual enough to be engaging (without overdoing it).&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Course Schedule</title>
+      <link>https://Peilong.github.io/courses/ds420/schedule/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://Peilong.github.io/courses/ds420/schedule/</guid>
+      <description>&lt;p&gt;Note this tentative schedule is subject to change. Please check the schedule regularly.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Week&lt;/th&gt;
+&lt;th&gt;Starting&lt;/th&gt;
+&lt;th&gt;Topics&lt;/th&gt;
+&lt;th&gt;Reading&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;8/24/20&lt;/td&gt;
+&lt;td&gt;M: Lec1 - Course introduction and overview&lt;/td&gt;
+&lt;td&gt;Reading1&lt;/td&gt;
+&lt;td&gt;Mon: HW1 out, Start project topic search&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec2 - Introduction to Big Data&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec3 - Hadoop Ecosystem&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;8/31/20&lt;/td&gt;
+&lt;td&gt;M: Lec4 - HDFS&lt;/td&gt;
+&lt;td&gt;Reading2&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec5 - MapReduce&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;F: PE1: MapReduce Exercise&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;9/7/20&lt;/td&gt;
+&lt;td&gt;M: Lab 1: MapReduce&lt;/td&gt;
+&lt;td&gt;Reading3&lt;/td&gt;
+&lt;td&gt;Mon: HW1 due, HW2 out, Start project proposal writing&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec6 - Apache Pig&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec7 - Apache Hive&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;9/14/20&lt;/td&gt;
+&lt;td&gt;M: PE 2: Pig Exercise&lt;/td&gt;
+&lt;td&gt;Reading4&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;W: Lab 2: Pig&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec8 - NoSQL&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;9/21/20&lt;/td&gt;
+&lt;td&gt;M: Professional Development Day - No Classes&lt;/td&gt;
+&lt;td&gt;DAS Ch.1, 2 and 3&lt;/td&gt;
+&lt;td&gt;Mon: HW2 due, HW3 out&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec9 - Hbase&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec10 - MongoDB&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;9/28/20&lt;/td&gt;
+&lt;td&gt;M: Lec11 - Intro to Apache Spark&lt;/td&gt;
+&lt;td&gt;DAS Ch.4&lt;/td&gt;
+&lt;td&gt;Mon: Final project proposal due&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec12 - Spark RDD&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Paper presentation reading list out&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec13 - Spark DataFrame&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;10/5/20&lt;/td&gt;
+&lt;td&gt;M: PE 3: Spark DataFrame Exercise&lt;/td&gt;
+&lt;td&gt;DAS Ch.6&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;W: Lab 3: Spark DataFrame&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec14 - Spark Machine Learning&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;10/12/20&lt;/td&gt;
+&lt;td&gt;M: Lec15 - Spark Linear Regression&lt;/td&gt;
+&lt;td&gt;DAS Ch.8&lt;/td&gt;
+&lt;td&gt;Mon: HW3 due, HW4 out&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec16 - Spark Logistic Regression&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;F: Exam 1 Preview&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;10/19/20&lt;/td&gt;
+&lt;td&gt;M: Exam 1&lt;/td&gt;
+&lt;td&gt;DAS Ch.8&lt;/td&gt;
+&lt;td&gt;Exam 1 on Mon&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;W: Professional Development Day - No Classes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec17 - Spark Tree Classifiers&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Final project midterm check due on Fri&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;td&gt;10/26/20&lt;/td&gt;
+&lt;td&gt;M: PE 4: Spark Trees&lt;/td&gt;
+&lt;td&gt;DAS Ch.7&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;W: Lab 4: Spark Trees&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec18 - Spark K-Means&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;11&lt;/td&gt;
+&lt;td&gt;11/2/20&lt;/td&gt;
+&lt;td&gt;M: Lec19 - Apache Flume&lt;/td&gt;
+&lt;td&gt;DAS Ch.7&lt;/td&gt;
+&lt;td&gt;Mon: HW4 due, HW5 out&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec20 - Apache Kafka&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec21 - Spark Streaming&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;12&lt;/td&gt;
+&lt;td&gt;11/9/20&lt;/td&gt;
+&lt;td&gt;M: PE 5: Streaming&lt;/td&gt;
+&lt;td&gt;Reading 5&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;W: Lab 5: Streaming&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec22 - NLP&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;13&lt;/td&gt;
+&lt;td&gt;11/16/20&lt;/td&gt;
+&lt;td&gt;M: Lec23 - NLP with Spark&lt;/td&gt;
+&lt;td&gt;Reading 5&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;W: PE 6: NLP&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Th: Lab6: NLP&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;14&lt;/td&gt;
+&lt;td&gt;11/23/20&lt;/td&gt;
+&lt;td&gt;M: Exam 2&lt;/td&gt;
+&lt;td&gt;All notes&lt;/td&gt;
+&lt;td&gt;Mon: HW5 due, Exam 2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;W: Thanksgiving - No Classes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;F: Thanksgiving - No Classes&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;15&lt;/td&gt;
+&lt;td&gt;11/30/20&lt;/td&gt;
+&lt;td&gt;M: Paper presentation group 1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;W: Paper presentation group 2&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;F: Final project presentation group 1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;16&lt;/td&gt;
+&lt;td&gt;12/7/20&lt;/td&gt;
+&lt;td&gt;M: Final project presentation group 2 (2:30 - 4:00 PM)&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Final report and revised code due on Fri&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://Peilong.github.io/courses/ds420/software/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://Peilong.github.io/courses/ds420/software/</guid>
+      <description>&lt;h2 id=&#34;use-software-on-the-campus-server&#34;&gt;Use software on the campus server:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Hortonworks Data Platform (HDP): &lt;a href=&#34;http://adal.etown.edu:8080&#34;&gt;http://adal.etown.edu:8080&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;PySpark enabled Jupyter Notebook: &lt;a href=&#34;http://adal.etown.edu:12345&#34;&gt;http://adal.etown.edu:12345&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;install-by-yourself&#34;&gt;Install by yourself:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Docker Engine: &lt;a href=&#34;https://docs.docker.com/engine/install/&#34;&gt;https://docs.docker.com/engine/install/&lt;/a&gt;.
+Find the correct installation guide for your operating systems.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hortonworks Data Platform (HDP) on Sandbox version 2.6.5: &lt;a href=&#34;https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html&#34;&gt;https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html&lt;/a&gt;
+Choose the correct installation type on Docker (less resource demanding than a virtual machine). The recommended configuration is 4 CPUs and 8 GB of free RAM; however, 2 CPU and 6 GBs of RAM should be enough for the purpose of following this book. Reducing the amount of RAM will make some of the services unavailable.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Apache Spark and PySpark package version 2.4.6 pre-built for Apache Hadoop 2.7: &lt;a href=&#34;https://spark.apache.org/downloads.html&#34;&gt;https://spark.apache.org/downloads.html&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
