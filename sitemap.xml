@@ -53,6 +53,11 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/ds495/overview/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/courses/cs121/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
@@ -89,6 +94,11 @@
   
   <url>
     <loc>https://Peilong.github.io/courses/ds420/policy/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/ds495/policy/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
@@ -133,12 +143,22 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/ds495/grading/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/courses/cs400/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://Peilong.github.io/courses/cs495/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/ds495/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -168,12 +188,22 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/ds495/schedule/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/courses/cs400/proposal/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://Peilong.github.io/courses/cs495/proposal/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/ds495/proposal/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
