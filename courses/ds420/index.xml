@@ -589,7 +589,7 @@ Points will be deducted from 100% for the following reasons:&lt;/p&gt;
 &lt;li&gt;Hortonworks Data Platform (HDP): &lt;a href=&#34;http://adal.etown.edu:8080&#34;&gt;http://adal.etown.edu:8080&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;PySpark enabled Jupyter Notebook: &lt;a href=&#34;http://adal.etown.edu:12345&#34;&gt;http://adal.etown.edu:12345&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;install-by-yourself&#34;&gt;Install by yourself:&lt;/h2&gt;
+&lt;h2 id=&#34;install-hdp-sandbox-by-yourself&#34;&gt;Install HDP Sandbox by yourself:&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Docker Engine: &lt;a href=&#34;https://docs.docker.com/engine/install/&#34;&gt;https://docs.docker.com/engine/install/&lt;/a&gt;.
@@ -597,11 +597,15 @@ Find the correct installation guide for your operating systems.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Hortonworks Data Platform (HDP) on Sandbox version 2.6.5: &lt;a href=&#34;https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html&#34;&gt;https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html&lt;/a&gt;
-Choose the correct installation type on Docker (less resource demanding than a virtual machine). The recommended configuration is 4 CPUs and 8 GB of free RAM; however, 2 CPU and 6 GBs of RAM should be enough for the purpose of following this book. Reducing the amount of RAM will make some of the services unavailable.&lt;/p&gt;
+Choose the correct installation type on Docker (less resource demanding than a virtual machine). The recommended configuration is 4 CPUs and 8 GB of free RAM; however, 2 CPU and 6 GBs of RAM should be enough for our case. Reducing the amount of RAM will make some of the services unavailable.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Apache Spark and PySpark package version 2.4.6 pre-built for Apache Hadoop 2.7: &lt;a href=&#34;https://spark.apache.org/downloads.html&#34;&gt;https://spark.apache.org/downloads.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Follow along the tutorial to install HDP on docker engine: &lt;a href=&#34;https://www.cloudera.com/tutorials/sandbox-deployment-and-install-guide/3.html&#34;&gt;https://www.cloudera.com/tutorials/sandbox-deployment-and-install-guide/3.html&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;install-pyspark-on-jupyter-notebook&#34;&gt;Install PySpark on Jupyter Notebook:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Checkout my tutorial on Github: &lt;a href=&#34;https://github.com/Peilong/PySparkOnJupyter/blob/master/README.md&#34;&gt;https://github.com/Peilong/PySparkOnJupyter/blob/master/README.md&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
