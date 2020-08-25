@@ -3565,9 +3565,9 @@ Points will be deducted from 100% for the following reasons:&lt;/p&gt;
       <link>https://Peilong.github.io/courses/cs121/software/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://Peilong.github.io/courses/cs121/software/</guid>
-      <description>&lt;h2 id=&#34;java-se-development-kit-v8&#34;&gt;Java SE Development Kit v8.&lt;/h2&gt;
-&lt;p&gt;Accept the license and download the correct version for your system. Available as a free download at:
-&lt;a href=&#34;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&#34;&gt;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;h2 id=&#34;java-se-development-kit-version-8u261&#34;&gt;Java SE Development Kit version 8u261.&lt;/h2&gt;
+&lt;p&gt;Accept the license and download the correct version for your system. Try to choose the &lt;code&gt;x64&lt;/code&gt; version over x86 if available. Download link:
+&lt;a href=&#34;https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html&#34;&gt;https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;eclipse-ide&#34;&gt;Eclipse IDE&lt;/h2&gt;
 &lt;p&gt;Java Integrated Development Environment, available as a free download at: &lt;a href=&#34;http://www.eclipse.org/downloads/&#34;&gt;http://www.eclipse.org/downloads/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;
