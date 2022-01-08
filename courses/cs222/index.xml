@@ -602,7 +602,7 @@ Failure to adhere to the established community expectations around safety will r
 &lt;h2 id=&#34;visual-studio-code&#34;&gt;Visual Studio Code&lt;/h2&gt;
 &lt;p&gt;Downlaod VS Code from this &lt;a href=&#34;https://code.visualstudio.com/download&#34;&gt;link&lt;/a&gt;. Follow the instructions from HW1 to install the C/C++ extensions.&lt;/p&gt;
 &lt;h2 id=&#34;c-compiler&#34;&gt;C Compiler&lt;/h2&gt;
-&lt;p&gt;For Windows users, install &lt;a href=&#34;http://mingw-w64.org/doku.php/download/mingw-builds&#34;&gt;MinGW-64&lt;/a&gt; for the GCC compiler. For Mac users, install Apple&#39;s version of GCC - Clang: &lt;a href=&#34;https://www.cs.auckland.ac.nz/~paul/C/Mac/index.php&#34;&gt;Tutorial 1&lt;/a&gt;, or &lt;a href=&#34;http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/&#34;&gt;Tutorial 2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;For Windows users, install &lt;a href=&#34;http://mingw-w64.org/doku.php/download/mingw-builds&#34;&gt;MinGW-64&lt;/a&gt; for the GCC compiler. For Mac users, install Apple&amp;rsquo;s version of GCC - Clang: &lt;a href=&#34;https://www.cs.auckland.ac.nz/~paul/C/Mac/index.php&#34;&gt;Tutorial 1&lt;/a&gt;, or &lt;a href=&#34;http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/&#34;&gt;Tutorial 2&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;linux-command-line-tool&#34;&gt;Linux Command Line Tool&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;

@@ -148,7 +148,7 @@ Students are allowed to form a team of no more than 2 people. Teams are responsi
 &lt;li&gt;10%: the project proposal: must be approved by the instructor&lt;/li&gt;
 &lt;li&gt;10%: midterm check: must have finished essential literature search and data cleaning at this point&lt;/li&gt;
 &lt;li&gt;40%: the project verbal and visual demonstration in class: code and slides must be uploaded the day before the presentation day&lt;/li&gt;
-&lt;li&gt;40%: the project report: due on Wed of the Final Exam week. Must be completed and have included the instructor&#39;s improvement suggestions in the final version.&lt;/li&gt;
+&lt;li&gt;40%: the project report: due on Wed of the Final Exam week. Must be completed and have included the instructor&amp;rsquo;s improvement suggestions in the final version.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;The requirements and grading rubric for each component of the project will be posted on Canvas. Under no circumstances should any student copy the code from an outside source. Source code similarity tools will be used to detect plagiarism.&lt;/p&gt;
 </description>
@@ -198,24 +198,24 @@ Students are allowed to form a team of no more than 2 people. Teams are responsi
 &lt;h2 id=&#34;notebook-assignments&#34;&gt;Notebook Assignments&lt;/h2&gt;
 &lt;p&gt;Jupyter notebooks are the files you need to submit for labs and homework assignments.&lt;/p&gt;
 &lt;h3 id=&#34;100-1&#34;&gt;100%:&lt;/h3&gt;
-&lt;p&gt;Thorough engagement with each section of the reading.  Each exercise has either been completed, or you have articulated a well-thought out set of questions for each of the problems you didn&#39;t answer.
+&lt;p&gt;Thorough engagement with each section of the reading.  Each exercise has either been completed, or you have articulated a well-thought out set of questions for each of the problems you didn&amp;rsquo;t answer.
 Points will be deducted from 100% for the following reasons:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Exercises are not filled out (either with a solution or a question)&lt;/li&gt;
 &lt;li&gt;The answer to the exercise does not demonstrate a good faith attempt to complete it.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;writing&#34;&gt;Writing&lt;/h2&gt;
-&lt;p&gt;Writing will be evaluated for clarity, concision, and comprehensiveness.  The particular style that you should use will depend on the assignment and your audience.  The bottom line is don&#39;t cut corners with writing in this class.  Your ability to communicate what you have done is just as important as what you have done.  Don&#39;t make the mistake of spending all of your time writing code, and then rush through the writing parts of the assignment.  See below for some stylistic guidance.&lt;/p&gt;
+&lt;p&gt;Writing will be evaluated for clarity, concision, and comprehensiveness.  The particular style that you should use will depend on the assignment and your audience.  The bottom line is don&amp;rsquo;t cut corners with writing in this class.  Your ability to communicate what you have done is just as important as what you have done.  Don&amp;rsquo;t make the mistake of spending all of your time writing code, and then rush through the writing parts of the assignment.  See below for some stylistic guidance.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Since the dawn of time, college students have been writing introductions that are too grandiose (and often false).  Just get into it; you don&#39;t have to zoom in from space (and make stuff up).  Write the abstract last and summarize the most important result.&lt;/li&gt;
+&lt;li&gt;Since the dawn of time, college students have been writing introductions that are too grandiose (and often false).  Just get into it; you don&amp;rsquo;t have to zoom in from space (and make stuff up).  Write the abstract last and summarize the most important result.&lt;/li&gt;
 &lt;li&gt;The passive voice is a hoax. Please write in the first person (singular or plural).&lt;/li&gt;
 &lt;li&gt;Write in the present tense whenever possible.  Some actions happen in the past, but all research exists in an eternal present: &amp;ldquo;Using data from BRFSS, they plot weight versus height and find that tall respondents are heavier, on average, than shorter respondents.  Our results are consistent with this conclusion.&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;When you edit, try to remove words.&lt;/li&gt;
 &lt;li&gt;Avoid using &amp;ldquo;significant&amp;rdquo; unless you mean &amp;ldquo;statistically significant;&amp;rdquo; a good alternative is &amp;ldquo;substantial.&amp;rdquo;  Avoid using &amp;ldquo;correlation&amp;rdquo; unless you mean a coefficient of correlation.  In general, there might be a &amp;ldquo;relationship&amp;rdquo; between variables and you might characterize it with a correlation.&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;Trend&amp;rdquo; usually means something is changing in time; &amp;ldquo;pattern&amp;rdquo; is more general.&lt;/li&gt;
-&lt;li&gt;Provide indicators of logical flow.  If I ask you to answer a set of question in your report, don&#39;t just paste the questions as your section headings.  You should create your own document structure based on what makes sense for your project.&lt;/li&gt;
-&lt;li&gt;Explain your motivation.  Avoid &amp;ldquo;We were interested&amp;rdquo; and &amp;ldquo;We wanted&amp;rdquo; as pseudo-motivation.  And don&#39;t look at the camera; that is, don&#39;t use &amp;ldquo;because we were told to&amp;rdquo; as motivation, and avoid &amp;ldquo;for this project&amp;rdquo;.&lt;/li&gt;
-&lt;li&gt;When you refer to figures and tables, capitalize &amp;ldquo;Figure&amp;rdquo; and &amp;ldquo;Table.&amp;rdquo;  Formal figures have a number and a caption, and they can float.  Informal figures are part of the text flow.  If a figure doesn&#39;t contain much information, summarize it in text.&lt;/li&gt;
+&lt;li&gt;Provide indicators of logical flow.  If I ask you to answer a set of question in your report, don&amp;rsquo;t just paste the questions as your section headings.  You should create your own document structure based on what makes sense for your project.&lt;/li&gt;
+&lt;li&gt;Explain your motivation.  Avoid &amp;ldquo;We were interested&amp;rdquo; and &amp;ldquo;We wanted&amp;rdquo; as pseudo-motivation.  And don&amp;rsquo;t look at the camera; that is, don&amp;rsquo;t use &amp;ldquo;because we were told to&amp;rdquo; as motivation, and avoid &amp;ldquo;for this project&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;When you refer to figures and tables, capitalize &amp;ldquo;Figure&amp;rdquo; and &amp;ldquo;Table.&amp;rdquo;  Formal figures have a number and a caption, and they can float.  Informal figures are part of the text flow.  If a figure doesn&amp;rsquo;t contain much information, summarize it in text.&lt;/li&gt;
 &lt;li&gt;Find an authorial voice that is casual enough to be engaging (without overdoing it).&lt;/li&gt;
 &lt;/ul&gt;
 </description>
@@ -586,8 +586,8 @@ Points will be deducted from 100% for the following reasons:&lt;/p&gt;
       <guid>https://Peilong.github.io/courses/ds420/software/</guid>
       <description>&lt;h2 id=&#34;use-software-on-the-campus-server&#34;&gt;Use software on the campus server:&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Hortonworks Data Platform (HDP): &lt;a href=&#34;http://adal.etown.edu:8080&#34;&gt;http://adal.etown.edu:8080&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;PySpark enabled Jupyter Notebook: &lt;a href=&#34;http://adal.etown.edu:12345&#34;&gt;http://adal.etown.edu:12345&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hortonworks Data Platform (HDP): &lt;a href=&#34;http://adal.etown.edu&#34;&gt;http://adal.etown.edu&lt;/a&gt;:8080&lt;/li&gt;
+&lt;li&gt;PySpark enabled Jupyter Notebook: &lt;a href=&#34;http://adal.etown.edu&#34;&gt;http://adal.etown.edu&lt;/a&gt;:12345&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;install-hdp-sandbox-by-yourself&#34;&gt;Install HDP Sandbox by yourself:&lt;/h2&gt;
 &lt;ul&gt;
