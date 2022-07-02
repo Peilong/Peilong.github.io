@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CS 363 Computer Security | Peilong Li</title>
+    <link>https://Peilong.github.io/courses/cs363/</link>
+      <atom:link href="https://Peilong.github.io/courses/cs363/index.xml" rel="self" type="application/rss+xml" />
+    <description>CS 363 Computer Security</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://Peilong.github.io/img/icon-192.png</url>
+      <title>CS 363 Computer Security</title>
+      <link>https://Peilong.github.io/courses/cs363/</link>
+    </image>
+    
+    <item>
+      <title>Course Overview</title>
+      <link>https://Peilong.github.io/courses/cs363/overview/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://Peilong.github.io/courses/cs363/overview/</guid>
+      <description>&lt;h2 id=&#34;course-coverage&#34;&gt;Course Coverage&lt;/h2&gt;
+&lt;p&gt;This course introduces the student to the fundamentals of computer security. Foundational concepts such as confidentiality, integrity, and availability are discussed in the context of both designing systems and evaluating existing systems for vulnerabilities. Cryptography is explored as a tool that can be applied to many aspects of computer security. Theoretical discussions of security principles are enriched by examples from real world systems and protocols.&lt;/p&gt;
+&lt;h2 id=&#34;student-learning-outcomes&#34;&gt;Student Learning Outcomes&lt;/h2&gt;
+&lt;p&gt;By the end of the course, students will be able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apply knowledge of computing and mathematics appropriate to the discipline, including common data structures, basic algorithms, and modular arithmetic;&lt;/li&gt;
+&lt;li&gt;Design, implement, and evaluate security policies and mechanisms to enforce those policies;&lt;/li&gt;
+&lt;li&gt;Discuss the central issues of computer security: confidentiality, integrity, and availability;&lt;/li&gt;
+&lt;li&gt;Design protocols and systems to minimize security vulnerabilities;&lt;/li&gt;
+&lt;li&gt;Analyze current threats and how to minimize the associated risks in the areas of: computer security, OS security, web security, and cryptography;&lt;/li&gt;
+&lt;li&gt;Evaluate the strengths and weaknesses of various public and private key encryption techniques;&lt;/li&gt;
+&lt;li&gt;Explain the usefulness of cryptographic hash functions;&lt;/li&gt;
+&lt;li&gt;Communicate effectively with a broad range of audiences, and function effectively on teams using software engineering principles to accomplish a
+common goal.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Policy Statements</title>
+      <link>https://Peilong.github.io/courses/cs363/policy/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://Peilong.github.io/courses/cs363/policy/</guid>
+      <description>&lt;h2 id=&#34;covid-related-expectations&#34;&gt;COVID-related Expectations&lt;/h2&gt;
+&lt;p&gt;I recognize that students may need to miss classes due to personal health reasons or for community measures necessary to promote public health. I have already prepared to substitute a reasonable educational experience aligned with that day’s learning objectives for students who miss class due to illness or quarantine.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;In most cases, this will be downloading the gap notes and watching a recording of last year’s hyflex delivery of that same content. Ask me for the lecture recordings.&lt;/li&gt;
+&lt;li&gt;If you miss a coaching day, the homework is posted on Canvas and you can use my &lt;a href=&#34;https://calendly.com/dr_li/&#34;&gt;Calendly link&lt;/a&gt; to sign up for a time during office hours to Zoom with any questions.&lt;/li&gt;
+&lt;li&gt;Assessments must be taken in person due to academic integrity concerns. However, there are many opportunities to test and if we need a make-up day near the end of the semester, I will offer one.&lt;/li&gt;
+&lt;li&gt;Assignments are posted far in advance and, in most cases, will not be adjusted for mild illness.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;course-schedule&#34;&gt;Course Schedule&lt;/h2&gt;
+&lt;p&gt;The most up-to-date course schedule will be posted on course website schedule page: &lt;a href=&#34;https://peilong.github.io/courses/cs363/schedule/&#34;&gt;https://peilong.github.io/courses/cs363/schedule/&lt;/a&gt;. Students are responsible for checking the schedule regularly. Schedule page will include: 1) teaching topics for each meeting; 2) reading assignments for each week and 3) special notes on specific days.&lt;/p&gt;
+&lt;h2 id=&#34;course-announcements--discussion&#34;&gt;Course Announcements &amp;amp; Discussion&lt;/h2&gt;
+&lt;p&gt;All course announcements will be sent to your E-Town email accounts via Canvas Announcements. You are responsible for signing up for this service and checking your emails regularly.&lt;/p&gt;
+&lt;p&gt;I have created a Microsoft Teams channel (&lt;a href=&#34;https://teams.microsoft.com/l/team/19%3aa8cdd959c2e249a989d401e20fc95524%40thread.tacv2/conversations?groupId=81ffa3c7-aa45-454a-b495-7f43c78e5024&amp;amp;tenantId=1d884f12-a0d7-42f0-8b15-3a91c853bcb5&#34;&gt;link&lt;/a&gt;) to facilitate course related discussion.  Discussions are encouraged to be posted on the &amp;ldquo;QA&amp;rdquo; channel from Teams. Private instant messages can be sent directly to your recipient by search your recipient&amp;rsquo;s name on the &amp;ldquo;search&amp;rdquo; bar.&lt;/p&gt;
+&lt;h2 id=&#34;attendance-policies&#34;&gt;Attendance Policies&lt;/h2&gt;
+&lt;p&gt;Attendance is expected of every student at every lecture. Students are responsible for all content covered in class as well as assigned book chapters. Due to their nature, pop quizzes cannot be made up.&lt;/p&gt;
+&lt;p&gt;Except in the case of documented emergencies, neither exams nor in-class labs can be made up afterwards.  For excused absences, students must arrange to take the exam or do the lab before the normally scheduled time.  Arrangements must be made with the instructor at least two weeks prior to the scheduled time.&lt;/p&gt;
+&lt;p&gt;Students are expected to maintain an attitude of respect at all times toward their colleagues, the equipment, and the instructor.  Cell phones and similar devices is prohibited from using during lecturing time.  Students who use offensive language, misuse computing facilities, or are otherwise disruptive of the classroom will be asked to leave.&lt;/p&gt;
+&lt;h2 id=&#34;statement-on-school-closure&#34;&gt;Statement on School Closure&lt;/h2&gt;
+&lt;p&gt;In the event that classes do not meet because Elizabethtown College is closed or delayed due to inclement weather or some other emergency, the slides that would have been covered during the missed classes will be posted through Canvas.  Students are expected to do the assigned reading, review the slides, and e-mail the instructor with any questions. There will also be an opportunity to ask questions about the material when classes resume.&lt;/p&gt;
+&lt;p&gt;If a scheduled exam or lab is missed, it will normally be made up on the day that classes resume.  If the College is closed on a day when a project is due, the project due date will also normally be extended until the day when classes resume.  If circumstances render either of these makeup policies unreasonable, the instructor will send an e-mail explaining an alternative makeup opportunity to each student’s Elizabethtown e-mail account.&lt;/p&gt;
+&lt;h2 id=&#34;statement-on-plagiarism&#34;&gt;Statement on Plagiarism&lt;/h2&gt;
+&lt;p&gt;Check out the up-to-date statement from: &lt;a href=&#34;https://catalog.etown.edu/content.php?catoid=24&amp;amp;navoid=1233#Academic_Judicial_System&#34;&gt;Elizabethtown College Catalog, &amp;ldquo;Academic Judicial System&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;statement-on-disability&#34;&gt;Statement on Disability&lt;/h2&gt;
+&lt;p&gt;Full statement can be found at: &lt;a href=&#34;https://elizabethtown-my.sharepoint.com/:w:/g/personal/ouimetc_etown_edu/EfZ-QooKt_VPjgwsWJz230wB3Rb6CIHsPvE0xuqWCpr-UA?e=4%3acZzjpW&amp;amp;at=9&#34;&gt;Course Syllabus on Disability Services, Religious Observances, and COVID related expectations&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;diversity-and-inclusivity-statement&#34;&gt;Diversity and Inclusivity Statement&lt;/h2&gt;
+&lt;p&gt;I consider this classroom to be a place where you will be treated with respect, and I welcome individuals of all ages, backgrounds, beliefs, ethnicities, genders, gender identities, gender expressions, national origins, religious affiliations, sexual orientations, ability - and other visible and non-visible differences. All members of this class are expected to contribute to a respectful, welcoming and inclusive environment for every other member of the class.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Grading Policies</title>
+      <link>https://Peilong.github.io/courses/cs363/grading/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://Peilong.github.io/courses/cs363/grading/</guid>
+      <description>&lt;h2 id=&#34;grading-weights&#34;&gt;Grading Weights&lt;/h2&gt;
+&lt;p&gt;The final grade for this course depends upon the grades and scores earned on course components weighted as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;5%&lt;/strong&gt;: X in-class pop quizzes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;25%&lt;/strong&gt;: 5 in-class labs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10%&lt;/strong&gt;: Lecture presentation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20%&lt;/strong&gt;: 4 individual homework&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;25%&lt;/strong&gt;: 2 midterm exams&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: Final project&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Grades will be computed by rounding numerical percentages to the nearest integer and applying the following table:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Letter&lt;/th&gt;
+&lt;th&gt;Range&lt;/th&gt;
+&lt;th&gt;Letter&lt;/th&gt;
+&lt;th&gt;Range&lt;/th&gt;
+&lt;th&gt;Letter&lt;/th&gt;
+&lt;th&gt;Range&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;93-100&lt;/td&gt;
+&lt;td&gt;B-&lt;/td&gt;
+&lt;td&gt;80-82&lt;/td&gt;
+&lt;td&gt;D+&lt;/td&gt;
+&lt;td&gt;67-69&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;A-&lt;/td&gt;
+&lt;td&gt;90-92&lt;/td&gt;
+&lt;td&gt;C+&lt;/td&gt;
+&lt;td&gt;77-79&lt;/td&gt;
+&lt;td&gt;D&lt;/td&gt;
+&lt;td&gt;63-66&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;B+&lt;/td&gt;
+&lt;td&gt;87-89&lt;/td&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;73-76&lt;/td&gt;
+&lt;td&gt;D-&lt;/td&gt;
+&lt;td&gt;60-62&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;83-86&lt;/td&gt;
+&lt;td&gt;C-&lt;/td&gt;
+&lt;td&gt;70-72&lt;/td&gt;
+&lt;td&gt;F&lt;/td&gt;
+&lt;td&gt;0-59&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;pre&gt;&lt;code class=&#34;language-Note&#34;&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;in-class-labs-in-a-team&#34;&gt;In-class Labs in a Team&lt;/h2&gt;
+&lt;p&gt;All labs are to be done in class, with the assistance of the instructor. Students are encouraged to form a team of two to solve the lab assignments together. Each assignment will be given near the beginning of a class and must be uploaded to Canvas before the due time. Some of the labs allow for late submission till midnight with late penalty, but no submission is allowed beyond the lab day. To receive full credits, a programming assignment must compile, but partial credit will be awarded based on the understanding of the material demonstrated by the student’s code.&lt;/p&gt;
+&lt;h2 id=&#34;individual-homework&#34;&gt;Individual Homework&lt;/h2&gt;
+&lt;p&gt;All homework assignments have to be completed individually in this course. Homework assignments are often more comprehensive tasks that may need additional reading and research. Homework assignments are to be completed in a week or two.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Late Policy&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Late assignment will lose &lt;img src=&#34;https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cfn_phv%20%5Clarge%202%5E%7B%28n-1%29%7D&#34; alt=&#34;equation&#34;&gt; points per day, including weekends and holidays. For example, -1 after 1 day, -2 after 2 days, -4 after 3 days … until 8+ days students will receive 0 score.  &lt;strong&gt;Under no circumstances should any student disclose their code, or copy the code written by other students or from an outside source. Both students will receive 0 score on the disclosed/copied assignment.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;individual-lecture-presentation&#34;&gt;Individual Lecture Presentation&lt;/h2&gt;
+&lt;p&gt;Students are required to read a designated chapter from the &lt;strong&gt;V. Cryptography&lt;/strong&gt; module of the textbook and present it as a course lecture. The presentation time is 25-30 minutes and students need to cover all discussed topics from the textbook. The presenters will receive a written evaluation from all their peers and the instructor, and a weighted score (50% from the peers; 50% from the instructor) will be given to the presenters.&lt;/p&gt;
+&lt;h2 id=&#34;final-team-project&#34;&gt;Final Team Project&lt;/h2&gt;
+&lt;p&gt;To work on the final project, students are required to form a team of two. Topics of the final project should be one from the &lt;a href=&#34;https://seedsecuritylabs.org/Labs_20.04/&#34;&gt;SEED labs&lt;/a&gt; in the categories of (1) Computer Security; (2) Web Security; and (3) Cryptography.&lt;/p&gt;
+&lt;p&gt;The grading of the final project consists of four major aspects:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;10%: the project proposal (including the conversation with the instructor a week before due date);&lt;/li&gt;
+&lt;li&gt;20%: project milestone check and demonstration (must have completed at least 1 task);&lt;/li&gt;
+&lt;li&gt;40%: the project demonstration;&lt;/li&gt;
+&lt;li&gt;30%: everything including revised code and the final report are due on the last day of the final exam week.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Course Schedule</title>
+      <link>https://Peilong.github.io/courses/cs363/schedule/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://Peilong.github.io/courses/cs363/schedule/</guid>
+      <description>&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
+&lt;p&gt;Note this tentative schedule is subject to change. Please check the schedule regularly.&lt;/p&gt;
+&lt;p&gt;Last updated: 07/01/2022&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Week&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Starting&lt;/th&gt;
+&lt;th&gt;Topics&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Reading&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;8/22/20&lt;/td&gt;
+&lt;td&gt;M: Lec1 - Course introduction and   computer security&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 1&lt;/td&gt;
+&lt;td&gt;Mon: HW1 out&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec2 - SEED environment &amp;amp;   Linux command line&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec3 - Linux command line recap&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;8/29/20&lt;/td&gt;
+&lt;td&gt;M: Lec4 - Users,   groups and access control list (ACL)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 2&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lab1 - ACL&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec5 - Set-UID mechanism&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;9/5/20&lt;/td&gt;
+&lt;td&gt;M: Labor Day - No   Classes&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 3&lt;/td&gt;
+&lt;td&gt;Mon: HW1 due, HW2   out&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec6 - Attack surfaces of Set-UID   programs&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;Start project proposal writing&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec7 - Environment variables and   attack surface&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;9/12/20&lt;/td&gt;
+&lt;td&gt;M: Lec8 - Environment   varialbes attack use cases&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 10&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: PE1 - SetUID&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lab2 - SetUID&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;9/19/20&lt;/td&gt;
+&lt;td&gt;M: Lec9 - Bash and   shell functions&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 16&lt;/td&gt;
+&lt;td&gt;Mon: HW2 due, HW3 out&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec10 - The Shellshock   vulnerability and exploitation&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec11 - Reverse shell and launch   attacks&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;9/26/20&lt;/td&gt;
+&lt;td&gt;M: PE2 - Shellshock&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 11&lt;/td&gt;
+&lt;td&gt;Mon: project proposal   due&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lab3 - Shellshock&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Module 1 summary; Exam 1 preview&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;7&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;10/3/20&lt;/td&gt;
+&lt;td&gt;M: Exam 1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Project related   chapters&lt;/td&gt;
+&lt;td&gt;Mon: HW 3 due&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Final project kickoff&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Fall Break - No Class&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;10/10/20&lt;/td&gt;
+&lt;td&gt;M: Lec12 - Web   technology basics&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 12&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec13 - Advanced web technolgy&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec14 - Cross-site request forgery   (CSRF)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;Exam 1 on Fri&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;9&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;10/17/20&lt;/td&gt;
+&lt;td&gt;M: Lec15 - CSRF   countermeasures&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 13&lt;/td&gt;
+&lt;td&gt;Mon: HW 4 out&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: PE3 - CSRF&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lab4 - CSRF&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;Final project midterm check due on   Fri&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;10&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;10/24/20&lt;/td&gt;
+&lt;td&gt;M: Lec16 - Cross-site   scripting attack (XSS)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 24&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec17 - XSS Part 2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec18 - XSS Countermeasures and   attack generalization&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;11&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;10/31/20&lt;/td&gt;
+&lt;td&gt;M: PE4 - XSS&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 25&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lab5 - XSS&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Module 2 summary; Exam 2 preview&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;12&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;11/7/20&lt;/td&gt;
+&lt;td&gt;M: Exam 2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 26&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec19 - Introduction to   cryptography&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec20 - Secret-key encryption   (student presentation)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;13&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;11/14/20&lt;/td&gt;
+&lt;td&gt;M: Lec21 - One-way   hash function (student presentation)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 27&lt;/td&gt;
+&lt;td&gt;Mon: HW 4 due&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec22 - Public-key cryptography   (student presentation)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec23 - Public-key infrastructure   (student presentation)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;14&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;11/21/20&lt;/td&gt;
+&lt;td&gt;M: Lec24 - TLS and   HTTPS (student presentation)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Project related   chapters&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec25 - Blockchain and Bitcoin   (student presentation)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Thanksgiving Break - No Class&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;15&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;11/28/20&lt;/td&gt;
+&lt;td&gt;M: Project   presentation group 1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Project related   chapters&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Project presentation group 2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Project presentation group 3&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;16&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;12/5/20&lt;/td&gt;
+&lt;td&gt;M: Project   presentation group 4 (if needed)&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;Final report and revised code due on   Fri&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Software</title>
+      <link>https://Peilong.github.io/courses/cs363/software/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://Peilong.github.io/courses/cs363/software/</guid>
+      <description>&lt;p&gt;A laptop with at least 4GB of RAM and 20 GB of disk space is required for this course.&lt;/p&gt;
+&lt;h2 id=&#34;setup-seed-lab-environment&#34;&gt;Setup SEED Lab Environment:&lt;/h2&gt;
+&lt;p&gt;Install SEED VM lab environment on your own laptop: &lt;a href=&#34;https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md&#34;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;all-seed-labs&#34;&gt;All SEED Labs:&lt;/h2&gt;
+&lt;p&gt;Access all SEED labs from: &lt;a href=&#34;https://seedsecuritylabs.org/Labs_20.04/&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
