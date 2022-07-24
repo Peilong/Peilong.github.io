@@ -4725,10 +4725,12 @@ Last Updated: 01/18/2022&lt;/p&gt;
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://Peilong.github.io/courses/cs363/software/</guid>
       <description>&lt;p&gt;A laptop with at least 4GB of RAM and 20 GB of disk space is required for this course.&lt;/p&gt;
-&lt;h2 id=&#34;setup-seed-lab-environment&#34;&gt;Setup SEED Lab Environment:&lt;/h2&gt;
-&lt;p&gt;Install SEED VM lab environment on your own laptop: &lt;a href=&#34;https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md&#34;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;all-seed-labs&#34;&gt;All SEED Labs:&lt;/h2&gt;
 &lt;p&gt;Access all SEED labs from: &lt;a href=&#34;https://seedsecuritylabs.org/Labs_20.04/&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;option-1-recommended-setup-seed-vm-on-google-cloud-platform&#34;&gt;Option 1 (Recommended): Setup SEED VM on Google Cloud Platform:&lt;/h2&gt;
+&lt;p&gt;A GCP setup guide can be found on Canvas.&lt;/p&gt;
+&lt;h2 id=&#34;option-2-setup-seed-vm-on-virtualbox&#34;&gt;Option 2: Setup SEED VM on Virtualbox:&lt;/h2&gt;
+&lt;p&gt;Install SEED VM lab environment on your own laptop: &lt;a href=&#34;https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md&#34;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
