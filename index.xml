@@ -4617,26 +4617,16 @@ Last Updated: 01/18/2022&lt;/p&gt;
       <link>https://Peilong.github.io/courses/cs222/software/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://Peilong.github.io/courses/cs222/software/</guid>
-      <description>&lt;p&gt;You need an Integrated Development Environment (IDE) that contains a GCC compiler, and a machine that supports Linux command line in this course.&lt;/p&gt;
-&lt;p&gt;There are many IDEs you can choose, e.g., Eclipse, Code::Blocks, Visual Studio, and CLion, etc, but for the purpose of in-class demonstration, I will stick with Visual Studio Code.&lt;/p&gt;
-&lt;h2 id=&#34;visual-studio-code&#34;&gt;Visual Studio Code&lt;/h2&gt;
-&lt;p&gt;Downlaod VS Code from this &lt;a href=&#34;https://code.visualstudio.com/download&#34;&gt;link&lt;/a&gt;. Follow the instructions from HW1 to install the C/C++ extensions.&lt;/p&gt;
-&lt;h2 id=&#34;c-compiler&#34;&gt;C Compiler&lt;/h2&gt;
-&lt;p&gt;For Windows users, install &lt;a href=&#34;http://mingw-w64.org/doku.php/download/mingw-builds&#34;&gt;MinGW-64&lt;/a&gt; for the GCC compiler. For Mac users, install Apple&amp;rsquo;s version of GCC - Clang: &lt;a href=&#34;https://www.cs.auckland.ac.nz/~paul/C/Mac/index.php&#34;&gt;Tutorial 1&lt;/a&gt;, or &lt;a href=&#34;http://osxdaily.com/2014/02/12/install-command-line-tools-mac-os-x/&#34;&gt;Tutorial 2&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;linux-command-line-tool&#34;&gt;Linux Command Line Tool&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;google-cloud-platform&#34;&gt;Google Cloud Platform&lt;/h2&gt;
+&lt;p&gt;Google Cloud Platform (GCP) is the main development environment we will be using in this course. Refer to the guide on Canvas for setup. &lt;a href=&#34;https://etown.instructure.com/courses/16713/files/3017034?module_item_id=793891&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Once the setup is ready, you will have:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Windows Options&lt;/strong&gt;: 1) use Windows and Ubuntu 18.04 (or newer) dual-boot systems; 2) running Ubuntu on a virtual machine (e.g. virtualbox); 3) Ubuntu App on Windows 10; 4) Use Windows PowerShell; 5) Use the campus server cs64.etown.edu.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;MacOS Options&lt;/strong&gt;: Use the default Terminal.app application.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Linux Options&lt;/strong&gt;: You are on your own.&lt;/p&gt;
-&lt;/li&gt;
+&lt;li&gt;A virtual machine running with Ubuntu 20.04 LTS&lt;/li&gt;
+&lt;li&gt;A lightweight desktop GUI that allows for remote desktop connection&lt;/li&gt;
+&lt;li&gt;GNU C development toolset: GCC compiler, GDB debugger, make utility, etc.&lt;/li&gt;
+&lt;li&gt;Docker engine.&lt;/li&gt;
+&lt;li&gt;Visual Studio Code IDE, and other desktop applications.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;All the software and operating systems are available on the computers in the Esbenshade 281, Hoover 108 and Nicarry 208 computer laboratories and in the Computer Science commons area (E284).&lt;/p&gt;
 </description>
     </item>
     
