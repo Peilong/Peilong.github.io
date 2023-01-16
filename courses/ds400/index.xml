@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DS 400 Data Science Capstone | Peilong Li</title>
+    <link>https://Peilong.github.io/courses/ds400/</link>
+      <atom:link href="https://Peilong.github.io/courses/ds400/index.xml" rel="self" type="application/rss+xml" />
+    <description>DS 400 Data Science Capstone</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://Peilong.github.io/img/icon-192.png</url>
+      <title>DS 400 Data Science Capstone</title>
+      <link>https://Peilong.github.io/courses/ds400/</link>
+    </image>
+    
+    <item>
+      <title>Course Overview</title>
+      <link>https://Peilong.github.io/courses/ds400/overview/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://Peilong.github.io/courses/ds400/overview/</guid>
+      <description>&lt;h2 id=&#34;course-coverage&#34;&gt;Course Coverage&lt;/h2&gt;
+&lt;p&gt;This course is a directed project or study requiring faculty acceptance of a proposal with a final report and defense of work. It is intended as an advanced research course for Data Science.&lt;/p&gt;
+&lt;p&gt;Under the supervision of a faculty mentor, students use their knowledge of data science to complete a high level project contributing to research in an academic area or to solve a problem for a local business. Projects will involve data collection, data cleaning, data analysis, and reporting results both orally and in writing to a domain expert or business leader. All problems are unstructured with no predetermined solution.&lt;/p&gt;
+&lt;h2 id=&#34;student-learning-outcomes&#34;&gt;Student Learning Outcomes&lt;/h2&gt;
+&lt;p&gt;By the end of the course, students will be able to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Apply knowledge of data science appropriate to the discipline, including advanced skills like big data parallel processing and neural networks&lt;/li&gt;
+&lt;li&gt;Analyze a problem and identify and define the data analytical requirements and procedure appropriate to its solution&lt;/li&gt;
+&lt;li&gt;Design and implement a computer-based system, process, component or program, to address an open data problem (including open data competitions hosted on Kaggle)&lt;/li&gt;
+&lt;li&gt;Communicate effectively with a broad range of audiences&lt;/li&gt;
+&lt;li&gt;Engage in continuing professional development&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Policy Statements</title>
+      <link>https://Peilong.github.io/courses/ds400/policy/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://Peilong.github.io/courses/ds400/policy/</guid>
+      <description>&lt;h2 id=&#34;course-announcements--discussion&#34;&gt;Course Announcements &amp;amp; Discussion&lt;/h2&gt;
+&lt;p&gt;All course announcements will be sent to your E-Town email accounts via Canvas Announcements. You are responsible for signing up for this service and checking your emails regularly.&lt;/p&gt;
+&lt;p&gt;I have created a Microsoft Teams channel (&lt;a href=&#34;https://teams.microsoft.com/l/team/19%3aa8cdd959c2e249a989d401e20fc95524%40thread.tacv2/conversations?groupId=81ffa3c7-aa45-454a-b495-7f43c78e5024&amp;amp;tenantId=1d884f12-a0d7-42f0-8b15-3a91c853bcb5&#34;&gt;link&lt;/a&gt;) to facilitate course related discussion.  Discussions are encouraged to be posted on the &amp;ldquo;QA&amp;rdquo; channel from Teams. Private instant messages can be sent directly to your recipient by search your recipient&amp;rsquo;s name on the &amp;ldquo;search&amp;rdquo; bar.&lt;/p&gt;
+&lt;h2 id=&#34;attendance-policies&#34;&gt;Attendance Policies&lt;/h2&gt;
+&lt;p&gt;Attendance is expected of every student at every meeting. Students should come to meetings prepared to explain their progress and discuss appropriate technical issues.&lt;/p&gt;
+&lt;h2 id=&#34;statement-on-school-closure&#34;&gt;Statement on School Closure&lt;/h2&gt;
+&lt;p&gt;In the event that classes do not meet because Elizabethtown College is closed or delayed due to inclement weather or some other emergency, the slides that would have been covered during the missed classes will be posted through Canvas.  Students are expected to do the assigned reading, review the slides, and e-mail the instructor with any questions. There will also be an opportunity to ask questions about the material when classes resume.&lt;/p&gt;
+&lt;p&gt;If a scheduled exam or lab is missed, it will normally be made up on the day that classes resume.  If the College is closed on a day when a project is due, the project due date will also normally be extended until the day when classes resume.  If circumstances render either of these makeup policies unreasonable, the instructor will send an e-mail explaining an alternative makeup opportunity to each student’s Elizabethtown e-mail account.&lt;/p&gt;
+&lt;h2 id=&#34;statement-on-plagiarism&#34;&gt;Statement on Plagiarism&lt;/h2&gt;
+&lt;p&gt;Check out the up-to-date statement from: &lt;a href=&#34;https://catalog.etown.edu/content.php?catoid=24&amp;amp;navoid=1233#Academic_Judicial_System&#34;&gt;Elizabethtown College Catalog, &amp;ldquo;Academic Judicial System&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;statement-on-disability&#34;&gt;Statement on Disability&lt;/h2&gt;
+&lt;p&gt;Full statement can be found at: &lt;a href=&#34;https://elizabethtown-my.sharepoint.com/:w:/g/personal/ouimetc_etown_edu/EfZ-QooKt_VPjgwsWJz230wB3Rb6CIHsPvE0xuqWCpr-UA?e=4%3acZzjpW&amp;amp;at=9&#34;&gt;Course Syllabus on Disability Services, Religious Observances, and COVID related expectations&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;diversity-and-inclusivity-statement&#34;&gt;Diversity and Inclusivity Statement&lt;/h2&gt;
+&lt;p&gt;I consider this classroom to be a place where you will be treated with respect, and I welcome individuals of all ages, backgrounds, beliefs, ethnicities, genders, gender identities, gender expressions, national origins, religious affiliations, sexual orientations, ability - and other visible and non-visible differences. All members of this class are expected to contribute to a respectful, welcoming and inclusive environment for every other member of the class.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Grading Policies</title>
+      <link>https://Peilong.github.io/courses/ds400/grading/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://Peilong.github.io/courses/ds400/grading/</guid>
+      <description>&lt;h2 id=&#34;grading-weights&#34;&gt;Grading Weights&lt;/h2&gt;
+&lt;p&gt;The final grade for this course depends upon the grades and scores earned on course components weighted as follows:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;20%&lt;/strong&gt;: Project proposal&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10%&lt;/strong&gt;: Milestone 1&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10%&lt;/strong&gt;: Milestone 2&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10%&lt;/strong&gt;: Milestone 3&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;30%&lt;/strong&gt;: Final project&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20%&lt;/strong&gt;: Final paper&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Grades will be computed by rounding numerical percentages to the nearest integer and applying the following table:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Letter&lt;/th&gt;
+&lt;th&gt;Range&lt;/th&gt;
+&lt;th&gt;Letter&lt;/th&gt;
+&lt;th&gt;Range&lt;/th&gt;
+&lt;th&gt;Letter&lt;/th&gt;
+&lt;th&gt;Range&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;A&lt;/td&gt;
+&lt;td&gt;93-100&lt;/td&gt;
+&lt;td&gt;B-&lt;/td&gt;
+&lt;td&gt;80-82&lt;/td&gt;
+&lt;td&gt;D+&lt;/td&gt;
+&lt;td&gt;67-69&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;A-&lt;/td&gt;
+&lt;td&gt;90-92&lt;/td&gt;
+&lt;td&gt;C+&lt;/td&gt;
+&lt;td&gt;77-79&lt;/td&gt;
+&lt;td&gt;D&lt;/td&gt;
+&lt;td&gt;63-66&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;B+&lt;/td&gt;
+&lt;td&gt;87-89&lt;/td&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;73-76&lt;/td&gt;
+&lt;td&gt;D-&lt;/td&gt;
+&lt;td&gt;60-62&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;B&lt;/td&gt;
+&lt;td&gt;83-86&lt;/td&gt;
+&lt;td&gt;C-&lt;/td&gt;
+&lt;td&gt;70-72&lt;/td&gt;
+&lt;td&gt;F&lt;/td&gt;
+&lt;td&gt;0-59&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Grades for the proposal, milestones, final project, and final paper will be recorded in Canvas (&lt;a href=&#34;https://etown.instructure.com/)&#34;&gt;https://etown.instructure.com/)&lt;/a&gt;. Students may compute their current average by using these scores with the weights listed above.&lt;/p&gt;
+&lt;h2 id=&#34;proposal&#34;&gt;Proposal&lt;/h2&gt;
+&lt;p&gt;All work is individual in this course. Each student, working with the instructor, will formulate the outline of a project. The plan for this project including goals should be written up and presented as a formal proposal due on the date specified in the course schedule. It should be turned in as a Word, LaTex, or PDF file and uploaded into Canvas before 11:59pm on the due day.&lt;/p&gt;
+&lt;h2 id=&#34;milestones&#34;&gt;Milestones&lt;/h2&gt;
+&lt;p&gt;After the project has been proposed and approved, each student will have to &lt;code&gt;present a document and give an oral presentation&lt;/code&gt; for &lt;code&gt;each of three milestones&lt;/code&gt;. The document should be turned in as a Word, LaTeX, or PDF file. This document should be included in a zip file that also contains appropriate code. This zip file should be uploaded into Canvas before 11:59pm on the due date.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Milestone&lt;/th&gt;
+&lt;th&gt;Content&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Dataset collection, preprocessing, and exploratory data analysis&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Models to be implemented and results to be presented&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Expected timeline&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Continued exploratory data analysis with visuals for demo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Feature study and feature extraction&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Model implementation and scoring&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Parameter tuning to obtain optimal model performance&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Final application design with detailed use cases&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Models comparison within the project and with literatures&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Future works&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;final-project-and-paper&#34;&gt;Final Project and Paper&lt;/h2&gt;
+&lt;p&gt;A working version of the source code will be submitted by compressing it in a zip file and uploading that file onto Canvas before 11:59pm on the final project due date. Likewise, a paper of at least 8 pages (2,000 words) describing the purpose of the project, previous work done in the area, implementation details, successes, failures, and potential future work should be submitted. It should be turned in as a Word, LaTex, or PDF file and uploaded into Canvas before 11:59pm on the final project due date.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Course Schedule</title>
+      <link>https://Peilong.github.io/courses/ds400/schedule/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://Peilong.github.io/courses/ds400/schedule/</guid>
+      <description>&lt;p&gt;Note this tentative schedule is subject to change. Please check the schedule regularly.
+Last Updated: 01/17/2023&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Week&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Starting&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Activities&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1/16/23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Literature search,   Finalize topic with instructor&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mon: Start proposal&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1/23/23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Proposal write-up&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1/30/23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Data collection and   preprocessing&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2/6/23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Exploratory data   analysis&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mon: Start Mileston 1, Proposal Due&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2/13/23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Start model design&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2/20/23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Feature extraction&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;7&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2/27/23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Model implementation&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mon: Start Mileston 2, Milestone 1   Due&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3/6/23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Model implementation   and training&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;9&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3/13/23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Parameter tuning&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;10&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3/20/23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Application design   and use cases&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mon: Start Mileston   3, Milestone 2 Due, mid-term demo during the week&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;11&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3/27/23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Model evaluation and   comparison&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;12&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4/3/23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Final touch on the   code&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;13&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4/10/23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Final paper writeup&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mon: Start final   paper, Milestone 3 Due&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;14&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4/17/23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Code cleanup and   packaging&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;15&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4/24/23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Final presentation&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Schedule a   presentation time with instructor during the week&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;16&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;5/1/23&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Revise project with   instructor feedback&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Mon: Paper and   Project Due&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Proposal Requirements</title>
+      <link>https://Peilong.github.io/courses/ds400/proposal/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
+      <guid>https://Peilong.github.io/courses/ds400/proposal/</guid>
+      <description>&lt;h2 id=&#34;specifications&#34;&gt;Specifications&lt;/h2&gt;
+&lt;p&gt;For details, please refer to &lt;a href=&#34;https://Peilong.github.io/files/ds495/ds495_proposal_guide.pdf&#34;&gt;Proposal Requirements&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
