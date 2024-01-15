@@ -1,47 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CS/EGR 222 Systems Programming | Peilong Li</title>
-    <link>https://Peilong.github.io/courses/cs222/</link>
-      <atom:link href="https://Peilong.github.io/courses/cs222/index.xml" rel="self" type="application/rss+xml" />
-    <description>CS/EGR 222 Systems Programming</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <title>CS 364 Network Security | Peilong Li</title>
+    <link>https://Peilong.github.io/courses/cs364/</link>
+      <atom:link href="https://Peilong.github.io/courses/cs364/index.xml" rel="self" type="application/rss+xml" />
+    <description>CS 364 Network Security</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Wed, 11 Jan 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Peilong.github.io/img/icon-192.png</url>
-      <title>CS/EGR 222 Systems Programming</title>
-      <link>https://Peilong.github.io/courses/cs222/</link>
+      <title>CS 364 Network Security</title>
+      <link>https://Peilong.github.io/courses/cs364/</link>
     </image>
     
     <item>
       <title>Course Overview</title>
-      <link>https://Peilong.github.io/courses/cs222/overview/</link>
+      <link>https://Peilong.github.io/courses/cs364/overview/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/cs222/overview/</guid>
+      <guid>https://Peilong.github.io/courses/cs364/overview/</guid>
       <description>&lt;h2 id=&#34;course-coverage&#34;&gt;Course Coverage&lt;/h2&gt;
-&lt;p&gt;This course covers advanced programming and machine representation of data and data structures, including dynamic structures and files. Topics include C language syntax, memory allocation, run-time data organization, function linkage and parameter passing, and the relationship between high-level and machine languages. C is the primary language of instruction with Java being a comparative language. Linux operating system and command line skills will be introduced throughout the course.&lt;/p&gt;
+&lt;p&gt;Network Security is a comprehensive hands-on course designed for IT professionals, network administrators, and anyone interested in enhancing their network security skills. Covering a broad spectrum of topics, from the basics of networking and TCP protocols to advanced topics such as firewall implementation and security, virtual private networks, and DNS attacks and protection, this course equips students with the knowledge and skills required to defend against network threats. Students will complete a project, present it to their peers, and participate in &amp;lsquo;Capture the Flag&amp;rsquo; competitions to test their skills in a practical, hands-on environment.&lt;/p&gt;
 &lt;h2 id=&#34;student-learning-outcomes&#34;&gt;Student Learning Outcomes&lt;/h2&gt;
 &lt;p&gt;By the end of the course, students will be able to:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Apply knowledge of computing and mathematics appropriate to the discipline, including common data structures and basic algorithms, to solve problems&lt;/li&gt;
-&lt;li&gt;Analyze a problem and identify and define the computing requirements appropriate to its solution&lt;/li&gt;
-&lt;li&gt;Design, implement, and evaluate a computer-based system, process, component or program, including operating systems, to meet desired needs&lt;/li&gt;
-&lt;li&gt;Function effectively on teams and use software engineering principles to accomplish a common goal&lt;/li&gt;
-&lt;li&gt;Understand fundamentals of procedural programming with applications in electrical and computer engineering and embedded systems&lt;/li&gt;
-&lt;li&gt;Understand hardware and software elements of data communications and computer networking&lt;/li&gt;
-&lt;li&gt;Compare and contrast the features of the Java and C programming languages&lt;/li&gt;
-&lt;li&gt;Manage memory allocation explicitly&lt;/li&gt;
-&lt;li&gt;Perform low-level file access in programs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Foundational Understanding&lt;/strong&gt;: Grasp networking security fundamentals, including the protocol layers, packet sniffing and spoofing, and the use of tools such as Scapy and Wireshark.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Red and Blue Teaming&lt;/strong&gt;: Identify and simulate network threats in each protocol layer as a Red Team, and develop defense strategies as a Blue Team.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Practical Application&lt;/strong&gt;: Implement high-level security applications, from firewall setups to VPN configurations, to shield networks from vulnerabilities.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Collaborative Learning&lt;/strong&gt;: Present a network security project, applying course knowledge and receiving peer feedback.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Competitive Skill Assessment&lt;/strong&gt;: Participate in &amp;lsquo;Capture the Flag&amp;rsquo; competitions, applying knowledge to identify and defend network vulnerabilities.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Policy Statements</title>
-      <link>https://Peilong.github.io/courses/cs222/policy/</link>
+      <link>https://Peilong.github.io/courses/cs364/policy/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/cs222/policy/</guid>
+      <guid>https://Peilong.github.io/courses/cs364/policy/</guid>
       <description>&lt;h2 id=&#34;course-schedule&#34;&gt;Course Schedule&lt;/h2&gt;
-&lt;p&gt;The most up-to-date course schedule will be posted on course website schedule page: &lt;a href=&#34;https://peilong.github.io/courses/cs222/schedule/&#34;&gt;https://peilong.github.io/courses/cs222/schedule/&lt;/a&gt;. Students are responsible for checking the schedule regularly. Schedule page will include: 1) teaching topics for each meeting; 2) reading assignments for each week and 3) special notes on specific days.&lt;/p&gt;
+&lt;p&gt;The most up-to-date course schedule will be posted on course website schedule page: &lt;a href=&#34;https://peilong.github.io/courses/cs364/schedule/&#34;&gt;https://peilong.github.io/courses/cs364/schedule/&lt;/a&gt;. Students are responsible for checking the schedule regularly. Schedule page will include: 1) teaching topics for each meeting; 2) reading assignments for each week and 3) special notes on specific days.&lt;/p&gt;
 &lt;h2 id=&#34;course-announcements--discussion&#34;&gt;Course Announcements &amp;amp; Discussion&lt;/h2&gt;
 &lt;p&gt;All course announcements will be sent to your E-Town email accounts via Canvas Announcements. You are responsible for signing up for this service and checking your emails regularly.&lt;/p&gt;
 &lt;p&gt;I have created a Microsoft Teams channel (&lt;a href=&#34;https://teams.microsoft.com/l/team/19%3aa8cdd959c2e249a989d401e20fc95524%40thread.tacv2/conversations?groupId=81ffa3c7-aa45-454a-b495-7f43c78e5024&amp;amp;tenantId=1d884f12-a0d7-42f0-8b15-3a91c853bcb5&#34;&gt;link&lt;/a&gt;) to facilitate course related discussion.  Discussions are encouraged to be posted on the &amp;ldquo;QA&amp;rdquo; channel from Teams. Private instant messages can be sent directly to your recipient by search your recipient&amp;rsquo;s name on the &amp;ldquo;search&amp;rdquo; bar.&lt;/p&gt;
@@ -65,19 +61,18 @@
     
     <item>
       <title>Grading Policies</title>
-      <link>https://Peilong.github.io/courses/cs222/grading/</link>
+      <link>https://Peilong.github.io/courses/cs364/grading/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/cs222/grading/</guid>
+      <guid>https://Peilong.github.io/courses/cs364/grading/</guid>
       <description>&lt;h2 id=&#34;grading-weights&#34;&gt;Grading Weights&lt;/h2&gt;
 &lt;p&gt;The final grade for this course depends upon the grades and scores earned on course components weighted as follows:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;4%&lt;/strong&gt; : A number of in-class pop quizzes.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: Bi-daily reading assignments.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;16%&lt;/strong&gt;: 4 individual homework.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: 3 team projects.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: 5 in-class labs.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;20%&lt;/strong&gt;: 2 midterm exams.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: Final exam or project.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;4%&lt;/strong&gt;: X in-class pop quizzes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;16%&lt;/strong&gt;: 4 in-class labs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10%&lt;/strong&gt;: Lecture presentation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20%&lt;/strong&gt;: 4 individual homework&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;30%&lt;/strong&gt;: 2 midterm exams&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20%&lt;/strong&gt;: Final project&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Grades will be computed by rounding numerical percentages to the nearest integer and applying the following table:&lt;/p&gt;
 &lt;table&gt;
@@ -127,27 +122,34 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Note&#34;&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;in-class-labs&#34;&gt;In-class Labs&lt;/h2&gt;
-&lt;p&gt;All labs are to be done individually, in class, with the assistance of the instructor.
-Each assignment will be given near the beginning of a class and must be uploaded to Canvas before the due time. Some of the labs allow for late submission till midnight with late penalty, but no submission is allowed beyond the lab day. To receive full credit, a programming assignment must compile, but partial credit will be awarded based on the understanding of the material demonstrated by the student’s code.&lt;/p&gt;
-&lt;h2 id=&#34;individual-homework-and-team-projects&#34;&gt;Individual Homework and Team Projects&lt;/h2&gt;
-&lt;p&gt;All homework assignments have to be completed individually in this course. Homework assignments are &amp;ldquo;lab-like&amp;rdquo; small programs that need to be completed in a week or two.&lt;/p&gt;
-&lt;p&gt;All projects are team projects in this course. For each project, students must form a team of 2 members. Teams are responsible for dividing their workload and meeting offline for at least 2 times for each project. Documented meeting minutes have to be submitted as part of the deliverable. Students should select their teams by using the Groups tab under People, on the Canvas webpage.&lt;/p&gt;
-&lt;p&gt;Except under extreme circumstances, all members of the team will receive the same grade for each project. One member of each team is designated the leader. The files for each project should be zipped up and uploaded by the team leader using Canvas before the due date. &lt;strong&gt;If the project does not compile, the student will receive a score of 0.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;in-class-labs-in-a-team&#34;&gt;In-class Labs in a Team&lt;/h2&gt;
+&lt;p&gt;All labs are to be done in class, with the assistance of the instructor. Students are encouraged to form a team of two to solve the lab assignments together. Each assignment will be given near the beginning of a class and must be uploaded to Canvas before the due time. Some of the labs allow for late submission till midnight with late penalty, but no submission is allowed beyond the lab day. To receive full credits, a programming assignment must compile, but partial credit will be awarded based on the understanding of the material demonstrated by the student’s code.&lt;/p&gt;
+&lt;h2 id=&#34;individual-homework&#34;&gt;Individual Homework&lt;/h2&gt;
+&lt;p&gt;All homework assignments have to be completed individually in this course. Homework assignments are often more comprehensive tasks that may need additional reading and research. Homework assignments are to be completed in a week or two.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Late Policy&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In general, homework and projects will be graded with the &lt;em&gt;diff&lt;/em&gt; utility. For that reason, it is imperative that project output matches sample output to the character.&lt;/p&gt;
 &lt;p&gt;Late assignment will lose &lt;img src=&#34;https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cfn_phv%20%5Clarge%202%5E%7B%28n-1%29%7D&#34; alt=&#34;equation&#34;&gt; points per day, including weekends and holidays. For example, -1 after 1 day, -2 after 2 days, -4 after 3 days … until 8+ days students will receive 0 score.  &lt;strong&gt;Under no circumstances should any student disclose their code, or copy the code written by other students or from an outside source. Both students will receive 0 score on the disclosed/copied assignment.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;individual-lecture-presentation&#34;&gt;Individual Lecture Presentation&lt;/h2&gt;
+&lt;p&gt;Students are required to read a designated chapter from the textbook and present it as a course lecture. The presentation time is 25-30 minutes and students need to cover all discussed topics from the textbook. The presenters will receive a written evaluation from all their peers and the instructor, and a weighted score (50% from the peers; 50% from the instructor) will be given to the presenters.&lt;/p&gt;
+&lt;h2 id=&#34;final-team-project&#34;&gt;Final Team Project&lt;/h2&gt;
+&lt;p&gt;To work on the final project, students are required to form a team of two. Topics of the final project should be one from the &lt;a href=&#34;https://seedsecuritylabs.org/Labs_20.04/&#34;&gt;SEED labs&lt;/a&gt; in the categories of firewall, VPN and DNS.&lt;/p&gt;
+&lt;p&gt;The grading of the final project consists of four major aspects:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;10%: the project proposal (including the conversation with the instructor a week before due date);&lt;/li&gt;
+&lt;li&gt;20%: project milestone check and demonstration (must have completed at least 1 task);&lt;/li&gt;
+&lt;li&gt;40%: the project demonstration;&lt;/li&gt;
+&lt;li&gt;30%: everything including revised code and the final report are due on the last day of the final exam week.&lt;/li&gt;
+&lt;/ol&gt;
 </description>
     </item>
     
     <item>
       <title>Course Schedule</title>
-      <link>https://Peilong.github.io/courses/cs222/schedule/</link>
+      <link>https://Peilong.github.io/courses/cs364/schedule/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/cs222/schedule/</guid>
+      <guid>https://Peilong.github.io/courses/cs364/schedule/</guid>
       <description>&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
 &lt;p&gt;Note this tentative schedule is subject to change. Please check the schedule regularly.&lt;/p&gt;
-&lt;p&gt;Last updated: 01/18/2023&lt;/p&gt;
+&lt;p&gt;Last updated: 01/18/2024&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -163,147 +165,147 @@ Each assignment will be given near the beginning of a class and must be uploaded
 &lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;1/15/24&lt;/td&gt;
 &lt;td&gt;M: &lt;span style=&#34;color:red&#34;&gt;MLK Day, No Classes&lt;/span&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;Tue: HW1 out&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IS: 1.1-1.4 or CIS 19.1-19.4&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lec1 - Course introduction; Google Cloud intro&lt;/td&gt;
+&lt;td&gt;W: Lec1 - Course introduction and network security&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;Thur: HW1 due&lt;/td&gt;
+&lt;td&gt;Wed: HW1 out&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lec2 - Unix and Linux; Command line interface&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 1-1&lt;/td&gt;
+&lt;td&gt;F: Lec2 -  SEED labs and   Capture-the-flag&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;1/22/24&lt;/td&gt;
-&lt;td&gt;M: Lec3 - C language; Compilation in Linux&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 2-1&lt;/td&gt;
-&lt;td&gt;Mon: Project 1 out&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lec4 - Data Types; Systems programming&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 2-2&lt;/td&gt;
+&lt;td&gt;M: Lec3 - Networking basics part 1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IS: 1.5-1.8 or CIS: 19.5-19.8&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lec5 - printf and scanf; Linux Kernel&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 2-3&lt;/td&gt;
+&lt;td&gt;W: Lec4 - Networking basics part 2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lab0 - Wireshark; Packet Sniffing&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;3&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;1/29/24&lt;/td&gt;
-&lt;td&gt;M: Lec6 - If and switch statements&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 3-1&lt;/td&gt;
-&lt;td&gt;Mon: HW2 out&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: PE1 - Flowchart and debugging&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 3-2&lt;/td&gt;
+&lt;td&gt;M: Lec6 - Sniffing &amp;amp; Spoofing&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IS: 2.1-2.4&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lab1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 3-3&lt;/td&gt;
+&lt;td&gt;W: PE1 - Sniffing &amp;amp; Spoofing&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lab1 - Sniffing &amp;amp; Spoofing&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;2/5/24&lt;/td&gt;
-&lt;td&gt;M: Lec7 - Writing a Makefile&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 4-1&lt;/td&gt;
+&lt;td&gt;M: Lec7 - MAC layer; ARP protocol&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IS: 2.5-2.7&lt;/td&gt;
+&lt;td&gt;Mon: HW1 due; HW2 out&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec8 - ARP cache poisoning attack&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lec8 - While and do-while loops&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 4-2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
+&lt;td&gt;F: Lec9 - MITM attack&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lec9 - For loops&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 4-3&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;2/12/24&lt;/td&gt;
-&lt;td&gt;M: PE2 - Conditionals and loops&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 5-1&lt;/td&gt;
-&lt;td&gt;Mon: HW2 due&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lab2&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 5-2&lt;/td&gt;
+&lt;td&gt;M: PE2 - ARP&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IS: 3.1-3.3&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lec10 - Functions&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 5-3&lt;/td&gt;
+&lt;td&gt;W: Lab2 - ARP&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec10 - Network layer; IP protocol&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;6&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;2/19/24&lt;/td&gt;
-&lt;td&gt;M: Lec11 - Function exercises&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 6-1&lt;/td&gt;
-&lt;td&gt;Mon: Project 1 due&lt;/td&gt;
+&lt;td&gt;M: Lec11 - Attacks using IP   fragmentation&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IS: 3.4-3.7&lt;/td&gt;
+&lt;td&gt;Mon: HW 2 due; HW3 out&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lec12 - Module 1 summary &amp;amp; exam 1 preview&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 6-2&lt;/td&gt;
+&lt;td&gt;W: Lec12 - Routing and spoofing prevention&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: &lt;span style=&#34;color:blue&#34;&gt;Exam 1&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec13 - ICMP protocol&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;7&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;2/26/24&lt;/td&gt;
-&lt;td&gt;M: Lec13 - Cloud computing and containerization&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 7-1&lt;/td&gt;
-&lt;td&gt;Mon: Project 2 out&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lec14 - Docker exercises&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 7-2&lt;/td&gt;
+&lt;td&gt;M: Lec14 - Exam 1 Preview&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IS: 5.1-5.4&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lec15 - Pointers and pointer arguments&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 7-3&lt;/td&gt;
+&lt;td&gt;W: &lt;span style=&#34;color:blue&#34;&gt;Exam 1 group 1&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: &lt;span style=&#34;color:blue&#34;&gt;Exam 1 group 2&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -330,57 +332,57 @@ Each assignment will be given near the beginning of a class and must be uploaded
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;9&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;3/11/24&lt;/td&gt;
-&lt;td&gt;M: PE3 - Functions and pointers&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 9-1&lt;/td&gt;
-&lt;td&gt;Mon: HW 3 out&lt;/td&gt;
+&lt;td&gt;M: Lec15 - CTF prep&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IS: 6.1-6.3 or CIS: 20.1-20.3&lt;/td&gt;
+&lt;td&gt;Mon: HW 3 duu; HW 4 out&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lab3&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 9-2&lt;/td&gt;
+&lt;td&gt;W: Lec16 - Transport layer; TCP protocol&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lec16 - C arrays&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 9-3&lt;/td&gt;
+&lt;td&gt;F: Lec17 - SYN flooding attack&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;10&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;3/18/24&lt;/td&gt;
-&lt;td&gt;M: Lec17 - 2D arrays; arrays with   functions&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 10-1&lt;/td&gt;
+&lt;td&gt;M: Lec18 - TCP reset attack&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IS: 6.4-6.7 or CISS: 20.4-20.7&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lec18 - Character arrays and strings&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 10-2&lt;/td&gt;
+&lt;td&gt;W: Lec19 - TCP session hijacking&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lec19 - Structures&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 10-3&lt;/td&gt;
+&lt;td&gt;F: Lec20 - reverse shell&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;11&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;3/25/24&lt;/td&gt;
-&lt;td&gt;M: Lec20 - Nested structures&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 11-1&lt;/td&gt;
-&lt;td&gt;Mon: HW 3 due&lt;/td&gt;
+&lt;td&gt;M: PE3 - TCP&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Presentation related&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: PE4 - Structures&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 11-2&lt;/td&gt;
+&lt;td&gt;W: Lab3 - TCP&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
@@ -393,128 +395,128 @@ Each assignment will be given near the beginning of a class and must be uploaded
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;12&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;4/1/24&lt;/td&gt;
-&lt;td&gt;M: Lab4&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 12-1&lt;/td&gt;
-&lt;td&gt;Mon: Project 2 due&lt;/td&gt;
+&lt;td&gt;M: Lec21 - Exam 2 Preview&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Presentation related&lt;/td&gt;
+&lt;td&gt;Mon: HW4 due&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lec21 - Module 2 summary &amp;amp; exam 2 preview&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 12-2&lt;/td&gt;
+&lt;td&gt;W: &lt;span style=&#34;color:blue&#34;&gt;Exam 2 group 1&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: &lt;span style=&#34;color:blue&#34;&gt;Exam 2&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;F: &lt;span style=&#34;color:blue&#34;&gt;Exam 2 group 2&lt;/span&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;13&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;4/8/24&lt;/td&gt;
-&lt;td&gt;F: Lec22 - Dynamic Memory Allocation   (DMA)&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 13-1&lt;/td&gt;
-&lt;td&gt;Mon: Project 3 out&lt;/td&gt;
+&lt;td&gt;F: Lec22 - Firewall Part 1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IS: 7.1-7.3 or CIS: 21.1-21.3&lt;/td&gt;
+&lt;td&gt;Mon: Lecture presentation due&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;M: Lec23: DMA examples&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 13-2&lt;/td&gt;
+&lt;td&gt;M: Lec23 - Firewall Part 2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IS: 7.4-7.7 or CIS: 21.4-21.7&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lec24: Linked list part 1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 13-3&lt;/td&gt;
+&lt;td&gt;W: Lec24 - VPN Part 1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IS: 8.1-8.5 or CIS: 22.1-22.5&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;14&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;4/15/24&lt;/td&gt;
-&lt;td&gt;M: Lec25: Linked list part 2; PE5   start&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 14-1&lt;/td&gt;
-&lt;td&gt;Mon: HW 4 out&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: PE5 - DMA&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 14-2&lt;/td&gt;
+&lt;td&gt;M: Lec25 - VPN Part 2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IS: 8.6-8.9 or CIS: 22.6-22.9&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lab5&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 14-3&lt;/td&gt;
+&lt;td&gt;W: Lec 26 - Tunneling&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IS: 9&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec 27 - DNS part 1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IS: 10.1-10.3 or CIS: 23.1-23.3&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;15&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;4/22/24&lt;/td&gt;
-&lt;td&gt;M: Lec26 - File I/O&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 15-1&lt;/td&gt;
+&lt;td&gt;M: Lec28 - DNS part 2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IS: 10.4-10.7 or CIS: 23.4-23.7&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lec27 - Character and line I/O&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 15-2&lt;/td&gt;
+&lt;td&gt;W: Lec29 - DNS part 3&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;IS: 10.8-10.11 or CIS: 10.8-23.11&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lec28 - Bitwise operation&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;Week 15-3&lt;/td&gt;
+&lt;td&gt;F: Final project group 1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;16&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;4/29/23&lt;/td&gt;
-&lt;td&gt;M: Lec29 - Course review and final exam preview&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;Mon: HW 4 due&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Final exam Q&amp;amp;A&lt;/td&gt;
+&lt;td&gt;M: Final project group 2&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: No class&lt;/td&gt;
+&lt;td&gt;W: Final project group 3&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: &lt;span style=&#34;color:red&#34;&gt;No Class&lt;/span&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;17&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;5/6/23&lt;/td&gt;
-&lt;td&gt;M: No class&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;Mon: Project 3 due&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;&lt;span style=&#34;color:blue&#34;&gt;Tue 5/7: Final exam 7:30 - 10:30 AM&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;M: &lt;span style=&#34;color:blue&#34;&gt;2:30-5:30 Final project group 4&lt;/span&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Enjoy your summer break!&lt;/td&gt;
+&lt;td&gt;W: Work on your final report&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Work on youor final report&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;Fri: Final report due&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -523,19 +525,16 @@ Each assignment will be given near the beginning of a class and must be uploaded
     
     <item>
       <title>Software</title>
-      <link>https://Peilong.github.io/courses/cs222/software/</link>
+      <link>https://Peilong.github.io/courses/cs364/software/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/cs222/software/</guid>
-      <description>&lt;h2 id=&#34;google-cloud-platform&#34;&gt;Google Cloud Platform&lt;/h2&gt;
-&lt;p&gt;Google Cloud Platform (GCP) is the main development environment we will be using in this course. Refer to the guide on Canvas for setup. &lt;a href=&#34;https://etown.instructure.com/courses/16713/files/3017034?module_item_id=793891&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Once the setup is ready, you will have:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A virtual machine running with Ubuntu 20.04 LTS&lt;/li&gt;
-&lt;li&gt;A lightweight desktop GUI that allows for remote desktop connection&lt;/li&gt;
-&lt;li&gt;GNU C development toolset: GCC compiler, GDB debugger, make utility, etc.&lt;/li&gt;
-&lt;li&gt;Docker engine.&lt;/li&gt;
-&lt;li&gt;Visual Studio Code IDE, and other desktop applications.&lt;/li&gt;
-&lt;/ul&gt;
+      <guid>https://Peilong.github.io/courses/cs364/software/</guid>
+      <description>&lt;p&gt;A laptop with at least 4GB of RAM and 20 GB of disk space is required for this course.&lt;/p&gt;
+&lt;h2 id=&#34;all-seed-labs&#34;&gt;All SEED Labs:&lt;/h2&gt;
+&lt;p&gt;Access all SEED labs from: &lt;a href=&#34;https://seedsecuritylabs.org/Labs_20.04/&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;option-1-recommended-setup-seed-vm-on-google-cloud-platform&#34;&gt;Option 1 (Recommended): Setup SEED VM on Google Cloud Platform:&lt;/h2&gt;
+&lt;p&gt;A GCP setup guide can be found on Canvas.&lt;/p&gt;
+&lt;h2 id=&#34;option-2-setup-seed-vm-on-virtualbox&#34;&gt;Option 2: Setup SEED VM on Virtualbox:&lt;/h2&gt;
+&lt;p&gt;Install SEED VM lab environment on your own laptop: &lt;a href=&#34;https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md&#34;&gt;tutorial&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
