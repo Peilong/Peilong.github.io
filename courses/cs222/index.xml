@@ -18,7 +18,7 @@
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://Peilong.github.io/courses/cs222/overview/</guid>
       <description>&lt;h2 id=&#34;course-coverage&#34;&gt;Course Coverage&lt;/h2&gt;
-&lt;p&gt;This course covers advanced programming and machine representation of data and data structures, including dynamic structures and files. Topics include C language syntax, memory allocation, run-time data organization, function linkage and parameter passing, and the relationship between high-level and machine languages. C is the primary language of instruction with Java being a comparative language. Linux operating system and command line skills will be introduced throughout the course.&lt;/p&gt;
+&lt;p&gt;This course provides an in-depth exploration of advanced programming, emphasizing system programming, machine representation of data, dynamic structures, and files. It covers C language syntax, memory allocation, run-time data organization, function linkage, parameter passing, and the interplay between high-level and machine languages. The curriculum also introduces Linux OS and command-line skills, and integrates concepts of Virtual Machines, Cloud Computing, and Container technologies, reflecting current trends in the system programming landscape.&lt;/p&gt;
 &lt;h2 id=&#34;student-learning-outcomes&#34;&gt;Student Learning Outcomes&lt;/h2&gt;
 &lt;p&gt;By the end of the course, students will be able to:&lt;/p&gt;
 &lt;ul&gt;
