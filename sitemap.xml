@@ -18,17 +18,17 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/cs122/overview/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/courses/cs222/overview/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://Peilong.github.io/courses/cs363/overview/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/courses/cs364/overview/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
@@ -53,18 +53,23 @@
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/ds400/overview/</loc>
+    <loc>https://Peilong.github.io/courses/ds420/overview/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/ds420/overview/</loc>
+    <loc>https://Peilong.github.io/courses/ds495/overview/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://Peilong.github.io/courses/cs121/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/cs122/</loc>
+    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -78,17 +83,17 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/cs122/policy/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/courses/cs222/policy/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://Peilong.github.io/courses/cs363/policy/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/courses/cs364/policy/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
@@ -113,12 +118,12 @@
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/ds400/policy/</loc>
+    <loc>https://Peilong.github.io/courses/ds420/policy/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/ds420/policy/</loc>
+    <loc>https://Peilong.github.io/courses/ds495/policy/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
@@ -138,17 +143,17 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/cs122/grading/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/courses/cs222/grading/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://Peilong.github.io/courses/cs363/grading/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/courses/cs364/grading/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
@@ -173,12 +178,12 @@
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/ds400/grading/</loc>
+    <loc>https://Peilong.github.io/courses/ds420/grading/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/ds420/grading/</loc>
+    <loc>https://Peilong.github.io/courses/ds495/grading/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
@@ -188,8 +193,8 @@
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/cs364/</loc>
-    <lastmod>2023-01-11T00:00:00+00:00</lastmod>
+    <loc>https://Peilong.github.io/courses/ds200/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -218,8 +223,13 @@
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/ds400/schedule/</loc>
+    <loc>https://Peilong.github.io/courses/ds495/schedule/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/ds300/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -238,12 +248,17 @@
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/ds400/proposal/</loc>
+    <loc>https://Peilong.github.io/courses/ds495/proposal/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://Peilong.github.io/courses/cs113/schedule/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/cs122/schedule/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
@@ -254,11 +269,6 @@
   
   <url>
     <loc>https://Peilong.github.io/courses/cs363/schedule/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/courses/cs364/schedule/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
@@ -278,7 +288,7 @@
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/ds200/</loc>
+    <loc>https://Peilong.github.io/courses/ds420/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -293,17 +303,17 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/cs122/software/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/courses/cs222/software/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://Peilong.github.io/courses/cs363/software/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/courses/cs364/software/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
@@ -323,7 +333,7 @@
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/ds300/</loc>
+    <loc>https://Peilong.github.io/courses/ds495/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -333,78 +343,18 @@
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/ds420/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://Peilong.github.io/courses/cs495/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/ds400/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://Peilong.github.io/courses/</loc>
-    <lastmod>2023-01-11T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://Peilong.github.io/</loc>
-    <lastmod>2023-01-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/publication_types/1/</loc>
-    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/publication/2021-icc/</loc>
-    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/publication_types/</loc>
-    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/publication/</loc>
-    <lastmod>2021-06-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/publication/2020-nsyss/</loc>
-    <lastmod>2020-12-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/publication/2020-ica3pp/</loc>
-    <lastmod>2020-10-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/publication/2020-icc-aceta/</loc>
-    <lastmod>2020-06-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/publication/2020-arxiv-netml/</loc>
-    <lastmod>2020-04-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/publication/2019-icpads-medical/</loc>
-    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/publication/2019-nana-ripple/</loc>
-    <lastmod>2019-10-10T00:00:00+00:00</lastmod>
+    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -418,8 +368,23 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/publication_types/</loc>
+    <lastmod>2019-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/publication/</loc>
+    <lastmod>2019-09-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/publication/2019-ieee-review/</loc>
     <lastmod>2019-05-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/publication_types/1/</loc>
+    <lastmod>2019-03-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CS/EGR 222 Systems Programming | Peilong Li</title>
-    <link>https://Peilong.github.io/courses/cs222/</link>
-      <atom:link href="https://Peilong.github.io/courses/cs222/index.xml" rel="self" type="application/rss+xml" />
-    <description>CS/EGR 222 Systems Programming</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <title>CS 122 Computer Science II | Peilong Li</title>
+    <link>https://Peilong.github.io/courses/cs122/</link>
+      <atom:link href="https://Peilong.github.io/courses/cs122/index.xml" rel="self" type="application/rss+xml" />
+    <description>CS 122 Computer Science II</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Sun, 11 Aug 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Peilong.github.io/img/icon-192.png</url>
-      <title>CS/EGR 222 Systems Programming</title>
-      <link>https://Peilong.github.io/courses/cs222/</link>
+      <title>CS 122 Computer Science II</title>
+      <link>https://Peilong.github.io/courses/cs122/</link>
     </image>
     
     <item>
       <title>Course Overview</title>
-      <link>https://Peilong.github.io/courses/cs222/overview/</link>
+      <link>https://Peilong.github.io/courses/cs122/overview/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/cs222/overview/</guid>
+      <guid>https://Peilong.github.io/courses/cs122/overview/</guid>
       <description>&lt;h2 id=&#34;course-coverage&#34;&gt;Course Coverage&lt;/h2&gt;
 &lt;p&gt;This course covers advanced programming and machine representation of data and data structures, including dynamic structures and files. Topics include C language syntax, memory allocation, run-time data organization, function linkage and parameter passing, and the relationship between high-level and machine languages. C is the primary language of instruction with Java being a comparative language. Linux operating system and command line skills will be introduced throughout the course.&lt;/p&gt;
 &lt;h2 id=&#34;student-learning-outcomes&#34;&gt;Student Learning Outcomes&lt;/h2&gt;
@@ -37,9 +37,9 @@
     
     <item>
       <title>Policy Statements</title>
-      <link>https://Peilong.github.io/courses/cs222/policy/</link>
+      <link>https://Peilong.github.io/courses/cs122/policy/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/cs222/policy/</guid>
+      <guid>https://Peilong.github.io/courses/cs122/policy/</guid>
       <description>&lt;h2 id=&#34;covid-related-expectations&#34;&gt;COVID-related Expectations&lt;/h2&gt;
 &lt;p&gt;I recognize that students may need to miss classes due to personal health reasons or for community measures necessary to promote public health. I have already prepared to substitute a reasonable educational experience aligned with that day’s learning objectives for students who miss class due to illness or quarantine.&lt;/p&gt;
 &lt;ul&gt;
@@ -71,9 +71,9 @@
     
     <item>
       <title>Grading Policies</title>
-      <link>https://Peilong.github.io/courses/cs222/grading/</link>
+      <link>https://Peilong.github.io/courses/cs122/grading/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/cs222/grading/</guid>
+      <guid>https://Peilong.github.io/courses/cs122/grading/</guid>
       <description>&lt;h2 id=&#34;grading-weights&#34;&gt;Grading Weights&lt;/h2&gt;
 &lt;p&gt;The final grade for this course depends upon the grades and scores earned on course components weighted as follows:&lt;/p&gt;
 &lt;ul&gt;
@@ -147,9 +147,9 @@ Each assignment will be given near the beginning of a class and must be uploaded
     
     <item>
       <title>Course Schedule</title>
-      <link>https://Peilong.github.io/courses/cs222/schedule/</link>
+      <link>https://Peilong.github.io/courses/cs122/schedule/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/cs222/schedule/</guid>
+      <guid>https://Peilong.github.io/courses/cs122/schedule/</guid>
       <description>&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
 &lt;p&gt;Note this tentative schedule is subject to change. Please check the schedule regularly.&lt;/p&gt;
 &lt;p&gt;Last updated: 04/09/2022&lt;/p&gt;
@@ -610,9 +610,9 @@ Each assignment will be given near the beginning of a class and must be uploaded
     
     <item>
       <title>Software</title>
-      <link>https://Peilong.github.io/courses/cs222/software/</link>
+      <link>https://Peilong.github.io/courses/cs122/software/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/cs222/software/</guid>
+      <guid>https://Peilong.github.io/courses/cs122/software/</guid>
       <description>&lt;p&gt;You need an Integrated Development Environment (IDE) that contains a GCC compiler, and a machine that supports Linux command line in this course.&lt;/p&gt;
 &lt;p&gt;There are many IDEs you can choose, e.g., Eclipse, Code::Blocks, Visual Studio, and CLion, etc, but for the purpose of in-class demonstration, I will stick with Visual Studio Code.&lt;/p&gt;
 &lt;h2 id=&#34;visual-studio-code&#34;&gt;Visual Studio Code&lt;/h2&gt;

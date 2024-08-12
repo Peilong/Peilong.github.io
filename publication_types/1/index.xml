@@ -5,68 +5,12 @@
     <link>https://Peilong.github.io/publication_types/1/</link>
       <atom:link href="https://Peilong.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Wed, 27 Mar 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Peilong.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://Peilong.github.io/publication_types/1/</link>
     </image>
-    
-    <item>
-      <title>Multi-Task Hierarchical Learning Based Network Traffic Analytics</title>
-      <link>https://Peilong.github.io/publication/2021-icc/</link>
-      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/2021-icc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine learning based malware detection on encrypted traffic: A comprehensive performance study</title>
-      <link>https://Peilong.github.io/publication/2020-nsyss/</link>
-      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/2020-nsyss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blockchain-based secure and privacy-preserving clinical data sharing and integration</title>
-      <link>https://Peilong.github.io/publication/2020-ica3pp/</link>
-      <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/2020-ica3pp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ACETA: Accelerating Encrypted Traffic Analytics on Network Edge</title>
-      <link>https://Peilong.github.io/publication/2020-icc-aceta/</link>
-      <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/2020-icc-aceta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Netml: A challenge for network traffic analytics</title>
-      <link>https://Peilong.github.io/publication/2020-arxiv-netml/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/2020-arxiv-netml/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Toward Secure, Privacy-Preserving, and Interoperable Medical Data Sharing via Blockchain</title>
-      <link>https://Peilong.github.io/publication/2019-icpads-medical/</link>
-      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/2019-icpads-medical/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ripple: An Efficient Runtime Reconfigurable P4 Data Plane for Multicore Systems</title>
-      <link>https://Peilong.github.io/publication/2019-nana-ripple/</link>
-      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/2019-nana-ripple/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>A Blockchain Future for Secure Clinical Data Sharing: A Position Paper</title>
