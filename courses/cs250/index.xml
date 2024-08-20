@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CS 250 Foundations of AI and Data Science | Peilong Li</title>
-    <link>https://Peilong.github.io/courses/ds200/</link>
-      <atom:link href="https://Peilong.github.io/courses/ds200/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://Peilong.github.io/courses/cs250/</link>
+      <atom:link href="https://Peilong.github.io/courses/cs250/index.xml" rel="self" type="application/rss+xml" />
     <description>CS 250 Foundations of AI and Data Science</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Peilong.github.io/img/icon-192.png</url>
       <title>CS 250 Foundations of AI and Data Science</title>
-      <link>https://Peilong.github.io/courses/ds200/</link>
+      <link>https://Peilong.github.io/courses/cs250/</link>
     </image>
     
     <item>
       <title>Course Overview</title>
-      <link>https://Peilong.github.io/courses/ds200/overview/</link>
+      <link>https://Peilong.github.io/courses/cs250/overview/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/ds200/overview/</guid>
+      <guid>https://Peilong.github.io/courses/cs250/overview/</guid>
       <description>&lt;h2 id=&#34;course-coverage&#34;&gt;Course Coverage&lt;/h2&gt;
 &lt;p&gt;This project-based hands-on course introduces students to data science in general. Data science is an interdisciplinary field that applies computer science and statistics to extract useful knowledge from data collected in an almost unlimited range of other disciplines, including business, biology, physics, medicine, meteorology, and many others. In this course, students will apply the popular Python data science toolset to implement analytical models with k-nearest neighbors, regression, decision trees, and clustering, etc., and infer knowledge from real-world data.&lt;/p&gt;
 &lt;h2 id=&#34;student-learning-outcomes&#34;&gt;Student Learning Outcomes&lt;/h2&gt;
@@ -32,9 +32,9 @@
     
     <item>
       <title>Policy Statements</title>
-      <link>https://Peilong.github.io/courses/ds200/policy/</link>
+      <link>https://Peilong.github.io/courses/cs250/policy/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/ds200/policy/</guid>
+      <guid>https://Peilong.github.io/courses/cs250/policy/</guid>
       <description>&lt;h2 id=&#34;covid-related-expectations&#34;&gt;COVID-related Expectations&lt;/h2&gt;
 &lt;p&gt;I recognize that students may need to miss classes due to personal health reasons or for community measures necessary to promote public health. I have already prepared to substitute a reasonable educational experience aligned with that day’s learning objectives for students who miss class due to illness or quarantine.&lt;/p&gt;
 &lt;ul&gt;
@@ -66,9 +66,9 @@
     
     <item>
       <title>Grading Policies</title>
-      <link>https://Peilong.github.io/courses/ds200/grading/</link>
+      <link>https://Peilong.github.io/courses/cs250/grading/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/ds200/grading/</guid>
+      <guid>https://Peilong.github.io/courses/cs250/grading/</guid>
       <description>&lt;h2 id=&#34;grading-weights&#34;&gt;Grading Weights&lt;/h2&gt;
 &lt;p&gt;The final grade for this course depends upon the grades and scores earned on course components weighted as follows:&lt;/p&gt;
 &lt;ul&gt;
@@ -154,9 +154,9 @@ Each assignment will be given near the beginning of a class and must be uploaded
     
     <item>
       <title>Grading Rubrics</title>
-      <link>https://Peilong.github.io/courses/ds200/rubrics/</link>
+      <link>https://Peilong.github.io/courses/cs250/rubrics/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/ds200/rubrics/</guid>
+      <guid>https://Peilong.github.io/courses/cs250/rubrics/</guid>
       <description>&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
 &lt;p&gt;Grading rubrics for code submission in terms of percentage:&lt;/p&gt;
 &lt;h3 id=&#34;100&#34;&gt;100%:&lt;/h3&gt;
@@ -221,9 +221,9 @@ Points will be deducted from 100% for the following reasons:&lt;/p&gt;
     
     <item>
       <title>Course Schedule</title>
-      <link>https://Peilong.github.io/courses/ds200/schedule/</link>
+      <link>https://Peilong.github.io/courses/cs250/schedule/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/ds200/schedule/</guid>
+      <guid>https://Peilong.github.io/courses/cs250/schedule/</guid>
       <description>&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
 &lt;p&gt;Note this tentative schedule is subject to change. Please check the schedule regularly.&lt;/p&gt;
 &lt;p&gt;Last updated: 04/09/2022&lt;/p&gt;
@@ -684,9 +684,9 @@ Points will be deducted from 100% for the following reasons:&lt;/p&gt;
     
     <item>
       <title>Software</title>
-      <link>https://Peilong.github.io/courses/ds200/software/</link>
+      <link>https://Peilong.github.io/courses/cs250/software/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/ds200/software/</guid>
+      <guid>https://Peilong.github.io/courses/cs250/software/</guid>
       <description>&lt;h2 id=&#34;anaconda-individual-edition&#34;&gt;Anaconda Individual Edition&lt;/h2&gt;
 &lt;p&gt;In this course the only software you will need to install and play with is the Anaconda Individual Edition. It is a popular data science platform that consists of almost all the packages you will ever need in Python and R. Find the download link for your system from here: &lt;a href=&#34;https://www.anaconda.com/products/individual&#34;&gt;https://www.anaconda.com/products/individual&lt;/a&gt;. You must download the Python 3.x version.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;

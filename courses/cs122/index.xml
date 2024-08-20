@@ -43,7 +43,7 @@
       <description>&lt;h2 id=&#34;course-schedule&#34;&gt;Course Schedule&lt;/h2&gt;
 &lt;p&gt;The most up-to-date course schedule will be posted on course website schedule page: &lt;a href=&#34;https://peilong.github.io/courses/cs122/schedule/&#34;&gt;https://peilong.github.io/courses/cs122/schedule/&lt;/a&gt;. Students are responsible for checking the schedule regularly. Schedule page will include: 1) teaching topics for each meeting; 2) reading assignments for each week and 3) special notes on specific days.&lt;/p&gt;
 &lt;h2 id=&#34;course-announcements--discussion&#34;&gt;Course Announcements &amp;amp; Discussion&lt;/h2&gt;
-&lt;p&gt;All course announcements will be sent to your E-Town email accounts via Canvas Announcements. You are responsible for signing up for this service and checking your emails regularly.&lt;/p&gt;
+&lt;p&gt;All course announcements will be sent to your Etown email accounts via Canvas Announcements. You are responsible for signing up for this service and checking your emails regularly.&lt;/p&gt;
 &lt;p&gt;I have created a Microsoft Teams channel (&lt;a href=&#34;https://teams.microsoft.com/l/team/19%3aa8cdd959c2e249a989d401e20fc95524%40thread.tacv2/conversations?groupId=81ffa3c7-aa45-454a-b495-7f43c78e5024&amp;amp;tenantId=1d884f12-a0d7-42f0-8b15-3a91c853bcb5&#34;&gt;link&lt;/a&gt;) to facilitate course related discussion.  Discussions are encouraged to be posted on the &amp;ldquo;QA&amp;rdquo; channel from Teams. Private instant messages can be sent directly to your recipient by search your recipient&amp;rsquo;s name on the &amp;ldquo;search&amp;rdquo; bar.&lt;/p&gt;
 &lt;h2 id=&#34;attendance-policies&#34;&gt;Attendance Policies&lt;/h2&gt;
 &lt;p&gt;Attendance is expected of every student at every lecture. Students are responsible for all content covered in class as well as assigned book chapters. Due to their nature, pop quizzes cannot be made up.&lt;/p&gt;
@@ -69,12 +69,14 @@
       <description>&lt;h2 id=&#34;grading-weights&#34;&gt;Grading Weights&lt;/h2&gt;
 &lt;p&gt;The final grade for this course depends upon the grades and scores earned on course components weighted as follows:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;6%&lt;/strong&gt; : A number of in-class pop quizzes.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: 5 individual homework.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;24%&lt;/strong&gt;: 3 team projects.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: 5 in-class labs.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;25%&lt;/strong&gt;: 2 midterm exams.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: Final exam.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;8%&lt;/strong&gt; : A number of in-class pop quizzes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt; : Bi-daily reading assignments.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;12%&lt;/strong&gt;: 4 individual homework.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: 3 team projects.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;12%&lt;/strong&gt;: 4 in-class labs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;16%&lt;/strong&gt;: 2 midterm exams.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10%&lt;/strong&gt;: 2 lab tests.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: Final exam or project.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Grades will be computed by rounding numerical percentages to the nearest integer and applying the following table:&lt;/p&gt;
 &lt;table&gt;
@@ -132,7 +134,7 @@ Each assignment will be given near the beginning of a class and must be uploaded
 &lt;p&gt;All projects are team projects in this course. For each project, students must form a team of 2 members. Teams are responsible for dividing their workload and meeting offline for at least 2 times for each project. Documented meeting minutes have to be submitted as part of the deliverable. Students should select their teams by using the Groups tab under People, on the Canvas webpage.&lt;/p&gt;
 &lt;p&gt;Except under extreme circumstances, all members of the team will receive the same grade for each project. One member of each team is designated the leader. The files for each project should be zipped up and uploaded by the team leader using Canvas before the due date. &lt;strong&gt;If the project does not compile, the student will receive a score of 0.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Late Policy&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In general, homework and projects will be graded with the &lt;em&gt;diff&lt;/em&gt; utility. For that reason, it is imperative that project output matches sample output to the character.&lt;/p&gt;
+&lt;p&gt;In general, homework and projects will be graded by the autograder. For that reason, it is imperative that project output matches sample output to the character.&lt;/p&gt;
 &lt;p&gt;Late assignment will lose &lt;img src=&#34;https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cfn_phv%20%5Clarge%202%5E%7B%28n-1%29%7D&#34; alt=&#34;equation&#34;&gt; points per day, including weekends and holidays. For example, -1 after 1 day, -2 after 2 days, -4 after 3 days … until 8+ days students will receive 0 score.  &lt;strong&gt;Under no circumstances should any student disclose their code, or copy the code written by other students or from an outside source. Both students will receive 0 score on the disclosed/copied assignment.&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
