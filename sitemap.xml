@@ -33,6 +33,11 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/cs350/overview/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/courses/cs363/overview/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
@@ -44,11 +49,6 @@
   
   <url>
     <loc>https://Peilong.github.io/courses/cs495/overview/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/courses/ds300/overview/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
@@ -98,6 +98,11 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/cs350/policy/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/courses/cs363/policy/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
@@ -109,11 +114,6 @@
   
   <url>
     <loc>https://Peilong.github.io/courses/cs495/policy/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/courses/ds300/policy/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
@@ -158,6 +158,11 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/cs350/grading/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/courses/cs363/grading/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
@@ -169,11 +174,6 @@
   
   <url>
     <loc>https://Peilong.github.io/courses/cs495/grading/</loc>
-    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/courses/ds300/grading/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
@@ -203,7 +203,7 @@
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/ds300/rubrics/</loc>
+    <loc>https://Peilong.github.io/courses/cs350/rubrics/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
@@ -228,7 +228,7 @@
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/ds300/</loc>
+    <loc>https://Peilong.github.io/courses/cs350/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -273,12 +273,12 @@
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/cs363/schedule/</loc>
+    <loc>https://Peilong.github.io/courses/cs350/schedule/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/ds300/schedule/</loc>
+    <loc>https://Peilong.github.io/courses/cs363/schedule/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
@@ -318,12 +318,12 @@
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/cs363/software/</loc>
+    <loc>https://Peilong.github.io/courses/cs350/software/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/ds300/software/</loc>
+    <loc>https://Peilong.github.io/courses/cs363/software/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
