@@ -22,11 +22,12 @@
 &lt;h2 id=&#34;student-learning-outcomes&#34;&gt;Student Learning Outcomes&lt;/h2&gt;
 &lt;p&gt;By the end of the course, the successful students will be able to:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;(Concept Building) Understand the background, uniqueness and application scopes of data mining,&lt;/li&gt;
-&lt;li&gt;(Data Sourcing) Be able to extract and integrate raw data from various data sources and store the data in proper data formats,&lt;/li&gt;
-&lt;li&gt;(Data Pipeline) Proficiently use the Python data science tool set including NumPy, Pandas, Scikit-learn, Seaborn and Tensorflow etc. to implement computing components within the data pipeline,&lt;/li&gt;
-&lt;li&gt;(Data Mining) Apply data analytical models including classification, clustering and neural networks to discover patterns from large data sets,&lt;/li&gt;
-&lt;li&gt;(Knowledge Transferring) Interpret the results from models to obtain knowledge, and transfer the knowledge to the right audience.&lt;/li&gt;
+&lt;li&gt;(Foundations) Understand the background, uniqueness, and application scope of data mining.&lt;/li&gt;
+&lt;li&gt;(Mathematics) Grasp the mathematical foundations underlying data mining models, enhancing your ability to understand and apply these models effectively.&lt;/li&gt;
+&lt;li&gt;(Data Acquisition) Extract and integrate raw data from various sources and store it in appropriate formats.&lt;/li&gt;
+&lt;li&gt;(Tool Proficiency) Use the Python data science toolkit, including NumPy, Pandas, Scikit-learn, Seaborn, TensorFlow, etc., to build components within the data pipeline.&lt;/li&gt;
+&lt;li&gt;(Modeling) Apply data analytical models such as classification, clustering, and neural networks to uncover patterns in large datasets.&lt;/li&gt;
+&lt;li&gt;(Knowledge Communication) Interpret model results to derive knowledge and effectively communicate it to the appropriate audience.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -37,7 +38,7 @@
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://Peilong.github.io/courses/cs350/policy/</guid>
       <description>&lt;h2 id=&#34;course-schedule&#34;&gt;Course Schedule&lt;/h2&gt;
-&lt;p&gt;The most up-to-date course schedule will be posted on course website schedule page: &lt;a href=&#34;https://peilong.github.io/courses/ds300/schedule/&#34;&gt;https://peilong.github.io/courses/ds300/schedule/&lt;/a&gt;. Students are responsible for checking the schedule regularly. Schedule page will include: 1) teaching topics for each meeting; 2) reading assignments for each week and 3) special notes on specific days.&lt;/p&gt;
+&lt;p&gt;The most up-to-date course schedule will be posted on course website schedule page: &lt;a href=&#34;https://peilong.github.io/courses/cs350/schedule/&#34;&gt;https://peilong.github.io/courses/cs350/schedule/&lt;/a&gt;. Students are responsible for checking the schedule regularly. Schedule page will include: 1) teaching topics for each meeting; 2) reading assignments for each week and 3) special notes on specific days.&lt;/p&gt;
 &lt;h2 id=&#34;course-announcements--discussion&#34;&gt;Course Announcements &amp;amp; Discussion&lt;/h2&gt;
 &lt;p&gt;All course announcements will be sent to your E-Town email accounts via Canvas Announcements. You are responsible for signing up for this service and checking your emails regularly.&lt;/p&gt;
 &lt;p&gt;I have created a Microsoft Teams channel (&lt;a href=&#34;https://teams.microsoft.com/l/team/19%3aa8cdd959c2e249a989d401e20fc95524%40thread.tacv2/conversations?groupId=81ffa3c7-aa45-454a-b495-7f43c78e5024&amp;amp;tenantId=1d884f12-a0d7-42f0-8b15-3a91c853bcb5&#34;&gt;link&lt;/a&gt;) to facilitate course related discussion.  Discussions are encouraged to be posted on the &amp;ldquo;QA&amp;rdquo; channel from Teams. Private instant messages can be sent directly to your recipient by search your recipient&amp;rsquo;s name on the &amp;ldquo;search&amp;rdquo; bar.&lt;/p&gt;
@@ -74,13 +75,13 @@
       <description>&lt;h2 id=&#34;grading-weights&#34;&gt;Grading Weights&lt;/h2&gt;
 &lt;p&gt;The final grade for this course depends upon the grades and scores earned on course components weighted as follows:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;6%&lt;/strong&gt; : X in-class pop quizzes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;6%&lt;/strong&gt; : A number of in-class pop quizzes.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;24%&lt;/strong&gt;: 8 take-home quizzes.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;5%&lt;/strong&gt;: Individual paper reading assignment.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;5%&lt;/strong&gt; : Team paper presentation - peer evaluation (50%), instructor evaluation (50%).&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;25%&lt;/strong&gt;: 4 individual homework.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;25%&lt;/strong&gt;: 2 midterm exams.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: Final Project - project proposal (10%). Midterm check (20%). Project demonstration and presentation (40%). Final project report and revised code (30%).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: Final Project - project proposal (10%). Milestone check (20%). Project demonstration and presentation (40%). Final project report and revised code (30%).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Grades will be computed by rounding numerical percentages to the nearest integer and applying the following table:&lt;/p&gt;
 &lt;table&gt;
@@ -480,12 +481,10 @@ Points will be deducted from 100% for the following reasons:&lt;/p&gt;
       <link>https://Peilong.github.io/courses/cs350/software/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://Peilong.github.io/courses/cs350/software/</guid>
-      <description>&lt;h2 id=&#34;anaconda-distribution&#34;&gt;Anaconda Distribution&lt;/h2&gt;
-&lt;p&gt;In this course the only software you will need to install and play with is the Anaconda Distribution. It is a popular data science platform that consists of almost all the packages you will ever need in Python and R. Find the download link for your system from here: &lt;a href=&#34;https://www.anaconda.com/distribution/&#34;&gt;https://www.anaconda.com/distribution/&lt;/a&gt;. You must download the Python 3.x version.&lt;/p&gt;
+      <description>&lt;h2 id=&#34;anaconda-individual-edition&#34;&gt;Anaconda Individual Edition&lt;/h2&gt;
+&lt;p&gt;In this course, the only software you&amp;rsquo;ll need to install is the Anaconda Individual Edition. Anaconda is a widely-used data science platform that includes nearly all the packages you&amp;rsquo;ll need for Python and R. Please download the Python 3.10+ version from the following link, choosing the installer that matches your operating system: &lt;a href=&#34;https://www.anaconda.com/products/individual&#34;&gt;https://www.anaconda.com/products/individual&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Anaconda Distribution is available on the computers in the Esbenshade 281, Hoover 108 and Nicarry 208 computer laboratories and in the Computer Science commons area (E284).&lt;/p&gt;
-&lt;h2 id=&#34;jupyter-notebook-included-in-anaconda&#34;&gt;Jupyter Notebook (included in Anaconda)&lt;/h2&gt;
-&lt;p&gt;A Jupyter Notebook server is hosted at: &lt;a href=&#34;http://cs64.etown.edu&#34;&gt;http://cs64.etown.edu&lt;/a&gt;:8000. Note that you need to VPN into campus network if visiting from off campus. If you are a member of the class, your default user name on the server is: your last name followed by first name initial, e.g. Taylor Swift&amp;rsquo;s account is &amp;ldquo;swiftt&amp;rdquo;, and the default login password is &amp;ldquo;pass&amp;rdquo;. Reset your password immediately after login.&lt;/p&gt;
+&lt;p&gt;Anaconda is also available on the computers in the Esbenshade 281, Hoover 108 and Nicarry 208 computer laboratories and in the Computer Science commons area (E284).&lt;/p&gt;
 &lt;h2 id=&#34;google-colab&#34;&gt;Google Colab&lt;/h2&gt;
 &lt;p&gt;Google Colab (&lt;a href=&#34;https://colab.research.google.com/&#34;&gt;link&lt;/a&gt;) is a cloud-based Jupyter notebook-like service that is free for use under certain usage quota. It is required that students learn to use this service for speeding up the training time for Deep Learning models.&lt;/p&gt;
 </description>
