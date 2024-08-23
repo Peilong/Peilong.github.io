@@ -28,12 +28,11 @@
   
     
   
-  <meta name="description" content="Course Coverage Explore the foundational principles of computer organization, data representation, algorithmic development, and structured programming. Emphasizing Python&rsquo;s syntactic and execution traits, delve into data types, arithmetic operations, input/output mechanisms, selection and iteration constructs. Discover procedural abstraction, arrays, object-oriented programming, class design, and harness Python&rsquo;s power for Data Science.
-Student Learning Outcomes By the end of the course, students will be able to:
- Apply fundamental computing and mathematical knowledge, including data structures and basic algorithms, to effectively solve problems using Python.">
+  <meta name="description" content="Google Cloud Platform (GCP):  Check out the &ldquo;GCP_setup.pdf&rdquo; guide on Canvas.  Use software on the campus server:  Hadoop ecosystem software: http://adal.etown.edu. Use SSH to access. PySpark enabled Jupyter Notebook: http://adal.etown.edu:12345  (Optional) Install HDP Sandbox by yourself:   Docker Engine: https://docs.docker.com/engine/install/. Find the correct installation guide for your operating systems.
+  Hortonworks Data Platform (HDP) on Sandbox version 2.6.5: https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html You need to register a Cloudera account first, then choose the correct installation type on Docker (less resource demanding than a virtual machine).">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://Peilong.github.io/courses/cs121/overview/">
+  <link rel="alternate" hreflang="en-us" href="https://Peilong.github.io/courses/cs354/software/">
 
   
 
@@ -102,7 +101,7 @@ Student Learning Outcomes By the end of the course, students will be able to:
   <link rel="icon" type="image/png" href="/img/icon-32.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://Peilong.github.io/courses/cs121/overview/">
+  <link rel="canonical" href="https://Peilong.github.io/courses/cs354/software/">
 
   
   
@@ -118,11 +117,10 @@ Student Learning Outcomes By the end of the course, students will be able to:
   <meta property="twitter:creator" content="@@LiPeilong">
   
   <meta property="og:site_name" content="Peilong Li">
-  <meta property="og:url" content="https://Peilong.github.io/courses/cs121/overview/">
-  <meta property="og:title" content="Course Overview | Peilong Li">
-  <meta property="og:description" content="Course Coverage Explore the foundational principles of computer organization, data representation, algorithmic development, and structured programming. Emphasizing Python&rsquo;s syntactic and execution traits, delve into data types, arithmetic operations, input/output mechanisms, selection and iteration constructs. Discover procedural abstraction, arrays, object-oriented programming, class design, and harness Python&rsquo;s power for Data Science.
-Student Learning Outcomes By the end of the course, students will be able to:
- Apply fundamental computing and mathematical knowledge, including data structures and basic algorithms, to effectively solve problems using Python."><meta property="og:image" content="https://Peilong.github.io/img/icon-192.png">
+  <meta property="og:url" content="https://Peilong.github.io/courses/cs354/software/">
+  <meta property="og:title" content="Software | Peilong Li">
+  <meta property="og:description" content="Google Cloud Platform (GCP):  Check out the &ldquo;GCP_setup.pdf&rdquo; guide on Canvas.  Use software on the campus server:  Hadoop ecosystem software: http://adal.etown.edu. Use SSH to access. PySpark enabled Jupyter Notebook: http://adal.etown.edu:12345  (Optional) Install HDP Sandbox by yourself:   Docker Engine: https://docs.docker.com/engine/install/. Find the correct installation guide for your operating systems.
+  Hortonworks Data Platform (HDP) on Sandbox version 2.6.5: https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html You need to register a Cloudera account first, then choose the correct installation type on Docker (less resource demanding than a virtual machine)."><meta property="og:image" content="https://Peilong.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://Peilong.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -147,7 +145,7 @@ Student Learning Outcomes By the end of the course, students will be able to:
 
 
 
-  <title>Course Overview | Peilong Li</title>
+  <title>Software | Peilong Li</title>
 
 </head>
 
@@ -498,34 +496,38 @@ Student Learning Outcomes By the end of the course, students will be able to:
   
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/courses/cs121/">CS 121</a>
+    <a class="docs-toc-link" href="/courses/cs354/">CS 354</a>
 
   </div>
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/courses/cs121/schedule/">Schedule</a>
+    <a class="docs-toc-link" href="/courses/cs354/schedule/">Schedule</a>
+
+  </div>
+  
+  <div class="docs-toc-item active">
+    <a class="docs-toc-link" href="/courses/cs354/software/">Software</a>
 
   </div>
   
   <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/courses/cs121/software/">Software</a>
-
-  </div>
-  
-  <div class="docs-toc-item">
-    <a class="docs-toc-link" href="/courses/cs121/overview/">Syllabus</a>
+    <a class="docs-toc-link" href="/courses/cs354/overview/">Syllabus</a>
     <ul class="nav docs-sidenav">
       
-      <li class="active">
-        <a href="/courses/cs121/overview/">Overview</a>
+      <li >
+        <a href="/courses/cs354/overview/">Overview</a>
       </li>
       
       <li >
-        <a href="/courses/cs121/policy/">Policies</a>
+        <a href="/courses/cs354/policy/">Policies</a>
       </li>
       
       <li >
-        <a href="/courses/cs121/grading/">Grading Policies</a>
+        <a href="/courses/cs354/grading/">Grading Policies</a>
+      </li>
+      
+      <li >
+        <a href="/courses/cs354/rubrics/">Grading Rubrics</a>
       </li>
       
     </ul>
@@ -546,8 +548,10 @@ Student Learning Outcomes By the end of the course, students will be able to:
 
       <nav id="TableOfContents">
   <ul>
-    <li><a href="#course-coverage">Course Coverage</a></li>
-    <li><a href="#student-learning-outcomes">Student Learning Outcomes</a></li>
+    <li><a href="#google-cloud-platform-gcp">Google Cloud Platform (GCP):</a></li>
+    <li><a href="#use-software-on-the-campus-server">Use software on the campus server:</a></li>
+    <li><a href="#optional-install-hdp-sandbox-by-yourself">(Optional) Install HDP Sandbox by yourself:</a></li>
+    <li><a href="#install-pyspark-for-your-own-jupyter-server">Install PySpark for Your Own Jupyter Server:</a></li>
   </ul>
 </nav>
 
@@ -560,21 +564,35 @@ Student Learning Outcomes By the end of the course, students will be able to:
       <article class="article">
 
         <div class="docs-article-container">
-          <h1>Course Overview</h1>
+          <h1>Software</h1>
 
           <div class="article-style">
-            <h2 id="course-coverage">Course Coverage</h2>
-<p>Explore the foundational principles of computer organization, data representation, algorithmic development, and structured programming. Emphasizing Python&rsquo;s syntactic and execution traits, delve into data types, arithmetic operations, input/output mechanisms, selection and iteration constructs. Discover procedural abstraction, arrays, object-oriented programming, class design, and harness Python&rsquo;s power for Data Science.</p>
-<h2 id="student-learning-outcomes">Student Learning Outcomes</h2>
-<p>By the end of the course, students will be able to:</p>
+            <h2 id="google-cloud-platform-gcp">Google Cloud Platform (GCP):</h2>
 <ul>
-<li>Apply fundamental computing and mathematical knowledge, including data structures and basic algorithms, to effectively solve problems using Python.</li>
-<li>Design, implement, and evaluate computer-based systems, processes, components, or programs to fulfill specific requirements.</li>
-<li>Describe and apply the core principles of the software development cycle in the context of Python programming.</li>
-<li>Demonstrate proficiency in adhering to coding standards, style guidelines, and documentation practices.</li>
-<li>Develop a solid understanding of data types and object-oriented programming concepts.</li>
-<li>Utilize Python for Data Science, including data manipulation, analysis, and visualization, to gain insights from real-world datasets.</li>
-<li>Apply Python programming constructs like strings manipulation, basic I/O operations, Boolean algebra, selection statements, loop statements, and arrays to effectively solve computational challenges using both procedural and object-oriented paradigms.</li>
+<li>Check out the &ldquo;GCP_setup.pdf&rdquo; guide on Canvas.</li>
+</ul>
+<h2 id="use-software-on-the-campus-server">Use software on the campus server:</h2>
+<ul>
+<li>Hadoop ecosystem software: <a href="http://adal.etown.edu">http://adal.etown.edu</a>. Use SSH to access.</li>
+<li>PySpark enabled Jupyter Notebook: <a href="http://adal.etown.edu:12345">http://adal.etown.edu:12345</a></li>
+</ul>
+<h2 id="optional-install-hdp-sandbox-by-yourself">(Optional) Install HDP Sandbox by yourself:</h2>
+<ul>
+<li>
+<p>Docker Engine: <a href="https://docs.docker.com/engine/install/">https://docs.docker.com/engine/install/</a>.
+Find the correct installation guide for your operating systems.</p>
+</li>
+<li>
+<p>Hortonworks Data Platform (HDP) on Sandbox version 2.6.5: <a href="https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html">https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html</a>
+You need to register a Cloudera account first, then choose the correct installation type on Docker (less resource demanding than a virtual machine). The recommended configuration is 4 CPUs and 8 GB of free RAM; however, 2 CPU and 6 GBs of RAM should be enough for our case. Reducing the amount of RAM will make some of the services unavailable.</p>
+</li>
+<li>
+<p>Follow along the tutorial to install HDP on docker engine: <a href="https://www.cloudera.com/tutorials/sandbox-deployment-and-install-guide/3.html">https://www.cloudera.com/tutorials/sandbox-deployment-and-install-guide/3.html</a></p>
+</li>
+</ul>
+<h2 id="install-pyspark-for-your-own-jupyter-server">Install PySpark for Your Own Jupyter Server:</h2>
+<ul>
+<li>Checkout my tutorial on Github: <a href="https://github.com/Peilong/PySparkOnJupyter/blob/master/README.md">https://github.com/Peilong/PySparkOnJupyter/blob/master/README.md</a></li>
 </ul>
 
           </div>
@@ -591,9 +609,10 @@ Student Learning Outcomes By the end of the course, students will be able to:
   
   
   <div class="post-nav-item">
-    <div class="meta-nav">Next</div>
-    <a href="/courses/cs121/policy/" rel="prev">Policy Statements</a>
+    <div class="meta-nav">Previous</div>
+    <a href="/courses/cs354/schedule/" rel="next">Course Schedule</a>
   </div>
+  
   
 </div>
 
