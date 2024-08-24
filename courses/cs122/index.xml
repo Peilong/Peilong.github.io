@@ -155,7 +155,7 @@ Each assignment will be given near the beginning of a class and must be uploaded
       <guid>https://Peilong.github.io/courses/cs122/schedule/</guid>
       <description>&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
 &lt;p&gt;Note this tentative schedule is subject to change. Please check the schedule regularly.&lt;/p&gt;
-&lt;p&gt;Last updated: 08/18/2024&lt;/p&gt;
+&lt;p&gt;Last updated: 08/24/2024&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -191,7 +191,7 @@ Each assignment will be given near the beginning of a class and must be uploaded
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;9/2/24&lt;/td&gt;
-&lt;td&gt;M: Labor Day, No Classes&lt;/td&gt;
+&lt;td&gt;M: &lt;span style=&#34;color:red;&#34;&gt;Labor Day, No Classes&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;Mon: HW1 out.&lt;/td&gt;
 &lt;/tr&gt;
@@ -240,7 +240,7 @@ Each assignment will be given near the beginning of a class and must be uploaded
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Le8 - I/O and Exception&lt;/td&gt;
+&lt;td&gt;W: Lec8 - I/O and Exception&lt;/td&gt;
 &lt;td&gt;Week4-2&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -268,7 +268,7 @@ Each assignment will be given near the beginning of a class and must be uploaded
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lec12 -  GUI&lt;/td&gt;
+&lt;td&gt;F: Lec12 - GUI&lt;/td&gt;
 &lt;td&gt;Week5-3&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -289,7 +289,7 @@ Each assignment will be given near the beginning of a class and must be uploaded
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lab Test 1&lt;/td&gt;
+&lt;td&gt;F: &lt;span style=&#34;color:blue;&#34;&gt;Lab Test 1&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -303,14 +303,14 @@ Each assignment will be given near the beginning of a class and must be uploaded
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Exam 1&lt;/td&gt;
+&lt;td&gt;W: &lt;span style=&#34;color:blue;&#34;&gt;Exam 1&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Fall Break, No Classes&lt;/td&gt;
+&lt;td&gt;F: &lt;span style=&#34;color:red;&#34;&gt;Fall Break, No Classes&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -415,7 +415,7 @@ Each assignment will be given near the beginning of a class and must be uploaded
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lab Test 2&lt;/td&gt;
+&lt;td&gt;F: &lt;span style=&#34;color:blue;&#34;&gt;Lab Test 2&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -457,7 +457,7 @@ Each assignment will be given near the beginning of a class and must be uploaded
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Thanksgiving Break&lt;/td&gt;
+&lt;td&gt;F: &lt;span style=&#34;color:red;&#34;&gt;Thanksgiving Break&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -471,7 +471,7 @@ Each assignment will be given near the beginning of a class and must be uploaded
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Exam 2&lt;/td&gt;
+&lt;td&gt;W: &lt;span style=&#34;color:blue;&#34;&gt;Exam 2&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
@@ -485,21 +485,21 @@ Each assignment will be given near the beginning of a class and must be uploaded
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;16&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;12/9/24&lt;/td&gt;
-&lt;td&gt;M: No Class&lt;/td&gt;
+&lt;td&gt;M: &lt;span style=&#34;color:red;&#34;&gt;No Class&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: No Class&lt;/td&gt;
+&lt;td&gt;W: &lt;span style=&#34;color:red;&#34;&gt;No Class&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Final Exam&lt;/td&gt;
+&lt;td&gt;F: &lt;span style=&#34;color:blue;&#34;&gt;Final Exam&lt;/span&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
