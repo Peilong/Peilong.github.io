@@ -1,49 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CS/EGR 222 Systems Programming | Peilong Li</title>
-    <link>https://Peilong.github.io/courses/cs222/</link>
-      <atom:link href="https://Peilong.github.io/courses/cs222/index.xml" rel="self" type="application/rss+xml" />
-    <description>CS/EGR 222 Systems Programming</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <title>CS 230 Computer Architecture | Peilong Li</title>
+    <link>https://Peilong.github.io/courses/cs230/</link>
+      <atom:link href="https://Peilong.github.io/courses/cs230/index.xml" rel="self" type="application/rss+xml" />
+    <description>CS 230 Computer Architecture</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Peilong.github.io/img/icon-192.png</url>
-      <title>CS/EGR 222 Systems Programming</title>
-      <link>https://Peilong.github.io/courses/cs222/</link>
+      <title>CS 230 Computer Architecture</title>
+      <link>https://Peilong.github.io/courses/cs230/</link>
     </image>
     
     <item>
       <title>Course Overview</title>
-      <link>https://Peilong.github.io/courses/cs222/overview/</link>
+      <link>https://Peilong.github.io/courses/cs230/overview/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/cs222/overview/</guid>
+      <guid>https://Peilong.github.io/courses/cs230/overview/</guid>
       <description>&lt;h2 id=&#34;course-coverage&#34;&gt;Course Coverage&lt;/h2&gt;
-&lt;p&gt;This course provides an in-depth exploration of advanced programming, emphasizing system programming, machine representation of data, dynamic structures, and files. It covers C language syntax, memory allocation, run-time data organization, function linkage, parameter passing, and the interplay between high-level and machine languages. The curriculum also introduces Linux OS and command-line skills, and integrates concepts of Virtual Machines, Cloud Computing, and Container technologies, reflecting current trends in the system programming landscape.&lt;/p&gt;
+&lt;p&gt;An introduction to the foundational principles of computer architecture, including the design and organization of processors, memory hierarchies, input/output systems, and multiple CPU systems. Learn the core components that make up modern computer systems, including the CPU, GPU, memory, buses, and storage. Learn how to optimize performance, analyze trade-offs, and appreciate the historical and societal context of computing.&lt;/p&gt;
 &lt;h2 id=&#34;student-learning-outcomes&#34;&gt;Student Learning Outcomes&lt;/h2&gt;
 &lt;p&gt;By the end of the course, students will be able to:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Apply knowledge of computing and mathematics appropriate to the discipline, including common data structures and basic algorithms, to solve problems&lt;/li&gt;
-&lt;li&gt;Analyze a problem and identify and define the computing requirements appropriate to its solution&lt;/li&gt;
-&lt;li&gt;Design, implement, and evaluate a computer-based system, process, component or program, including operating systems, to meet desired needs&lt;/li&gt;
-&lt;li&gt;Function effectively on teams and use software engineering principles to accomplish a common goal&lt;/li&gt;
-&lt;li&gt;Understand fundamentals of procedural programming with applications in electrical and computer engineering and embedded systems&lt;/li&gt;
-&lt;li&gt;Understand hardware and software elements of data communications and computer networking&lt;/li&gt;
-&lt;li&gt;Compare and contrast the features of the Java and C programming languages&lt;/li&gt;
-&lt;li&gt;Manage memory allocation explicitly&lt;/li&gt;
-&lt;li&gt;Perform low-level file access in programs&lt;/li&gt;
+&lt;li&gt;apply Boolean algebra and digital logic principles to design and analyze combinational and sequential circuits, demonstrating their ability to solve complex computing problems.&lt;/li&gt;
+&lt;li&gt;design and implement arithmetic and logic units using digital logic, including creating optimal solutions for adders, ALUs, and memory elements while evaluating performance trade-offs.&lt;/li&gt;
+&lt;li&gt;develop proficiency in assembly language programming using the HACK language, including writing, debugging, and optimizing low-level code to create computing-based solutions.&lt;/li&gt;
+&lt;li&gt;analyze computer system organization by understanding the interaction between processors, memory, and I/O systems, enabling them to evaluate architectural design choices and their performance implications.&lt;/li&gt;
+&lt;li&gt;work collaboratively to design and implement computer architecture components, making informed decisions about trade-offs while effectively communicating technical solutions in professional contexts.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Policy Statements</title>
-      <link>https://Peilong.github.io/courses/cs222/policy/</link>
+      <link>https://Peilong.github.io/courses/cs230/policy/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/cs222/policy/</guid>
+      <guid>https://Peilong.github.io/courses/cs230/policy/</guid>
       <description>&lt;h2 id=&#34;course-schedule&#34;&gt;Course Schedule&lt;/h2&gt;
-&lt;p&gt;The most up-to-date course schedule will be posted on course website schedule page: &lt;a href=&#34;https://peilong.github.io/courses/cs222/schedule/&#34;&gt;https://peilong.github.io/courses/cs222/schedule/&lt;/a&gt;. Students are responsible for checking the schedule regularly. Schedule page will include: 1) teaching topics for each meeting; 2) reading assignments for each week and 3) special notes on specific days.&lt;/p&gt;
+&lt;p&gt;The most up-to-date course schedule will be posted on course website schedule page: &lt;a href=&#34;https://peilong.github.io/courses/cs230/schedule/&#34;&gt;https://peilong.github.io/courses/cs230/schedule/&lt;/a&gt;. Students are responsible for checking the schedule regularly. Schedule page will include: 1) teaching topics for each meeting; 2) reading assignments for each week and 3) special notes on specific days.&lt;/p&gt;
 &lt;h2 id=&#34;course-announcements--discussion&#34;&gt;Course Announcements &amp;amp; Discussion&lt;/h2&gt;
-&lt;p&gt;All course announcements will be sent to your E-Town email accounts via Canvas Announcements. You are responsible for signing up for this service and checking your emails regularly.&lt;/p&gt;
+&lt;p&gt;All course announcements will be sent to your Etown email accounts via Canvas Announcements. You are responsible for signing up for this service and checking your emails regularly.&lt;/p&gt;
 &lt;p&gt;I have created a Microsoft Teams channel (&lt;a href=&#34;https://teams.microsoft.com/l/team/19%3aa8cdd959c2e249a989d401e20fc95524%40thread.tacv2/conversations?groupId=81ffa3c7-aa45-454a-b495-7f43c78e5024&amp;amp;tenantId=1d884f12-a0d7-42f0-8b15-3a91c853bcb5&#34;&gt;link&lt;/a&gt;) to facilitate course related discussion.  Discussions are encouraged to be posted on the &amp;ldquo;QA&amp;rdquo; channel from Teams. Private instant messages can be sent directly to your recipient by search your recipient&amp;rsquo;s name on the &amp;ldquo;search&amp;rdquo; bar.&lt;/p&gt;
 &lt;h2 id=&#34;attendance-policies&#34;&gt;Attendance Policies&lt;/h2&gt;
 &lt;p&gt;Attendance is expected of every student at every lecture. Students are responsible for all content covered in class as well as assigned book chapters. Due to their nature, pop quizzes cannot be made up.&lt;/p&gt;
@@ -79,19 +75,18 @@
     
     <item>
       <title>Grading Policies</title>
-      <link>https://Peilong.github.io/courses/cs222/grading/</link>
+      <link>https://Peilong.github.io/courses/cs230/grading/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/cs222/grading/</guid>
+      <guid>https://Peilong.github.io/courses/cs230/grading/</guid>
       <description>&lt;h2 id=&#34;grading-weights&#34;&gt;Grading Weights&lt;/h2&gt;
 &lt;p&gt;The final grade for this course depends upon the grades and scores earned on course components weighted as follows:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;4%&lt;/strong&gt; : A number of in-class pop quizzes.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: Bi-daily reading assignments.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;16%&lt;/strong&gt;: 4 individual homework.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: 3 team projects.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: 5 in-class labs.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;20%&lt;/strong&gt;: 2 midterm exams.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: Final exam or project.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;10%&lt;/strong&gt; : A number of in-class pop quizzes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;5%&lt;/strong&gt; : Attendance and class participation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: 3 individual projects.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20%&lt;/strong&gt;: 3 team projects.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;30%&lt;/strong&gt;: 2 midterm exams.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20%&lt;/strong&gt;: Final exam.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Grades will be computed by rounding numerical percentages to the nearest integer and applying the following table:&lt;/p&gt;
 &lt;table&gt;
@@ -141,34 +136,31 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;pre&gt;&lt;code class=&#34;language-Note&#34;&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;h2 id=&#34;in-class-labs&#34;&gt;In-class Labs&lt;/h2&gt;
-&lt;p&gt;All labs are to be done individually, in class, with the assistance of the instructor.
-Each assignment will be given near the beginning of a class and must be uploaded to Canvas before the due time. Some of the labs allow for late submission till midnight with late penalty, but no submission is allowed beyond the lab day. To receive full credit, a programming assignment must compile, but partial credit will be awarded based on the understanding of the material demonstrated by the student’s code.&lt;/p&gt;
-&lt;h2 id=&#34;individual-homework-and-team-projects&#34;&gt;Individual Homework and Team Projects&lt;/h2&gt;
-&lt;p&gt;All homework assignments have to be completed individually in this course. Homework assignments are &amp;ldquo;lab-like&amp;rdquo; small programs that need to be completed in a week or two.&lt;/p&gt;
-&lt;p&gt;All projects are team projects in this course. For each project, students must form a team of 2 members. Teams are responsible for dividing their workload and meeting offline for at least 2 times for each project. Documented meeting minutes have to be submitted as part of the deliverable. Students should select their teams by using the Groups tab under People, on the Canvas webpage.&lt;/p&gt;
+&lt;h2 id=&#34;individual-or-team-projects&#34;&gt;Individual or Team Projects&lt;/h2&gt;
+&lt;p&gt;Individual projects meant to be small and nibble, and are usually delegated to be warm-up exercises and self-reflections.&lt;/p&gt;
+&lt;p&gt;For team projects, students must form a team of 2 members. Teams are responsible for dividing their workload fairly and meeting offline frequently. Documented meeting minutes have to be submitted as part of the deliverable. Students should select their teams by using the Groups tab under People, on the Canvas webpage.&lt;/p&gt;
 &lt;p&gt;Except under extreme circumstances, all members of the team will receive the same grade for each project. One member of each team is designated the leader. The files for each project should be zipped up and uploaded by the team leader using Canvas before the due date. &lt;strong&gt;If the project does not compile, the student will receive a score of 0.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Late Policy&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In general, homework and projects will be graded with the &lt;em&gt;diff&lt;/em&gt; utility. For that reason, it is imperative that project output matches sample output to the character.&lt;/p&gt;
+&lt;p&gt;In general, projects will be graded by the autograder. For that reason, it is imperative that project output matches sample output to the character.&lt;/p&gt;
 &lt;p&gt;Late assignment will lose &lt;img src=&#34;https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cfn_phv%20%5Clarge%202%5E%7B%28n-1%29%7D&#34; alt=&#34;equation&#34;&gt; points per day, including weekends and holidays. For example, -1 after 1 day, -2 after 2 days, -4 after 3 days … until 8+ days students will receive 0 score.  &lt;strong&gt;Under no circumstances should any student disclose their code, or copy the code written by other students or from an outside source. Both students will receive 0 score on the disclosed/copied assignment.&lt;/strong&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Course Schedule</title>
-      <link>https://Peilong.github.io/courses/cs222/schedule/</link>
+      <link>https://Peilong.github.io/courses/cs230/schedule/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/cs222/schedule/</guid>
+      <guid>https://Peilong.github.io/courses/cs230/schedule/</guid>
       <description>&lt;h2 id=&#34;schedule&#34;&gt;Schedule&lt;/h2&gt;
 &lt;p&gt;Note this tentative schedule is subject to change. Please check the schedule regularly.&lt;/p&gt;
-&lt;p&gt;Last updated: 01/11/2025&lt;/p&gt;
+&lt;p&gt;Last updated: 01/10/2025&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th align=&#34;center&#34;&gt;Week&lt;/th&gt;
 &lt;th align=&#34;center&#34;&gt;Starting&lt;/th&gt;
 &lt;th&gt;Topics&lt;/th&gt;
-&lt;th&gt;Reading&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Reading&lt;/th&gt;
 &lt;th&gt;Notes&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
@@ -176,337 +168,239 @@ Each assignment will be given near the beginning of a class and must be uploaded
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;1/13/25&lt;/td&gt;
-&lt;td&gt;M: Lec1 - Course introduction; Google Cloud intro&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Mon: HW1 out&lt;/td&gt;
+&lt;td&gt;T: Lec1 - Course intro&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 1&lt;/td&gt;
+&lt;td&gt;Tue: P0 out&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lec2 -  Unix and Linux; Command line interface&lt;/td&gt;
-&lt;td&gt;Week 1-1&lt;/td&gt;
-&lt;td&gt;Thur: HW1 due&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
+&lt;td&gt;H: Lec2 - Boolean Algebra and Expressions&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lec3 - C language; Compilation in Linux&lt;/td&gt;
-&lt;td&gt;Week 1-2&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;1/20/25&lt;/td&gt;
-&lt;td&gt;M: &lt;span style=&#34;color:red&#34;&gt;MLK Day; No Classes&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Wed: Project 1 out&lt;/td&gt;
+&lt;td&gt;T: Lec3 - Switch and Logic Gate Implementation&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 1&lt;/td&gt;
+&lt;td&gt;Tue: P0 due&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lec4 - Data Types; Linux basics&lt;/td&gt;
-&lt;td&gt;Week 2-1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
+&lt;td&gt;H: &lt;span style=&#34;color:red&#34;&gt;Dr. Li on travel; No Classes&lt;/span&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: &lt;span style=&#34;color:red&#34;&gt;Dr. Li on travel; No Classes&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Week 2-2&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;3&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;1/27/25&lt;/td&gt;
-&lt;td&gt;M: Lec5 - printf and scanf; Linux Kernel&lt;/td&gt;
-&lt;td&gt;Week 3-1&lt;/td&gt;
-&lt;td&gt;Mon: HW2 out&lt;/td&gt;
+&lt;td&gt;T: Lec4 - Number System and Conversions&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 2&lt;/td&gt;
+&lt;td&gt;Tue: P1 out&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lec6 - If and switch statements; PE1 - Debugging&lt;/td&gt;
-&lt;td&gt;Week 3-2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
+&lt;td&gt;H: Lec5 - Boolean Addition&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lab1&lt;/td&gt;
-&lt;td&gt;Week 3-3&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;2/3/25&lt;/td&gt;
-&lt;td&gt;M: Lec7 - Writing a Makefile&lt;/td&gt;
-&lt;td&gt;Week 4-1&lt;/td&gt;
+&lt;td&gt;T: Lec6 - Multi-bit and Multi-input Adders&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 2&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lec8 - While, do-while and for loops&lt;/td&gt;
-&lt;td&gt;Week 4-2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
+&lt;td&gt;H: Lec7 - Boolean Substraction and ALU Design&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lec9 - Functions&lt;/td&gt;
-&lt;td&gt;Week 4-3&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;2/10/25&lt;/td&gt;
-&lt;td&gt;M: PE2 - Control flow and functions&lt;/td&gt;
-&lt;td&gt;Week 5-1&lt;/td&gt;
-&lt;td&gt;Mon: HW2 due&lt;/td&gt;
+&lt;td&gt;T: Lec8 - Time and Memory Elements&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 3&lt;/td&gt;
+&lt;td&gt;Tue: P1 due; P2 out&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lab2&lt;/td&gt;
-&lt;td&gt;Week 5-2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
+&lt;td&gt;H: Lec9 - Registers and RAMs; Meet &amp;amp; Greet&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lec10 - Cloud computing and containerization&lt;/td&gt;
-&lt;td&gt;Week 5-3&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;6&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;2/17/25&lt;/td&gt;
-&lt;td&gt;M: Lec11 - Docker exercises&lt;/td&gt;
-&lt;td&gt;Week 6-1&lt;/td&gt;
-&lt;td&gt;Mon: Project 1 due; Project 2 out&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lec12 - Pointers and pointer arguments&lt;/td&gt;
-&lt;td&gt;Week 6-2&lt;/td&gt;
+&lt;td&gt;T: Lec10 - State Machine Design and Program Counter&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 3&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lec13 - Module 1 summary &amp;amp; exam 1 preview&lt;/td&gt;
-&lt;td&gt;Week 6-3&lt;/td&gt;
+&lt;td&gt;H: Module Summary and Exam 1 Preview&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;7&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;2/24/25&lt;/td&gt;
-&lt;td&gt;M: &lt;span style=&#34;color:green&#34;&gt;Exam 1&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Mon: HW3 out&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
+&lt;td&gt;T: &lt;span style=&#34;color:green&#34;&gt;Exam 1&lt;/span&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: &lt;span style=&#34;color:red&#34;&gt;Dr. Li on travel; No Classes&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: &lt;span style=&#34;color:red&#34;&gt;Dr. Li on travel; No Classes&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;H: &lt;span style=&#34;color:red&#34;&gt;Dr. Li on travel; No Classes&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;8&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;3/3/25&lt;/td&gt;
-&lt;td&gt;M: &lt;span style=&#34;color:red&#34;&gt;Spring Break; No Classes&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;T: &lt;span style=&#34;color:red&#34;&gt;Spring Break, No Classes&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: &lt;span style=&#34;color:red&#34;&gt;Spring Break; No Classes&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
+&lt;td&gt;H: &lt;span style=&#34;color:red&#34;&gt;Spring Break, No Classes&lt;/span&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: &lt;span style=&#34;color:red&#34;&gt;Spring Break; No Classes&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;9&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;3/10/25&lt;/td&gt;
-&lt;td&gt;M: Lec14 - C arrays&lt;/td&gt;
-&lt;td&gt;Week 9-1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;T: Lec11 - Machine Language&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 4&lt;/td&gt;
+&lt;td&gt;Tue: P2 due; P3 out&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: PE3 - Functions and pointers&lt;/td&gt;
-&lt;td&gt;Week 9-2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
+&lt;td&gt;H: Lec12 - HACK Machine Language&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lab3&lt;/td&gt;
-&lt;td&gt;Week 9-3&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;10&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;3/17/25&lt;/td&gt;
-&lt;td&gt;M: Lec15 - 2D arrays; arrays with functions&lt;/td&gt;
-&lt;td&gt;Week 10-1&lt;/td&gt;
-&lt;td&gt;Mon: HW3 due&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lec16 - Character arrays and strings&lt;/td&gt;
-&lt;td&gt;Week 10-2&lt;/td&gt;
+&lt;td&gt;T: Lec13 - HACK Assembly 1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 4&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lec17 - Structures&lt;/td&gt;
-&lt;td&gt;Week 10-3&lt;/td&gt;
+&lt;td&gt;H: Lec14 - HACK Assembly 2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;11&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;3/24/25&lt;/td&gt;
-&lt;td&gt;M: Lec18 - Nested structures&lt;/td&gt;
-&lt;td&gt;Week 11-1&lt;/td&gt;
-&lt;td&gt;Mon: Project 2 due&lt;/td&gt;
+&lt;td&gt;T: Lec15 - Computer Architecture 1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 5&lt;/td&gt;
+&lt;td&gt;Tue: P3 due; P4 out&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: PE4 - Structures&lt;/td&gt;
-&lt;td&gt;Week 11-2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
+&lt;td&gt;H: Lec16 - Computer Architecture 2&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lab4&lt;/td&gt;
-&lt;td&gt;Week 11-3&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;12&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;3/31/25&lt;/td&gt;
-&lt;td&gt;M: Lec19 - Module 2 summary &amp;amp; exam 2 preview&lt;/td&gt;
-&lt;td&gt;Week 12-1&lt;/td&gt;
-&lt;td&gt;Mon: Project 3 out&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: &lt;span style=&#34;color:green&#34;&gt;Exam 2&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;T: Lec17 - HACK Assembler Design 1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Ch 6&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lec20 - Dynamic Memory Allocation (DMA)&lt;/td&gt;
-&lt;td&gt;Week 12-2&lt;/td&gt;
+&lt;td&gt;H: Lec18 - HACK Assembler Design 2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;13&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;4/7/25&lt;/td&gt;
-&lt;td&gt;M: Lec21: DMA examples&lt;/td&gt;
-&lt;td&gt;Week 13-1&lt;/td&gt;
-&lt;td&gt;Mon: HW 4 out&lt;/td&gt;
+&lt;td&gt;T: Lec19 - Special Topic 1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;Tue: P4 due; P5 out&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lec22: Linked list part 1&lt;/td&gt;
-&lt;td&gt;Week 13-2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
+&lt;td&gt;H: Lec20 - Special Topic 2&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lec23: Linked list part 2; PE5 start&lt;/td&gt;
-&lt;td&gt;Week 13-3&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;14&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;4/14/25&lt;/td&gt;
-&lt;td&gt;M: PE5 - DMA&lt;/td&gt;
-&lt;td&gt;Week 14-1&lt;/td&gt;
+&lt;td&gt;T: Module Summary and Exam 2 Preview&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lab5&lt;/td&gt;
-&lt;td&gt;Week 14-2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
+&lt;td&gt;H: &lt;span style=&#34;color:green&#34;&gt;Exam 2&lt;/span&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: &lt;span style=&#34;color:red&#34;&gt;Easter Break; No Classes&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;15&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;4/21/25&lt;/td&gt;
-&lt;td&gt;M: Lec24 - File I/O&lt;/td&gt;
-&lt;td&gt;Week 15-1&lt;/td&gt;
-&lt;td&gt;Mon: HW 4 due&lt;/td&gt;
+&lt;td&gt;T: &lt;span style=&#34;color:red&#34;&gt;Scholarship Day, No Classes&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;Tue: P5 due&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Lec25 - Character and line I/O&lt;/td&gt;
-&lt;td&gt;Week 15-2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
+&lt;td&gt;H: Course Summary and Final Preview&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lec26 - Bitwise operation&lt;/td&gt;
-&lt;td&gt;Week 15-3&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;16&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;4/28/25&lt;/td&gt;
-&lt;td&gt;M: Lec27 - Course review and final exam preview&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Mon: Project 3 due&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
+&lt;td&gt;T: Q&amp;amp;A&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;W: Final exam Q&amp;amp;A&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: &lt;span style=&#34;color:green&#34;&gt;Final exam 11:00 AM - 2:00 PM&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;H: &lt;span style=&#34;color:red&#34;&gt;No Classes&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;17&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;5/5/25&lt;/td&gt;
+&lt;td&gt;Monday: &lt;span style=&#34;color:green&#34;&gt;Final Exam 11 AM - 2 PM&lt;/span&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;Have a great summer!&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
@@ -516,19 +410,13 @@ Each assignment will be given near the beginning of a class and must be uploaded
     
     <item>
       <title>Software</title>
-      <link>https://Peilong.github.io/courses/cs222/software/</link>
+      <link>https://Peilong.github.io/courses/cs230/software/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
-      <guid>https://Peilong.github.io/courses/cs222/software/</guid>
-      <description>&lt;h2 id=&#34;google-cloud-platform&#34;&gt;Google Cloud Platform&lt;/h2&gt;
-&lt;p&gt;Google Cloud Platform (GCP) is the main development environment we will be using in this course. Refer to the guide on Canvas for setup. &lt;a href=&#34;https://etown.instructure.com/courses/16713/files/3017034?module_item_id=793891&#34;&gt;link&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Once the setup is ready, you will have:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A virtual machine running with Ubuntu 20.04 LTS&lt;/li&gt;
-&lt;li&gt;A lightweight desktop GUI that allows for remote desktop connection&lt;/li&gt;
-&lt;li&gt;GNU C development toolset: GCC compiler, GDB debugger, make utility, etc.&lt;/li&gt;
-&lt;li&gt;Docker engine.&lt;/li&gt;
-&lt;li&gt;Visual Studio Code IDE, and other desktop applications.&lt;/li&gt;
-&lt;/ul&gt;
+      <guid>https://Peilong.github.io/courses/cs230/software/</guid>
+      <description>&lt;h2 id=&#34;from-nand-to-tetris&#34;&gt;From NAND to Tetris&lt;/h2&gt;
+&lt;p&gt;This &lt;a href=&#34;https://www.nand2tetris.org&#34;&gt;website&lt;/a&gt; contains all the lectures, project materials and tools necessary for building a general-purpose computer system and a modern software hierarchy from the ground up.&lt;/p&gt;
+&lt;h2 id=&#34;nand2tetris-online-ide&#34;&gt;NAND2Tetris Online IDE&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://nand2tetris.github.io/web-ide/chip/&#34;&gt;This&lt;/a&gt; new Integrated Development Environment is web-based, meaning that you don’t have to download anything: All the tools and files necessary for completing all the projects are available from your browser. The files that you&amp;rsquo;ll develop using this IDE will be saved automatically in your browser’s memory, and you&amp;rsquo;ll be able to download them to your local PC.&lt;/p&gt;
 </description>
     </item>
     

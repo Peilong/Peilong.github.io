@@ -28,6 +28,11 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/cs230/overview/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/courses/cs250/overview/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
@@ -98,6 +103,11 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/cs230/policy/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/courses/cs250/policy/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
@@ -158,6 +168,11 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/cs230/grading/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/courses/cs250/grading/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
@@ -203,6 +218,11 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/cs230/</loc>
+    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/courses/cs250/rubrics/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
@@ -230,11 +250,6 @@
   <url>
     <loc>https://Peilong.github.io/courses/ds400/schedule/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://Peilong.github.io/courses/cs250/</loc>
-    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -273,6 +288,11 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/cs230/schedule/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/courses/cs250/schedule/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
@@ -298,7 +318,7 @@
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/cs350/</loc>
+    <loc>https://Peilong.github.io/courses/cs250/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -319,6 +339,11 @@
   
   <url>
     <loc>https://Peilong.github.io/courses/cs222/software/</loc>
+    <lastmod>2019-05-05T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/cs230/software/</loc>
     <lastmod>2019-05-05T00:00:00+01:00</lastmod>
   </url>
   
@@ -348,8 +373,13 @@
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/cs354/</loc>
+    <loc>https://Peilong.github.io/courses/cs350/</loc>
     <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/cs354/</loc>
+    <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -379,12 +409,12 @@
   
   <url>
     <loc>https://Peilong.github.io/courses/</loc>
-    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://Peilong.github.io/</loc>
-    <lastmod>2024-08-11T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
