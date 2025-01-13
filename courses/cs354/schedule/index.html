@@ -29,8 +29,8 @@
     
   
   <meta name="description" content="Note this tentative schedule is subject to change. Please check the schedule regularly.
-Last Updated: 04/09/2022
-   Week Starting Topics Reading Notes     1 1/16/23 T: Lec1 - Course introduction; Intro to Big Data Reading1_Hadoop Mon: HW1 out.     H: Lec2 - Hadoop Ecosystem     2 1/23/23 T: Lec3 - HDFS Reading2_HDFS Mon: HW1 due.     H: Lec4 - MapReduce     3 1/30/23 T: PE1 - MapReduce Exercise Reading3_MR Mon: Quiz 1 week; HW 2 out; Team formation due.">
+Last Updated: 01/13/2025
+| Week | Starting | Topics | Reading | Notes | |:&mdash;-:|:&mdash;&mdash;&ndash;:|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-|&mdash;&mdash;&mdash;&mdash;|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;:-| | 1 | 1/13/25 | M: Lec1 - Course intro; Big Data | Week 1 | Mon: HW1 out | | | | W: Lec2 - Hadoop Ecosystem | | | | | | F: Lec3 - HDFS | | | | 2 | 1/20/25 | M: MLK Day; No Classes| Week 2 | | | | | W: Lec4 - MapReduce | | | | | | F: Dr.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://Peilong.github.io/courses/cs354/schedule/">
@@ -121,8 +121,8 @@ Last Updated: 04/09/2022
   <meta property="og:url" content="https://Peilong.github.io/courses/cs354/schedule/">
   <meta property="og:title" content="Course Schedule | Peilong Li">
   <meta property="og:description" content="Note this tentative schedule is subject to change. Please check the schedule regularly.
-Last Updated: 04/09/2022
-   Week Starting Topics Reading Notes     1 1/16/23 T: Lec1 - Course introduction; Intro to Big Data Reading1_Hadoop Mon: HW1 out.     H: Lec2 - Hadoop Ecosystem     2 1/23/23 T: Lec3 - HDFS Reading2_HDFS Mon: HW1 due.     H: Lec4 - MapReduce     3 1/30/23 T: PE1 - MapReduce Exercise Reading3_MR Mon: Quiz 1 week; HW 2 out; Team formation due."><meta property="og:image" content="https://Peilong.github.io/img/icon-192.png">
+Last Updated: 01/13/2025
+| Week | Starting | Topics | Reading | Notes | |:&mdash;-:|:&mdash;&mdash;&ndash;:|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-|&mdash;&mdash;&mdash;&mdash;|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;:-| | 1 | 1/13/25 | M: Lec1 - Course intro; Big Data | Week 1 | Mon: HW1 out | | | | W: Lec2 - Hadoop Ecosystem | | | | | | F: Lec3 - HDFS | | | | 2 | 1/20/25 | M: MLK Day; No Classes| Week 2 | | | | | W: Lec4 - MapReduce | | | | | | F: Dr."><meta property="og:image" content="https://Peilong.github.io/img/icon-192.png">
   <meta property="twitter:image" content="https://Peilong.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
   
     
@@ -551,6 +551,7 @@ Last Updated: 04/09/2022
       <nav id="TableOfContents">
   <ul>
     <li><a href="#reading-list">Reading List</a></li>
+    <li><a href="#paper-list">Paper List</a></li>
   </ul>
 </nav>
 
@@ -567,272 +568,165 @@ Last Updated: 04/09/2022
 
           <div class="article-style">
             <p>Note this tentative schedule is subject to change. Please check the schedule regularly.</p>
-<p>Last Updated: 04/09/2022</p>
+<p>Last Updated: 01/13/2025</p>
+<p>| Week | Starting |                 Topics                 |   Reading  |                  Notes                 |
+|:&mdash;-:|:&mdash;&mdash;&ndash;:|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-|&mdash;&mdash;&mdash;&mdash;|&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;:-|
+|   1  |  1/13/25 | M: Lec1 - Course intro; Big Data       |   Week 1   | Mon: HW1 out                           |
+|      |          | W: Lec2 -  Hadoop Ecosystem            |            |                                        |
+|      |          | F: Lec3 - HDFS                         |            |                                        |
+|   2  |  1/20/25 | M: <span style="color:red">MLK Day; No Classes</span>|   Week 2   |                                        |
+|      |          | W: Lec4 - MapReduce                    |            |                                        |
+|      |          | F: <span style="color:red">Dr. Li on travel; No Classes</span>|            |                                        |
+|   3  |  1/27/25 | M: PE1 - MapReduce Exercise            |   Week 3   | Mon: HW1 due; HW2 out                  |
+|      |          | W: Lab 1                               |            | Team formation due                     |
+|      |          | F: Lec5 - Apache Pig                   |            |                                        |
+|   4  |  2/3/25  | M: PE2 - Pig Exercise                  |   Week 4   |                                        |
+|      |          | W: Lab 2                               |            |                                        |
+|      |          | F: Lec6 - Apache Spark                 |            |                                        |
+|   5  |  2/10/25 | M: Lec7 - Spark deployment on GCP      |   Week 5   | Mon: HW2 due; HW3 out                  |
+|      |          | W: Lec8 - Spark Low-level API          |            | Finalize project topic and dataset     |
+|      |          | F: Lec9 - Spark DataFrame              |            |                                        |
+|   6  |  2/17/25 | M: PE3 - Spark DataFrame               |   Week 6   |                                        |
+|      |          | W: Lab 3                               |            |                                        |
+|      |          | F: Lec10 - Module 1 summary            |            |                                        |
+|   7  |  2/24/25 | M: <span style="color:green">Exam 1</span>|            | Mon: HW3 due                           |
+|      |          | W: <span style="color:red">Dr. Li on travel; No Classes</span>|            |                                        |
+|      |          | F: <span style="color:red">Dr. Li on travel; No Classes</span>|            | Fri: Proposal due                      |
+|   8  |  3/3/25  | M: <span style="color:red">Spring Break; No Classes</span>|            |                                        |
+|      |          | W: <span style="color:red">Spring Break; No Classes</span>|            |                                        |
+|      |          | F: <span style="color:red">Spring Break; No Classes</span>|            |                                        |
+|   9  |  3/10/25 | M: Lec11 - Spark Machine Learning      |   Week 9   | Mon: HW4 out                           |
+|      |          | W: Lec12 - Spark Linear Regression     |            |                                        |
+|      |          | F: Lec13 - Spark Logistic Regression   |            |                                        |
+|  10  |  3/17/25 | M: Lec14 - Spark Tree Classifiers      |   Week 10  |                                        |
+|      |          | W: PE4 - Spark ML                      |            |                                        |
+|      |          | F: Lab 4                               |            |                                        |
+|  11  |  3/24/25 | M: Lec15 - Spark KMeans                |   Week 11  | Mon: Project milestone 1 due (40%)     |
+|      |          | W: Lec16 - NLP at Scale                |            |                                        |
+|      |          | F: Lec17 - NLP with Spark              |            |                                        |
+|  12  |  3/31/25 | M: PE5 - ML at Scale                   |            | Mon: HW4 due                           |
+|      |          | W: Lab 5                               |            |                                        |
+|      |          | F: <span style="color:red">Exam 2</span>|            |                                        |
+|  13  |  4/7/25  | M: Paper Presentation: Kafka           | Paper 1, 2 | Mon: HW 5 out                          |
+|      |          | W: Paper Presentation: Spark Streaming |            |                                        |
+|      |          | F: PE6 - Data Streaming                |            |                                        |
+|  14  |  4/14/25 | M: Lab 6                               | Paper 3, 4 | Mon: Project milestone 2 due (80%)     |
+|      |          | W: Paper Presentation: NoSQL Overview  |            |                                        |
+|      |          | F: <span style="color:red">Easter Break; No Classes</span>|            |                                        |
+|  15  |  4/21/25 | M: Paper Presentation: Hbase           | Paper 5, 6 | Mon: HW 5 due                          |
+|      |          | T: SCAD Day: Volunteer Presentation    |            |                                        |
+|      |          | W: Paper Presentation: DynamoDB        |            |                                        |
+|      |          | F: Paper Presentation: Cassandra       |            |                                        |
+|  16  |  4/28/25 | M: <span style="color:red">Project Day; No Classes</span>|            |                                        |
+|      |          | W: Project Presentation Group 1        |            | Wed by noon: presentation and demo due |
+|      |          | F: Project Presentation Group 2        |            |                                        |
+|  17  |  5/5/25  | M: Project Group 3: 2:30 - 5:30 PM     |            |                                        |
+|      |          | W: Have a great summer break!          |            | Wed: Final report and revised code due |
+|      |          | F: Have a great summer break!          |            |                                        |</p>
+<h2 id="reading-list">Reading List</h2>
 <table>
 <thead>
 <tr>
-<th align="center">Week</th>
-<th align="center">Starting</th>
-<th>Topics</th>
-<th>Reading</th>
-<th>Notes</th>
+<th align="center">Reading #</th>
+<th>Title</th>
+<th>URL</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">1</td>
-<td align="center">1/16/23</td>
-<td>T: Lec1 - Course introduction; Intro to Big Data</td>
-<td>Reading1_Hadoop</td>
-<td>Mon: HW1 out.</td>
+<td align="center">Week 1</td>
+<td>Hadoop in a heartbeat</td>
+<td><a href="https://peilong.github.io/files/cs354/Reading1_Hadoop.pdf">https://peilong.github.io/files/cs354/Reading1_Hadoop.pdf</a></td>
 </tr>
 <tr>
-<td align="center"></td>
-<td align="center"></td>
-<td>H: Lec2 - Hadoop Ecosystem</td>
-<td></td>
-<td></td>
+<td align="center">Week 2</td>
+<td>HDFS</td>
+<td><a href="https://peilong.github.io/files/cs354/Reading2_HDFS.pdf">https://peilong.github.io/files/cs354/Reading2_HDFS.pdf</a></td>
 </tr>
 <tr>
-<td align="center">2</td>
-<td align="center">1/23/23</td>
-<td>T: Lec3 - HDFS</td>
-<td>Reading2_HDFS</td>
-<td>Mon: HW1 due.</td>
+<td align="center">Week 3</td>
+<td>MapReduce with Python</td>
+<td><a href="https://peilong.github.io/files/cs354/Reading3_MR.pdf">https://peilong.github.io/files/cs354/Reading3_MR.pdf</a></td>
 </tr>
 <tr>
-<td align="center"></td>
-<td align="center"></td>
-<td>H: Lec4 - MapReduce</td>
-<td></td>
-<td></td>
+<td align="center">Week 4</td>
+<td>Pig and Python</td>
+<td><a href="https://peilong.github.io/files/cs354/Reading4_Pig.pdf">https://peilong.github.io/files/cs354/Reading4_Pig.pdf</a></td>
 </tr>
 <tr>
-<td align="center">3</td>
-<td align="center">1/30/23</td>
-<td>T: PE1 - MapReduce Exercise</td>
-<td>Reading3_MR</td>
-<td>Mon: Quiz 1 week; HW 2 out; Team formation due.</td>
+<td align="center">Week 5</td>
+<td>Apache Spark and RDD API</td>
+<td><a href="https://peilong.github.io/files/cs354/Reading5_RDD.pdf">https://peilong.github.io/files/cs354/Reading5_RDD.pdf</a></td>
 </tr>
 <tr>
-<td align="center"></td>
-<td align="center"></td>
-<td>H: Lec5 - Apache Pig</td>
-<td></td>
-<td></td>
+<td align="center">Week 6</td>
+<td>Spark SQL and DataFrame API</td>
+<td><a href="https://peilong.github.io/files/cs354/Reading6_SparkSQL.pdf">https://peilong.github.io/files/cs354/Reading6_SparkSQL.pdf</a></td>
 </tr>
 <tr>
-<td align="center">4</td>
-<td align="center">2/6/23</td>
-<td>T: PE2 - Pig Exercise</td>
-<td>Reading4_Pig</td>
-<td>Mon: Quiz 2 week.</td>
+<td align="center">Week 9</td>
+<td>PySpark Machine Learning</td>
+<td><a href="https://www.projectpro.io/hadoop-tutorial/pyspark-machine-learning-tutorial">https://www.projectpro.io/hadoop-tutorial/pyspark-machine-learning-tutorial</a></td>
 </tr>
 <tr>
-<td align="center"></td>
-<td align="center"></td>
-<td>H: Lec6 - NoSQL (Paper 1 Presentation)</td>
-<td></td>
-<td></td>
+<td align="center">Week 10</td>
+<td>Random Forest in PySpark</td>
+<td><a href="https://towardsdatascience.com/a-guide-to-exploit-random-forest-classifier-in-pyspark-46d6999cb5db">https://towardsdatascience.com/a-guide-to-exploit-random-forest-classifier-in-pyspark-46d6999cb5db</a></td>
 </tr>
 <tr>
-<td align="center">5</td>
-<td align="center">2/13/23</td>
-<td>T: Lec7 - Hbase (Paper 2 Presentation)</td>
-<td>Paper1 &amp; Paper2</td>
-<td>Mon: HW2 due; HW3 out; Finalize project topic and dataset.</td>
+<td align="center">Week 11</td>
+<td>NLP with PySpark</td>
+<td><a href="https://medium.com/@mrunmayee.dhapre/natural-language-processing-nlp-with-spark-python-f67ac513616f">https://medium.com/@mrunmayee.dhapre/natural-language-processing-nlp-with-spark-python-f67ac513616f</a></td>
 </tr>
 <tr>
-<td align="center"></td>
-<td align="center"></td>
-<td>H: Lec8 - MongoDB</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td align="center">6</td>
-<td align="center">2/20/23</td>
-<td>T: <span style="color:blue">Exam 1</span></td>
-<td>Paper3_Spark</td>
-<td></td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center"></td>
-<td>H: Lec9 - Intro to Apache Spark (Paper 3 Presentation)</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td align="center">7</td>
-<td align="center">2/27/23</td>
-<td>T: Lec10 - Spark RDD (Paper 4 Presentation)</td>
-<td>Paper4_RDD, LS Ch.3</td>
-<td>Mon: HW3 due. Final project proposal due</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center"></td>
-<td>H: Lec11 - Spark DataFrame</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td align="center">8</td>
-<td align="center">3/6/23</td>
-<td>T: <span style="color:red">Spring Break, No Classes</span></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center"></td>
-<td>H: <span style="color:red">Spring Break, No Classes</span></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td align="center">9</td>
-<td align="center">3/13/23</td>
-<td>T: PE3 - Spark DataFrame Exercise</td>
-<td>Paper5_Mllib, LS Ch.4</td>
-<td>Mon: Quiz 3 week; HW4 out</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center"></td>
-<td>H: Lec12 - Spark Machine Learning (Paper 5 Presentation)</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td align="center">10</td>
-<td align="center">3/20/23</td>
-<td>T: PE4 - Spark Linear Regression Exercise</td>
-<td>LS Ch.10</td>
-<td></td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center"></td>
-<td>H: Lec13 - Spark Logistic Regression</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td align="center">11</td>
-<td align="center">3/27/23</td>
-<td>T: Lec14 - Spark Tree Classifiers</td>
-<td>LS Ch.11</td>
-<td>Mon: Project milestone 1 due (50% work done)</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center"></td>
-<td>H: PE5 - Spark Trees</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td align="center">12</td>
-<td align="center">4/3/23</td>
-<td>T: Lec15 - Spark K-Means</td>
-<td>LS Ch.7</td>
-<td>Mon: Quiz 4 week</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center"></td>
-<td>H: <span style="color:blue">Exam 2</span></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td align="center">13</td>
-<td align="center">4/10/23</td>
-<td>T: Lec16 - Intro to NLP</td>
-<td>Reading5_NLP</td>
-<td>Mon: HW4 due</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center"></td>
-<td>H: Lec17 - NLP by example</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td align="center">14</td>
-<td align="center">4/17/23</td>
-<td>T: Lec18 - NLP with Spark</td>
-<td>LS Ch.8</td>
-<td>Mon: Quiz 5 week</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center"></td>
-<td>H: Lec19 - Apache Kafka</td>
-<td></td>
-<td>Fri: Project milestone 2 due (90% work done)</td>
-</tr>
-<tr>
-<td align="center">15</td>
-<td align="center">4/24/23</td>
-<td>T: <span style="color:red">Scholarship Day, Student Presentation</span></td>
-<td>Spark Document</td>
-<td>Mon: HW5 out, SCAD slides due</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center"></td>
-<td>H: Lec20 - Spark Streaming</td>
-<td></td>
-<td>Tue: Present at SCAD Day</td>
-</tr>
-<tr>
-<td align="center">16</td>
-<td align="center">5/1/23</td>
-<td>T: PE6 - Data Streaming</td>
-<td></td>
-<td>Mon: Quiz 6 week</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center"></td>
-<td>H: <span style="color:red">Reading Day, No Classes</span></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td align="center">17</td>
-<td align="center">5/8/23</td>
-<td>T: <span style="color:blue">Work on Final Project Report</span></td>
-<td></td>
-<td>Mon: Final presentation and demo code due</td>
-</tr>
-<tr>
-<td align="center"></td>
-<td align="center"></td>
-<td>H: Have a great summer!</td>
-<td></td>
-<td>Wed: Final report and revised code due; HW5 due</td>
+<td align="center">Week 13</td>
+<td>Spark Structured Streaming</td>
+<td><a href="https://medium.com/analytics-vidhya/apache-spark-structured-streaming-with-pyspark-b4a054a7947d">https://medium.com/analytics-vidhya/apache-spark-structured-streaming-with-pyspark-b4a054a7947d</a></td>
 </tr>
 </tbody>
 </table>
-<h2 id="reading-list">Reading List</h2>
-<ol>
-<li>Textbook &ldquo;Learning Spark, 2nd Edition&rdquo; (Short name: <span style="color:red">LS</span>): <a href="https://peilong.github.io/files/ds420/LearningSpark2.0.pdf">Link</a></li>
-<li>Reading1_Hadoop: <a href="https://peilong.github.io/files/ds420/Reading1_Hadoop.pdf">Link</a></li>
-<li>Reading2_HDFS: <a href="https://peilong.github.io/files/ds420/Reading2_HDFS.pdf">Link</a></li>
-<li>Reading3_MR: <a href="https://peilong.github.io/files/ds420/Reading3_MR.pdf">Link</a></li>
-<li>Reading4_Pig: <a href="https://peilong.github.io/files/ds420/Reading4_Pig.pdf">Link</a></li>
-<li>Reading5_NLP: <a href="https://peilong.github.io/files/ds420/Reading5_NLP.pdf">Link</a></li>
-<li>Paper1_NoSQL: <a href="https://peilong.github.io/files/ds420/Paper1_NoSQL.pdf">Link</a></li>
-<li>Paper2_Hbase: <a href="https://peilong.github.io/files/ds420/Paper2_Hbase.pdf">Link</a></li>
-<li>Paper3_Spark: <a href="https://peilong.github.io/files/ds420/Paper3_Spark.pdf">Link</a></li>
-<li>Paper4_RDD: <a href="https://peilong.github.io/files/ds420/Paper4_RDD.pdf">Link</a></li>
-<li>Paper5_MLlib: <a href="https://peilong.github.io/files/ds420/Paper5_MLlib.pdf">Link</a></li>
-</ol>
+<h2 id="paper-list">Paper List</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Paper #</th>
+<th>Topic</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Paper 1</td>
+<td>Apache Kafka</td>
+<td><a href="https://notes.stephenholiday.com/Kafka.pdf">https://notes.stephenholiday.com/Kafka.pdf</a></td>
+</tr>
+<tr>
+<td align="center">Paper 2</td>
+<td>Spark Streaming</td>
+<td><a href="https://dl.acm.org/doi/10.1145/2517349.2522737">https://dl.acm.org/doi/10.1145/2517349.2522737</a></td>
+</tr>
+<tr>
+<td align="center">Paper 3</td>
+<td>NoSQL Databases Review</td>
+<td><a href="https://dl.acm.org/doi/10.1145/1978915.1978919">https://dl.acm.org/doi/10.1145/1978915.1978919</a></td>
+</tr>
+<tr>
+<td align="center">Paper 4</td>
+<td>Apache Hbase</td>
+<td><a href="https://dl.acm.org/doi/10.1145/1365815.1365816">https://dl.acm.org/doi/10.1145/1365815.1365816</a></td>
+</tr>
+<tr>
+<td align="center">Paper 5</td>
+<td>DynamoDB</td>
+<td><a href="https://dl.acm.org/doi/10.1145/1323293.1294281">https://dl.acm.org/doi/10.1145/1323293.1294281</a></td>
+</tr>
+<tr>
+<td align="center">Paper 6</td>
+<td>Apache Cassandra</td>
+<td><a href="https://dl.acm.org/doi/10.1145/1773912.1773922">https://dl.acm.org/doi/10.1145/1773912.1773922</a></td>
+</tr>
+</tbody>
+</table>
 
           </div>
 

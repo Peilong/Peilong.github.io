@@ -1305,7 +1305,7 @@ Each assignment will be given near the beginning of a class and must be uploaded
 &lt;li&gt;&lt;strong&gt;24%&lt;/strong&gt;: 6 labs.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;5%&lt;/strong&gt;: Individual paper reading assignment.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;5%&lt;/strong&gt; : Team lecture presentation - peer evaluation (50%), instructor evaluation (50%).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;20%&lt;/strong&gt;: 4 individual homework.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20%&lt;/strong&gt;: 5 individual homework.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;24%&lt;/strong&gt;: 2 midterm exams.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;17%&lt;/strong&gt;: Final Project - project proposal (1.7%); Milestone check (3.4%); SCAD Day Presentation (6.8%); Final project report and revised code (5.1%).&lt;/li&gt;
 &lt;/ul&gt;
@@ -4749,272 +4749,165 @@ Last Updated: 01/17/2023&lt;/p&gt;
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://Peilong.github.io/courses/cs354/schedule/</guid>
       <description>&lt;p&gt;Note this tentative schedule is subject to change. Please check the schedule regularly.&lt;/p&gt;
-&lt;p&gt;Last Updated: 04/09/2022&lt;/p&gt;
+&lt;p&gt;Last Updated: 01/13/2025&lt;/p&gt;
+&lt;p&gt;| Week | Starting |                 Topics                 |   Reading  |                  Notes                 |
+|:&amp;mdash;-:|:&amp;mdash;&amp;mdash;&amp;ndash;:|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;:-|
+|   1  |  1/13/25 | M: Lec1 - Course intro; Big Data       |   Week 1   | Mon: HW1 out                           |
+|      |          | W: Lec2 -  Hadoop Ecosystem            |            |                                        |
+|      |          | F: Lec3 - HDFS                         |            |                                        |
+|   2  |  1/20/25 | M: &lt;span style=&#34;color:red&#34;&gt;MLK Day; No Classes&lt;/span&gt;|   Week 2   |                                        |
+|      |          | W: Lec4 - MapReduce                    |            |                                        |
+|      |          | F: &lt;span style=&#34;color:red&#34;&gt;Dr. Li on travel; No Classes&lt;/span&gt;|            |                                        |
+|   3  |  1/27/25 | M: PE1 - MapReduce Exercise            |   Week 3   | Mon: HW1 due; HW2 out                  |
+|      |          | W: Lab 1                               |            | Team formation due                     |
+|      |          | F: Lec5 - Apache Pig                   |            |                                        |
+|   4  |  2/3/25  | M: PE2 - Pig Exercise                  |   Week 4   |                                        |
+|      |          | W: Lab 2                               |            |                                        |
+|      |          | F: Lec6 - Apache Spark                 |            |                                        |
+|   5  |  2/10/25 | M: Lec7 - Spark deployment on GCP      |   Week 5   | Mon: HW2 due; HW3 out                  |
+|      |          | W: Lec8 - Spark Low-level API          |            | Finalize project topic and dataset     |
+|      |          | F: Lec9 - Spark DataFrame              |            |                                        |
+|   6  |  2/17/25 | M: PE3 - Spark DataFrame               |   Week 6   |                                        |
+|      |          | W: Lab 3                               |            |                                        |
+|      |          | F: Lec10 - Module 1 summary            |            |                                        |
+|   7  |  2/24/25 | M: &lt;span style=&#34;color:green&#34;&gt;Exam 1&lt;/span&gt;|            | Mon: HW3 due                           |
+|      |          | W: &lt;span style=&#34;color:red&#34;&gt;Dr. Li on travel; No Classes&lt;/span&gt;|            |                                        |
+|      |          | F: &lt;span style=&#34;color:red&#34;&gt;Dr. Li on travel; No Classes&lt;/span&gt;|            | Fri: Proposal due                      |
+|   8  |  3/3/25  | M: &lt;span style=&#34;color:red&#34;&gt;Spring Break; No Classes&lt;/span&gt;|            |                                        |
+|      |          | W: &lt;span style=&#34;color:red&#34;&gt;Spring Break; No Classes&lt;/span&gt;|            |                                        |
+|      |          | F: &lt;span style=&#34;color:red&#34;&gt;Spring Break; No Classes&lt;/span&gt;|            |                                        |
+|   9  |  3/10/25 | M: Lec11 - Spark Machine Learning      |   Week 9   | Mon: HW4 out                           |
+|      |          | W: Lec12 - Spark Linear Regression     |            |                                        |
+|      |          | F: Lec13 - Spark Logistic Regression   |            |                                        |
+|  10  |  3/17/25 | M: Lec14 - Spark Tree Classifiers      |   Week 10  |                                        |
+|      |          | W: PE4 - Spark ML                      |            |                                        |
+|      |          | F: Lab 4                               |            |                                        |
+|  11  |  3/24/25 | M: Lec15 - Spark KMeans                |   Week 11  | Mon: Project milestone 1 due (40%)     |
+|      |          | W: Lec16 - NLP at Scale                |            |                                        |
+|      |          | F: Lec17 - NLP with Spark              |            |                                        |
+|  12  |  3/31/25 | M: PE5 - ML at Scale                   |            | Mon: HW4 due                           |
+|      |          | W: Lab 5                               |            |                                        |
+|      |          | F: &lt;span style=&#34;color:red&#34;&gt;Exam 2&lt;/span&gt;|            |                                        |
+|  13  |  4/7/25  | M: Paper Presentation: Kafka           | Paper 1, 2 | Mon: HW 5 out                          |
+|      |          | W: Paper Presentation: Spark Streaming |            |                                        |
+|      |          | F: PE6 - Data Streaming                |            |                                        |
+|  14  |  4/14/25 | M: Lab 6                               | Paper 3, 4 | Mon: Project milestone 2 due (80%)     |
+|      |          | W: Paper Presentation: NoSQL Overview  |            |                                        |
+|      |          | F: &lt;span style=&#34;color:red&#34;&gt;Easter Break; No Classes&lt;/span&gt;|            |                                        |
+|  15  |  4/21/25 | M: Paper Presentation: Hbase           | Paper 5, 6 | Mon: HW 5 due                          |
+|      |          | T: SCAD Day: Volunteer Presentation    |            |                                        |
+|      |          | W: Paper Presentation: DynamoDB        |            |                                        |
+|      |          | F: Paper Presentation: Cassandra       |            |                                        |
+|  16  |  4/28/25 | M: &lt;span style=&#34;color:red&#34;&gt;Project Day; No Classes&lt;/span&gt;|            |                                        |
+|      |          | W: Project Presentation Group 1        |            | Wed by noon: presentation and demo due |
+|      |          | F: Project Presentation Group 2        |            |                                        |
+|  17  |  5/5/25  | M: Project Group 3: 2:30 - 5:30 PM     |            |                                        |
+|      |          | W: Have a great summer break!          |            | Wed: Final report and revised code due |
+|      |          | F: Have a great summer break!          |            |                                        |&lt;/p&gt;
+&lt;h2 id=&#34;reading-list&#34;&gt;Reading List&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;Week&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;Starting&lt;/th&gt;
-&lt;th&gt;Topics&lt;/th&gt;
-&lt;th&gt;Reading&lt;/th&gt;
-&lt;th&gt;Notes&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Reading #&lt;/th&gt;
+&lt;th&gt;Title&lt;/th&gt;
+&lt;th&gt;URL&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1/16/23&lt;/td&gt;
-&lt;td&gt;T: Lec1 - Course introduction; Intro to Big Data&lt;/td&gt;
-&lt;td&gt;Reading1_Hadoop&lt;/td&gt;
-&lt;td&gt;Mon: HW1 out.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Week 1&lt;/td&gt;
+&lt;td&gt;Hadoop in a heartbeat&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://peilong.github.io/files/cs354/Reading1_Hadoop.pdf&#34;&gt;https://peilong.github.io/files/cs354/Reading1_Hadoop.pdf&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;H: Lec2 - Hadoop Ecosystem&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Week 2&lt;/td&gt;
+&lt;td&gt;HDFS&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://peilong.github.io/files/cs354/Reading2_HDFS.pdf&#34;&gt;https://peilong.github.io/files/cs354/Reading2_HDFS.pdf&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1/23/23&lt;/td&gt;
-&lt;td&gt;T: Lec3 - HDFS&lt;/td&gt;
-&lt;td&gt;Reading2_HDFS&lt;/td&gt;
-&lt;td&gt;Mon: HW1 due.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Week 3&lt;/td&gt;
+&lt;td&gt;MapReduce with Python&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://peilong.github.io/files/cs354/Reading3_MR.pdf&#34;&gt;https://peilong.github.io/files/cs354/Reading3_MR.pdf&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;H: Lec4 - MapReduce&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Week 4&lt;/td&gt;
+&lt;td&gt;Pig and Python&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://peilong.github.io/files/cs354/Reading4_Pig.pdf&#34;&gt;https://peilong.github.io/files/cs354/Reading4_Pig.pdf&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;3&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1/30/23&lt;/td&gt;
-&lt;td&gt;T: PE1 - MapReduce Exercise&lt;/td&gt;
-&lt;td&gt;Reading3_MR&lt;/td&gt;
-&lt;td&gt;Mon: Quiz 1 week; HW 2 out; Team formation due.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Week 5&lt;/td&gt;
+&lt;td&gt;Apache Spark and RDD API&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://peilong.github.io/files/cs354/Reading5_RDD.pdf&#34;&gt;https://peilong.github.io/files/cs354/Reading5_RDD.pdf&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;H: Lec5 - Apache Pig&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Week 6&lt;/td&gt;
+&lt;td&gt;Spark SQL and DataFrame API&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://peilong.github.io/files/cs354/Reading6_SparkSQL.pdf&#34;&gt;https://peilong.github.io/files/cs354/Reading6_SparkSQL.pdf&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2/6/23&lt;/td&gt;
-&lt;td&gt;T: PE2 - Pig Exercise&lt;/td&gt;
-&lt;td&gt;Reading4_Pig&lt;/td&gt;
-&lt;td&gt;Mon: Quiz 2 week.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Week 9&lt;/td&gt;
+&lt;td&gt;PySpark Machine Learning&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.projectpro.io/hadoop-tutorial/pyspark-machine-learning-tutorial&#34;&gt;https://www.projectpro.io/hadoop-tutorial/pyspark-machine-learning-tutorial&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;H: Lec6 - NoSQL (Paper 1 Presentation)&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Week 10&lt;/td&gt;
+&lt;td&gt;Random Forest in PySpark&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://towardsdatascience.com/a-guide-to-exploit-random-forest-classifier-in-pyspark-46d6999cb5db&#34;&gt;https://towardsdatascience.com/a-guide-to-exploit-random-forest-classifier-in-pyspark-46d6999cb5db&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2/13/23&lt;/td&gt;
-&lt;td&gt;T: Lec7 - Hbase (Paper 2 Presentation)&lt;/td&gt;
-&lt;td&gt;Paper1 &amp;amp; Paper2&lt;/td&gt;
-&lt;td&gt;Mon: HW2 due; HW3 out; Finalize project topic and dataset.&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Week 11&lt;/td&gt;
+&lt;td&gt;NLP with PySpark&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://medium.com/@mrunmayee.dhapre/natural-language-processing-nlp-with-spark-python-f67ac513616f&#34;&gt;https://medium.com/@mrunmayee.dhapre/natural-language-processing-nlp-with-spark-python-f67ac513616f&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;H: Lec8 - MongoDB&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;6&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2/20/23&lt;/td&gt;
-&lt;td&gt;T: &lt;span style=&#34;color:blue&#34;&gt;Exam 1&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Paper3_Spark&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;H: Lec9 - Intro to Apache Spark (Paper 3 Presentation)&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;7&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;2/27/23&lt;/td&gt;
-&lt;td&gt;T: Lec10 - Spark RDD (Paper 4 Presentation)&lt;/td&gt;
-&lt;td&gt;Paper4_RDD, LS Ch.3&lt;/td&gt;
-&lt;td&gt;Mon: HW3 due. Final project proposal due&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;H: Lec11 - Spark DataFrame&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;8&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;3/6/23&lt;/td&gt;
-&lt;td&gt;T: &lt;span style=&#34;color:red&#34;&gt;Spring Break, No Classes&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;H: &lt;span style=&#34;color:red&#34;&gt;Spring Break, No Classes&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;9&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;3/13/23&lt;/td&gt;
-&lt;td&gt;T: PE3 - Spark DataFrame Exercise&lt;/td&gt;
-&lt;td&gt;Paper5_Mllib, LS Ch.4&lt;/td&gt;
-&lt;td&gt;Mon: Quiz 3 week; HW4 out&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;H: Lec12 - Spark Machine Learning (Paper 5 Presentation)&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;10&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;3/20/23&lt;/td&gt;
-&lt;td&gt;T: PE4 - Spark Linear Regression Exercise&lt;/td&gt;
-&lt;td&gt;LS Ch.10&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;H: Lec13 - Spark Logistic Regression&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;11&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;3/27/23&lt;/td&gt;
-&lt;td&gt;T: Lec14 - Spark Tree Classifiers&lt;/td&gt;
-&lt;td&gt;LS Ch.11&lt;/td&gt;
-&lt;td&gt;Mon: Project milestone 1 due (50% work done)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;H: PE5 - Spark Trees&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;12&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;4/3/23&lt;/td&gt;
-&lt;td&gt;T: Lec15 - Spark K-Means&lt;/td&gt;
-&lt;td&gt;LS Ch.7&lt;/td&gt;
-&lt;td&gt;Mon: Quiz 4 week&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;H: &lt;span style=&#34;color:blue&#34;&gt;Exam 2&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;13&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;4/10/23&lt;/td&gt;
-&lt;td&gt;T: Lec16 - Intro to NLP&lt;/td&gt;
-&lt;td&gt;Reading5_NLP&lt;/td&gt;
-&lt;td&gt;Mon: HW4 due&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;H: Lec17 - NLP by example&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;14&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;4/17/23&lt;/td&gt;
-&lt;td&gt;T: Lec18 - NLP with Spark&lt;/td&gt;
-&lt;td&gt;LS Ch.8&lt;/td&gt;
-&lt;td&gt;Mon: Quiz 5 week&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;H: Lec19 - Apache Kafka&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Fri: Project milestone 2 due (90% work done)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;15&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;4/24/23&lt;/td&gt;
-&lt;td&gt;T: &lt;span style=&#34;color:red&#34;&gt;Scholarship Day, Student Presentation&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;Spark Document&lt;/td&gt;
-&lt;td&gt;Mon: HW5 out, SCAD slides due&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;H: Lec20 - Spark Streaming&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Tue: Present at SCAD Day&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;16&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;5/1/23&lt;/td&gt;
-&lt;td&gt;T: PE6 - Data Streaming&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Mon: Quiz 6 week&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;H: &lt;span style=&#34;color:red&#34;&gt;Reading Day, No Classes&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;17&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;5/8/23&lt;/td&gt;
-&lt;td&gt;T: &lt;span style=&#34;color:blue&#34;&gt;Work on Final Project Report&lt;/span&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Mon: Final presentation and demo code due&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;H: Have a great summer!&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;Wed: Final report and revised code due; HW5 due&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;Week 13&lt;/td&gt;
+&lt;td&gt;Spark Structured Streaming&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://medium.com/analytics-vidhya/apache-spark-structured-streaming-with-pyspark-b4a054a7947d&#34;&gt;https://medium.com/analytics-vidhya/apache-spark-structured-streaming-with-pyspark-b4a054a7947d&lt;/a&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id=&#34;reading-list&#34;&gt;Reading List&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Textbook &amp;ldquo;Learning Spark, 2nd Edition&amp;rdquo; (Short name: &lt;span style=&#34;color:red&#34;&gt;LS&lt;/span&gt;): &lt;a href=&#34;https://peilong.github.io/files/ds420/LearningSpark2.0.pdf&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Reading1_Hadoop: &lt;a href=&#34;https://peilong.github.io/files/ds420/Reading1_Hadoop.pdf&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Reading2_HDFS: &lt;a href=&#34;https://peilong.github.io/files/ds420/Reading2_HDFS.pdf&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Reading3_MR: &lt;a href=&#34;https://peilong.github.io/files/ds420/Reading3_MR.pdf&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Reading4_Pig: &lt;a href=&#34;https://peilong.github.io/files/ds420/Reading4_Pig.pdf&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Reading5_NLP: &lt;a href=&#34;https://peilong.github.io/files/ds420/Reading5_NLP.pdf&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Paper1_NoSQL: &lt;a href=&#34;https://peilong.github.io/files/ds420/Paper1_NoSQL.pdf&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Paper2_Hbase: &lt;a href=&#34;https://peilong.github.io/files/ds420/Paper2_Hbase.pdf&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Paper3_Spark: &lt;a href=&#34;https://peilong.github.io/files/ds420/Paper3_Spark.pdf&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Paper4_RDD: &lt;a href=&#34;https://peilong.github.io/files/ds420/Paper4_RDD.pdf&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Paper5_MLlib: &lt;a href=&#34;https://peilong.github.io/files/ds420/Paper5_MLlib.pdf&#34;&gt;Link&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;h2 id=&#34;paper-list&#34;&gt;Paper List&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Paper #&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;th&gt;URL&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Paper 1&lt;/td&gt;
+&lt;td&gt;Apache Kafka&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://notes.stephenholiday.com/Kafka.pdf&#34;&gt;https://notes.stephenholiday.com/Kafka.pdf&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Paper 2&lt;/td&gt;
+&lt;td&gt;Spark Streaming&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/2517349.2522737&#34;&gt;https://dl.acm.org/doi/10.1145/2517349.2522737&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Paper 3&lt;/td&gt;
+&lt;td&gt;NoSQL Databases Review&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/1978915.1978919&#34;&gt;https://dl.acm.org/doi/10.1145/1978915.1978919&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Paper 4&lt;/td&gt;
+&lt;td&gt;Apache Hbase&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/1365815.1365816&#34;&gt;https://dl.acm.org/doi/10.1145/1365815.1365816&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Paper 5&lt;/td&gt;
+&lt;td&gt;DynamoDB&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/1323293.1294281&#34;&gt;https://dl.acm.org/doi/10.1145/1323293.1294281&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;Paper 6&lt;/td&gt;
+&lt;td&gt;Apache Cassandra&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/1773912.1773922&#34;&gt;https://dl.acm.org/doi/10.1145/1773912.1773922&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     
@@ -5875,20 +5768,6 @@ Download VS Code from: &lt;a href=&#34;https://code.visualstudio.com/download&#3
 &lt;ul&gt;
 &lt;li&gt;Hadoop ecosystem software: &lt;a href=&#34;http://adal.etown.edu&#34;&gt;http://adal.etown.edu&lt;/a&gt;. Use SSH to access.&lt;/li&gt;
 &lt;li&gt;PySpark enabled Jupyter Notebook: &lt;a href=&#34;http://adal.etown.edu:12345&#34;&gt;http://adal.etown.edu:12345&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;optional-install-hdp-sandbox-by-yourself&#34;&gt;(Optional) Install HDP Sandbox by yourself:&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Docker Engine: &lt;a href=&#34;https://docs.docker.com/engine/install/&#34;&gt;https://docs.docker.com/engine/install/&lt;/a&gt;.
-Find the correct installation guide for your operating systems.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Hortonworks Data Platform (HDP) on Sandbox version 2.6.5: &lt;a href=&#34;https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html&#34;&gt;https://www.cloudera.com/downloads/hortonworks-sandbox/hdp.html&lt;/a&gt;
-You need to register a Cloudera account first, then choose the correct installation type on Docker (less resource demanding than a virtual machine). The recommended configuration is 4 CPUs and 8 GB of free RAM; however, 2 CPU and 6 GBs of RAM should be enough for our case. Reducing the amount of RAM will make some of the services unavailable.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Follow along the tutorial to install HDP on docker engine: &lt;a href=&#34;https://www.cloudera.com/tutorials/sandbox-deployment-and-install-guide/3.html&#34;&gt;https://www.cloudera.com/tutorials/sandbox-deployment-and-install-guide/3.html&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;install-pyspark-for-your-own-jupyter-server&#34;&gt;Install PySpark for Your Own Jupyter Server:&lt;/h2&gt;
 &lt;ul&gt;
