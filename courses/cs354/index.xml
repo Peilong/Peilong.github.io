@@ -244,60 +244,383 @@ Points will be deducted from 100% for the following reasons:&lt;/p&gt;
       <guid>https://Peilong.github.io/courses/cs354/schedule/</guid>
       <description>&lt;p&gt;Note this tentative schedule is subject to change. Please check the schedule regularly.&lt;/p&gt;
 &lt;p&gt;Last Updated: 01/13/2025&lt;/p&gt;
-&lt;p&gt;| Week | Starting |                 Topics                 |   Reading  |                  Notes                 |
-|:&amp;mdash;-:|:&amp;mdash;&amp;mdash;&amp;ndash;:|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;:-|
-|   1  |  1/13/25 | M: Lec1 - Course intro; Big Data       |   Week 1   | Mon: HW1 out                           |
-|      |          | W: Lec2 -  Hadoop Ecosystem            |            |                                        |
-|      |          | F: Lec3 - HDFS                         |            |                                        |
-|   2  |  1/20/25 | M: &lt;span style=&#34;color:red&#34;&gt;MLK Day; No Classes&lt;/span&gt;|   Week 2   |                                        |
-|      |          | W: Lec4 - MapReduce                    |            |                                        |
-|      |          | F: &lt;span style=&#34;color:red&#34;&gt;Dr. Li on travel; No Classes&lt;/span&gt;|            |                                        |
-|   3  |  1/27/25 | M: PE1 - MapReduce Exercise            |   Week 3   | Mon: HW1 due; HW2 out                  |
-|      |          | W: Lab 1                               |            | Team formation due                     |
-|      |          | F: Lec5 - Apache Pig                   |            |                                        |
-|   4  |  2/3/25  | M: PE2 - Pig Exercise                  |   Week 4   |                                        |
-|      |          | W: Lab 2                               |            |                                        |
-|      |          | F: Lec6 - Apache Spark                 |            |                                        |
-|   5  |  2/10/25 | M: Lec7 - Spark deployment on GCP      |   Week 5   | Mon: HW2 due; HW3 out                  |
-|      |          | W: Lec8 - Spark Low-level API          |            | Finalize project topic and dataset     |
-|      |          | F: Lec9 - Spark DataFrame              |            |                                        |
-|   6  |  2/17/25 | M: PE3 - Spark DataFrame               |   Week 6   |                                        |
-|      |          | W: Lab 3                               |            |                                        |
-|      |          | F: Lec10 - Module 1 summary            |            |                                        |
-|   7  |  2/24/25 | M: &lt;span style=&#34;color:green&#34;&gt;Exam 1&lt;/span&gt;|            | Mon: HW3 due                           |
-|      |          | W: &lt;span style=&#34;color:red&#34;&gt;Dr. Li on travel; No Classes&lt;/span&gt;|            |                                        |
-|      |          | F: &lt;span style=&#34;color:red&#34;&gt;Dr. Li on travel; No Classes&lt;/span&gt;|            | Fri: Proposal due                      |
-|   8  |  3/3/25  | M: &lt;span style=&#34;color:red&#34;&gt;Spring Break; No Classes&lt;/span&gt;|            |                                        |
-|      |          | W: &lt;span style=&#34;color:red&#34;&gt;Spring Break; No Classes&lt;/span&gt;|            |                                        |
-|      |          | F: &lt;span style=&#34;color:red&#34;&gt;Spring Break; No Classes&lt;/span&gt;|            |                                        |
-|   9  |  3/10/25 | M: Lec11 - Spark Machine Learning      |   Week 9   | Mon: HW4 out                           |
-|      |          | W: Lec12 - Spark Linear Regression     |            |                                        |
-|      |          | F: Lec13 - Spark Logistic Regression   |            |                                        |
-|  10  |  3/17/25 | M: Lec14 - Spark Tree Classifiers      |   Week 10  |                                        |
-|      |          | W: PE4 - Spark ML                      |            |                                        |
-|      |          | F: Lab 4                               |            |                                        |
-|  11  |  3/24/25 | M: Lec15 - Spark KMeans                |   Week 11  | Mon: Project milestone 1 due (40%)     |
-|      |          | W: Lec16 - NLP at Scale                |            |                                        |
-|      |          | F: Lec17 - NLP with Spark              |            |                                        |
-|  12  |  3/31/25 | M: PE5 - ML at Scale                   |            | Mon: HW4 due                           |
-|      |          | W: Lab 5                               |            |                                        |
-|      |          | F: &lt;span style=&#34;color:red&#34;&gt;Exam 2&lt;/span&gt;|            |                                        |
-|  13  |  4/7/25  | M: Paper Presentation: Kafka           | Paper 1, 2 | Mon: HW 5 out                          |
-|      |          | W: Paper Presentation: Spark Streaming |            |                                        |
-|      |          | F: PE6 - Data Streaming                |            |                                        |
-|  14  |  4/14/25 | M: Lab 6                               | Paper 3, 4 | Mon: Project milestone 2 due (80%)     |
-|      |          | W: Paper Presentation: NoSQL Overview  |            |                                        |
-|      |          | F: &lt;span style=&#34;color:red&#34;&gt;Easter Break; No Classes&lt;/span&gt;|            |                                        |
-|  15  |  4/21/25 | M: Paper Presentation: Hbase           | Paper 5, 6 | Mon: HW 5 due                          |
-|      |          | T: SCAD Day: Volunteer Presentation    |            |                                        |
-|      |          | W: Paper Presentation: DynamoDB        |            |                                        |
-|      |          | F: Paper Presentation: Cassandra       |            |                                        |
-|  16  |  4/28/25 | M: &lt;span style=&#34;color:red&#34;&gt;Project Day; No Classes&lt;/span&gt;|            |                                        |
-|      |          | W: Project Presentation Group 1        |            | Wed by noon: presentation and demo due |
-|      |          | F: Project Presentation Group 2        |            |                                        |
-|  17  |  5/5/25  | M: Project Group 3: 2:30 - 5:30 PM     |            |                                        |
-|      |          | W: Have a great summer break!          |            | Wed: Final report and revised code due |
-|      |          | F: Have a great summer break!          |            |                                        |&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;Week&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Starting&lt;/th&gt;
+&lt;th&gt;Topics&lt;/th&gt;
+&lt;th&gt;Reading&lt;/th&gt;
+&lt;th&gt;Notes&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1/13/25&lt;/td&gt;
+&lt;td&gt;M: Lec1 - Course intro; Big Data&lt;/td&gt;
+&lt;td&gt;Week 1&lt;/td&gt;
+&lt;td&gt;Mon: HW1 out&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec2 -  Hadoop Ecosystem&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec3 - HDFS&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1/20/25&lt;/td&gt;
+&lt;td&gt;M: &lt;span style=&#34;color:red&#34;&gt;MLK Day; No Classes&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;Week 2&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec4 - MapReduce&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: &lt;span style=&#34;color:red&#34;&gt;Dr. Li on travel; No Classes&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;3&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1/27/25&lt;/td&gt;
+&lt;td&gt;M: PE1 - MapReduce Exercise&lt;/td&gt;
+&lt;td&gt;Week 3&lt;/td&gt;
+&lt;td&gt;Mon: HW1 due; HW2 out&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lab 1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Team formation due&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec5 - Apache Pig&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2/3/25&lt;/td&gt;
+&lt;td&gt;M: PE2 - Pig Exercise&lt;/td&gt;
+&lt;td&gt;Week 4&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lab 2&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec6 - Apache Spark&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2/10/25&lt;/td&gt;
+&lt;td&gt;M: Lec7 - Spark deployment on GCP&lt;/td&gt;
+&lt;td&gt;Week 5&lt;/td&gt;
+&lt;td&gt;Mon: HW2 due; HW3 out&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec8 - Spark Low-level API&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Finalize project topic and dataset&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec9 - Spark DataFrame&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2/17/25&lt;/td&gt;
+&lt;td&gt;M: PE3 - Spark DataFrame&lt;/td&gt;
+&lt;td&gt;Week 6&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lab 3&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec10 - Module 1 summary&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;7&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;2/24/25&lt;/td&gt;
+&lt;td&gt;M: &lt;span style=&#34;color:green&#34;&gt;Exam 1&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Mon: HW3 due&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: &lt;span style=&#34;color:red&#34;&gt;Dr. Li on travel; No Classes&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: &lt;span style=&#34;color:red&#34;&gt;Dr. Li on travel; No Classes&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Fri: Proposal due&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3/3/25&lt;/td&gt;
+&lt;td&gt;M: &lt;span style=&#34;color:red&#34;&gt;Spring Break; No Classes&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: &lt;span style=&#34;color:red&#34;&gt;Spring Break; No Classes&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: &lt;span style=&#34;color:red&#34;&gt;Spring Break; No Classes&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;9&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3/10/25&lt;/td&gt;
+&lt;td&gt;M: Lec11 - Spark Machine Learning&lt;/td&gt;
+&lt;td&gt;Week 9&lt;/td&gt;
+&lt;td&gt;Mon: HW4 out&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec12 - Spark Linear Regression&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec13 - Spark Logistic Regression&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;10&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3/17/25&lt;/td&gt;
+&lt;td&gt;M: Lec14 - Spark Tree Classifiers&lt;/td&gt;
+&lt;td&gt;Week 10&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: PE4 - Spark ML&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lab 4&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;11&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3/24/25&lt;/td&gt;
+&lt;td&gt;M: Lec15 - Spark KMeans&lt;/td&gt;
+&lt;td&gt;Week 11&lt;/td&gt;
+&lt;td&gt;Mon: Project milestone 1 due (40%)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lec16 - NLP at Scale&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Lec17 - NLP with Spark&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;12&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3/31/25&lt;/td&gt;
+&lt;td&gt;M: PE5 - ML at Scale&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Mon: HW4 due&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Lab 5&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: &lt;span style=&#34;color:red&#34;&gt;Exam 2&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;13&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4/7/25&lt;/td&gt;
+&lt;td&gt;M: Paper Presentation: Kafka&lt;/td&gt;
+&lt;td&gt;Paper 1, 2&lt;/td&gt;
+&lt;td&gt;Mon: HW 5 out&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Paper Presentation: Spark Streaming&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: PE6 - Data Streaming&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;14&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4/14/25&lt;/td&gt;
+&lt;td&gt;M: Lab 6&lt;/td&gt;
+&lt;td&gt;Paper 3, 4&lt;/td&gt;
+&lt;td&gt;Mon: Project milestone 2 due (80%)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Paper Presentation: NoSQL Overview&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: &lt;span style=&#34;color:red&#34;&gt;Easter Break; No Classes&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;15&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4/21/25&lt;/td&gt;
+&lt;td&gt;M: Paper Presentation: Hbase&lt;/td&gt;
+&lt;td&gt;Paper 5, 6&lt;/td&gt;
+&lt;td&gt;Mon: HW 5 due&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;T: SCAD Day: Volunteer Presentation&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Paper Presentation: DynamoDB&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Paper Presentation: Cassandra&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;16&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4/28/25&lt;/td&gt;
+&lt;td&gt;M: &lt;span style=&#34;color:red&#34;&gt;Project Day; No Classes&lt;/span&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Project Presentation Group 1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Wed by noon: presentation and demo due&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Project Presentation Group 2&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;17&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;5/5/25&lt;/td&gt;
+&lt;td&gt;M: Project Group 3: 2:30 - 5:30 PM&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;W: Have a great summer break!&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Wed: Final report and revised code due&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
+&lt;td&gt;F: Have a great summer break!&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;h2 id=&#34;reading-list&#34;&gt;Reading List&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
