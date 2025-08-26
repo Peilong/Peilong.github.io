@@ -182,7 +182,7 @@
       <pubDate>Sun, 05 May 2019 00:00:00 +0100</pubDate>
       <guid>https://Peilong.github.io/courses/cs363/overview/</guid>
       <description>&lt;h2 id=&#34;course-coverage&#34;&gt;Course Coverage&lt;/h2&gt;
-&lt;p&gt;This course introduces the student to the fundamentals of computer security. Foundational concepts such as confidentiality, integrity, and availability are discussed in the context of both designing systems and evaluating existing systems for vulnerabilities. Cryptography is explored as a tool that can be applied to many aspects of computer security. Theoretical discussions of security principles are enriched by examples from real world systems and protocols.&lt;/p&gt;
+&lt;p&gt;This hands-on computer security course provides students with practical experience in software, web, system security, and cryptography. Participants will gain essential cybersecurity skills, learning to identify, analyze, and mitigate security vulnerabilities. Through guided labs and projects, students will apply secure coding practices and ethical hacking techniques. The course emphasizes problem-solving, teamwork, and understanding cybersecurity concepts and terminologies. Upon completion, successful students will be well-prepared to address real-world cybersecurity challenges and pursue careers in the dynamic field of computer security.&lt;/p&gt;
 &lt;h2 id=&#34;student-learning-outcomes&#34;&gt;Student Learning Outcomes&lt;/h2&gt;
 &lt;p&gt;By the end of the course, students will be able to:&lt;/p&gt;
 &lt;ul&gt;
@@ -1125,13 +1125,12 @@ Each assignment will be given near the beginning of a class and must be uploaded
 &lt;p&gt;The final grade for this course depends upon the grades and scores earned on course components weighted as follows:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;5%&lt;/strong&gt; : A number of in-class pop quizzes.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;5%&lt;/strong&gt; : Individual paper reading assignment.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;5%&lt;/strong&gt; : Team paper presentation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;5%&lt;/strong&gt; : Creative research: research paper, new technology presentation, Kaggle competition.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt; : Bi-daily reading assignments.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;15%&lt;/strong&gt;: 5 individual homework.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;18%&lt;/strong&gt;: 6 in-class labs.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;20%&lt;/strong&gt;: 2 midterm exams.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;17%&lt;/strong&gt;: Final Project - project proposal (1.7%). Milestone check (3.4%). Project demonstration and presentation (6.8%). Final project report and revised code (5.1%).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;22%&lt;/strong&gt;: 2 midterm exams.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;20%&lt;/strong&gt;: Final Project - project proposal (1.7%). Milestone check (3.4%). Project demonstration and presentation (6.8%). Final project report and revised code (5.1%).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Grades will be computed by rounding numerical percentages to the nearest integer and applying the following table:&lt;/p&gt;
 &lt;table&gt;
@@ -3299,7 +3298,7 @@ Last Updated: 01/17/2023&lt;/p&gt;
 &lt;tr&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
-&lt;td&gt;F: Lab Test 1&lt;/td&gt;
+&lt;td&gt;&lt;strong&gt;&lt;span style=&#34;color:green&#34;&gt;F: Lab Test 1&lt;/span&gt;&lt;/strong&gt;&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;&lt;/td&gt;
 &lt;td&gt;&lt;/td&gt;
 &lt;/tr&gt;
