@@ -1,0 +1,1362 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.3">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Peilong Li">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Archived Spring 2024 offering of DS 200 Introduction to Data Science.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://Peilong.github.io/courses/archive/2024-spring/ds200/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VNGHD0MGZ7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-VNGHD0MGZ7', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://Peilong.github.io/courses/archive/2024-spring/ds200/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@@LiPeilong">
+  <meta property="twitter:creator" content="@@LiPeilong">
+  
+  <meta property="og:site_name" content="Peilong Li">
+  <meta property="og:url" content="https://Peilong.github.io/courses/archive/2024-spring/ds200/">
+  <meta property="og:title" content="DS 200 Introduction to Data Science | Peilong Li">
+  <meta property="og:description" content="Archived Spring 2024 offering of DS 200 Introduction to Data Science."><meta property="og:image" content="https://Peilong.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://Peilong.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2024-01-16T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2024-01-16T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>DS 200 Introduction to Data Science | Peilong Li</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Peilong Li</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Peilong Li</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#grants"><span>Grants</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#awards"><span>Honor & Awards</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#service"><span>Service</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/courses/"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://bluejayadal.github.io/" target="_blank" rel="noopener"><span>Research Lab</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+
+<style>
+  .arch { max-width: 1000px; }
+  .arch-crumbs { font-size: .85rem; opacity: .75; margin-bottom: 1rem; }
+  .arch-badge { display: inline-block; font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em;
+                padding: .15rem .6rem; border: 1px solid currentColor; border-radius: 1rem; opacity: .8; }
+  .arch h1 { margin: .5rem 0 1rem 0; }
+  .arch-switch { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem .5rem; margin-bottom: 1rem; font-size: .9rem; }
+  .arch-switch .arch-lbl { font-weight: 600; margin-right: .25rem; }
+  .arch-switch a { padding: .15rem .65rem; border: 1px solid rgba(127,127,127,.35); border-radius: 1rem; }
+  .arch-switch a.active { font-weight: 700; border-color: currentColor; pointer-events: none; }
+  .arch-switch a.arch-current { border-style: dashed; }
+  .arch-switch .arch-na { padding: .15rem .65rem; border: 1px dotted rgba(127,127,127,.35); border-radius: 1rem; opacity: .55; }
+  .arch-note { font-size: .88rem; opacity: .8; padding: .6rem .9rem; border-left: 3px solid rgba(127,127,127,.5);
+               background: rgba(127,127,127,.08); margin-bottom: 1.25rem; }
+  .arch-toc { display: flex; flex-wrap: wrap; gap: .3rem 1rem; font-size: .9rem; padding: .6rem 0; margin-bottom: 1.5rem;
+              border-top: 1px solid rgba(127,127,127,.2); border-bottom: 1px solid rgba(127,127,127,.2);
+              position: sticky; top: 70px; z-index: 2; background: inherit; }
+  .arch-section { padding-top: .5rem; margin-bottom: 2.5rem; scroll-margin-top: 130px; }
+  .arch-section > h2 { padding-bottom: .3rem; border-bottom: 1px solid rgba(127,127,127,.25); }
+  .arch .article-style table { display: block; overflow-x: auto; }
+  .arch-source { font-size: .8rem; opacity: .6; margin-top: 2rem; }
+</style>
+
+<div class="universal-wrapper arch">
+  <nav class="arch-crumbs"><a href="/courses/">Courses</a> &rsaquo; <a href="/courses/#by-semester">Teaching history</a> &rsaquo; Spring 2024</nav>
+  <span class="arch-badge">Archived &middot; Spring 2024</span>
+  <h1>DS 200 Introduction to Data Science</h1>
+
+  <div class="arch-switch">
+    <span class="arch-lbl">All offerings:</span>
+    <span class="arch-na" title="No archived page: before the site&#39;s archive began (Dec 2019)">Fall 2018 (DS 200)</span><span class="arch-na" title="No archived page: before the site&#39;s archive began (Dec 2019)">Spring 2019 (DS 200)</span><a href="/courses/archive/2020-spring/ds200/">Spring 2020 (DS 200)</a><a href="/courses/archive/2021-spring/ds200/">Spring 2021 (DS 200)</a><a href="/courses/archive/2022-spring/ds200/">Spring 2022 (DS 200)</a><a href="/courses/archive/2024-spring/ds200/" class="active" aria-current="page">Spring 2024 (DS 200)</a><a href="/courses/archive/2024-fall/cs250/">Fall 2024</a><a href="/courses/archive/2025-fall/cs250/">Fall 2025</a>
+    <a class="arch-current" href="/courses/cs250/">Current course page &rarr;</a>
+  </div>
+
+  <div class="arch-note">This is the course website as it was published for Spring 2024. Dates, links and policies reflect that semester and may be out of date; see the <a href="/courses/cs250/">current course page</a> for the latest version.</div>
+
+  <nav class="arch-toc" aria-label="Sections"><a href="#sec-info">Course Info</a><a href="#sec-overview">Course Overview</a><a href="#sec-schedule">Course Schedule</a><a href="#sec-grading">Grading Policies</a><a href="#sec-rubrics">Grading Rubrics</a><a href="#sec-policy">Policy Statements</a><a href="#sec-software">Software</a><a href="#sec-example1">Example Page 1</a><a href="#sec-example2">Example Page 2</a></nav>
+
+  <div class="article-style">
+    <section id="sec-info" class="arch-section">
+<h2>Course Info</h2>
+<p>This hands-on, project-based course introduces data science, blending computer science and statistics to extract insights from diverse datasets. Students master Python&rsquo;s data science tools, including Jupyter, NumPy, Pandas, and Scikit-learn, and apply advanced visualization techniques. The curriculum emphasizes statistical understanding and analytical models like regression and clustering. A key focus is on data storytelling, enabling students to effectively communicate complex insights, bridging technical analysis with strategic decision-making.</p>
+<h3 id="sec-info-instructor">Instructor:</h3>
+<p>Dr. Peilong Li</p>
+<h3 id="sec-info-office">Office:</h3>
+<p>Esbenshade 284B</p>
+<h3 id="sec-info-appointments">Appointments:</h3>
+<p>By email</p>
+<h3 id="sec-info-number-of-credits">Number of Credits</h3>
+<p>4</p>
+<h3 id="sec-info-pre-requisites">Pre-requisites</h3>
+<ul>
+<li>CS 121 Computer Science I</li>
+<li>Any Math course from the following: MA 121, MA 135, MA 251</li>
+</ul>
+<h3 id="sec-info-textbooks">Textbooks</h3>
+<ul>
+<li>
+<p><strong>(Required)</strong> Peilong Li.
+<em>DS 200 Introduction to Data Science</em>.
+2024, zyBooks.</p>
+<ul>
+<li>Sign in or create an account at: <a href="https://learn.zybooks.com">learn.zybooks.com</a></li>
+<li>Enter zyBook code: <strong>ETOWNDS200LiSpring2024</strong></li>
+<li>Subscribe. Subscription fee: $89. Valid through end of May.
+<img src="https://peilong.github.io/img/ds200_textbook.png" width="200"></li>
+</ul>
+</li>
+<li>
+<p><strong>(Optional)</strong> Joel Grus.
+<em>Data Science from Scratch: First Principles with Python (DSS)</em>.
+2015, O&rsquo;Reilly Media,
+ISBN: 0636920033400.
+E-copy: <a href="http://math.ecnu.edu.cn/~lfzhou/seminar/%5BJoel_Grus%5D_Data_Science_from_Scratch_First_Princ.pdf">link</a>
+<img src="https://images-na.ssl-images-amazon.com/images/I/51xTPwtWOHL._SX379_BO1,204,203,200_.jpg" width="200"></p>
+</li>
+<li>
+<p><strong>(Optional)</strong> William McKinney.
+<em>Python for Data Analysis: Data Wrangling with Pandas, NumPy, and IPython (PDA)</em>.
+2012, O&rsquo;Reilly Media,
+ISBN: 0636920023784.
+E-copy: <a href="https://www.cin.ufpe.br/~embat/Python%20for%20Data%20Analysis.pdf">link</a>
+<img src="https://covers.oreillystatic.com/images/0636920050896/lrg.jpg" width="200"></p>
+</li>
+</ul>
+</section>
+
+<section id="sec-overview" class="arch-section">
+<h2>Course Overview</h2>
+<h3 id="sec-overview-course-coverage">Course Coverage</h3>
+<p>This hands-on, project-based course introduces data science, blending computer science and statistics to extract insights from diverse datasets. Students master Python&rsquo;s data science tools, including Jupyter, NumPy, Pandas, and Scikit-learn, and apply advanced visualization techniques. The curriculum emphasizes statistical understanding and analytical models like regression and clustering. A key focus is on data storytelling, enabling students to effectively communicate complex insights, bridging technical analysis with strategic decision-making.</p>
+<h3 id="sec-overview-student-learning-outcomes">Student Learning Outcomes</h3>
+<ul>
+<li>(Foundations) Gain a comprehensive understanding of data science, exploring its evolution, significance, and multidisciplinary applications.</li>
+<li>(Hacking) Develop proficiency in using Python&rsquo;s data science toolkit, including Jupyter Notebook, NumPy, Pandas, and Scikit-learn, through hands-on labs and projects.</li>
+<li>(Visualization) Learn to effectively communicate insights using Python&rsquo;s Matplotlib and Seaborn libraries for sophisticated data visualization.</li>
+<li>(Quantification) Enhance your statistical knowledge and learn how to apply statistical methods within the context of data science for more informed analysis.</li>
+<li>(Analytics) Master the application of analytical models such as regression, clustering, and decision trees to address and solve real-world data science challenges.</li>
+<li>(Storytelling) Acquire the skills to effectively communicate data-driven insights, tailoring narratives to engage and inform various stakeholders across multiple platforms.</li>
+</ul>
+</section>
+
+<section id="sec-schedule" class="arch-section">
+<h2>Course Schedule</h2>
+<h3 id="sec-schedule-schedule">Schedule</h3>
+<p>Note this tentative schedule is subject to change. Please check the schedule regularly.</p>
+<p>Last updated: 01/17/2024</p>
+<table>
+<thead>
+<tr>
+<th align="center">Week</th>
+<th align="center">Starting</th>
+<th>Topics</th>
+<th align="center">Reading</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">1/15/24</td>
+<td>M: <span style="color:red">MLK Day; No Classes</span></td>
+<td align="center"></td>
+<td>Tue: HW1 out.</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec1: Course introduction</td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec2: Introduction to data science</td>
+<td align="center">Week 1-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">1/22/24</td>
+<td>M: Lec3: Review Python for data   science</td>
+<td align="center">Week 2-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec4: Numpy arrays and array indexing</td>
+<td align="center">Week 2-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec5: Numpy array operations</td>
+<td align="center">Week 2-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">1/29/24</td>
+<td>M: Lab1: Numpy</td>
+<td align="center">Week 3-1</td>
+<td>Mon: HW 1 due; HW2 out;</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec6: Pandas - Series and DataFrame</td>
+<td align="center">Week 3-2</td>
+<td>Mon: Team formation due</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec7: Pandas - groupby, concat, merge</td>
+<td align="center">Week 3-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">2/5/24</td>
+<td>M: Lec8: Pandas - IO and methods</td>
+<td align="center">Week 4-1</td>
+<td>Mon: Paper reading open.</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: PE1: Pandas exercises</td>
+<td align="center">Week 4-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lab2: Pandas</td>
+<td align="center">Week 4-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">2/12/24</td>
+<td>M: Lec9: Data visualization -   Matplotlib, Pandas</td>
+<td align="center">Week 5-1</td>
+<td>Mon: HW2 due; HW3 out.</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec10: Data visualization - Seaborn</td>
+<td align="center">Week 5-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec11: Data visualization - Plotly</td>
+<td align="center">Week 5-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">2/19/24</td>
+<td>M: Lab3: Visualization</td>
+<td align="center">Week 6-1</td>
+<td>Mon: Project proposal due.</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec12: Module 1 summary and exam 1 preview</td>
+<td align="center">Week 6-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: <span style="color:blue">Exam 1</span></td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">2/26/24</td>
+<td>M: Lec13: Basic statistics</td>
+<td align="center">Week 7-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec14: More on Statistics and probability</td>
+<td align="center">Week 7-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec15: Intro to machine learning</td>
+<td align="center">Week 7-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">3/4/24</td>
+<td>M: <span style="color:red">Spring Break; No Classes</span></td>
+<td align="center"></td>
+<td>Mon: HW 3 due.</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: <span style="color:red">Spring Break; No Classes</span></td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: <span style="color:red">Spring Break; No Classes</span></td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">3/11/24</td>
+<td>M: Lec16: Linear regression</td>
+<td align="center">Week 9-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: PE2: Linear regression exercises</td>
+<td align="center">Week 9-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec17: Logistic regression Part 1</td>
+<td align="center">Week 9-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">3/18/24</td>
+<td>M: Lec18: Logistic regression Part 2</td>
+<td align="center">Week 10-1</td>
+<td>Mon: Paper reading due; HW4 out.</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec19: K nearest neighbors</td>
+<td align="center">Week 10-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: PE3: Classification</td>
+<td align="center">Week 10-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">3/25/24</td>
+<td>M: Lab4: Classification</td>
+<td align="center">Week 11-1</td>
+<td>Mon: Project milestone due.</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Project milestone demo</td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: <span style="color:red">College Holiday, No Classes</span></td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">4/1/24</td>
+<td>M: Lec20: K-means clustering</td>
+<td align="center">Week 12-1</td>
+<td>Mon: HW4 due; HW5 out.</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: PE3: K-means exercises</td>
+<td align="center">Week 12-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lab5: Clustering</td>
+<td align="center">Week 12-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center">4/8/24</td>
+<td>M: Lec21: Dimensionality reduction</td>
+<td align="center">Week 13-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: PE4: PCA</td>
+<td align="center">Week 13-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec22: Support vector machine</td>
+<td align="center">Week 13-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">4/15/24</td>
+<td>M: PE5: SVM</td>
+<td align="center">Week 14-1</td>
+<td>Mon: HW5 due.</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lab6: SVM</td>
+<td align="center">Week 14-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec23: Module 2 summary and exam 2 preview</td>
+<td align="center">Week 14-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">4/22/24</td>
+<td>M: <span style="color:blue">Exam 2</span></td>
+<td align="center"></td>
+<td>Mon: Paper presentation due.</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Paper presentation group 1</td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Paper presentation group 2</td>
+<td align="center"></td>
+<td>04/28 midnight: Final project due</td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td align="center">4/29/23</td>
+<td>M: Final project presentation group 1</td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Final project presentation group 2</td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: No Class</td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td align="center">5/6/23</td>
+<td>M: No Class</td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>Tue 5/7: 11:00 AM - 2:00 PM Presentation group 3</td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Enjoy your summer break!</td>
+<td align="center"></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section id="sec-grading" class="arch-section">
+<h2>Grading Policies</h2>
+<h3 id="sec-grading-grading-weights">Grading Weights</h3>
+<p>The final grade for this course depends upon the grades and scores earned on course components weighted as follows:</p>
+<ul>
+<li><strong>5%</strong> : A number of in-class pop quizzes.</li>
+<li><strong>5%</strong> : Individual paper reading assignment.</li>
+<li><strong>5%</strong> : Team paper presentation.</li>
+<li><strong>15%</strong> : Bi-daily reading assignments.</li>
+<li><strong>15%</strong>: 5 individual homework.</li>
+<li><strong>18%</strong>: 6 in-class labs.</li>
+<li><strong>20%</strong>: 2 midterm exams.</li>
+<li><strong>17%</strong>: Final Project - project proposal (10%). Milestone check (20%). Project demonstration and presentation (40%). Final project report and revised code (30%).</li>
+</ul>
+<p>Grades will be computed by rounding numerical percentages to the nearest integer and applying the following table:</p>
+<table>
+<thead>
+<tr>
+<th>Letter</th>
+<th>Range</th>
+<th>Letter</th>
+<th>Range</th>
+<th>Letter</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>93-100</td>
+<td>B-</td>
+<td>80-82</td>
+<td>D+</td>
+<td>67-69</td>
+</tr>
+<tr>
+<td>A-</td>
+<td>90-92</td>
+<td>C+</td>
+<td>77-79</td>
+<td>D</td>
+<td>63-66</td>
+</tr>
+<tr>
+<td>B+</td>
+<td>87-89</td>
+<td>C</td>
+<td>73-76</td>
+<td>D-</td>
+<td>60-62</td>
+</tr>
+<tr>
+<td>B</td>
+<td>83-86</td>
+<td>C-</td>
+<td>70-72</td>
+<td>F</td>
+<td>0-59</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="language-Note"></code></pre>
+<h3 id="sec-grading-in-class-labs">In-class labs</h3>
+<p>All labs are to be done individually, in class, with the assistance of the instructor.
+Each assignment will be given near the beginning of a class and must be uploaded to Canvas before the due time. Some of the labs allow for late submission till midnight with late penalty, but no submission is allowed beyond the lab day. To receive full credit, a programming assignment must have no code exceptions, but partial credit will be awarded based on the understanding of the material demonstrated by the student’s code.</p>
+<h3 id="sec-grading-homework-assignments">Homework Assignments</h3>
+<p>All homework assignments have to be completed individually in this course. Homework assignments are meant to be more comprehensive tasks that may need additional reading and research. Homework assignments are to be completed in a week or two.</p>
+<p><strong>Late Policy</strong></p>
+<p>Late assignment will lose <img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cfn_phv%20%5Clarge%202%5E%7B%28n-1%29%7D" alt="equation"> points per day, including weekends and holidays. For example, -1 after 1 day, -2 after 2 days, -4 after 3 days … until 8+ days students will receive 0 score.  Under no circumstances should any student disclose their code, or copy the code written by other students or from an outside source. Both students will receive 0 score on the disclosed/copied assignment.</p>
+<h3 id="sec-grading-paper-reading-assignment--paper-presentation">Paper Reading Assignment &amp; Paper Presentation</h3>
+<p>Presenting data analysis results to public is one of the highly sought skills from data science employers.</p>
+<p>Students are required to form a team of two and read at least one technical paper from the provided paper list (or other papers agreed by the instructor). Students need to complete 1) an <strong>individual</strong> paper reading assignment in the middle of the semester; and 2) <strong>team-present</strong> the paper to the instructor and their peers during the end of the semester. The grading of the paper presentation consists of 50% from peers and 50% from the instructor. The evaluation rubrics will be provided via Canvas.</p>
+<h3 id="sec-grading-final-project">Final Project</h3>
+<p>The final project best demonstrates students’ understanding of the lecture contents and their capability of solving real data science problems. Students are encouraged to form teams of no more than 2 people. A single solo project is allowed if class size is odd. Topics of the final project are left open for the teams to find, but the final choice has to be decided upon the instructor’s agreement. A good list of potential projects can be found at <a href="https://www.kaggle.com/datasets">Kaggle</a> and <a href="https://github.com/awesomedata/awesome-public-datasets">Public Datasets</a>. Teams are responsible for finding the project of their interest and discussing the project feasibility face-to-face with the project manager, a.k.a., the instructor 1 week before the project proposal is due. Project formation is on a rolling basis, meaning formerly finalized projects cannot be taken again by another team. The grading of the final project consists of four major aspects:</p>
+<ul>
+<li>10%: the project proposal (including the conversation with the instructor a week before due);</li>
+<li>20%: mid-term project check (must have shown substantial exploratory data analysis);</li>
+<li>40%: the project demonstration; code and slides are due the night before the presentation day;</li>
+<li>30%: everything else including report; revised code and the report are due on the last day of the final exam week.</li>
+</ul>
+<p>The requirements and grading rubric for each component of the project will be posted on Canvas. Under no circumstances should any student copy the code from an outside source. Source code similarity tools will be used to detect plagiarism.</p>
+<p><strong>Note:</strong></p>
+<p><code>There is a potential pitfall of using open datasets to introduce data science that some students want to leverage.  I want to be crystal clear that the point of this project is to learn as much as possible. The point of this project is not to achieve the most intriguing results on the Kaggle leaderboard. For instance, if you copied some code you didn't understand and used it to get very compelling analytical results, I would consider this a very poor project.  However, if you thoughtfully try various strategies, incorporate lots of interesting learning resources, and do a good job communicating with your peers regarding what worked and what didn't, I would consider that highly successful even if your results were not the best.</code></p>
+</section>
+
+<section id="sec-rubrics" class="arch-section">
+<h2>Grading Rubrics</h2>
+<h3 id="sec-rubrics-code">Code</h3>
+<p>Grading rubrics for code submission in terms of percentage:</p>
+<h4 id="sec-rubrics-100">100%:</h4>
+<ul>
+<li>Functionality: For assignments that have well-specified behavior, the code should be able to pass (or very nearly pass, e.g. there may be minor output formatting issues) automated unit testing of all required features. For open-ended assignments the code must be easy to run without modification and implement all of the required functionality.</li>
+<li>Documentation: all functions are commented with appropriate doc strings. For open-ended assignments there is a README file discussing how to run the program and what it is supposed to do.</li>
+<li>Style: the program exhibits effective modular design. The code does not have unnecessary cut and paste code or magic numbers. Variable and function names are sensibly chosen.</li>
+</ul>
+<h4 id="sec-rubrics-80">80%:</h4>
+<ul>
+<li>Functionality: For assignments that have well-specified behavior, the code should implement all of the required functionality. For this grade, it is possible that 10-20% of the functionality may be broken. For open-ended assignments it will be possible to get the code running with modest effort (i.e. it will not be as well documented as in a 5, but it isn’t too hard to intuit how the code works). For these types of assignments all required features must be present, however, some (10-20%) may not be functioning properly or otherwise poorly implemented.</li>
+<li>Documentation: some functions are missing doc strings. Comments are fairly minimal.</li>
+<li>Style: some aspects of the design of the program could be improved to reduce cut and paste code. Variable and function names are for the most part well-chosen.</li>
+</ul>
+<h4 id="sec-rubrics-60">60%:</h4>
+<ul>
+<li>Functionality: The code should implement almost all of the required features (it is okay if roughly 20% are not implemented). A significant portion, 30-50%, of the code may not work as it is supposed to.</li>
+<li>Documentation: Docstrings are mostly absent For well-defined assignments the code does not run as it should based on the assignment spec. For open-ended assignments there may not be any indication of how to run the program, and it is not easy for a NINJA to figure out how the code works (a good test is if you have to e-mail someone to ask them how their code runs, they are probably at this level).</li>
+<li>Style: the program design needs improvement. The code would be a lot cleaner if the author had done a better job thinking through the appropriate functional decomposition. The code has lots of cut and paste and magic numbers. Variable and function names are hard to interpret.</li>
+</ul>
+<h4 id="sec-rubrics-40">40%:</h4>
+<ul>
+<li>Functionality: the assignment is incomplete (~50% of the functionality is not implemented). The functionality that is implemented is not 100% correct.</li>
+<li>Documentation: mostly absent.</li>
+<li>Style: design is poor. Very little attention has been paid to choosing a sensible functional decomposition.  Variable and function names are chosen almost arbitrarily.</li>
+</ul>
+<h4 id="sec-rubrics-20">20%:</h4>
+<ul>
+<li>Functionality: only minimal functionality is present.</li>
+<li>Documentation: little or none.</li>
+<li>Style: Code is not “readable”. Poor choice of variable and function names.</li>
+</ul>
+<h4 id="sec-rubrics-0">0%:</h4>
+<ul>
+<li>nothing turned in.</li>
+</ul>
+<h3 id="sec-rubrics-notebook-assignments">Notebook Assignments</h3>
+<p>Jupyter notebooks are the files you need to submit for labs and homework assignments.</p>
+<h4 id="sec-rubrics-100-1">100%:</h4>
+<p>Thorough engagement with each section of the reading.  Each exercise has either been completed, or you have articulated a well-thought out set of questions for each of the problems you didn&rsquo;t answer.
+Points will be deducted from 100% for the following reasons:</p>
+<ul>
+<li>Exercises are not filled out (either with a solution or a question)</li>
+<li>The answer to the exercise does not demonstrate a good faith attempt to complete it.</li>
+</ul>
+<h3 id="sec-rubrics-writing">Writing</h3>
+<p>Writing will be evaluated for clarity, concision, and comprehensiveness.  The particular style that you should use will depend on the assignment and your audience.  The bottom line is don&rsquo;t cut corners with writing in this class.  Your ability to communicate what you have done is just as important as what you have done.  Don&rsquo;t make the mistake of spending all of your time writing code, and then rush through the writing parts of the assignment.  See below for some stylistic guidance.</p>
+<ul>
+<li>Since the dawn of time, college students have been writing introductions that are too grandiose (and often false).  Just get into it; you don&rsquo;t have to zoom in from space (and make stuff up).  Write the abstract last and summarize the most important result.</li>
+<li>The passive voice is a hoax. Please write in the first person (singular or plural).</li>
+<li>Write in the present tense whenever possible.  Some actions happen in the past, but all research exists in an eternal present: &ldquo;Using data from BRFSS, they plot weight versus height and find that tall respondents are heavier, on average, than shorter respondents.  Our results are consistent with this conclusion.&rdquo;</li>
+<li>When you edit, try to remove words.</li>
+<li>Avoid using &ldquo;significant&rdquo; unless you mean &ldquo;statistically significant;&rdquo; a good alternative is &ldquo;substantial.&rdquo;  Avoid using &ldquo;correlation&rdquo; unless you mean a coefficient of correlation.  In general, there might be a &ldquo;relationship&rdquo; between variables and you might characterize it with a correlation.</li>
+<li>&ldquo;Trend&rdquo; usually means something is changing in time; &ldquo;pattern&rdquo; is more general.</li>
+<li>Provide indicators of logical flow.  If I ask you to answer a set of question in your report, don&rsquo;t just paste the questions as your section headings.  You should create your own document structure based on what makes sense for your project.</li>
+<li>Explain your motivation.  Avoid &ldquo;We were interested&rdquo; and &ldquo;We wanted&rdquo; as pseudo-motivation.  And don&rsquo;t look at the camera; that is, don&rsquo;t use &ldquo;because we were told to&rdquo; as motivation, and avoid &ldquo;for this project&rdquo;.</li>
+<li>When you refer to figures and tables, capitalize &ldquo;Figure&rdquo; and &ldquo;Table.&rdquo;  Formal figures have a number and a caption, and they can float.  Informal figures are part of the text flow.  If a figure doesn&rsquo;t contain much information, summarize it in text.</li>
+<li>Find an authorial voice that is casual enough to be engaging (without overdoing it).</li>
+</ul>
+</section>
+
+<section id="sec-policy" class="arch-section">
+<h2>Policy Statements</h2>
+<h3 id="sec-policy-course-schedule">Course Schedule</h3>
+<p>The most up-to-date course schedule will be posted on course website schedule page: <a href="#sec-schedule">https://peilong.github.io/courses/ds200/schedule/</a>. Students are responsible for checking the schedule regularly. Schedule page will include: 1) teaching topics for each meeting; 2) reading assignments for each week and 3) special notes on specific days.</p>
+<h3 id="sec-policy-course-announcements--discussion">Course Announcements &amp; Discussion</h3>
+<p>All course announcements will be sent to your E-Town email accounts via Canvas Announcements. You are responsible for signing up for this service and checking your emails regularly.</p>
+<p>I have created a Microsoft Teams channel (<a href="https://teams.microsoft.com/l/team/19%3aa8cdd959c2e249a989d401e20fc95524%40thread.tacv2/conversations?groupId=81ffa3c7-aa45-454a-b495-7f43c78e5024&amp;tenantId=1d884f12-a0d7-42f0-8b15-3a91c853bcb5">link</a>) to facilitate course related discussion.  Discussions are encouraged to be posted on the &ldquo;QA&rdquo; channel from Teams. Private instant messages can be sent directly to your recipient by search your recipient&rsquo;s name on the &ldquo;search&rdquo; bar.</p>
+<h3 id="sec-policy-attendance-policies">Attendance Policies</h3>
+<p>Attendance is expected of every student at every lecture. Students are responsible for all content covered in class as well as assigned book chapters. Due to their nature, pop quizzes cannot be made up.</p>
+<p>Except in the case of documented emergencies, neither exams nor in-class labs can be made up afterwards.  For excused absences, students must arrange to take the exam or do the lab before the normally scheduled time.  Arrangements must be made with the instructor at least two weeks prior to the scheduled time.</p>
+<p>Students are expected to maintain an attitude of respect at all times toward their colleagues, the equipment, and the instructor.  Cell phones and similar devices is prohibited from using during lecturing time.  Students who use offensive language, misuse computing facilities, or are otherwise disruptive of the classroom will be asked to leave.</p>
+<h3 id="sec-policy-statement-on-school-closure">Statement on School Closure</h3>
+<p>In the event that classes do not meet because Elizabethtown College is closed or delayed due to inclement weather or some other emergency, the slides that would have been covered during the missed classes will be posted through Canvas.  Students are expected to do the assigned reading, review the slides, and e-mail the instructor with any questions. There will also be an opportunity to ask questions about the material when classes resume.</p>
+<p>If a scheduled exam or lab is missed, it will normally be made up on the day that classes resume.  If the College is closed on a day when a project is due, the project due date will also normally be extended until the day when classes resume.  If circumstances render either of these makeup policies unreasonable, the instructor will send an e-mail explaining an alternative makeup opportunity to each student’s Elizabethtown e-mail account.</p>
+<h3 id="sec-policy-statement-on-plagiarism">Statement on Plagiarism</h3>
+<p>Check out the up-to-date statement from: <a href="https://catalog.etown.edu/content.php?catoid=24&amp;navoid=1233#Academic_Judicial_System">Elizabethtown College Catalog, &ldquo;Academic Judicial System&rdquo;</a></p>
+<h3 id="sec-policy-statement-on-the-use-of-chatgpt-and-generative-ai-tools">Statement on the Use of ChatGPT and Generative AI Tools</h3>
+<p>To maintain course integrity and ensure equal opportunity for all students, submissions generated by artificial intelligence (AI) systems, including ChatGPT, Bing Chat, Claude, Google Bard, or similar tools, are not allowed for classwork or assessments. Such AI usage diminishes the development of critical skills vital for academic success. While students can use AI for research and idea generation, all submitted work must be their original writing. It&rsquo;s essential to recognize both the advantages and limitations of AI in learning and research. AI suggestions aren&rsquo;t always accurate, so students should assess AI outputs critically. Breaching this guideline results in academic misconduct. Seek clarification if uncertain about AI usage in assignments.</p>
+<h3 id="sec-policy-statement-on-disability">Statement on Disability</h3>
+<p>Full statement can be found at: <a href="https://elizabethtown-my.sharepoint.com/:w:/g/personal/ouimetc_etown_edu/EfZ-QooKt_VPjgwsWJz230wB3Rb6CIHsPvE0xuqWCpr-UA?e=4%3acZzjpW&amp;at=9">Course Syllabus on Disability Services, Religious Observances, and COVID related expectations</a>.</p>
+<h3 id="sec-policy-diversity-and-inclusivity-statement">Diversity and Inclusivity Statement</h3>
+<p>I consider this classroom to be a place where you will be treated with respect, and I welcome individuals of all ages, backgrounds, beliefs, ethnicities, genders, gender identities, gender expressions, national origins, religious affiliations, sexual orientations, ability - and other visible and non-visible differences. All members of this class are expected to contribute to a respectful, welcoming and inclusive environment for every other member of the class.</p>
+</section>
+
+<section id="sec-software" class="arch-section">
+<h2>Software</h2>
+<h3 id="sec-software-anaconda-individual-edition">Anaconda Individual Edition</h3>
+<p>In this course the only software you will need to install and play with is the Anaconda Individual Edition. It is a popular data science platform that consists of almost all the packages you will ever need in Python and R. Find the download link for your system from here: <a href="https://www.anaconda.com/download">https://www.anaconda.com/download</a>. You must download the version for Python 3.x.</p>
+<p><strong>Note:</strong></p>
+<p>Anaconda is also available on the computers in the Esbenshade 281, Hoover 108 and Nicarry 208 computer laboratories and in the Computer Science commons area (E284).</p>
+</section>
+
+<section id="sec-example1" class="arch-section">
+<h2>Example Page 1</h2>
+<p>In this tutorial, I'll share my top 10 tips for getting started with Academic:</p>
+<h3 id="sec-example1-tip-1">Tip 1</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.</p>
+<p>Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.</p>
+<p>Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.</p>
+<p>Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.</p>
+<p>Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.</p>
+<h3 id="sec-example1-tip-2">Tip 2</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.</p>
+<p>Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.</p>
+<p>Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.</p>
+<p>Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.</p>
+<p>Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.</p>
+</section>
+
+<section id="sec-example2" class="arch-section">
+<h2>Example Page 2</h2>
+<p>Here are some more tips for getting started with Academic:</p>
+<h3 id="sec-example2-tip-3">Tip 3</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.</p>
+<p>Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.</p>
+<p>Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.</p>
+<p>Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.</p>
+<p>Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.</p>
+<h3 id="sec-example2-tip-4">Tip 4</h3>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.</p>
+<p>Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.</p>
+<p>Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.</p>
+<p>Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.</p>
+<p>Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.</p>
+</section>
+
+  </div>
+
+  <p class="arch-source">Archived from <a href="https://github.com/Peilong/Peilong.github.io/tree/7c67d16/courses/ds200" target="_blank" rel="noopener">Peilong/Peilong.github.io@7c67d16</a> (2024-01-16).</p>
+</div>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.3227ab49eed49815d1b4ba40154f74e7.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2019 Peilong Li &middot; 
+
+    Powered by the
+    <a href="https://www.etown.edu" target="_blank" rel="noopener">BlueJay</a> spirit. 
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

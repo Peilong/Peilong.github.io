@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.3">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Peilong Li">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Archived Fall 2024 offering of CS 122 Computer Science II.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://Peilong.github.io/courses/archive/2024-fall/cs122/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VNGHD0MGZ7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-VNGHD0MGZ7', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://Peilong.github.io/courses/archive/2024-fall/cs122/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@@LiPeilong">
+  <meta property="twitter:creator" content="@@LiPeilong">
+  
+  <meta property="og:site_name" content="Peilong Li">
+  <meta property="og:url" content="https://Peilong.github.io/courses/archive/2024-fall/cs122/">
+  <meta property="og:title" content="CS 122 Computer Science II | Peilong Li">
+  <meta property="og:description" content="Archived Fall 2024 offering of CS 122 Computer Science II."><meta property="og:image" content="https://Peilong.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://Peilong.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2024-08-25T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2024-08-25T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>CS 122 Computer Science II | Peilong Li</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Peilong Li</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Peilong Li</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#grants"><span>Grants</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#awards"><span>Honor & Awards</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#service"><span>Service</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/courses/"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://bluejayadal.github.io/" target="_blank" rel="noopener"><span>Research Lab</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+
+<style>
+  .arch { max-width: 1000px; }
+  .arch-crumbs { font-size: .85rem; opacity: .75; margin-bottom: 1rem; }
+  .arch-badge { display: inline-block; font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em;
+                padding: .15rem .6rem; border: 1px solid currentColor; border-radius: 1rem; opacity: .8; }
+  .arch h1 { margin: .5rem 0 1rem 0; }
+  .arch-switch { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem .5rem; margin-bottom: 1rem; font-size: .9rem; }
+  .arch-switch .arch-lbl { font-weight: 600; margin-right: .25rem; }
+  .arch-switch a { padding: .15rem .65rem; border: 1px solid rgba(127,127,127,.35); border-radius: 1rem; }
+  .arch-switch a.active { font-weight: 700; border-color: currentColor; pointer-events: none; }
+  .arch-switch a.arch-current { border-style: dashed; }
+  .arch-switch .arch-na { padding: .15rem .65rem; border: 1px dotted rgba(127,127,127,.35); border-radius: 1rem; opacity: .55; }
+  .arch-note { font-size: .88rem; opacity: .8; padding: .6rem .9rem; border-left: 3px solid rgba(127,127,127,.5);
+               background: rgba(127,127,127,.08); margin-bottom: 1.25rem; }
+  .arch-toc { display: flex; flex-wrap: wrap; gap: .3rem 1rem; font-size: .9rem; padding: .6rem 0; margin-bottom: 1.5rem;
+              border-top: 1px solid rgba(127,127,127,.2); border-bottom: 1px solid rgba(127,127,127,.2);
+              position: sticky; top: 70px; z-index: 2; background: inherit; }
+  .arch-section { padding-top: .5rem; margin-bottom: 2.5rem; scroll-margin-top: 130px; }
+  .arch-section > h2 { padding-bottom: .3rem; border-bottom: 1px solid rgba(127,127,127,.25); }
+  .arch .article-style table { display: block; overflow-x: auto; }
+  .arch-source { font-size: .8rem; opacity: .6; margin-top: 2rem; }
+</style>
+
+<div class="universal-wrapper arch">
+  <nav class="arch-crumbs"><a href="/courses/">Courses</a> &rsaquo; <a href="/courses/#by-semester">Teaching history</a> &rsaquo; Fall 2024</nav>
+  <span class="arch-badge">Archived &middot; Fall 2024</span>
+  <h1>CS 122 Computer Science II</h1>
+
+  <div class="arch-switch">
+    <span class="arch-lbl">All offerings:</span>
+    <a href="/courses/archive/2024-fall/cs122/" class="active" aria-current="page">Fall 2024</a><a href="/courses/archive/2025-fall/cs122/">Fall 2025</a>
+    <a class="arch-current" href="/courses/cs122/">Current course page &rarr;</a>
+  </div>
+
+  <div class="arch-note">This is the course website as it was published for Fall 2024. Dates, links and policies reflect that semester and may be out of date; see the <a href="/courses/cs122/">current course page</a> for the latest version.</div>
+
+  <nav class="arch-toc" aria-label="Sections"><a href="#sec-info">Course Info</a><a href="#sec-overview">Course Overview</a><a href="#sec-schedule">Course Schedule</a><a href="#sec-grading">Grading Policies</a><a href="#sec-policy">Policy Statements</a><a href="#sec-software">Software</a></nav>
+
+  <div class="article-style">
+    <section id="sec-info" class="arch-section">
+<h2>Course Info</h2>
+<p>To continue the presentation of the essentials of computer software development using Java. Emphasis will be placed on algorithm construction using reference variables, data structures, concurrent programming using threads, file processing, exception handling, classes and object oriented programming. GUI programming will be covered and used extensively.</p>
+<h3 id="sec-info-instructor">Instructor:</h3>
+<p>Dr. Peilong Li</p>
+<h3 id="sec-info-office">Office:</h3>
+<p>Esbenshade 284B</p>
+<h3 id="sec-info-appointments">Appointments:</h3>
+<p>By email</p>
+<h3 id="sec-info-number-of-credits">Number of Credits</h3>
+<p>4</p>
+<h3 id="sec-info-pre-requisites">Pre-requisites</h3>
+<ul>
+<li>CS 121 Computer Science I</li>
+</ul>
+<h3 id="sec-info-textbooks">Textbooks</h3>
+<ul>
+<li><strong>(Required)</strong>
+<em>CS 122: Computer Science II</em>.
+ZyBooks.<br>
+Sign-up with: <a href="learn.zybooks.com">link</a>.<br>
+Enter zyBooks code: <code>ETOWNCS122LiFall2024</code>, then subscribe.
+<img src="/files/cs122/cs122_zyBooks.png" width="200"></li>
+</ul>
+</section>
+
+<section id="sec-overview" class="arch-section">
+<h2>Course Overview</h2>
+<h3 id="sec-overview-course-coverage">Course Coverage</h3>
+<p>To continue the presentation of the essentials of computer software development using Java. Emphasis will be placed on algorithm construction using reference variables, data structures, concurrent programming using threads, file processing, exception handling, classes and object oriented programming. GUI programming will be covered and used extensively.</p>
+<h3 id="sec-overview-student-learning-outcomes">Student Learning Outcomes</h3>
+<p>By the end of the course, students will be able to:</p>
+<ul>
+<li>Learn and understand object oriented programming concepts;</li>
+<li>Be able to use existing objects from a library or API;</li>
+<li>Be able to design and create new objects and to extend existing objects using inheritance;</li>
+<li>To be able to design and create new user interfaces using a GUI;</li>
+<li>Understand and be able to program standard sequential file operations;</li>
+<li>To understand error and exception conditions and be able to implement exception handling;</li>
+<li>Understand the basic concepts of multi-processing using threads and be able to implement multi-threaded programs;</li>
+<li>Understand the basic data structures of arrays and linked lists and how to use them;</li>
+<li>Understand the concept of recursion and be able to use it to solve programming problems.</li>
+</ul>
+</section>
+
+<section id="sec-schedule" class="arch-section">
+<h2>Course Schedule</h2>
+<h3 id="sec-schedule-schedule">Schedule</h3>
+<p>Note this tentative schedule is subject to change. Please check the schedule regularly.</p>
+<p>Last updated: 08/24/2024</p>
+<table>
+<thead>
+<tr>
+<th align="center">Week</th>
+<th align="center">Starting</th>
+<th>Topics</th>
+<th>Reading</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">8/26/24</td>
+<td>M: Lec1 - Course Intro &amp; Java Language</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec2 - Data Types &amp; Variables</td>
+<td>Week1-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec3 - Decisions</td>
+<td>Week1-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">9/2/24</td>
+<td>M: <span style="color:red;">Labor Day, No Classes</span></td>
+<td></td>
+<td>Mon: HW1 out.</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec4 - Loops</td>
+<td>Week2-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec5 - Methods</td>
+<td>Week2-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">9/9/24</td>
+<td>M: PE 1</td>
+<td>Week3-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lab 1</td>
+<td>Week3-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec6 - 1D and 2D Arrays</td>
+<td>Week3-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">9/16/24</td>
+<td>M: Lec7 - Array Lists</td>
+<td>Week4-1</td>
+<td>Mon: HW1 due; Project 1 out</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec8 - I/O and Exception</td>
+<td>Week4-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec9 - Objects and Classes</td>
+<td>Week4-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">9/23/24</td>
+<td>M: Lec10 - Inheritance</td>
+<td>Week5-1</td>
+<td>Mon: HW2 out</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec11 - Interfaces</td>
+<td>Week5-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec12 - GUI</td>
+<td>Week5-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">9/30/24</td>
+<td>M: PE 2</td>
+<td>Week6-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lab 2</td>
+<td>Week6-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: <span style="color:blue;">Lab Test 1</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">10/7/24</td>
+<td>M: Exam 1 Preview</td>
+<td>Week7-1</td>
+<td>Mon: HW2 due</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: <span style="color:blue;">Exam 1</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: <span style="color:red;">Fall Break, No Classes</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">10/14/24</td>
+<td>M: Lec13 - Tank World Phase 1</td>
+<td>Week8-1</td>
+<td>Mon: Project 1 due; Project 2 out</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec14 - Advanced GUI</td>
+<td>Week8-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec15 - Object-oriented Design</td>
+<td>Week8-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">10/21/24</td>
+<td>M: Lec16 - Recursion</td>
+<td>Week9-1</td>
+<td>Mon: HW3 out</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec17 - Recursion Examples</td>
+<td>Week9-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec18 - Sorting</td>
+<td>Week9-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">10/28/24</td>
+<td>M: Lec19 - Searching</td>
+<td>Week10-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: PE 3</td>
+<td>Week10-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lab 3</td>
+<td>Week10-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">11/4/24</td>
+<td>M: Lec20 - Tank World Phase 2 and Multithreading</td>
+<td>Week11-1</td>
+<td>Mon: Project 2 due; Project 3 out</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec21 - Synchronization</td>
+<td>Week11-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec22 - Avoiding Deadlocks</td>
+<td>Week11-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">11/11/24</td>
+<td>M: PE 4</td>
+<td>Week12-1</td>
+<td>Mon: HW3 due; HW4 out</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lab 4</td>
+<td>Week12-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: <span style="color:blue;">Lab Test 2</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center">11/18/24</td>
+<td>M: Lec23 - Java Collections</td>
+<td>Week13-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec24 - Linked Lists</td>
+<td>Week13-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec25 - Sets and Maps</td>
+<td>Week13-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">11/25/24</td>
+<td>M: Lec26 - Choosing a Collection</td>
+<td>Week14-1</td>
+<td>Mon: HW 4 due</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Virtual Day - Project 3 Q&amp;A</td>
+<td>Week14-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: <span style="color:red;">Thanksgiving Break</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">12/2/24</td>
+<td>M: Exam 2 Preview</td>
+<td></td>
+<td>Mon: Project 3 due</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: <span style="color:blue;">Exam 2</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Final Exam Preview</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td align="center">12/9/24</td>
+<td>M: <span style="color:red;">No Class</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: <span style="color:red;">No Class</span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: <span style="color:blue;">Final Exam</span></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section id="sec-grading" class="arch-section">
+<h2>Grading Policies</h2>
+<h3 id="sec-grading-grading-weights">Grading Weights</h3>
+<p>The final grade for this course depends upon the grades and scores earned on course components weighted as follows:</p>
+<ul>
+<li><strong>5%</strong> : A number of in-class pop quizzes.</li>
+<li><strong>15%</strong> : Bi-daily reading assignments.</li>
+<li><strong>12%</strong>: 4 individual homework.</li>
+<li><strong>15%</strong>: 3 team projects.</li>
+<li><strong>12%</strong>: 4 in-class labs.</li>
+<li><strong>16%</strong>: 2 midterm exams.</li>
+<li><strong>10%</strong>: 2 lab tests.</li>
+<li><strong>15%</strong>: Final exam or project.</li>
+</ul>
+<p>Grades will be computed by rounding numerical percentages to the nearest integer and applying the following table:</p>
+<table>
+<thead>
+<tr>
+<th>Letter</th>
+<th>Range</th>
+<th>Letter</th>
+<th>Range</th>
+<th>Letter</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>93-100</td>
+<td>B-</td>
+<td>80-82</td>
+<td>D+</td>
+<td>67-69</td>
+</tr>
+<tr>
+<td>A-</td>
+<td>90-92</td>
+<td>C+</td>
+<td>77-79</td>
+<td>D</td>
+<td>63-66</td>
+</tr>
+<tr>
+<td>B+</td>
+<td>87-89</td>
+<td>C</td>
+<td>73-76</td>
+<td>D-</td>
+<td>60-62</td>
+</tr>
+<tr>
+<td>B</td>
+<td>83-86</td>
+<td>C-</td>
+<td>70-72</td>
+<td>F</td>
+<td>0-59</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="language-Note"></code></pre>
+<h3 id="sec-grading-in-class-labs">In-class Labs</h3>
+<p>All labs are to be done individually, in class, with the assistance of the instructor.
+Each assignment will be given near the beginning of a class and must be uploaded to Canvas before the due time. Some of the labs allow for late submission till midnight with late penalty, but no submission is allowed beyond the lab day. To receive full credit, a programming assignment must compile, but partial credit will be awarded based on the understanding of the material demonstrated by the student’s code.</p>
+<h3 id="sec-grading-individual-homework-and-team-projects">Individual Homework and Team Projects</h3>
+<p>All homework assignments have to be completed individually in this course. Homework assignments are &ldquo;lab-like&rdquo; small programs that need to be completed in a week or two.</p>
+<p>All projects are team projects in this course. For each project, students must form a team of 2 members. Teams are responsible for dividing their workload and meeting offline for at least 2 times for each project. Documented meeting minutes have to be submitted as part of the deliverable. Students should select their teams by using the Groups tab under People, on the Canvas webpage.</p>
+<p>Except under extreme circumstances, all members of the team will receive the same grade for each project. One member of each team is designated the leader. The files for each project should be zipped up and uploaded by the team leader using Canvas before the due date. <strong>If the project does not compile, the student will receive a score of 0.</strong></p>
+<p><strong>Late Policy</strong></p>
+<p>In general, homework and projects will be graded by the autograder. For that reason, it is imperative that project output matches sample output to the character.</p>
+<p>Late assignment will lose <img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cfn_phv%20%5Clarge%202%5E%7B%28n-1%29%7D" alt="equation"> points per day, including weekends and holidays. For example, -1 after 1 day, -2 after 2 days, -4 after 3 days … until 8+ days students will receive 0 score.  <strong>Under no circumstances should any student disclose their code, or copy the code written by other students or from an outside source. Both students will receive 0 score on the disclosed/copied assignment.</strong></p>
+</section>
+
+<section id="sec-policy" class="arch-section">
+<h2>Policy Statements</h2>
+<h3 id="sec-policy-course-schedule">Course Schedule</h3>
+<p>The most up-to-date course schedule will be posted on course website schedule page: <a href="#sec-schedule">https://peilong.github.io/courses/cs122/schedule/</a>. Students are responsible for checking the schedule regularly. Schedule page will include: 1) teaching topics for each meeting; 2) reading assignments for each week and 3) special notes on specific days.</p>
+<h3 id="sec-policy-course-announcements--discussion">Course Announcements &amp; Discussion</h3>
+<p>All course announcements will be sent to your Etown email accounts via Canvas Announcements. You are responsible for signing up for this service and checking your emails regularly.</p>
+<p>I have created a Microsoft Teams channel (<a href="https://teams.microsoft.com/l/team/19%3aa8cdd959c2e249a989d401e20fc95524%40thread.tacv2/conversations?groupId=81ffa3c7-aa45-454a-b495-7f43c78e5024&amp;tenantId=1d884f12-a0d7-42f0-8b15-3a91c853bcb5">link</a>) to facilitate course related discussion.  Discussions are encouraged to be posted on the &ldquo;QA&rdquo; channel from Teams. Private instant messages can be sent directly to your recipient by search your recipient&rsquo;s name on the &ldquo;search&rdquo; bar.</p>
+<h3 id="sec-policy-attendance-policies">Attendance Policies</h3>
+<p>Attendance is expected of every student at every lecture. Students are responsible for all content covered in class as well as assigned book chapters. Due to their nature, pop quizzes cannot be made up.</p>
+<p>Except in the case of documented emergencies, neither exams nor in-class labs can be made up afterwards.  For excused absences, students must arrange to take the exam or do the lab before the normally scheduled time.  Arrangements must be made with the instructor at least two weeks prior to the scheduled time.</p>
+<p>Students are expected to maintain an attitude of respect at all times toward their colleagues, the equipment, and the instructor.  Cell phones and similar devices is prohibited from using during lecturing time.  Students who use offensive language, misuse computing facilities, or are otherwise disruptive of the classroom will be asked to leave.</p>
+<h3 id="sec-policy-statement-on-school-closure">Statement on School Closure</h3>
+<p>In the event that classes do not meet because Elizabethtown College is closed or delayed due to inclement weather or some other emergency, the slides that would have been covered during the missed classes will be posted through Canvas.  Students are expected to do the assigned reading, review the slides, and e-mail the instructor with any questions. There will also be an opportunity to ask questions about the material when classes resume.</p>
+<p>If a scheduled exam or lab is missed, it will normally be made up on the day that classes resume.  If the College is closed on a day when a project is due, the project due date will also normally be extended until the day when classes resume.  If circumstances render either of these makeup policies unreasonable, the instructor will send an e-mail explaining an alternative makeup opportunity to each student’s Elizabethtown e-mail account.</p>
+<h3 id="sec-policy-statement-on-academic-dishonesty">Statement on Academic Dishonesty</h3>
+<p>Check out the up-to-date statement from: <a href="https://catalog.etown.edu/content.php?catoid=24&amp;navoid=1233#Academic_Judicial_System">Elizabethtown College Catalog, &ldquo;Academic Judicial System&rdquo;</a></p>
+<h3 id="sec-policy-statement-on-the-use-of-chatgpt-and-generative-ai-tools">Statement on the Use of ChatGPT and Generative AI Tools</h3>
+<p>The use of GenAI tools like ChatGPT to generate source code is prohibited for your assignments in this course unless otherwise noted in the syllabus. Therefore, your instructor will consider it a violation of academic integrity to use a GenAI tool for any purpose that is not explicitly outlined in assignment instructions. While this new technology can be very useful in certain contexts, it is important to make sure that its usage in the classroom setting is limited in order to ensure that you are doing original work and developing your critical thinking skills. In circumstances in which AI usage is permitted in class, you must acknowledge that usage and provide the chatbot with credit when it is a cited source. For instance, to cite ChatGPT in APA, the APA provides some direction at <a href="https://apastyle.apa.org/blog/how-to-cite-chatgpt">https://apastyle.apa.org/blog/how-to-cite-chatgpt</a>. If you have any questions or uncertainty over the use of AI in this course, please reach out to the instructor.</p>
+<h3 id="sec-policy-statement-on-disability-religious-observances-and-covid-related-expectations">Statement on Disability, Religious Observances, and COVID-Related Expectations</h3>
+<p>Full statement can be found at: <a href="https://elizabethtown-my.sharepoint.com/:w:/g/personal/ouimetc_etown_edu/EfZ-QooKt_VPjgwsWJz230wB3Rb6CIHsPvE0xuqWCpr-UA?e=4%3acZzjpW&amp;at=9">Course Syllabus on Disability Services, Religious Observances, and COVID related expectations</a>.</p>
+<h3 id="sec-policy-international-student-accommodation">International Student Accommodation</h3>
+<p>In recognition of the diverse linguistic backgrounds of our international students, we offer several accommodations to ensure a fair and supportive learning environment.</p>
+<ul>
+<li>Exams: If you encounter unfamiliar terms not covered in class, the Testing Center proctors are authorized to assist with translations. This support aims to clarify the meaning without providing an advantage.</li>
+<li>Oral Presentations: International students, along with those who have auditory processing challenges, may request extended time for presentations. You are also permitted to use written notes to aid your delivery. Time adjustments will be made on a case-by-case basis to ensure you can effectively convey your knowledge while staying within reasonable limits.</li>
+</ul>
+<p>If you require these or other accommodations, please communicate your needs in advance so appropriate arrangements can be made.</p>
+<h3 id="sec-policy-diversity-and-inclusivity-statement">Diversity and Inclusivity Statement</h3>
+<p>I consider this classroom to be a place where you will be treated with respect, and I welcome individuals of all ages, backgrounds, beliefs, ethnicities, genders, gender identities, gender expressions, national origins, religious affiliations, sexual orientations, ability - and other visible and non-visible differences. All members of this class are expected to contribute to a respectful, welcoming and inclusive environment for every other member of the class.</p>
+</section>
+
+<section id="sec-software" class="arch-section">
+<h2>Software</h2>
+<h3 id="sec-software-visual-studio-code">Visual Studio Code</h3>
+<p>Downlaod VS Code from this <a href="https://code.visualstudio.com/download">link</a> and install the Java extension. Follow the instructions posted on Canvas as &ldquo;Java JDK and VSCode Installation Guide&rdquo;.</p>
+<h3 id="sec-software-java-development-kit-jdk">Java Development Kit (JDK)</h3>
+<p>JDK comes with different vairations provided by different vendors. Some popular ones are OpenJDK, Oracle Java SE, Amazon Corretto, etc. I recommend installing Adoptium&rsquo;s Temurin via VS Code &ndash; it&rsquo;s so much easier for beginners. The tutorial can be found on the instructions posted on Canvas as &ldquo;Java JDK and VSCode Installation Guide&rdquo;.</p>
+<p><strong>Note:</strong></p>
+<p>All the software and operating systems are available on the computers in the Esbenshade 281, Hoover 108 and Nicarry 208 computer laboratories and in the Computer Science commons area (E284).</p>
+</section>
+
+  </div>
+
+  <p class="arch-source">Archived from <a href="https://github.com/Peilong/Peilong.github.io/tree/9f5471a/courses/cs122" target="_blank" rel="noopener">Peilong/Peilong.github.io@9f5471a</a> (2024-08-25).</p>
+</div>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.3227ab49eed49815d1b4ba40154f74e7.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2019 Peilong Li &middot; 
+
+    Powered by the
+    <a href="https://www.etown.edu" target="_blank" rel="noopener">BlueJay</a> spirit. 
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

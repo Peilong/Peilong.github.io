@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.3">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Peilong Li">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Archived Fall 2023 offering of CS 121 Computer Science I.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://Peilong.github.io/courses/archive/2023-fall/cs121/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VNGHD0MGZ7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-VNGHD0MGZ7', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://Peilong.github.io/courses/archive/2023-fall/cs121/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@@LiPeilong">
+  <meta property="twitter:creator" content="@@LiPeilong">
+  
+  <meta property="og:site_name" content="Peilong Li">
+  <meta property="og:url" content="https://Peilong.github.io/courses/archive/2023-fall/cs121/">
+  <meta property="og:title" content="CS 121 Computer Science I | Peilong Li">
+  <meta property="og:description" content="Archived Fall 2023 offering of CS 121 Computer Science I."><meta property="og:image" content="https://Peilong.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://Peilong.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2023-08-20T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2023-08-20T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>CS 121 Computer Science I | Peilong Li</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Peilong Li</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Peilong Li</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#grants"><span>Grants</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#awards"><span>Honor & Awards</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#service"><span>Service</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/courses/"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://bluejayadal.github.io/" target="_blank" rel="noopener"><span>Research Lab</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+
+<style>
+  .arch { max-width: 1000px; }
+  .arch-crumbs { font-size: .85rem; opacity: .75; margin-bottom: 1rem; }
+  .arch-badge { display: inline-block; font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em;
+                padding: .15rem .6rem; border: 1px solid currentColor; border-radius: 1rem; opacity: .8; }
+  .arch h1 { margin: .5rem 0 1rem 0; }
+  .arch-switch { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem .5rem; margin-bottom: 1rem; font-size: .9rem; }
+  .arch-switch .arch-lbl { font-weight: 600; margin-right: .25rem; }
+  .arch-switch a { padding: .15rem .65rem; border: 1px solid rgba(127,127,127,.35); border-radius: 1rem; }
+  .arch-switch a.active { font-weight: 700; border-color: currentColor; pointer-events: none; }
+  .arch-switch a.arch-current { border-style: dashed; }
+  .arch-switch .arch-na { padding: .15rem .65rem; border: 1px dotted rgba(127,127,127,.35); border-radius: 1rem; opacity: .55; }
+  .arch-note { font-size: .88rem; opacity: .8; padding: .6rem .9rem; border-left: 3px solid rgba(127,127,127,.5);
+               background: rgba(127,127,127,.08); margin-bottom: 1.25rem; }
+  .arch-toc { display: flex; flex-wrap: wrap; gap: .3rem 1rem; font-size: .9rem; padding: .6rem 0; margin-bottom: 1.5rem;
+              border-top: 1px solid rgba(127,127,127,.2); border-bottom: 1px solid rgba(127,127,127,.2);
+              position: sticky; top: 70px; z-index: 2; background: inherit; }
+  .arch-section { padding-top: .5rem; margin-bottom: 2.5rem; scroll-margin-top: 130px; }
+  .arch-section > h2 { padding-bottom: .3rem; border-bottom: 1px solid rgba(127,127,127,.25); }
+  .arch .article-style table { display: block; overflow-x: auto; }
+  .arch-source { font-size: .8rem; opacity: .6; margin-top: 2rem; }
+</style>
+
+<div class="universal-wrapper arch">
+  <nav class="arch-crumbs"><a href="/courses/">Courses</a> &rsaquo; <a href="/courses/#by-semester">Teaching history</a> &rsaquo; Fall 2023</nav>
+  <span class="arch-badge">Archived &middot; Fall 2023</span>
+  <h1>CS 121 Computer Science I</h1>
+
+  <div class="arch-switch">
+    <span class="arch-lbl">All offerings:</span>
+    <span class="arch-na" title="No archived page: before the site&#39;s archive began (Dec 2019)">Fall 2018</span><span class="arch-na" title="No archived page: before the site&#39;s archive began (Dec 2019)">Spring 2019</span><span class="arch-na" title="No archived page: before the site&#39;s archive began (Dec 2019)">Fall 2019</span><a href="/courses/archive/2020-spring/cs121/">Spring 2020</a><a href="/courses/archive/2020-fall/cs121/">Fall 2020</a><a href="/courses/archive/2021-fall/cs121/">Fall 2021</a><a href="/courses/archive/2022-fall/cs121/">Fall 2022</a><a href="/courses/archive/2023-spring/cs121/">Spring 2023</a><a href="/courses/archive/2023-fall/cs121/" class="active" aria-current="page">Fall 2023</a>
+    <a class="arch-current" href="/courses/cs121/">Current course page &rarr;</a>
+  </div>
+
+  <div class="arch-note">This is the course website as it was published for Fall 2023. Dates, links and policies reflect that semester and may be out of date; see the <a href="/courses/cs121/">current course page</a> for the latest version.</div>
+
+  <nav class="arch-toc" aria-label="Sections"><a href="#sec-info">Course Info</a><a href="#sec-overview">Course Overview</a><a href="#sec-schedule">Course Schedule</a><a href="#sec-grading">Grading Policies</a><a href="#sec-rubrics">Grading Rubrics</a><a href="#sec-policy">Policy Statements</a><a href="#sec-software">Software</a></nav>
+
+  <div class="article-style">
+    <section id="sec-info" class="arch-section">
+<h2>Course Info</h2>
+<p>The fundamental concepts of computer science, with an emphasis on Python programming.</p>
+<h3 id="sec-info-instructor">Instructor:</h3>
+<p>Dr. Peilong Li</p>
+<h3 id="sec-info-office">Office:</h3>
+<p>Nicarry 208</p>
+<h3 id="sec-info-appointments">Appointments:</h3>
+<p>By email</p>
+<h3 id="sec-info-number-of-credits">Number of Credits</h3>
+<p>4</p>
+<h3 id="sec-info-pre-requisites">Pre-requisites</h3>
+<ul>
+<li>Enthusiasm on programming</li>
+<li>High school algebra</li>
+</ul>
+<h3 id="sec-info-textbooks">Textbooks</h3>
+<ul>
+<li>
+<p><strong>(Required)</strong>
+<em>zyBooks. CS 121: Computer Science I</em>.
+Sign in or create an account at <a href="learn.zybooks.com">learn.zybooks.com</a>.
+Enter zyBook code: <code>ETOWNCS121Fall2023</code>.
+Subscribe. A subscription is $89. Students may begin subscribing on Aug 08, 2023. Subscriptions will last until Dec 27, 2023.
+<img src="https://www.zybooks.com/wp-content/uploads/2016/12/Programming-in-Python-3.png" width="200"></p>
+</li>
+<li>
+<p><strong>(Optional)</strong> Allen B. Downey.
+<em>Think Python, 2nd Ed</em>.
+2015, O&rsquo;Reilly Media, Inc.,
+ISBN: 9781491939369.
+E-copy: <a href="https://greenteapress.com/wp/think-python-2e/">link</a>
+<img src="https://learning.oreilly.com/library/cover/9781491939406/250w/" width="200"></p>
+</li>
+</ul>
+</section>
+
+<section id="sec-overview" class="arch-section">
+<h2>Course Overview</h2>
+<h3 id="sec-overview-course-coverage">Course Coverage</h3>
+<p>Explore the foundational principles of computer organization, data representation, algorithmic development, and structured programming. Emphasizing Python&rsquo;s syntactic and execution traits, delve into data types, arithmetic operations, input/output mechanisms, selection and iteration constructs. Discover procedural abstraction, arrays, object-oriented programming, class design, and harness Python&rsquo;s power for Data Science.</p>
+<h3 id="sec-overview-student-learning-outcomes">Student Learning Outcomes</h3>
+<p>By the end of the course, students will be able to:</p>
+<ul>
+<li>Apply fundamental computing and mathematical knowledge, including data structures and basic algorithms, to effectively solve problems using Python.</li>
+<li>Design, implement, and evaluate computer-based systems, processes, components, or programs to fulfill specific requirements.</li>
+<li>Describe and apply the core principles of the software development cycle in the context of Python programming.</li>
+<li>Demonstrate proficiency in adhering to coding standards, style guidelines, and documentation practices.</li>
+<li>Develop a solid understanding of data types and object-oriented programming concepts.</li>
+<li>Utilize Python for Data Science, including data manipulation, analysis, and visualization, to gain insights from real-world datasets.</li>
+<li>Apply Python programming constructs like strings manipulation, basic I/O operations, Boolean algebra, selection statements, loop statements, and arrays to effectively solve computational challenges using both procedural and object-oriented paradigms.</li>
+</ul>
+</section>
+
+<section id="sec-schedule" class="arch-section">
+<h2>Course Schedule</h2>
+<p>Note this tentative schedule is subject to change. Please check the schedule regularly.</p>
+<p>Last updated: 08/21/2023</p>
+<table>
+<thead>
+<tr>
+<th align="center">Week</th>
+<th align="center">Starting</th>
+<th>Topics</th>
+<th align="center">Reading</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">8/21/23</td>
+<td>M: Lec1 - Course   Intro &amp; Computer Science</td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec2 - Demo of Course Tools &amp;   First Program</td>
+<td align="center">Week1-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec3 - Values, Data Types and   Operations</td>
+<td align="center">Week1-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">8/28/23</td>
+<td>M: Lec4 - Function Calls &amp; Type   Conversion Functions</td>
+<td align="center">Week2-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec5 - Variables &amp; Input, Lab   1 - Variables and I/O</td>
+<td align="center">Week2-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: <span style="color:red">Dr. Li on Travel - Complete Lab 1 with TA</span></td>
+<td align="center">Week2-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">9/4/23</td>
+<td>M: <span style="color:red">Labor Day - No Class</span></td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec6 - Debut of Turtle &amp; OOP   Concepts</td>
+<td align="center">Week3-1</td>
+<td>Wed: Project 1 out.</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec7 - A Herd of Turtles &amp;   More Turtle Methods</td>
+<td align="center">Week3-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">9/11/23</td>
+<td>M: Lec8 - Repetition with a for Loop</td>
+<td align="center">Week4-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec9 - Boolean Expressions,   Logical Operators</td>
+<td align="center">Week4-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lab 2 - Conditions and   Repetitions</td>
+<td align="center">Week4-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">9/18/23</td>
+<td>M: Lec10 - Conditional Execution</td>
+<td align="center">Week5-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec11 - The Listener Loop: while   Loops</td>
+<td align="center">Week5-2</td>
+<td>Wed: Project 1 due. Project 2 out.</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec12 -  Functions (1)</td>
+<td align="center">Week5-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">9/25/23</td>
+<td>M: Lec13 - Functions (2)</td>
+<td align="center">Week6-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: PE1 - Loops and Functions</td>
+<td align="center">Week6-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lab 3 - Functions</td>
+<td align="center">Week 6-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">10/2/23</td>
+<td>M: <span style="color:blue">Lab Test 1</span></td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: <span style="color:blue">Midterm Exam</span></td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: <span style="color:red">Fall Break - No Class</span></td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">10/9/23</td>
+<td>M: Lec14 - Strings</td>
+<td align="center">Week8-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec15 - Tuples and Lists</td>
+<td align="center">Week8-2</td>
+<td>Wed: Project 2 due. Project 3 out.</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec16 - Dictionaries</td>
+<td align="center">Week8-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">10/16/23</td>
+<td>M: Lec17 - Iterations</td>
+<td align="center">Week9-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec18 - Accumulation</td>
+<td align="center">Week9-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: PE2 - Data Structures</td>
+<td align="center">Week9-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">10/23/23</td>
+<td>M: Lec19 - OOP Classes and Objects.</td>
+<td align="center">Week10-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec20 - Instance methods</td>
+<td align="center">Week10-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lab 4 - Data Structures</td>
+<td align="center">Week10-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">10/30/23</td>
+<td>M: Lec21 - Class attribute and class   methods</td>
+<td align="center">Week11-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec22 - Class customization</td>
+<td align="center">Week11-2</td>
+<td>Wed: Project 3 due. Project 4 out.</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: PE3 - OOP</td>
+<td align="center">Week11-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">11/6/23</td>
+<td>M: Lab 5 - OOP</td>
+<td align="center">Week12-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: PE4 - OOP and Data Structures</td>
+<td align="center">Week12-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: <span style="color:blue">Lab Test 2</span></td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center">11/13/23</td>
+<td>M: Lec23 - Python for Data Science   and AI</td>
+<td align="center">Week13-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Lec24 - Pandas DataFrame</td>
+<td align="center">Week13-2</td>
+<td>Wed: Project 4 due. Project 5 out.</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Lec25 - DataFrame Operations</td>
+<td align="center">Week13-3</td>
+<td></td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">11/20/23</td>
+<td>M: Lec26 - Data Visualization</td>
+<td align="center">Week14-1</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: PE5 - Pandas</td>
+<td align="center">Week14-2</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: <span style="color:red">Thanksgiving Break - No Class</span></td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">11/27/23</td>
+<td>M: Lab 6 - Pandas</td>
+<td align="center">All</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Course Review</td>
+<td align="center">All</td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Final Exam Q&amp;A</td>
+<td align="center">All</td>
+<td>Fri: Project 5 due.</td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td align="center">12/4/23</td>
+<td>M: <span style="color:blue">Final Exam: 7:30-10:30 AM</span></td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>W: Good luck with your finals</td>
+<td align="center"></td>
+<td></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td>F: Good luck with your finals</td>
+<td align="center"></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section id="sec-grading" class="arch-section">
+<h2>Grading Policies</h2>
+<h3 id="sec-grading-grading-weights">Grading Weights</h3>
+<p>The final grade for this course depends upon the grades and scores earned on course components weighted as follows:</p>
+<ul>
+<li><strong>5%</strong>: X in-class pop quizzes.</li>
+<li><strong>20%</strong>: Bi-daily reading and coding homework.</li>
+<li><strong>20%</strong>: 5 team projects.</li>
+<li><strong>15%</strong>: 6 in-class labs (drop the lowest grade).</li>
+<li><strong>15%</strong>: 2 lab tests.</li>
+<li><strong>10%</strong>: 1 midterm exam.</li>
+<li><strong>15%</strong>: 1 final exam.</li>
+</ul>
+<p>Grades will be computed by rounding numerical percentages to the nearest integer and applying the following table:</p>
+<table>
+<thead>
+<tr>
+<th>Letter</th>
+<th>Range</th>
+<th>Letter</th>
+<th>Range</th>
+<th>Letter</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>93-100</td>
+<td>B-</td>
+<td>80-82</td>
+<td>D+</td>
+<td>67-69</td>
+</tr>
+<tr>
+<td>A-</td>
+<td>90-92</td>
+<td>C+</td>
+<td>77-79</td>
+<td>D</td>
+<td>63-66</td>
+</tr>
+<tr>
+<td>B+</td>
+<td>87-89</td>
+<td>C</td>
+<td>73-76</td>
+<td>D-</td>
+<td>60-62</td>
+</tr>
+<tr>
+<td>B</td>
+<td>83-86</td>
+<td>C-</td>
+<td>70-72</td>
+<td>F</td>
+<td>0-59</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="language-Grades"></code></pre>
+<h3 id="sec-grading-bi-daily-reading-homework">Bi-daily Reading Homework</h3>
+<p>All reading and coding homework assignments have to be completed individually in this course. All the bi-daily homework will be released at the beginning of the semester. Each homework is due by 9:30 AM on the class day. For example, &ldquo;Reading Week 2-2&rdquo; is due by 9:30 AM on Wednesday of week 2. Students are welcome to finish the assignments ahead of the scheduled deadline, but <strong>no late submission is allowed</strong>.</p>
+<h3 id="sec-grading-in-class-labs">In-class Labs</h3>
+<p>All labs are to be done individually, in class, with the assistance of the instructor and TAs.
+Each assignment will be given near the beginning of a class and must be completed before the due time. Some of the labs allow for late submission till midnight with late penalty, but no submission is allowed beyond the lab day. To receive full credits, a programming assignment must pass all given test cases, but partial credits will be awarded based on the understanding of the material demonstrated by the student’s code.</p>
+<h3 id="sec-grading-team-projects">Team Projects</h3>
+<p>All projects are team projects in this course. For each project, students must form a team of 2 members. Teams are responsible for dividing their workload and meeting offline for at least 2 times for each project. Documented meeting agenda and minutes have to be submitted as part of the deliverable. Students should select their teams by using the Groups tab under People, on the Canvas webpage.</p>
+<p>Teams are responsible for dividing their workload. Except under extreme circumstances, all members of the team will receive the same grade for each project. One member of each team is designated the leader. The files for each project should be zipped up and uploaded by the team leader using Canvas before the due date. Projects must not be stored in a public folder. All project submissions must follow the provided file name requirements or risk a score of 0. <strong>If the project does not compile, the student will receive a score of 0.</strong></p>
+<p>Projects will be graded based on the following criteria:</p>
+<ul>
+<li>Correctness: Finding the right answer</li>
+<li>Formatting:	Displaying the right answer according to instructions</li>
+<li>Style and Documentation: Producing readable code with appropriate comments</li>
+</ul>
+<p>Only project is allowed to submit late. Late submissions will lose <img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cfn_phv%20%5Clarge%202%5E%7B%28n-1%29%7D" alt="equation"> points per day, including weekends and holidays. For example, -1 after 1 day, -2 after 2 days, -4 after 3 days … until 8+ days students will receive 0 score.  Under no circumstances should any student disclose their code, or copy the code written by other students or from an outside source. Both students will receive 0 score on the disclosed/copied assignment.</p>
+</section>
+
+<section id="sec-rubrics" class="arch-section">
+<h2>Grading Rubrics</h2>
+<h3 id="sec-rubrics-code">Code</h3>
+<p>Grading rubrics for code submission in terms of percentage:</p>
+<h4 id="sec-rubrics-100">100%:</h4>
+<ul>
+<li>Functionality: For assignments that have well-specified behavior, the code should be able to pass (or very nearly pass, e.g. there may be minor output formatting issues) automated unit testing of all required features. For open-ended assignments the code must be easy to run without modification and implement all of the required functionality.</li>
+<li>Documentation: all functions are commented with appropriate doc strings. For open-ended assignments there is a README file discussing how to run the program and what it is supposed to do.</li>
+<li>Style: the program exhibits effective modular design. The code does not have unnecessary cut and paste code or magic numbers. Variable and function names are sensibly chosen.</li>
+</ul>
+<h4 id="sec-rubrics-80">80%:</h4>
+<ul>
+<li>Functionality: For assignments that have well-specified behavior, the code should implement all of the required functionality. For this grade, it is possible that 10-20% of the functionality may be broken. For open-ended assignments it will be possible to get the code running with modest effort (i.e. it will not be as well documented as in a 5, but it isn’t too hard to intuit how the code works). For these types of assignments all required features must be present, however, some (10-20%) may not be functioning properly or otherwise poorly implemented.</li>
+<li>Documentation: some functions are missing doc strings. Comments are fairly minimal.</li>
+<li>Style: some aspects of the design of the program could be improved to reduce cut and paste code. Variable and function names are for the most part well-chosen.</li>
+</ul>
+<h4 id="sec-rubrics-60">60%:</h4>
+<ul>
+<li>Functionality: The code should implement almost all of the required features (it is okay if roughly 20% are not implemented). A significant portion, 30-50%, of the code may not work as it is supposed to.</li>
+<li>Documentation: Docstrings are mostly absent For well-defined assignments the code does not run as it should based on the assignment spec. For open-ended assignments there may not be any indication of how to run the program, and it is not easy for a NINJA to figure out how the code works (a good test is if you have to e-mail someone to ask them how their code runs, they are probably at this level).</li>
+<li>Style: the program design needs improvement. The code would be a lot cleaner if the author had done a better job thinking through the appropriate functional decomposition. The code has lots of cut and paste and magic numbers. Variable and function names are hard to interpret.</li>
+</ul>
+<h4 id="sec-rubrics-40">40%:</h4>
+<ul>
+<li>Functionality: the assignment is incomplete (~50% of the functionality is not implemented). The functionality that is implemented is not 100% correct.</li>
+<li>Documentation: mostly absent.</li>
+<li>Style: design is poor. Very little attention has been paid to choosing a sensible functional decomposition.  Variable and function names are chosen almost arbitrarily.</li>
+</ul>
+<h4 id="sec-rubrics-20">20%:</h4>
+<ul>
+<li>Functionality: only minimal functionality is present.</li>
+<li>Documentation: little or none.</li>
+<li>Style: Code is not “readable”. Poor choice of variable and function names.</li>
+</ul>
+<h4 id="sec-rubrics-0">0%:</h4>
+<ul>
+<li>nothing turned in.</li>
+</ul>
+<h3 id="sec-rubrics-notebook-assignments">Notebook Assignments</h3>
+<p>Jupyter notebooks are the files you need to submit for labs and homework assignments.</p>
+<h4 id="sec-rubrics-100-1">100%:</h4>
+<p>Thorough engagement with each section of the reading.  Each exercise has either been completed, or you have articulated a well-thought out set of questions for each of the problems you didn't answer.
+Points will be deducted from 100% for the following reasons:</p>
+<ul>
+<li>Exercises are not filled out (either with a solution or a question)</li>
+<li>The answer to the exercise does not demonstrate a good faith attempt to complete it.</li>
+</ul>
+<h3 id="sec-rubrics-writing">Writing</h3>
+<p>Writing will be evaluated for clarity, concision, and comprehensiveness.  The particular style that you should use will depend on the assignment and your audience.  The bottom line is don't cut corners with writing in this class.  Your ability to communicate what you have done is just as important as what you have done.  Don't make the mistake of spending all of your time writing code, and then rush through the writing parts of the assignment.  See below for some stylistic guidance.</p>
+<ul>
+<li>Since the dawn of time, college students have been writing introductions that are too grandiose (and often false).  Just get into it; you don't have to zoom in from space (and make stuff up).  Write the abstract last and summarize the most important result.</li>
+<li>The passive voice is a hoax. Please write in the first person (singular or plural).</li>
+<li>Write in the present tense whenever possible.  Some actions happen in the past, but all research exists in an eternal present: &ldquo;Using data from BRFSS, they plot weight versus height and find that tall respondents are heavier, on average, than shorter respondents.  Our results are consistent with this conclusion.&rdquo;</li>
+<li>When you edit, try to remove words.</li>
+<li>Avoid using &ldquo;significant&rdquo; unless you mean &ldquo;statistically significant;&rdquo; a good alternative is &ldquo;substantial.&rdquo;  Avoid using &ldquo;correlation&rdquo; unless you mean a coefficient of correlation.  In general, there might be a &ldquo;relationship&rdquo; between variables and you might characterize it with a correlation.</li>
+<li>&ldquo;Trend&rdquo; usually means something is changing in time; &ldquo;pattern&rdquo; is more general.</li>
+<li>Provide indicators of logical flow.  If I ask you to answer a set of question in your report, don't just paste the questions as your section headings.  You should create your own document structure based on what makes sense for your project.</li>
+<li>Explain your motivation.  Avoid &ldquo;We were interested&rdquo; and &ldquo;We wanted&rdquo; as pseudo-motivation.  And don't look at the camera; that is, don't use &ldquo;because we were told to&rdquo; as motivation, and avoid &ldquo;for this project&rdquo;.</li>
+<li>When you refer to figures and tables, capitalize &ldquo;Figure&rdquo; and &ldquo;Table.&rdquo;  Formal figures have a number and a caption, and they can float.  Informal figures are part of the text flow.  If a figure doesn't contain much information, summarize it in text.</li>
+<li>Find an authorial voice that is casual enough to be engaging (without overdoing it).</li>
+</ul>
+</section>
+
+<section id="sec-policy" class="arch-section">
+<h2>Policy Statements</h2>
+<h3 id="sec-policy-course-schedule">Course Schedule</h3>
+<p>The most up-to-date course schedule will be posted on course website schedule page: <a href="#sec-schedule">https://peilong.github.io/courses/cs121/schedule/</a>. Students are responsible for checking the schedule regularly. Schedule page will include: 1) teaching topics for each meeting; 2) reading assignments for each day and 3) reminders on specific days.</p>
+<h3 id="sec-policy-course-announcements--discussion">Course Announcements &amp; Discussion</h3>
+<p>All course announcements will be sent to your E-Town email accounts via Canvas Announcements. You are responsible for signing up for this service and checking your emails regularly.</p>
+<p>I have created a Microsoft Teams channel (<a href="https://teams.microsoft.com/l/team/19%3aa8cdd959c2e249a989d401e20fc95524%40thread.tacv2/conversations?groupId=81ffa3c7-aa45-454a-b495-7f43c78e5024&amp;tenantId=1d884f12-a0d7-42f0-8b15-3a91c853bcb5">link</a>) to facilitate course related discussion.  Discussions are encouraged to be posted on the &ldquo;QA&rdquo; channel from Teams. Private instant messages can be sent directly to your recipient by search your recipient&rsquo;s name on the &ldquo;search&rdquo; bar.</p>
+<h3 id="sec-policy-attendance-policies">Attendance Policies</h3>
+<p>Attendance is expected of every student at every lecture. Students are responsible for all content covered in class as well as assigned book chapters. Due to their nature, pop quizzes cannot be made up.</p>
+<p>Except in the case of documented emergencies, neither exams nor in-class labs can be made up afterwards.  For excused absences, students must arrange to take the exam or do the lab before the normally scheduled time.  Arrangements must be made with the instructor at least two weeks prior to the scheduled time.</p>
+<p>Students are expected to maintain an attitude of respect at all times toward their colleagues, the equipment, and the instructor.  Cell phones and similar devices is prohibited from using during lecturing time.  Students who use offensive language, misuse computing facilities, or are otherwise disruptive of the classroom will be asked to leave.</p>
+<h3 id="sec-policy-statement-on-school-closure">Statement on School Closure</h3>
+<p>In the event that classes do not meet because Elizabethtown College is closed or delayed due to inclement weather or some other emergency, the slides that would have been covered during the missed classes will be posted through Canvas.  Students are expected to do the assigned reading, review the slides, and e-mail the instructor with any questions. There will also be an opportunity to ask questions about the material when classes resume.</p>
+<p>If a scheduled exam or lab is missed, it will normally be made up on the day that classes resume.  If the College is closed on a day when a project is due, the project due date will also normally be extended until the day when classes resume.  If circumstances render either of these makeup policies unreasonable, the instructor will send an e-mail explaining an alternative makeup opportunity to each student’s Elizabethtown e-mail account.</p>
+<h3 id="sec-policy-statement-on-plagiarism">Statement on Plagiarism</h3>
+<p>Check out the up-to-date statement from: <a href="https://catalog.etown.edu/content.php?catoid=24&amp;navoid=1233#Academic_Judicial_System">Elizabethtown College Catalog, &ldquo;Academic Judicial System&rdquo;</a></p>
+<h3 id="sec-policy-statement-on-the-use-of-chatgpt-and-generative-ai-tools">Statement on the Use of ChatGPT and Generative AI Tools</h3>
+<p>To maintain course integrity and ensure equal opportunity for all students, submissions generated by artificial intelligence (AI) systems, including ChatGPT, Bing Chat, Claude, Google Bard, or similar tools, are not allowed for classwork or assessments. Such AI usage diminishes the development of critical skills vital for academic success. While students can use AI for research and idea generation, all submitted work must be their original writing. It&rsquo;s essential to recognize both the advantages and limitations of AI in learning and research. AI suggestions aren&rsquo;t always accurate, so students should assess AI outputs critically. Breaching this guideline results in academic misconduct. Seek clarification if uncertain about AI usage in assignments.</p>
+<h3 id="sec-policy-statement-on-disability">Statement on Disability</h3>
+<p>Full statement can be found at: <a href="https://elizabethtown-my.sharepoint.com/:w:/g/personal/ouimetc_etown_edu/EfZ-QooKt_VPjgwsWJz230wB3Rb6CIHsPvE0xuqWCpr-UA?e=4%3acZzjpW&amp;at=9">Course Syllabus on Disability Services, Religious Observances, and COVID related expectations</a>.</p>
+<h3 id="sec-policy-diversity-and-inclusivity-statement">Diversity and Inclusivity Statement</h3>
+<p>I consider this classroom to be a place where you will be treated with respect, and I welcome individuals of all ages, backgrounds, beliefs, ethnicities, genders, gender identities, gender expressions, national origins, religious affiliations, sexual orientations, ability - and other visible and non-visible differences. All members of this class are expected to contribute to a respectful, welcoming and inclusive environment for every other member of the class.</p>
+</section>
+
+<section id="sec-software" class="arch-section">
+<h2>Software</h2>
+<h3 id="sec-software-skulpt">Skulpt</h3>
+<p>An online Python interpreter for quick typing and note-taking. Available at:
+<a href="https://skulpt.org/using.html">https://skulpt.org/using.html</a></p>
+<h3 id="sec-software-cs-121-software">CS 121 Software</h3>
+<h4 id="sec-software-anaconda-individual">Anaconda Individual</h4>
+<p>The Python packages and environment that you need to install on your computer to execute Python programs.</p>
+<h4 id="sec-software-visual-studio-code">Visual Studio Code</h4>
+<p>Our Integrated Development Environment (IDE) for writing Python scripts.</p>
+<p>The installation guide for both software is provided on zyBook Chapter 1.6: <a href="https://learn.zybooks.com/zybook/ETOWNCS121Fall2023/chapter/1/section/6">Installing CS121 Software Tools</a>.</p>
+<p>Download Anaconda from: <a href="https://www.anaconda.com/products/individual">https://www.anaconda.com/products/individual</a>
+Download VS Code from: <a href="https://code.visualstudio.com/download">https://code.visualstudio.com/download</a></p>
+<p><strong>Note:</strong></p>
+<p>All the aforementioned software are available on the computers in the Esbenshade 281, Hoover 108 and Nicarry 208 computer laboratories and in the Computer Science commons area (E284).</p>
+</section>
+
+  </div>
+
+  <p class="arch-source">Archived from <a href="https://github.com/Peilong/Peilong.github.io/tree/cd0051b/courses/cs121" target="_blank" rel="noopener">Peilong/Peilong.github.io@cd0051b</a> (2023-08-20).</p>
+</div>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.3227ab49eed49815d1b4ba40154f74e7.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2019 Peilong Li &middot; 
+
+    Powered by the
+    <a href="https://www.etown.edu" target="_blank" rel="noopener">BlueJay</a> spirit. 
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -438,6 +438,26 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/</loc>
+    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2026-spring/cs230/</loc>
+    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2026-spring/cs350/</loc>
+    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2026-spring/cs364/</loc>
+    <lastmod>2026-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/publication_types/2/</loc>
     <lastmod>2026-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -448,13 +468,53 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/archive/2025-fall/cs250/</loc>
+    <lastmod>2025-11-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2025-fall/cs122/</loc>
+    <lastmod>2025-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2025-fall/cs363/</loc>
+    <lastmod>2025-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2025-spring/cs230/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2025-spring/cs222/</loc>
+    <lastmod>2025-03-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/publication/2025-sigcse-rydeenlp/</loc>
     <lastmod>2025-02-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://Peilong.github.io/courses/</loc>
-    <lastmod>2025-01-11T00:00:00+00:00</lastmod>
+    <loc>https://Peilong.github.io/courses/archive/2025-spring/cs354/</loc>
+    <lastmod>2025-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2024-fall/cs250/</loc>
+    <lastmod>2024-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2024-fall/cs122/</loc>
+    <lastmod>2024-08-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2024-fall/cs350/</loc>
+    <lastmod>2024-08-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -463,8 +523,48 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/archive/2024-spring/cs364/</loc>
+    <lastmod>2024-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2024-spring/cs222/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2024-spring/ds200/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/publication/2024-ccnc-malbuster/</loc>
     <lastmod>2024-01-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2023-fall/cs363/</loc>
+    <lastmod>2023-10-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2023-fall/cs121/</loc>
+    <lastmod>2023-08-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2023-spring/cs121/</loc>
+    <lastmod>2023-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2023-spring/cs222/</loc>
+    <lastmod>2023-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2023-spring/ds420/</loc>
+    <lastmod>2023-04-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -478,6 +578,16 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/archive/2023-spring/cs400/</loc>
+    <lastmod>2023-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2023-spring/ds400/</loc>
+    <lastmod>2023-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/publication/2023-ccnc-pe-detection/</loc>
     <lastmod>2023-01-08T00:00:00+00:00</lastmod>
   </url>
@@ -485,6 +595,16 @@
   <url>
     <loc>https://Peilong.github.io/publication/2022-tnsm-gnn/</loc>
     <lastmod>2022-12-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2022-fall/cs121/</loc>
+    <lastmod>2022-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2022-fall/ds300/</loc>
+    <lastmod>2022-10-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -498,8 +618,68 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/archive/2022-fall/cs363/</loc>
+    <lastmod>2022-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2022-fall/cs400/</loc>
+    <lastmod>2022-08-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2022-spring/ds420/</loc>
+    <lastmod>2022-06-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2022-spring/cs222/</loc>
+    <lastmod>2022-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2022-spring/ds200/</loc>
+    <lastmod>2022-04-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2022-spring/ds495/</loc>
+    <lastmod>2022-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2021-fall/cs121/</loc>
+    <lastmod>2021-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/publication/2021-icc/</loc>
     <lastmod>2021-06-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2021-spring/cs113/</loc>
+    <lastmod>2021-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2021-spring/cs222/</loc>
+    <lastmod>2021-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2021-spring/ds200/</loc>
+    <lastmod>2021-04-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2021-spring/cs400/</loc>
+    <lastmod>2021-01-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2021-spring/ds495/</loc>
+    <lastmod>2021-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -508,8 +688,33 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/archive/2020-fall/ds300/</loc>
+    <lastmod>2020-10-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2020-fall/ds420/</loc>
+    <lastmod>2020-10-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/publication/2020-ica3pp/</loc>
     <lastmod>2020-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2020-fall/cs121/</loc>
+    <lastmod>2020-09-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2020-fall/cs495/</loc>
+    <lastmod>2020-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2020-fall/ds495/</loc>
+    <lastmod>2020-08-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -518,8 +723,33 @@
   </url>
   
   <url>
+    <loc>https://Peilong.github.io/courses/archive/2020-spring/cs222/</loc>
+    <lastmod>2020-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Peilong.github.io/publication/2020-arxiv-netml/</loc>
     <lastmod>2020-04-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2020-spring/ds200/</loc>
+    <lastmod>2020-03-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2020-spring/cs121/</loc>
+    <lastmod>2020-03-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2020-spring/cs400/</loc>
+    <lastmod>2020-03-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Peilong.github.io/courses/archive/2020-spring/cs495/</loc>
+    <lastmod>2020-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -158,7 +158,7 @@
   <meta property="og:description" content="Associate Professor"><meta property="og:image" content="https://Peilong.github.io/img/course-header.jpg">
   <meta property="twitter:image" content="https://Peilong.github.io/img/course-header.jpg"><meta property="og:locale" content="en-us">
   
-    <meta property="og:updated_time" content="2025-01-11T00:00:00&#43;00:00">
+    <meta property="og:updated_time" content="2026-03-09T00:00:00&#43;00:00">
   
 
   
@@ -355,35 +355,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#teaching"><span>Teaching</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link " href="/#service"><span>Service</span></a>
         </li>
 
@@ -526,73 +497,1285 @@
 
 
 
-
-
-
-
-
-<div class="article-header">
-  
-  
-  <img src="/img/course-header.jpg" class="article-banner" alt="">
-  
-
-  <span class="article-header-caption">Etown Data Science</span>
-</div>
-
-
-
-
-  
-
   
   
   
-    
   
-<div class="universal-wrapper pt-3">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+<style>
+  .courses-home { max-width: 1140px; }
+  .courses-home .ch-lead { font-size: 1.05rem; opacity: .85; margin-bottom: 2.25rem; }
+  .ch-section { margin-bottom: 3rem; }
+  .ch-eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: .75rem; font-weight: 700; opacity: .65; }
+  .ch-term { margin: .15rem 0 1.1rem 0; }
+  .ch-card { height: 100%; padding: 1.1rem 1.2rem; border: 1px solid rgba(127,127,127,.25); border-radius: .5rem;
+             display: flex; flex-direction: column; }
+  .ch-card h3 { font-size: 1.15rem; margin: .25rem 0 .5rem 0; }
+  .ch-card p { font-size: .9rem; opacity: .85; flex: 1 1 auto; margin-bottom: .75rem; }
+  .ch-code { font-weight: 700; font-size: .85rem; letter-spacing: .03em; opacity: .75; }
+  .ch-links a { font-size: .85rem; margin-right: .9rem; white-space: nowrap; }
+  .ch-stats { font-size: .9rem; opacity: .75; margin: -.4rem 0 1rem 0; }
+  .courses-home .nav-tabs { margin-bottom: 1rem; }
+   
+  .ch-grid-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+  .ch-grid { border-collapse: separate; border-spacing: 0; font-size: .85rem; width: 100%; }
+  .ch-grid th, .ch-grid td { padding: .35rem .2rem; text-align: center; white-space: nowrap;
+                             border-bottom: 1px solid rgba(127,127,127,.15); }
+  .ch-grid thead th { font-weight: 600; opacity: .8; border-bottom: 1px solid rgba(127,127,127,.35); }
+  .ch-grid .ch-year th { border-bottom: 0; font-size: .8rem; opacity: .65; }
+  .ch-grid th.ch-row, .ch-grid td.ch-row { text-align: left; position: sticky; left: 0; z-index: 1; padding-right: 1rem; background: inherit; }
+  .ch-grid tbody tr:hover { background: rgba(127,127,127,.07); }
+  .ch-row-code { font-weight: 700; }
+  .ch-row-title { opacity: .8; }
+  .ch-row-former { display: block; font-size: .75rem; opacity: .6; }
+   
+  .ch-dot { color: #2962ff; display: inline-block; width: .8rem; height: .8rem; border-radius: 50%; background: currentColor;
+            vertical-align: middle; transition: transform .1s; }
+  a:hover .ch-dot { transform: scale(1.35); }
+  .ch-dot.ch-former { background: transparent; border: 2px solid currentColor; }
+  .ch-dot.ch-none { color: rgba(127,127,127,.7); }
+  .ch-dot.ch-ext { border-radius: 2px; }
+  .ch-dot.ch-now { box-shadow: 0 0 0 3px rgba(127,127,127,.35); }
+  .ch-col-now { background: rgba(127,127,127,.09); }
+  .ch-col-off { background: repeating-linear-gradient(135deg, rgba(127,127,127,.13) 0 4px, transparent 4px 9px); }
+  .ch-legend { font-size: .8rem; opacity: .8; margin-top: .6rem; display: flex; flex-wrap: wrap; gap: .3rem 1.1rem; }
+  .ch-legend .ch-sw { display: inline-block; width: .8rem; height: .8rem; vertical-align: middle; margin-right: .3rem; }
+   
+  .ch-sem { display: flex; gap: 1rem; padding: .55rem 0; border-bottom: 1px solid rgba(127,127,127,.15); }
+  .ch-sem-term { flex: 0 0 8.5rem; font-weight: 600; }
+  .ch-sem-list { display: flex; flex-wrap: wrap; gap: .4rem .5rem; align-items: center; }
+  .ch-chip { font-size: .85rem; padding: .15rem .6rem; border: 1px solid rgba(127,127,127,.3); border-radius: 1rem; }
+  .ch-chip b { margin-right: .25rem; }
+  span.ch-chip { opacity: .65; }
+  .ch-sem-note { font-size: .9rem; font-style: italic; opacity: .75; }
+  .ch-earlier ul { margin-bottom: 1rem; }
+  @media (max-width: 575px) { .ch-sem { flex-direction: column; gap: .35rem; } .ch-sem-term { flex-basis: auto; } }
+</style>
+
+<div class="universal-wrapper courses-home">
   <h1>Courses</h1>
+  <p class="ch-lead">Courses I teach in the Department of Computer Science at Elizabethtown College. Every past semester's syllabus, schedule and policies are archived below, so you can see how each course has changed over time.</p>
 
   
+  <div class="ch-section">
+    <div class="ch-eyebrow">Current semester</div>
+    <h2 class="ch-term">Spring 2027</h2>
+    <div class="row">
+      
+      <div class="col-12 col-md-4 mb-3">
+        <div class="ch-card">
+          <div class="ch-code">CS 122</div>
+          <h3><a href="/courses/cs122/">Computer Science II</a></h3>
+          <p>As a continuation of CS I, this course will cover Java software development essentials, focusing on algorithms, data structures, threads, file processing, exception handling, OOP, and extensive GUI programming.</p>
+          <div class="ch-links"><a href="/courses/cs122/schedule/">Schedule</a><a href="/courses/cs122/overview/">Overview</a><a href="/courses/cs122/grading/">Grading</a><a href="/courses/cs122/policy/">Policies</a></div>
+        </div>
+      </div>
+      
+      <div class="col-12 col-md-4 mb-3">
+        <div class="ch-card">
+          <div class="ch-code">CS 230</div>
+          <h3><a href="/courses/cs230/">Computer Architecture</a></h3>
+          <p>The foundational principles of computer architecture, including the design and organization of processors, memory hierarchies, input/output systems, and multiple CPU systems.</p>
+          <div class="ch-links"><a href="/courses/cs230/schedule/">Schedule</a><a href="/courses/cs230/overview/">Overview</a><a href="/courses/cs230/grading/">Grading</a><a href="/courses/cs230/policy/">Policies</a></div>
+        </div>
+      </div>
+      
+      <div class="col-12 col-md-4 mb-3">
+        <div class="ch-card">
+          <div class="ch-code">CS 354</div>
+          <h3><a href="/courses/cs354/">Big Data</a></h3>
+          <p>This course covers techniques needed to collect, store, analyze, and visualize big data, particularly for applications in machine learning at scale.</p>
+          <div class="ch-links"><a href="/courses/cs354/schedule/">Schedule</a><a href="/courses/cs354/overview/">Overview</a><a href="/courses/cs354/grading/">Grading</a><a href="/courses/cs354/policy/">Policies</a></div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
 
   
-</div>
+  <div class="ch-section">
+    <h2>Teaching history</h2>
+    <p class="ch-stats">16 semesters &middot; 62 course offerings (46 with archived course pages) &middot; Fall 2018 to Spring 2026</p>
 
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#by-course" role="tab" aria-controls="by-course" aria-selected="true">By course</a></li>
+      <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#by-semester" role="tab" aria-controls="by-semester" aria-selected="false">By semester</a></li>
+    </ul>
 
+    <div class="tab-content">
+      
+      <div class="tab-pane fade show active" id="by-course" role="tabpanel">
+        
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+          
+          
+        
+        
+        
+        
+        <div class="ch-grid-wrap">
+          <table class="ch-grid">
+            <thead>
+              <tr class="ch-year">
+                <th class="ch-row"></th>
+                <th colspan="1">2018</th><th colspan="2">2019</th><th colspan="2">2020</th><th colspan="2">2021</th><th colspan="2">2022</th><th colspan="2">2023</th><th colspan="2">2024</th><th colspan="2">2025</th><th colspan="2">2026</th>
+                <th>2027</th>
+              </tr>
+              <tr>
+                <th class="ch-row">Course</th>
+                <th title="Fall 2018">Fa</th><th title="Spring 2019">Sp</th><th title="Fall 2019">Fa</th><th title="Spring 2020">Sp</th><th title="Fall 2020">Fa</th><th title="Spring 2021">Sp</th><th title="Fall 2021">Fa</th><th title="Spring 2022">Sp</th><th title="Fall 2022">Fa</th><th title="Spring 2023">Sp</th><th title="Fall 2023">Fa</th><th title="Spring 2024">Sp</th><th title="Fall 2024">Fa</th><th title="Spring 2025">Sp</th><th title="Fall 2025">Fa</th><th title="Spring 2026">Sp</th><th class="ch-col-off" title="Fall 2026">Fa</th>
+                <th class="ch-col-now" title="Spring 2027 (current)">Sp</th>
+              </tr>
+            </thead>
+            <tbody>
+              
+              
+              <tr>
+                <td class="ch-row">
+                  <span class="ch-row-code"><a href="/courses/cs113/">CS 113</a></span>
+                  <span class="ch-row-title">The Power and Beauty of Computing</span>
+                  
+                </td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2021-spring/cs113/" title="CS 113 &middot; Spring 2021" aria-label="CS 113, Spring 2021"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td class="ch-col-off"></td>
+                
+                <td class="ch-col-now"></td>
+              </tr>
+              
+              
+              <tr>
+                <td class="ch-row">
+                  <span class="ch-row-code"><a href="/courses/cs121/">CS 121</a></span>
+                  <span class="ch-row-title">Computer Science I</span>
+                  
+                </td>
+                
+                <td><span class="ch-dot ch-none" title="CS 121 &middot; Fall 2018: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
+                
+                <td><span class="ch-dot ch-none" title="CS 121 &middot; Spring 2019: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
+                
+                <td><span class="ch-dot ch-none" title="CS 121 &middot; Fall 2019: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
+                
+                <td><a href="/courses/archive/2020-spring/cs121/" title="CS 121 &middot; Spring 2020" aria-label="CS 121, Spring 2020"><span class="ch-dot"></span></a></td>
+                
+                <td><a href="/courses/archive/2020-fall/cs121/" title="CS 121 &middot; Fall 2020" aria-label="CS 121, Fall 2020"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2021-fall/cs121/" title="CS 121 &middot; Fall 2021" aria-label="CS 121, Fall 2021"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2022-fall/cs121/" title="CS 121 &middot; Fall 2022" aria-label="CS 121, Fall 2022"><span class="ch-dot"></span></a></td>
+                
+                <td><a href="/courses/archive/2023-spring/cs121/" title="CS 121 &middot; Spring 2023" aria-label="CS 121, Spring 2023"><span class="ch-dot"></span></a></td>
+                
+                <td><a href="/courses/archive/2023-fall/cs121/" title="CS 121 &middot; Fall 2023" aria-label="CS 121, Fall 2023"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td class="ch-col-off"></td>
+                
+                <td class="ch-col-now"></td>
+              </tr>
+              
+              
+              <tr>
+                <td class="ch-row">
+                  <span class="ch-row-code"><a href="/courses/cs122/">CS 122</a></span>
+                  <span class="ch-row-title">Computer Science II</span>
+                  
+                </td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2024-fall/cs122/" title="CS 122 &middot; Fall 2024" aria-label="CS 122, Fall 2024"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2025-fall/cs122/" title="CS 122 &middot; Fall 2025" aria-label="CS 122, Fall 2025"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td class="ch-col-off"></td>
+                
+                <td class="ch-col-now"><a href="/courses/cs122/" title="CS 122 &middot; Spring 2027 (current)"><span class="ch-dot ch-now"></span></a></td>
+              </tr>
+              
+              
+              <tr>
+                <td class="ch-row">
+                  <span class="ch-row-code"><a href="/courses/cs222/">CS/EGR 222</a></span>
+                  <span class="ch-row-title">Systems Programming</span>
+                  
+                </td>
+                
+                <td></td>
+                
+                <td><span class="ch-dot ch-none" title="CS 222 &middot; Spring 2019: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2020-spring/cs222/" title="CS 222 &middot; Spring 2020" aria-label="CS 222, Spring 2020"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2021-spring/cs222/" title="CS/EGR 222 &middot; Spring 2021" aria-label="CS/EGR 222, Spring 2021"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2022-spring/cs222/" title="CS/EGR 222 &middot; Spring 2022" aria-label="CS/EGR 222, Spring 2022"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2023-spring/cs222/" title="CS/EGR 222 &middot; Spring 2023" aria-label="CS/EGR 222, Spring 2023"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2024-spring/cs222/" title="CS/EGR 222 &middot; Spring 2024" aria-label="CS/EGR 222, Spring 2024"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2025-spring/cs222/" title="CS/EGR 222 &middot; Spring 2025" aria-label="CS/EGR 222, Spring 2025"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td class="ch-col-off"></td>
+                
+                <td class="ch-col-now"></td>
+              </tr>
+              
+              
+              <tr>
+                <td class="ch-row">
+                  <span class="ch-row-code"><a href="/courses/cs230/">CS 230</a></span>
+                  <span class="ch-row-title">Computer Architecture</span>
+                  
+                </td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2025-spring/cs230/" title="CS 230 &middot; Spring 2025" aria-label="CS 230, Spring 2025"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2026-spring/cs230/" title="CS 230 &middot; Spring 2026" aria-label="CS 230, Spring 2026"><span class="ch-dot"></span></a></td>
+                
+                <td class="ch-col-off"></td>
+                
+                <td class="ch-col-now"><a href="/courses/cs230/" title="CS 230 &middot; Spring 2027 (current)"><span class="ch-dot ch-now"></span></a></td>
+              </tr>
+              
+              
+              <tr>
+                <td class="ch-row">
+                  <span class="ch-row-code"><a href="/courses/cs250/">CS 250</a></span>
+                  <span class="ch-row-title">Foundations of AI and Data Science</span>
+                  <span class="ch-row-former">formerly DS 200 Introduction to Data Science</span>
+                </td>
+                
+                <td><span class="ch-dot ch-former ch-none" title="DS 200 &middot; Fall 2018: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
+                
+                <td><span class="ch-dot ch-former ch-none" title="DS 200 &middot; Spring 2019: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2020-spring/ds200/" title="DS 200 &middot; Spring 2020" aria-label="DS 200, Spring 2020"><span class="ch-dot ch-former"></span></a></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2021-spring/ds200/" title="DS 200 &middot; Spring 2021" aria-label="DS 200, Spring 2021"><span class="ch-dot ch-former"></span></a></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2022-spring/ds200/" title="DS 200 &middot; Spring 2022" aria-label="DS 200, Spring 2022"><span class="ch-dot ch-former"></span></a></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2024-spring/ds200/" title="DS 200 &middot; Spring 2024" aria-label="DS 200, Spring 2024"><span class="ch-dot ch-former"></span></a></td>
+                
+                <td><a href="/courses/archive/2024-fall/cs250/" title="CS 250 &middot; Fall 2024" aria-label="CS 250, Fall 2024"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2025-fall/cs250/" title="CS 250 &middot; Fall 2025" aria-label="CS 250, Fall 2025"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td class="ch-col-off"></td>
+                
+                <td class="ch-col-now"></td>
+              </tr>
+              
+              
+              <tr>
+                <td class="ch-row">
+                  <span class="ch-row-code"><a href="/courses/cs350/">CS 350</a></span>
+                  <span class="ch-row-title">From Data Mining to Deep Learning</span>
+                  <span class="ch-row-former">formerly DS 300 Data Mining</span>
+                </td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><span class="ch-dot ch-former ch-none" title="DS 300 &middot; Fall 2019: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2020-fall/ds300/" title="DS 300 &middot; Fall 2020" aria-label="DS 300, Fall 2020"><span class="ch-dot ch-former"></span></a></td>
+                
+                <td></td>
+                
+                <td><span class="ch-dot ch-former ch-none" title="DS 300 &middot; Fall 2021: no archived page (the course page was not updated this semester)"></span></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2022-fall/ds300/" title="DS 300 &middot; Fall 2022" aria-label="DS 300, Fall 2022"><span class="ch-dot ch-former"></span></a></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2024-fall/cs350/" title="CS 350 &middot; Fall 2024" aria-label="CS 350, Fall 2024"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2026-spring/cs350/" title="CS 350 &middot; Spring 2026" aria-label="CS 350, Spring 2026"><span class="ch-dot"></span></a></td>
+                
+                <td class="ch-col-off"></td>
+                
+                <td class="ch-col-now"></td>
+              </tr>
+              
+              
+              <tr>
+                <td class="ch-row">
+                  <span class="ch-row-code"><a href="/courses/cs354/">CS 354</a></span>
+                  <span class="ch-row-title">Big Data</span>
+                  <span class="ch-row-former">formerly DS 420 Big Data</span>
+                </td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2020-fall/ds420/" title="DS 420 &middot; Fall 2020" aria-label="DS 420, Fall 2020"><span class="ch-dot ch-former"></span></a></td>
+                
+                <td></td>
+                
+                <td><span class="ch-dot ch-former ch-none" title="DS 420 &middot; Fall 2021: no archived page (the course page was not updated this semester)"></span></td>
+                
+                <td><a href="/courses/archive/2022-spring/ds420/" title="DS 420 &middot; Spring 2022" aria-label="DS 420, Spring 2022"><span class="ch-dot ch-former"></span></a></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2023-spring/ds420/" title="DS 420 &middot; Spring 2023" aria-label="DS 420, Spring 2023"><span class="ch-dot ch-former"></span></a></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2025-spring/cs354/" title="CS 354 &middot; Spring 2025" aria-label="CS 354, Spring 2025"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td class="ch-col-off"></td>
+                
+                <td class="ch-col-now"><a href="/courses/cs354/" title="CS 354 &middot; Spring 2027 (current)"><span class="ch-dot ch-now"></span></a></td>
+              </tr>
+              
+              
+              <tr>
+                <td class="ch-row">
+                  <span class="ch-row-code"><a href="/courses/cs363/">CS 363</a></span>
+                  <span class="ch-row-title">Computer Security</span>
+                  
+                </td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2022-fall/cs363/" title="CS 363 &middot; Fall 2022" aria-label="CS 363, Fall 2022"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2023-fall/cs363/" title="CS 363 &middot; Fall 2023" aria-label="CS 363, Fall 2023"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2025-fall/cs363/" title="CS 363 &middot; Fall 2025" aria-label="CS 363, Fall 2025"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td class="ch-col-off"></td>
+                
+                <td class="ch-col-now"></td>
+              </tr>
+              
+              
+              <tr>
+                <td class="ch-row">
+                  <span class="ch-row-code"><a href="/courses/cs364/">CS 364</a></span>
+                  <span class="ch-row-title">Network Security</span>
+                  
+                </td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2024-spring/cs364/" title="CS 364 &middot; Spring 2024" aria-label="CS 364, Spring 2024"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2026-spring/cs364/" title="CS 364 &middot; Spring 2026" aria-label="CS 364, Spring 2026"><span class="ch-dot"></span></a></td>
+                
+                <td class="ch-col-off"></td>
+                
+                <td class="ch-col-now"></td>
+              </tr>
+              
+              
+              <tr>
+                <td class="ch-row">
+                  <span class="ch-row-code"><a href="/courses/cs400/">CS 400</a></span>
+                  <span class="ch-row-title">Projects in Computing</span>
+                  
+                </td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2020-spring/cs400/" title="CS 400 &middot; Spring 2020" aria-label="CS 400, Spring 2020"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2021-spring/cs400/" title="CS 400 &middot; Spring 2021" aria-label="CS 400, Spring 2021"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2022-fall/cs400/" title="CS 400 &middot; Fall 2022" aria-label="CS 400, Fall 2022"><span class="ch-dot"></span></a></td>
+                
+                <td><a href="/courses/archive/2023-spring/cs400/" title="CS 400 &middot; Spring 2023" aria-label="CS 400, Spring 2023"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td><span class="ch-dot ch-none" title="CS 400 &middot; Spring 2024: no archived page (the course page was not updated this semester)"></span></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td class="ch-col-off"></td>
+                
+                <td class="ch-col-now"></td>
+              </tr>
+              
+              
+              <tr>
+                <td class="ch-row">
+                  <span class="ch-row-code"><a href="/courses/cs495/">CS 495</a></span>
+                  <span class="ch-row-title">Honors Projects in Computing</span>
+                  
+                </td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2020-spring/cs495/" title="CS 495 &middot; Spring 2020" aria-label="CS 495, Spring 2020"><span class="ch-dot"></span></a></td>
+                
+                <td><a href="/courses/archive/2020-fall/cs495/" title="CS 495 &middot; Fall 2020" aria-label="CS 495, Fall 2020"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><span class="ch-dot ch-none" title="CS 495 &middot; Spring 2023: no archived page (the course page was not updated this semester)"></span></td>
+                
+                <td></td>
+                
+                <td><span class="ch-dot ch-none" title="CS 495 &middot; Spring 2024: no archived page (the course page was not updated this semester)"></span></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td class="ch-col-off"></td>
+                
+                <td class="ch-col-now"></td>
+              </tr>
+              
+              
+              <tr>
+                <td class="ch-row">
+                  <span class="ch-row-code"><a href="/courses/ds400/">DS 400</a></span>
+                  <span class="ch-row-title">Data Science Capstone</span>
+                  
+                </td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2023-spring/ds400/" title="DS 400 &middot; Spring 2023" aria-label="DS 400, Spring 2023"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><span class="ch-dot ch-none" title="DS 400 &middot; Fall 2024: no archived page (the course page was not updated this semester)"></span></td>
+                
+                <td><span class="ch-dot ch-none" title="DS 400 &middot; Spring 2025: no archived page (the course page was not updated this semester)"></span></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td class="ch-col-off"></td>
+                
+                <td class="ch-col-now"></td>
+              </tr>
+              
+              
+              <tr>
+                <td class="ch-row">
+                  <span class="ch-row-code">DS 495</span>
+                  <span class="ch-row-title">Honors Data Science Capstone</span>
+                  
+                </td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2020-fall/ds495/" title="DS 495 &middot; Fall 2020" aria-label="DS 495, Fall 2020"><span class="ch-dot"></span></a></td>
+                
+                <td><a href="/courses/archive/2021-spring/ds495/" title="DS 495 &middot; Spring 2021" aria-label="DS 495, Spring 2021"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td><a href="/courses/archive/2022-spring/ds495/" title="DS 495 &middot; Spring 2022" aria-label="DS 495, Spring 2022"><span class="ch-dot"></span></a></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td class="ch-col-off"></td>
+                
+                <td class="ch-col-now"></td>
+              </tr>
+              
+              
+              <tr>
+                <td class="ch-row">
+                  <span class="ch-row-code">EGR 401</span>
+                  <span class="ch-row-title">Senior Project in Engineering I</span>
+                  
+                </td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td><a href="https://users.etown.edu/w/wunderjt/syllabi/EGR401%20Wunderlich,Joseph%20and%20Li,Peilong.pdf" target="_blank" rel="noopener" title="EGR 401 &middot; Fall 2019 &middot; co-taught with Dr. Joseph Wunderlich (syllabus, PDF)" aria-label="EGR 401, Fall 2019, syllabus"><span class="ch-dot ch-ext"></span></a></td>
+                
+                <td><a href="https://users.etown.edu/w/wunderjt/syllabi/EGR401%20Wunderlich,Joseph%20and%20Li,Peilong.pdf" target="_blank" rel="noopener" title="EGR 401 &middot; Spring 2020 &middot; co-taught with Dr. Joseph Wunderlich (syllabus, PDF)" aria-label="EGR 401, Spring 2020, syllabus"><span class="ch-dot ch-ext"></span></a></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td></td>
+                
+                <td class="ch-col-off"></td>
+                
+                <td class="ch-col-now"></td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+        <div class="ch-legend">
+          <span><span class="ch-dot ch-sw"></span>archived course page</span>
+          <span><span class="ch-dot ch-former ch-sw"></span>under its former course number</span>
+          <span><span class="ch-dot ch-none ch-sw"></span>taught, no archived page</span>
+          <span><span class="ch-dot ch-ext ch-sw"></span>co-taught; links to the syllabus</span>
+          <span><span class="ch-dot ch-now ch-sw"></span>Spring 2027 (current)</span>
+          <span><span class="ch-col-off ch-sw"></span>Fall 2026: sabbatical leave (no teaching)</span>
+        </div>
+      </div>
 
-<div class="universal-wrapper">
+      
+      <div class="tab-pane fade" id="by-semester" role="tabpanel">
+        <div class="ch-sem">
+          <div class="ch-sem-term">Spring 2027<br><span class="ch-eyebrow">current</span></div>
+          <div class="ch-sem-list">
+            <a class="ch-chip" href="/courses/cs122/"><b>CS 122</b>Computer Science II</a><a class="ch-chip" href="/courses/cs230/"><b>CS 230</b>Computer Architecture</a><a class="ch-chip" href="/courses/cs354/"><b>CS 354</b>Big Data</a>
+          </div>
+        </div>
+        
+        <div class="ch-sem">
+          <div class="ch-sem-term">Fall 2026</div>
+          <div class="ch-sem-list">
+            <span class="ch-sem-note">Sabbatical leave (no teaching)</span>
+            
+          </div>
+        </div>
+        
+        <div class="ch-sem">
+          <div class="ch-sem-term">Spring 2026</div>
+          <div class="ch-sem-list">
+            
+            
+              
+              <a class="ch-chip" href="/courses/archive/2026-spring/cs230/"><b>CS 230</b>Computer Architecture</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2026-spring/cs350/"><b>CS 350</b>From Data Mining to Deep Learning</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2026-spring/cs364/"><b>CS 364</b>Network Security</a>
+              
+            
+          </div>
+        </div>
+        
+        <div class="ch-sem">
+          <div class="ch-sem-term">Fall 2025</div>
+          <div class="ch-sem-list">
+            
+            
+              
+              <a class="ch-chip" href="/courses/archive/2025-fall/cs122/"><b>CS 122</b>Computer Science II</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2025-fall/cs250/"><b>CS 250</b>Foundations of AI and Data Science</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2025-fall/cs363/"><b>CS 363</b>Computer Security</a>
+              
+            
+          </div>
+        </div>
+        
+        <div class="ch-sem">
+          <div class="ch-sem-term">Spring 2025</div>
+          <div class="ch-sem-list">
+            
+            
+              
+              <a class="ch-chip" href="/courses/archive/2025-spring/cs230/"><b>CS 230</b>Computer Architecture</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2025-spring/cs354/"><b>CS 354</b>Big Data</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2025-spring/cs222/"><b>CS/EGR 222</b>Systems Programming</a>
+              
+            
+              
+              <span class="ch-chip" title="No archived page: the course page was not updated this semester"><b>DS 400</b>Data Science Capstone</span>
+            
+          </div>
+        </div>
+        
+        <div class="ch-sem">
+          <div class="ch-sem-term">Fall 2024</div>
+          <div class="ch-sem-list">
+            
+            
+              
+              <a class="ch-chip" href="/courses/archive/2024-fall/cs122/"><b>CS 122</b>Computer Science II</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2024-fall/cs250/"><b>CS 250</b>Foundations of AI and Data Science</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2024-fall/cs350/"><b>CS 350</b>From Data Mining to Deep Learning</a>
+              
+            
+              
+              <span class="ch-chip" title="No archived page: the course page was not updated this semester"><b>DS 400</b>Data Science Capstone</span>
+            
+          </div>
+        </div>
+        
+        <div class="ch-sem">
+          <div class="ch-sem-term">Spring 2024</div>
+          <div class="ch-sem-list">
+            
+            
+              
+              <a class="ch-chip" href="/courses/archive/2024-spring/cs364/"><b>CS 364</b>Network Security</a>
+              
+            
+              
+              <span class="ch-chip" title="No archived page: the course page was not updated this semester"><b>CS 400</b>Projects in Computing</span>
+            
+              
+              <span class="ch-chip" title="No archived page: the course page was not updated this semester"><b>CS 495</b>Honors Projects in Computing</span>
+            
+              
+              <a class="ch-chip" href="/courses/archive/2024-spring/cs222/"><b>CS/EGR 222</b>Systems Programming</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2024-spring/ds200/"><b>DS 200</b>Introduction to Data Science</a>
+              
+            
+          </div>
+        </div>
+        
+        <div class="ch-sem">
+          <div class="ch-sem-term">Fall 2023</div>
+          <div class="ch-sem-list">
+            
+            
+              
+              <a class="ch-chip" href="/courses/archive/2023-fall/cs121/"><b>CS 121</b>Computer Science I</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2023-fall/cs363/"><b>CS 363</b>Computer Security</a>
+              
+            
+          </div>
+        </div>
+        
+        <div class="ch-sem">
+          <div class="ch-sem-term">Spring 2023</div>
+          <div class="ch-sem-list">
+            
+            
+              
+              <a class="ch-chip" href="/courses/archive/2023-spring/cs121/"><b>CS 121</b>Computer Science I</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2023-spring/cs400/"><b>CS 400</b>Projects in Computing</a>
+              
+            
+              
+              <span class="ch-chip" title="No archived page: the course page was not updated this semester"><b>CS 495</b>Honors Projects in Computing</span>
+            
+              
+              <a class="ch-chip" href="/courses/archive/2023-spring/cs222/"><b>CS/EGR 222</b>Systems Programming</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2023-spring/ds400/"><b>DS 400</b>Data Science Capstone</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2023-spring/ds420/"><b>DS 420</b>Big Data</a>
+              
+            
+          </div>
+        </div>
+        
+        <div class="ch-sem">
+          <div class="ch-sem-term">Fall 2022</div>
+          <div class="ch-sem-list">
+            
+            
+              
+              <a class="ch-chip" href="/courses/archive/2022-fall/cs121/"><b>CS 121</b>Computer Science I</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2022-fall/cs363/"><b>CS 363</b>Computer Security</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2022-fall/cs400/"><b>CS 400</b>Projects in Computing</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2022-fall/ds300/"><b>DS 300</b>Data Mining</a>
+              
+            
+          </div>
+        </div>
+        
+        <div class="ch-sem">
+          <div class="ch-sem-term">Spring 2022</div>
+          <div class="ch-sem-list">
+            
+            
+              
+              <a class="ch-chip" href="/courses/archive/2022-spring/cs222/"><b>CS/EGR 222</b>Systems Programming</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2022-spring/ds200/"><b>DS 200</b>Introduction to Data Science</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2022-spring/ds420/"><b>DS 420</b>Big Data</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2022-spring/ds495/"><b>DS 495</b>Data Science Capstone</a>
+              
+            
+          </div>
+        </div>
+        
+        <div class="ch-sem">
+          <div class="ch-sem-term">Fall 2021</div>
+          <div class="ch-sem-list">
+            
+            
+              
+              <a class="ch-chip" href="/courses/archive/2021-fall/cs121/"><b>CS 121</b>Computer Science I</a>
+              
+            
+              
+              <span class="ch-chip" title="No archived page: the course page was not updated this semester"><b>DS 300</b>Data Mining</span>
+            
+              
+              <span class="ch-chip" title="No archived page: the course page was not updated this semester"><b>DS 420</b>Big Data</span>
+            
+          </div>
+        </div>
+        
+        <div class="ch-sem">
+          <div class="ch-sem-term">Spring 2021</div>
+          <div class="ch-sem-list">
+            
+            
+              
+              <a class="ch-chip" href="/courses/archive/2021-spring/cs113/"><b>CS 113</b>The Power and Beauty of Computing</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2021-spring/cs400/"><b>CS 400</b>Projects in Computing</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2021-spring/cs222/"><b>CS/EGR 222</b>Systems Programming</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2021-spring/ds200/"><b>DS 200</b>Introduction to Data Science</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2021-spring/ds495/"><b>DS 495</b>Data Science Capstone</a>
+              
+            
+          </div>
+        </div>
+        
+        <div class="ch-sem">
+          <div class="ch-sem-term">Fall 2020</div>
+          <div class="ch-sem-list">
+            
+            
+              
+              <a class="ch-chip" href="/courses/archive/2020-fall/cs121/"><b>CS 121</b>Computer Science I</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2020-fall/cs495/"><b>CS 495</b>Honors Projects in Computing</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2020-fall/ds300/"><b>DS 300</b>Data Mining</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2020-fall/ds420/"><b>DS 420</b>Big Data</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2020-fall/ds495/"><b>DS 495</b>Data Science Capstone</a>
+              
+            
+          </div>
+        </div>
+        
+        <div class="ch-sem">
+          <div class="ch-sem-term">Spring 2020</div>
+          <div class="ch-sem-list">
+            
+            
+              
+              <a class="ch-chip" href="/courses/archive/2020-spring/cs121/"><b>CS 121</b>Computer Science I</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2020-spring/cs222/"><b>CS 222</b>(EGR 222) Systems Programming</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2020-spring/cs400/"><b>CS 400</b>Projects in Computing</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2020-spring/cs495/"><b>CS 495</b>Honors Projects in Computing</a>
+              
+            
+              
+              <a class="ch-chip" href="/courses/archive/2020-spring/ds200/"><b>DS 200</b>Introduction to Data Science</a>
+              
+            
+              
+              <a class="ch-chip" href="https://users.etown.edu/w/wunderjt/syllabi/EGR401%20Wunderlich,Joseph%20and%20Li,Peilong.pdf" target="_blank" rel="noopener" title="co-taught with Dr. Joseph Wunderlich"><b>EGR 401</b>Senior Project in Engineering I (co-taught with Dr. Joseph Wunderlich) &#8599;</a>
+              
+            
+          </div>
+        </div>
+        
+        <div class="ch-sem">
+          <div class="ch-sem-term">Fall 2019</div>
+          <div class="ch-sem-list">
+            
+            
+              
+              <span class="ch-chip" title="No archived page: before the site&#39;s archive began (Dec 2019)"><b>CS 121</b>Computer Science I</span>
+            
+              
+              <span class="ch-chip" title="No archived page: before the site&#39;s archive began (Dec 2019)"><b>DS 300</b>Data Mining</span>
+            
+              
+              <a class="ch-chip" href="https://users.etown.edu/w/wunderjt/syllabi/EGR401%20Wunderlich,Joseph%20and%20Li,Peilong.pdf" target="_blank" rel="noopener" title="co-taught with Dr. Joseph Wunderlich"><b>EGR 401</b>Senior Project in Engineering I (co-taught with Dr. Joseph Wunderlich) &#8599;</a>
+              
+            
+          </div>
+        </div>
+        
+        <div class="ch-sem">
+          <div class="ch-sem-term">Spring 2019</div>
+          <div class="ch-sem-list">
+            
+            
+              
+              <span class="ch-chip" title="No archived page: before the site&#39;s archive began (Dec 2019)"><b>CS 121</b>Computer Science I</span>
+            
+              
+              <span class="ch-chip" title="No archived page: before the site&#39;s archive began (Dec 2019)"><b>CS 222</b>Systems Programming</span>
+            
+              
+              <span class="ch-chip" title="No archived page: before the site&#39;s archive began (Dec 2019)"><b>DS 200</b>Introduction to Data Science</span>
+            
+          </div>
+        </div>
+        
+        <div class="ch-sem">
+          <div class="ch-sem-term">Fall 2018</div>
+          <div class="ch-sem-list">
+            
+            
+              
+              <span class="ch-chip" title="No archived page: before the site&#39;s archive began (Dec 2019)"><b>CS 121</b>Computer Science I</span>
+            
+              
+              <span class="ch-chip" title="No archived page: before the site&#39;s archive began (Dec 2019)"><b>DS 200</b>Introduction to Data Science</span>
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
   
-  <ul class="list-unstyled">
+  <div class="ch-section ch-earlier">
+    <h2>Other teaching</h2>
     
+    <div class="ch-eyebrow">Elizabethtown College (no course pages)</div>
+    <ul>
+      <li>EGR 402 Senior Project in Engineering II</li>
+    </ul>
     
-    <li><h5><a href="/courses/cs113/">CS 113 The Power and Beauty of Computing</a></h5> <p>A broad introduction to the discipline of computer science is given with a focus on its deep concepts and powerful impact.</p></li>
+    <div class="ch-eyebrow">University of Massachusetts Lowell</div>
+    <ul>
+      <li><a href="https://www.uml.edu/catalog/courses/EECE/2160" target="_blank" rel="noopener">EECE.2160 ECE Application Programming</a></li><li><a href="https://www.uml.edu/catalog/courses/EECE/6540" target="_blank" rel="noopener">EECE.7110 Special Topics: Heterogeneous Computing (now EECE.6540)</a></li><li><a href="https://www.uml.edu/catalog/courses/EECE/3170" target="_blank" rel="noopener">EECE.3170 Microprocessors Systems Design I</a></li><li><a href="https://www.uml.edu/catalog/courses/EECE/5520" target="_blank" rel="noopener">EECE.5520 Microprocessor Systems II &amp; Embedded Systems</a></li>
+    </ul>
     
-    <li><h5><a href="/courses/cs121/">CS 121 Computer Science I</a></h5> <p>The fundamental concepts of computer science, with an emphasis on Python programming.</p></li>
-    
-    <li><h5><a href="/courses/cs122/">CS 122 Computer Science II</a></h5> <p>As a continuation of CS I, this course will cover Java software development essentials, focusing on algorithms, data structures, threads, file processing, exception handling, OOP, and extensive GUI programming.</p></li>
-    
-    <li><h5><a href="/courses/cs222/">CS/EGR 222 Systems Programming</a></h5> <p>Advanced system programming course covering C, Linux, Virtual Machines, Cloud Computing, and Containers in modern programming contexts.</p></li>
-    
-    <li><h5><a href="/courses/cs230/">CS 230 Computer Architecture</a></h5> <p>The foundational principles of computer architecture, including the design and organization of processors, memory hierarchies, input/output systems, and multiple CPU systems.</p></li>
-    
-    <li><h5><a href="/courses/cs250/">CS 250 Foundations of AI and Data Science</a></h5> <p>Introduces fundamental concepts and techniques in artificial intelligence and data science, covering topics such as machine learning, data analysis, and algorithmic decision-making.</p></li>
-    
-    <li><h5><a href="/courses/cs350/">CS 350 From Data Mining to Deep Learning</a></h5> <p>This course explores the evolution from data mining techniques to advanced deep learning methodologies, equipping students with the skills to analyze and derive insights from complex datasets.</p></li>
-    
-    <li><h5><a href="/courses/cs354/">CS 354 Big Data</a></h5> <p>This course covers techniques needed to collect, store, analyze, and visualize big data, particularly for applications in machine learning at scale.</p></li>
-    
-    <li><h5><a href="/courses/cs363/">CS 363 Computer Security</a></h5> <p>This course introduces the student to the fundamentals of computer security that includes hands-on experience in software, web, system security, and cryptography.</p></li>
-    
-    <li><h5><a href="/courses/cs364/">CS 364 Network Security</a></h5> <p>Network Security covers essentials to advanced defense, including practical projects and 'Capture the Flag' competitions for IT professionals.</p></li>
-    
-    <li><h5><a href="/courses/cs400/">CS 400 Projects in Computing</a></h5> <p>A capstone course for Computer Science and Information Systems majors.</p></li>
-    
-    <li><h5><a href="/courses/cs495/">CS 495 Honors Projects in Computing</a></h5> <p>An advanced research course for Computer Science majors and a prerequisite for Honors in the Discipline.</p></li>
-    
-    <li><h5><a href="/courses/ds400/">DS 400 Data Science Capstone</a></h5> <p>An advanced research course for Data Science majors.</p></li>
-    
-    
-  </ul>
+  </div>
 </div>
 
       

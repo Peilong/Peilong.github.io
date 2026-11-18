@@ -1,0 +1,1264 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.3">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Peilong Li">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Archived Spring 2026 offering of CS 364 Network Security.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://Peilong.github.io/courses/archive/2026-spring/cs364/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VNGHD0MGZ7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-VNGHD0MGZ7', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://Peilong.github.io/courses/archive/2026-spring/cs364/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@@LiPeilong">
+  <meta property="twitter:creator" content="@@LiPeilong">
+  
+  <meta property="og:site_name" content="Peilong Li">
+  <meta property="og:url" content="https://Peilong.github.io/courses/archive/2026-spring/cs364/">
+  <meta property="og:title" content="CS 364 Network Security | Peilong Li">
+  <meta property="og:description" content="Archived Spring 2026 offering of CS 364 Network Security."><meta property="og:image" content="https://Peilong.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://Peilong.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2026-03-09T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2026-03-09T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>CS 364 Network Security | Peilong Li</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Peilong Li</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Peilong Li</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#grants"><span>Grants</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#awards"><span>Honor & Awards</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#service"><span>Service</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/courses/"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://bluejayadal.github.io/" target="_blank" rel="noopener"><span>Research Lab</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+
+<style>
+  .arch { max-width: 1000px; }
+  .arch-crumbs { font-size: .85rem; opacity: .75; margin-bottom: 1rem; }
+  .arch-badge { display: inline-block; font-size: .75rem; font-weight: 700; text-transform: uppercase; letter-spacing: .08em;
+                padding: .15rem .6rem; border: 1px solid currentColor; border-radius: 1rem; opacity: .8; }
+  .arch h1 { margin: .5rem 0 1rem 0; }
+  .arch-switch { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem .5rem; margin-bottom: 1rem; font-size: .9rem; }
+  .arch-switch .arch-lbl { font-weight: 600; margin-right: .25rem; }
+  .arch-switch a { padding: .15rem .65rem; border: 1px solid rgba(127,127,127,.35); border-radius: 1rem; }
+  .arch-switch a.active { font-weight: 700; border-color: currentColor; pointer-events: none; }
+  .arch-switch a.arch-current { border-style: dashed; }
+  .arch-switch .arch-na { padding: .15rem .65rem; border: 1px dotted rgba(127,127,127,.35); border-radius: 1rem; opacity: .55; }
+  .arch-note { font-size: .88rem; opacity: .8; padding: .6rem .9rem; border-left: 3px solid rgba(127,127,127,.5);
+               background: rgba(127,127,127,.08); margin-bottom: 1.25rem; }
+  .arch-toc { display: flex; flex-wrap: wrap; gap: .3rem 1rem; font-size: .9rem; padding: .6rem 0; margin-bottom: 1.5rem;
+              border-top: 1px solid rgba(127,127,127,.2); border-bottom: 1px solid rgba(127,127,127,.2);
+              position: sticky; top: 70px; z-index: 2; background: inherit; }
+  .arch-section { padding-top: .5rem; margin-bottom: 2.5rem; scroll-margin-top: 130px; }
+  .arch-section > h2 { padding-bottom: .3rem; border-bottom: 1px solid rgba(127,127,127,.25); }
+  .arch .article-style table { display: block; overflow-x: auto; }
+  .arch-source { font-size: .8rem; opacity: .6; margin-top: 2rem; }
+</style>
+
+<div class="universal-wrapper arch">
+  <nav class="arch-crumbs"><a href="/courses/">Courses</a> &rsaquo; <a href="/courses/#by-semester">Teaching history</a> &rsaquo; Spring 2026</nav>
+  <span class="arch-badge">Archived &middot; Spring 2026</span>
+  <h1>CS 364 Network Security</h1>
+
+  <div class="arch-switch">
+    <span class="arch-lbl">All offerings:</span>
+    <a href="/courses/archive/2024-spring/cs364/">Spring 2024</a><a href="/courses/archive/2026-spring/cs364/" class="active" aria-current="page">Spring 2026</a>
+    <a class="arch-current" href="/courses/cs364/">Current course page &rarr;</a>
+  </div>
+
+  <div class="arch-note">This is the course website as it was published for Spring 2026. Dates, links and policies reflect that semester and may be out of date; see the <a href="/courses/cs364/">current course page</a> for the latest version.</div>
+
+  <nav class="arch-toc" aria-label="Sections"><a href="#sec-info">Course Info</a><a href="#sec-overview">Course Overview</a><a href="#sec-schedule">Course Schedule</a><a href="#sec-grading">Grading Policies</a><a href="#sec-policy">Policy Statements</a><a href="#sec-software">Software</a></nav>
+
+  <div class="article-style">
+    <section id="sec-info" class="arch-section">
+<h2>Course Info</h2>
+<p>Network Security is a comprehensive hands-on course designed for IT professionals, network administrators, and anyone interested in enhancing their network security skills. Covering a broad spectrum of topics, from the basics of networking and TCP protocols to advanced topics such as firewall implementation and security, virtual private networks, and DNS attacks and protection, this course equips students with the knowledge and skills required to defend against network threats. Students will complete a project, present it to their peers, and participate in &lsquo;Capture the Flag&rsquo; competitions to test their skills in a practical, hands-on environment.</p>
+<h3 id="sec-info-instructor">Instructor:</h3>
+<p>Dr. Peilong Li</p>
+<h3 id="sec-info-office">Office:</h3>
+<p>Esbenshade 284B</p>
+<h3 id="sec-info-appointments">Appointments:</h3>
+<p>By email</p>
+<h3 id="sec-info-number-of-credits">Number of Credits</h3>
+<p>4</p>
+<h3 id="sec-info-pre-requisites">Pre-requisites</h3>
+<ul>
+<li>CS 342 Computer Networks, and familiarity with Linux commands.</li>
+</ul>
+<h3 id="sec-info-textbooks">Textbooks</h3>
+<ul>
+<li>
+<p><strong>(Preferred)</strong> Wenliang Du.
+<em>Internet Security: A Hands-on Approach</em>.
+3rd Edition. May 2022, Independently published,
+ISBN-13: 978-17330039-6-4.
+<img src="https://www.handsonsecurity.net/assets/images/edition3/cover-is.jpg" width="200"></p>
+</li>
+<li>
+<p><strong>(OR)</strong> Wenliang Du.
+<em>Computer &amp; Internet Security: A Hands-on Approach</em>.
+3rd Edition. May 2022, Independently published,
+ISBN-13: 978-17330039-4-0.
+<img src="https://m.media-amazon.com/images/I/41N3wJ5qP+L.jpg" width="200"></p>
+</li>
+</ul>
+</section>
+
+<section id="sec-overview" class="arch-section">
+<h2>Course Overview</h2>
+<h3 id="sec-overview-course-coverage">Course Coverage</h3>
+<p>Network Security is a comprehensive hands-on course designed for IT professionals, network administrators, and anyone interested in enhancing their network security skills. Covering a broad spectrum of topics, from the basics of networking and TCP protocols to advanced topics such as firewall implementation and security, virtual private networks, and DNS attacks and protection, this course equips students with the knowledge and skills required to defend against network threats. Students will complete a project, present it to their peers, and participate in &lsquo;Capture the Flag&rsquo; competitions to test their skills in a practical, hands-on environment.</p>
+<h3 id="sec-overview-student-learning-outcomes">Student Learning Outcomes</h3>
+<p>By the end of the course, students will be able to:</p>
+<ul>
+<li><strong>Foundational Understanding</strong>: Grasp networking security fundamentals, including the protocol layers, packet sniffing and spoofing, and the use of tools such as Scapy and Wireshark.</li>
+<li><strong>Red and Blue Teaming</strong>: Identify and simulate network threats in each protocol layer as a Red Team, and develop defense strategies as a Blue Team.</li>
+<li><strong>Practical Application</strong>: Implement high-level security applications, from firewall setups to VPN configurations, to shield networks from vulnerabilities.</li>
+<li><strong>Collaborative Learning</strong>: Present a network security project, applying course knowledge and receiving peer feedback.</li>
+<li><strong>Competitive Skill Assessment</strong>: Participate in &lsquo;Capture the Flag&rsquo; competitions, applying knowledge to identify and defend network vulnerabilities.</li>
+</ul>
+</section>
+
+<section id="sec-schedule" class="arch-section">
+<h2>Course Schedule</h2>
+<h3 id="sec-schedule-schedule">Schedule</h3>
+<p>Note this tentative schedule is subject to change. Please check the schedule regularly.</p>
+<p>Last updated: 01/12/2026</p>
+<table>
+<thead>
+<tr>
+<th>Week</th>
+<th>Starting</th>
+<th>Topics</th>
+<th>Reading</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>1/12/26</td>
+<td>M: Lec1 - Course introduction and network security</td>
+<td>IS: 1.1-1.4 or CIS 19.1-19.4</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>W: Lec2 -  SEED labs and CTF intro</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>F: Lec3 - Networking basics</td>
+<td></td>
+<td>Fri: HW1 out</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1/19/26</td>
+<td><span style="color:red"><em>M: MLK Day, No Classes</em></span></td>
+<td>IS: 1.5-1.8 or CIS: 19.5-19.8</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>W: Lec4 - Packet sniffing</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>F: Lab0 - Wireshark; Packet sniffing</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>1/26/26</td>
+<td>M: Lec5 - Packet spoofing</td>
+<td>IS: 2.1-2.4</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>W: PE1 - Sniffing &amp; Spoofing</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>F: Lab1 - Sniffing &amp; Spoofing</td>
+<td></td>
+<td>Fri: Lab 0 due</td>
+</tr>
+<tr>
+<td>4</td>
+<td>2/2/26</td>
+<td>M: Lec6 - MAC layer; ARP protocol</td>
+<td>IS: 2.5-2.7</td>
+<td>Mon: HW1 due; HW2 out; proposal out</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>W: Lec7 - ARP cache poisoning attack</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>F: Lec8 - MITM attack</td>
+<td></td>
+<td>Fri: Final project claimed; Lab 1 due</td>
+</tr>
+<tr>
+<td>5</td>
+<td>2/9/26</td>
+<td>M: PE2 - ARP</td>
+<td>IS: 3.1-3.3</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>W: Lab2 - ARP</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>F: Lec9 - Network layer; IP protocol</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>2/16/26</td>
+<td>M: Lec10 - Attacks using IP fragmentation</td>
+<td>IS: 3.4-3.7</td>
+<td>Mon: HW 2 due; HW3 out</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>W: Lec11 - Routing and spoofing prevention</td>
+<td></td>
+<td>Wed: Lab 2 due</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>F: Lec12 - ICMP protocol</td>
+<td></td>
+<td>Fri: Project proposal due</td>
+</tr>
+<tr>
+<td>7</td>
+<td>2/23/26</td>
+<td>M: Lec13 - Exam 1 Preview</td>
+<td>IS: 5.1-5.4</td>
+<td>Mon: Lecture presentation requirements</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><span style="color:green"><strong>W: Exam 1 group 1</strong></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><span style="color:green"><strong>F: Exam 1 group 2</strong></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>3/2/26</td>
+<td><span style="color:red"><em>M: Spring Break; No Classes</em></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><span style="color:red"><em>W: Spring Break; No Classes</em></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><span style="color:red"><em>F: Spring Break; No Classes</em></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>3/9/26</td>
+<td>M: Lec14 - CTF prep</td>
+<td>IS: 6.1-6.3 or CIS: 20.1-20.3</td>
+<td>Mon: HW 3 due; HW 4 out</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>W: Lec15 - Transport layer; TCP protocol</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>F: Lec16 - SYN flooding attack</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>3/16/26</td>
+<td>M: Lec17 - TCP reset attack</td>
+<td>IS: 6.4-6.7 or CISS: 20.4-20.7</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>W: Lec18 - TCP session hijacking</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>F: Lec19 - reverse shell</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>3/23/26</td>
+<td>M: PE3 - TCP</td>
+<td>Presentation related</td>
+<td>Mon: Project milestone due</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>W: Lab3 - TCP</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>F: Lec20 - Exam 2 Preview</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>3/30/26</td>
+<td><span style="color:green"><strong>M: Exam 2 group 1</strong></span></td>
+<td>Presentation related</td>
+<td>Mon: HW4 due</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><span style="color:green"><strong>W: Exam 2 group 2</strong></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><span style="color:red"><em>F: Easter, No Classes</em></span></td>
+<td></td>
+<td>Sun: Lecture presentation due</td>
+</tr>
+<tr>
+<td>13</td>
+<td>4/6/26</td>
+<td>M: Lec21 - Firewall Part 1</td>
+<td>IS: 7.1-7.3 or CIS: 21.1-21.3</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>W: Lec22 - Firewall Part 2</td>
+<td>IS: 7.4-7.7 or CIS: 21.4-21.7</td>
+<td>Wed: Lab 3 due</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>F: Lec23 - VPN Part 1</td>
+<td>IS: 8.1-8.5 or CIS: 22.1-22.5</td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>4/13/26</td>
+<td>M: Lec24 - VPN Part 2</td>
+<td>IS: 8.6-8.9 or CIS: 22.6-22.9</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>W: Lec25 - Tunneling</td>
+<td>IS: 9</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>F: Lec26 - DNS part 1</td>
+<td>IS: 10.1-10.4 or CIS: 23.1-23.4</td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>4/20/26</td>
+<td>M: Lec27 - DNS part 2</td>
+<td>IS: 10.5-10.8 or CIS: 23.5-23.8</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>W: Lec28 - DNS part 3</td>
+<td>IS: 10.9-10.11 or CIS: 10.9-23.11</td>
+<td>Thur: Final project presentation due</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>F: Final project group 1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>4/27/26</td>
+<td>M: Final project group 2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>W: Final project group 3</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><span style="color:red"><em>F: No classes</em></span></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>5/4/26</td>
+<td>M: 11 AM - 2 PM Buffer Presentation Day</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>W: Work on your final submission</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td>F: Work on your final submission</td>
+<td></td>
+<td>Fri: Final report due</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sec-schedule-reading">Reading</h3>
+<ul>
+<li>IS Ch2: MAC and ARP. <a href="https://elizabethtown-my.sharepoint.com/:b:/g/personal/lip_etown_edu/ESkBiGQwnOFMu-GNF7RtvQUBT4x7cHHDW88wDwsJNwGEHw?e=76Jx1g">Link</a></li>
+<li>IS Ch3: IP and ICMP. <a href="https://elizabethtown-my.sharepoint.com/:b:/g/personal/lip_etown_edu/EWPf8hjFyLxGgBjytJGXnDkB3T7a7i6yLdZr38mvKQjB6Q?e=L9ZXsz">Link</a></li>
+<li>IS Ch5: UDP. <a href="https://elizabethtown-my.sharepoint.com/:b:/g/personal/lip_etown_edu/EVZBWLi8l4pBvtTr_bW2UjIBSOvYpTFo3UyULqGL69gujw?e=mbzX3x">Link</a></li>
+<li>IS Ch9: IP Tunneling. <a href="https://elizabethtown-my.sharepoint.com/:b:/g/personal/lip_etown_edu/EW9-uNERKf1EluX91Pn8llcBbNpZYwlksJFjI6WP19GZmA?e=M6fhgi">Link</a></li>
+</ul>
+</section>
+
+<section id="sec-grading" class="arch-section">
+<h2>Grading Policies</h2>
+<h3 id="sec-grading-grading-weights">Grading Weights</h3>
+<p>The final grade for this course depends upon the grades and scores earned on course components weighted as follows:</p>
+<ul>
+<li><strong>6%</strong>: Roll call and pop quizzes</li>
+<li><strong>16%</strong>: 4 in-class labs</li>
+<li><strong>8%</strong>: Individual lecture presentation</li>
+<li><strong>20%</strong>: 4 individual homework</li>
+<li><strong>30%</strong>: 2 midterm exams</li>
+<li><strong>20%</strong>: Final project</li>
+</ul>
+<p>Grades will be computed by rounding numerical percentages to the nearest integer and applying the following table:</p>
+<table>
+<thead>
+<tr>
+<th>Letter</th>
+<th>Range</th>
+<th>Letter</th>
+<th>Range</th>
+<th>Letter</th>
+<th>Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>93-100</td>
+<td>B-</td>
+<td>80-82</td>
+<td>D+</td>
+<td>67-69</td>
+</tr>
+<tr>
+<td>A-</td>
+<td>90-92</td>
+<td>C+</td>
+<td>77-79</td>
+<td>D</td>
+<td>63-66</td>
+</tr>
+<tr>
+<td>B+</td>
+<td>87-89</td>
+<td>C</td>
+<td>73-76</td>
+<td>D-</td>
+<td>60-62</td>
+</tr>
+<tr>
+<td>B</td>
+<td>83-86</td>
+<td>C-</td>
+<td>70-72</td>
+<td>F</td>
+<td>0-59</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="language-Note"></code></pre>
+<h3 id="sec-grading-in-class-team-labs">In-class Team Labs</h3>
+<p>All labs are to be done in class, with the assistance of the instructor. Students are required to form a team of two to solve the lab assignments together. Each assignment will be given near the beginning of a class, and the lab report is due within 7 days, then after that, no submission is accepted. To receive full credits, students must take proper screenshots of the working lab and provide detailed answers to each question. Partial credit will be awarded based on the understanding of the material demonstrated by the student’s report.</p>
+<h3 id="sec-grading-individual-homework">Individual Homework</h3>
+<p>All homework assignments have to be completed individually in this course. Homework assignments are often more comprehensive tasks that may need additional reading and research. Homework assignments are to be completed in a week or two.</p>
+<p><strong>Late Policy</strong></p>
+<p>Late assignment will lose <img src="https://latex.codecogs.com/png.latex?%5Cdpi%7B150%7D%20%5Cfn_phv%20%5Clarge%202%5E%7B%28n-1%29%7D" alt="equation"> points per day, including weekends and holidays. For example, -1 after 1 day, -2 after 2 days, -4 after 3 days … until 8+ days students will receive 0 score.  <strong>Under no circumstances should any student disclose their code, or copy the code written by other students or from an outside source. Both students will receive 0 score on the disclosed/copied assignment.</strong></p>
+<h3 id="sec-grading-individual-lecture-presentation">Individual Lecture Presentation</h3>
+<p>Each student will act as the &ldquo;instructors for the day&rdquo; by leading a lecture topic from the course schedule page. The presenter will teach all the topics from a textbook excerpt related to their chosen SEED project and provide a live demo of the covered lab components. The grade will be a weighted score based on written feedback from both your classmates (50%) and the instructor (50%).</p>
+<h3 id="sec-grading-final-team-project">Final Team Project</h3>
+<p>To work on the final project, students are required to form a team of two. Topics of the final project should be one from the <a href="https://seedsecuritylabs.org/Labs_20.04/">SEED labs</a> in the categories of Firewall, VPN and DNS.</p>
+<p>The grading of the final project consists of four major aspects:</p>
+<ol>
+<li>10%: the project proposal;</li>
+<li>20%: the project milestone check;</li>
+<li>40%: the project presentation and demonstration;</li>
+<li>30%: the final pacakge, including revised code and the final report, is due on the last day of the final exam week.</li>
+</ol>
+</section>
+
+<section id="sec-policy" class="arch-section">
+<h2>Policy Statements</h2>
+<h3 id="sec-policy-course-schedule">Course Schedule</h3>
+<p>The most up-to-date course schedule will be posted on course website schedule page: <a href="#sec-schedule">https://peilong.github.io/courses/cs364/schedule/</a>. Students are responsible for checking the schedule regularly. Schedule page will include: 1) teaching topics for each meeting; 2) reading assignments for each week and 3) special notes on specific days.</p>
+<h3 id="sec-policy-course-announcements--discussion">Course Announcements &amp; Discussion</h3>
+<p>All course announcements will be sent to your Etown email accounts via Canvas Announcements. You are responsible for signing up for this service and checking your emails regularly.</p>
+<p>I have created a Microsoft Teams channel (<a href="https://teams.microsoft.com/l/team/19%3aa8cdd959c2e249a989d401e20fc95524%40thread.tacv2/conversations?groupId=81ffa3c7-aa45-454a-b495-7f43c78e5024&amp;tenantId=1d884f12-a0d7-42f0-8b15-3a91c853bcb5">link</a>) to facilitate course related discussion.  Discussions are encouraged to be posted on the &ldquo;QA&rdquo; channel from Teams. Private instant messages can be sent directly to your recipient by search your recipient&rsquo;s name on the &ldquo;search&rdquo; bar.</p>
+<h3 id="sec-policy-attendance-policies">Attendance Policies</h3>
+<p>Attendance is expected of every student at every lecture. Students are responsible for all content covered in class as well as assigned book chapters. Due to their nature, pop quizzes cannot be made up.</p>
+<p>Except in the case of documented emergencies, neither exams nor in-class labs can be made up afterwards.  For excused absences, students must arrange to take the exam or do the lab before the normally scheduled time.  Arrangements must be made with the instructor at least two weeks prior to the scheduled time.</p>
+<p>Students are expected to maintain an attitude of respect at all times toward their colleagues, the equipment, and the instructor.  Cell phones and similar devices is prohibited from using during lecturing time.  Students who use offensive language, misuse computing facilities, or are otherwise disruptive of the classroom will be asked to leave.</p>
+<h3 id="sec-policy-statement-on-school-closure">Statement on School Closure</h3>
+<p>In the event that classes do not meet because Elizabethtown College is closed or delayed due to inclement weather or some other emergency, the slides that would have been covered during the missed classes will be posted through Canvas.  Students are expected to do the assigned reading, review the slides, and e-mail the instructor with any questions. There will also be an opportunity to ask questions about the material when classes resume.</p>
+<p>If a scheduled exam or lab is missed, it will normally be made up on the day that classes resume.  If the College is closed on a day when a project is due, the project due date will also normally be extended until the day when classes resume.  If circumstances render either of these makeup policies unreasonable, the instructor will send an e-mail explaining an alternative makeup opportunity to each student’s Elizabethtown e-mail account.</p>
+<h3 id="sec-policy-statement-on-academic-integrity">Statement on Academic Integrity</h3>
+<p>Check out the up-to-date statement from: <a href="https://catalog.etown.edu/content.php?catoid=30&amp;navoid=1605#Academic_Judicial_System">Elizabethtown College Catalog, &ldquo;Academic Judicial System&rdquo;</a></p>
+<h3 id="sec-policy-statement-on-the-use-of-chatgpt-and-generative-ai-tools">Statement on the Use of ChatGPT and Generative AI Tools</h3>
+<p>The use of GenAI tools like ChatGPT to generate source code is prohibited for your assignments in this course unless otherwise noted in the syllabus. Therefore, your instructor will consider it a violation of academic integrity to use a GenAI tool for any purpose that is not explicitly outlined in assignment instructions. While this new technology can be very useful in certain contexts, it is important to make sure that its usage in the classroom setting is limited in order to ensure that you are doing original work and developing your critical thinking skills. In circumstances in which AI usage is permitted in class, you must acknowledge that usage and provide the chatbot with credit when it is a cited source. For instance, to cite ChatGPT in APA, the APA provides some direction at <a href="https://apastyle.apa.org/blog/how-to-cite-chatgpt">https://apastyle.apa.org/blog/how-to-cite-chatgpt</a>. If you have any questions or uncertainty over the use of AI in this course, please reach out to the instructor.</p>
+<h3 id="sec-policy-respect-for-diversity">Respect for Diversity</h3>
+<p>It is my intent that students from all backgrounds and perspectives be well served by this course, that students&rsquo; learning needs be addressed both in and out of class, and that the diversity that students bring to this class be viewed as a resource, strength, and benefit. I also intend to present materials and activities that respect diversity: gender, sexuality, disability, age, socioeconomic status, ethnicity, race, and culture. Please let me know if there are ways to further serve the diverse needs you or other students may have.</p>
+<h3 id="sec-policy-religious-observances">Religious Observances</h3>
+<p>The College is eager to facilitate individual religious beliefs and practices whenever possible while retaining course student learning outcomes. It is your responsibility to meet with the class instructor in advance to request arrangements related to your religious observances that may conflict with this class, and to make appropriate plans to make up any missed work.   The following is a link from the Chaplain’s Office website where a list of Religious Holidays needing accommodations (if requested) is posted:  <a href="https://www.etown.edu/offices/chaplain/index.aspx">https://www.etown.edu/offices/chaplain/index.aspx</a></p>
+<h3 id="sec-policy-mental-health-and-counseling-resources">Mental Health and Counseling Resources</h3>
+<p>Counseling Services provides a broad range of counseling and mental health support services that facilitate students&rsquo; personal, social, and academic development. The licensed mental health professionals provide short-term individual counseling, group counseling, crisis intervention, and consultation to currently enrolled students for no additional charge. Counseling services are provided in a confidential and diversity-affirming environment to help students address a variety of mental health, situational, and developmental concerns. The office is located in the Baugher Student Center, Suite 216. Appointments can be made in person or by calling 717-361-1405. Urgent walk-in services are also available. To access the after-hours crisis services, please call the 24/7 Campus Security number of 717-361-1111. For more information, please visit <a href="http://www.etown.edu/offices/counseling">www.etown.edu/offices/counseling</a>.</p>
+<h3 id="sec-policy-ada-statement">ADA Statement</h3>
+<p>Elizabethtown College is committed to providing access for all students to courses, programs, services, and activities. If you have a documented disability such as a learning disability, chronic illness, or a new circumstance such as a concussion and would like to request accommodations, contact Dr. Michele Moohr, Coordinator of Disability Services by phone (717-361-1227) or e-mail (<a href="mailto:moohrm@etown.edu">moohrm@etown.edu</a>). The Office of Disability Services can provide resources to you and facilitate communication with faculty about reasonable accommodations.  After meeting with the Office of Disability Services, students must set up an appointment to meet with me, the instructor, to discuss the accommodations as they pertain to my class.  Common accommodations may include extra time on exams, an alternate exam location, the ability to record class lectures, and access to content with a screen reader.</p>
+<h3 id="sec-policy-modifications-for-non-native-english-speakers">Modifications for Non-native English Speakers</h3>
+<p>Elizabethtown College is committed to providing equitable access to all courses, programs, and services for non-native (international and domestic) English speakers.  Students may request tutoring, learning resources, course modifications, and learning opportunities. Students interested in seeking a course modification should contact Ms. Maria Petty (<a href="mailto:pettym@etown.edu">pettym@etown.edu</a>), International Student Programs Advisor, at (717) 361-1594.</p>
+<h3 id="sec-policy-title-ix">Title IX</h3>
+<p>Elizabethtown College and its faculty are committed to creating a safe and open learning environment for all students. If you or someone you know has experienced sexual harassment, including sexual assault, dating or domestic violence, and stalking, please know that help and support are available. Etown strongly encourages all members of the community to take action, seek support, and report incidents of sexual harassment to the Title IX Office. You may contact the Title IX Coordinator at <a href="mailto:reedg@etown.edu">reedg@etown.edu</a> or learn more by visiting <a href="https://www.etown.edu/offices/diversity/titleix/index.aspx">https://www.etown.edu/offices/diversity/titleix/index.aspx</a>. </p>
+<p>Please be aware that faculty members are required to disclose information about suspected or alleged sexual harassment or other potential violations of the College Sexual Misconduct Policies and Procedures to the Title IX Coordinator. If the Title IX Coordinator receives information about an incident, they will reach out to offer information about resources, rights, and procedural options as a member of the campus community. Community members are not required to respond to this outreach. If you, or another student you know, wishes to speak to a confidential resource who does not have this reporting responsibility, please contact Counseling Services at 717-361-1405.</p>
+</section>
+
+<section id="sec-software" class="arch-section">
+<h2>Software</h2>
+<p>A laptop with 16GB of RAM and &gt;20 GB of disk space is preferred for this course.</p>
+<h3 id="sec-software-all-seed-labs">All SEED Labs:</h3>
+<p>Access all SEED labs from: <a href="https://seedsecuritylabs.org/Labs_20.04/">link</a>.</p>
+<h3 id="sec-software-option-1-setup-seed-vm-on-virtualbox">Option 1: Setup SEED VM on Virtualbox:</h3>
+<p>This option does not work for MacBook M chips. Install SEED VM lab environment on your own laptop: <a href="https://github.com/seed-labs/seed-labs/blob/master/manuals/vm/seedvm-manual.md">tutorial</a>.</p>
+<h3 id="sec-software-option-2-setup-seed-vm-on-google-cloud-platform">Option 2: Setup SEED VM on Google Cloud Platform:</h3>
+<p>This is prefered for MacBooks that are using M chips. A GCP setup guide can be found on Canvas.</p>
+</section>
+
+  </div>
+
+  <p class="arch-source">Archived from <a href="https://github.com/Peilong/Peilong.github.io/tree/a8eb08a/courses/cs364" target="_blank" rel="noopener">Peilong/Peilong.github.io@a8eb08a</a> (2026-03-09).</p>
+</div>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.3227ab49eed49815d1b4ba40154f74e7.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2019 Peilong Li &middot; 
+
+    Powered by the
+    <a href="https://www.etown.edu" target="_blank" rel="noopener">BlueJay</a> spirit. 
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
