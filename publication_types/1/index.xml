@@ -5,12 +5,52 @@
     <link>https://Peilong.github.io/publication_types/1/</link>
       <atom:link href="https://Peilong.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Mon, 14 Jun 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Peilong.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://Peilong.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>RydeeNLP: Personalized Japanese Learning Through NLP-Powered Proficiency Adaptation</title>
+      <link>https://Peilong.github.io/publication/2025-sigcse-rydeenlp/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2025-sigcse-rydeenlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Malware Detection for Portable Executables Using a Multi-input Transformer-Based Approach</title>
+      <link>https://Peilong.github.io/publication/2024-icnc-pe-transformer/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2024-icnc-pe-transformer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MalBuster: Scalable, Real-Time, and Concept Drift-Adaptive Malware Detection for Smart Environments</title>
+      <link>https://Peilong.github.io/publication/2024-ccnc-malbuster/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2024-ccnc-malbuster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Comprehensive Study on Efficient and Accurate Machine Learning-Based Malicious PE Detection</title>
+      <link>https://Peilong.github.io/publication/2023-ccnc-pe-detection/</link>
+      <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2023-ccnc-pe-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weakly Supervised Learning for Network Traffic Classification</title>
+      <link>https://Peilong.github.io/publication/2022-nas-weakly-supervised/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2022-nas-weakly-supervised/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Multi-Task Hierarchical Learning Based Network Traffic Analytics</title>
@@ -21,7 +61,7 @@
     </item>
     
     <item>
-      <title>Machine learning based malware detection on encrypted traffic: A comprehensive performance study</title>
+      <title>Machine Learning Based Malware Detection on Encrypted Traffic: A Comprehensive Performance Study</title>
       <link>https://Peilong.github.io/publication/2020-nsyss/</link>
       <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2020-nsyss/</guid>
@@ -29,7 +69,7 @@
     </item>
     
     <item>
-      <title>Blockchain-based secure and privacy-preserving clinical data sharing and integration</title>
+      <title>Blockchain-Based Secure and Privacy-Preserving Clinical Data Sharing and Integration</title>
       <link>https://Peilong.github.io/publication/2020-ica3pp/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2020-ica3pp/</guid>
@@ -41,14 +81,6 @@
       <link>https://Peilong.github.io/publication/2020-icc-aceta/</link>
       <pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2020-icc-aceta/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Netml: A challenge for network traffic analytics</title>
-      <link>https://Peilong.github.io/publication/2020-arxiv-netml/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/2020-arxiv-netml/</guid>
       <description></description>
     </item>
     
@@ -77,7 +109,7 @@
     </item>
     
     <item>
-      <title>EQuery: Enable event-driven declarative queries in programmable network measurement</title>
+      <title>EQuery: Enable Event-driven Declarative Queries in Programmable Network Measurement</title>
       <link>https://Peilong.github.io/publication/2018-noms-equery/</link>
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2018-noms-equery/</guid>
@@ -85,7 +117,15 @@
     </item>
     
     <item>
-      <title>CareNet: Building Regulation-Compliant Home-Based Healthcare Services with Software-Defined Infrastructure</title>
+      <title>A Programmable Policy Engine to Facilitate Time-efficient Science DMZ Management</title>
+      <link>https://Peilong.github.io/publication/2017-indis-sciencedmz/</link>
+      <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2017-indis-sciencedmz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CareNet: Building Regulation-compliant Home-based Healthcare Services with Software-defined Infrastructure</title>
       <link>https://Peilong.github.io/publication/2017-chase/</link>
       <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2017-chase/</guid>
@@ -93,7 +133,7 @@
     </item>
     
     <item>
-      <title>Dynamic Virtual Measurement Function scheduling in software-oriented measurement environment</title>
+      <title>Dynamic Virtual Measurement Function Scheduling in Software-oriented Measurement Environment</title>
       <link>https://Peilong.github.io/publication/2017-icc/</link>
       <pubDate>Sun, 21 May 2017 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2017-icc/</guid>
@@ -110,14 +150,6 @@
     
     <item>
       <title>CareNet: Building a Secure Software-defined Infrastructure for Home-based Healthcare</title>
-      <link>https://Peilong.github.io/publication/2016-sdn-nfv/</link>
-      <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/2016-sdn-nfv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CareNet: Building a Secure Software-defined Infrastructure for Home-based Healthcare</title>
       <link>https://Peilong.github.io/publication/2017-sdn-nfvsec/</link>
       <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2017-sdn-nfvsec/</guid>
@@ -125,18 +157,42 @@
     </item>
     
     <item>
-      <title>P4GPU: Acceleration of programmable data plane using a CPU-GPU heterogeneous architecture</title>
+      <title>Network Measurement for 100Gbps Links Using Multicore Processors</title>
+      <link>https://Peilong.github.io/publication/2016-fgcs/</link>
+      <pubDate>Sun, 13 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2016-fgcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NUMAware: Accelerate VM-to-VM I/O Performance in NUMA Servers for NFV Applications</title>
+      <link>https://Peilong.github.io/publication/2016-sdn-nfv/</link>
+      <pubDate>Mon, 07 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2016-sdn-nfv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P4GPU: Acceleration of Programmable Data Plane Using a CPU-GPU Heterogeneous Architecture</title>
       <link>https://Peilong.github.io/publication/2016-hpsr-p4gpu/</link>
-      <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 14 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2016-hpsr-p4gpu/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>P4GPU: Accelerate packet processing of a P4 program with a CPU-GPU heterogeneous architecture</title>
+      <title>P4GPU: Accelerate Packet Processing of a P4 Program with a CPU-GPU Heterogeneous Architecture</title>
       <link>https://Peilong.github.io/publication/2016-ancs/</link>
       <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2016-ancs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P4GPU: Mapping a P4 Program onto a CPU-GPU Heterogeneous Architecture for Acceleration</title>
+      <link>https://Peilong.github.io/publication/2016-barc-p4gpu/</link>
+      <pubDate>Fri, 29 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2016-barc-p4gpu/</guid>
       <description></description>
     </item>
     
@@ -145,6 +201,14 @@
       <link>https://Peilong.github.io/publication/2015-nas-heterospark/</link>
       <pubDate>Thu, 06 Aug 2015 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2015-nas-heterospark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploration of Memory Hierarchy of Heterogeneous Architecture with Accelerators</title>
+      <link>https://Peilong.github.io/publication/2012-shaw/</link>
+      <pubDate>Sat, 25 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2012-shaw/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Peilong Li</title>
+    <link>https://Peilong.github.io/publication_types/3/</link>
+      <atom:link href="https://Peilong.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Sun, 02 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://Peilong.github.io/img/icon-192.png</url>
+      <title>3</title>
+      <link>https://Peilong.github.io/publication_types/3/</link>
+    </image>
+    
+    <item>
+      <title>MalIoT: Scalable and Real-time Malware Traffic Detection for IoT Networks</title>
+      <link>https://Peilong.github.io/publication/2023-arxiv-maliot/</link>
+      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2023-arxiv-maliot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NetML: A Challenge for Network Traffic Analytics</title>
+      <link>https://Peilong.github.io/publication/2020-arxiv-netml/</link>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2020-arxiv-netml/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

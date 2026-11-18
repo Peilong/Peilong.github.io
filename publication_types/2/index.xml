@@ -5,12 +5,36 @@
     <link>https://Peilong.github.io/publication_types/2/</link>
       <atom:link href="https://Peilong.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Wed, 18 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Peilong.github.io/img/icon-192.png</url>
       <title>2</title>
       <link>https://Peilong.github.io/publication_types/2/</link>
     </image>
+    
+    <item>
+      <title>A Self-Supervised Contrastive Learning-Based Method for Portable Executable Malware Classification</title>
+      <link>https://Peilong.github.io/publication/2026-ieee-access-ssl-malware/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2026-ieee-access-ssl-malware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flow-based Encrypted Network Traffic Classification with Graph Neural Networks</title>
+      <link>https://Peilong.github.io/publication/2022-tnsm-gnn/</link>
+      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2022-tnsm-gnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R1DIT: Privacy-Preserving Malware Traffic Classification with Attention-Based Neural Networks</title>
+      <link>https://Peilong.github.io/publication/2022-tnsm-r1dit/</link>
+      <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2022-tnsm-r1dit/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ChainSDI: A Software-Defined Infrastructure for Regulation-Compliant Home-Based Healthcare Services Secured by Blockchains</title>
@@ -29,7 +53,7 @@
     </item>
     
     <item>
-      <title>A programmable policy engine to facilitate time-efficient science DMZ management.</title>
+      <title>A programmable Policy Engine to Facilitate Time-efficient Science DMZ Management</title>
       <link>https://Peilong.github.io/publication/2018-fgcs/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2018-fgcs/</guid>
@@ -37,17 +61,9 @@
     </item>
     
     <item>
-      <title>Network Measurement for 100Gbps Links Using Multicore Processors</title>
-      <link>https://Peilong.github.io/publication/2016-fgcs/</link>
-      <pubDate>Sat, 29 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/2016-fgcs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Network measurement for 100 GbE network links using multicore processors</title>
       <link>https://Peilong.github.io/publication/2017-fgcs/</link>
-      <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 29 Apr 2017 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2017-fgcs/</guid>
       <description></description>
     </item>

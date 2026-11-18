@@ -5,7 +5,7 @@
     <link>https://Peilong.github.io/publication_types/0/</link>
       <atom:link href="https://Peilong.github.io/publication_types/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Fri, 15 Jul 2022 22:18:52 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Tue, 14 Nov 2017 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Peilong.github.io/img/icon-192.png</url>
       <title>0</title>
@@ -13,10 +13,42 @@
     </image>
     
     <item>
-      <title>2019 NaNA Ripple</title>
-      <link>https://Peilong.github.io/publication/2019-nana-ripple/</link>
-      <pubDate>Fri, 15 Jul 2022 22:18:52 -0400</pubDate>
-      <guid>https://Peilong.github.io/publication/2019-nana-ripple/</guid>
+      <title>BMAcc: Accelerating P4-based Data Plane with DPDK</title>
+      <link>https://Peilong.github.io/publication/2017-dpdk-summit-bmacc/</link>
+      <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2017-dpdk-summit-bmacc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mapping a P4 Program onto GPU Target Architecture</title>
+      <link>https://Peilong.github.io/publication/2015-p4-workshop/</link>
+      <pubDate>Wed, 18 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2015-p4-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPU-accelerated Network Anomaly Detection</title>
+      <link>https://Peilong.github.io/publication/2015-acsc-forum/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2015-acsc-forum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HeteroSpark: A Heterogeneous CPU/GPU Spark Platform for Machine Learning Algorithms</title>
+      <link>https://Peilong.github.io/publication/2015-sparksummiteast-heterospark/</link>
+      <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2015-sparksummiteast-heterospark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sparkling: Identification of Task Skew and Speculative Partition of Data for Spark Applications</title>
+      <link>https://Peilong.github.io/publication/2014-sparksummit-sparkling/</link>
+      <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2014-sparksummit-sparkling/</guid>
       <description></description>
     </item>
     

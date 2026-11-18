@@ -5,7 +5,7 @@
     <link>https://Peilong.github.io/</link>
       <atom:link href="https://Peilong.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Peilong Li</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Sat, 11 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Peilong.github.io/img/icon-192.png</url>
       <title>Peilong Li</title>
@@ -6025,6 +6025,78 @@ Download VS Code from: &lt;a href=&#34;https://code.visualstudio.com/download&#3
     </item>
     
     <item>
+      <title>A Self-Supervised Contrastive Learning-Based Method for Portable Executable Malware Classification</title>
+      <link>https://Peilong.github.io/publication/2026-ieee-access-ssl-malware/</link>
+      <pubDate>Thu, 01 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2026-ieee-access-ssl-malware/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RydeeNLP: Personalized Japanese Learning Through NLP-Powered Proficiency Adaptation</title>
+      <link>https://Peilong.github.io/publication/2025-sigcse-rydeenlp/</link>
+      <pubDate>Wed, 26 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2025-sigcse-rydeenlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Malware Detection for Portable Executables Using a Multi-input Transformer-Based Approach</title>
+      <link>https://Peilong.github.io/publication/2024-icnc-pe-transformer/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2024-icnc-pe-transformer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MalBuster: Scalable, Real-Time, and Concept Drift-Adaptive Malware Detection for Smart Environments</title>
+      <link>https://Peilong.github.io/publication/2024-ccnc-malbuster/</link>
+      <pubDate>Sat, 06 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2024-ccnc-malbuster/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MalIoT: Scalable and Real-time Malware Traffic Detection for IoT Networks</title>
+      <link>https://Peilong.github.io/publication/2023-arxiv-maliot/</link>
+      <pubDate>Sun, 02 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2023-arxiv-maliot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Comprehensive Study on Efficient and Accurate Machine Learning-Based Malicious PE Detection</title>
+      <link>https://Peilong.github.io/publication/2023-ccnc-pe-detection/</link>
+      <pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2023-ccnc-pe-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flow-based Encrypted Network Traffic Classification with Graph Neural Networks</title>
+      <link>https://Peilong.github.io/publication/2022-tnsm-gnn/</link>
+      <pubDate>Fri, 09 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2022-tnsm-gnn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R1DIT: Privacy-Preserving Malware Traffic Classification with Attention-Based Neural Networks</title>
+      <link>https://Peilong.github.io/publication/2022-tnsm-r1dit/</link>
+      <pubDate>Mon, 03 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2022-tnsm-r1dit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Weakly Supervised Learning for Network Traffic Classification</title>
+      <link>https://Peilong.github.io/publication/2022-nas-weakly-supervised/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2022-nas-weakly-supervised/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Multi-Task Hierarchical Learning Based Network Traffic Analytics</title>
       <link>https://Peilong.github.io/publication/2021-icc/</link>
       <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
@@ -6033,7 +6105,7 @@ Download VS Code from: &lt;a href=&#34;https://code.visualstudio.com/download&#3
     </item>
     
     <item>
-      <title>Machine learning based malware detection on encrypted traffic: A comprehensive performance study</title>
+      <title>Machine Learning Based Malware Detection on Encrypted Traffic: A Comprehensive Performance Study</title>
       <link>https://Peilong.github.io/publication/2020-nsyss/</link>
       <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2020-nsyss/</guid>
@@ -6041,7 +6113,7 @@ Download VS Code from: &lt;a href=&#34;https://code.visualstudio.com/download&#3
     </item>
     
     <item>
-      <title>Blockchain-based secure and privacy-preserving clinical data sharing and integration</title>
+      <title>Blockchain-Based Secure and Privacy-Preserving Clinical Data Sharing and Integration</title>
       <link>https://Peilong.github.io/publication/2020-ica3pp/</link>
       <pubDate>Fri, 02 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2020-ica3pp/</guid>
@@ -6057,7 +6129,7 @@ Download VS Code from: &lt;a href=&#34;https://code.visualstudio.com/download&#3
     </item>
     
     <item>
-      <title>Netml: A challenge for network traffic analytics</title>
+      <title>NetML: A Challenge for Network Traffic Analytics</title>
       <link>https://Peilong.github.io/publication/2020-arxiv-netml/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2020-arxiv-netml/</guid>
@@ -6105,7 +6177,7 @@ Download VS Code from: &lt;a href=&#34;https://code.visualstudio.com/download&#3
     </item>
     
     <item>
-      <title>A programmable policy engine to facilitate time-efficient science DMZ management.</title>
+      <title>A programmable Policy Engine to Facilitate Time-efficient Science DMZ Management</title>
       <link>https://Peilong.github.io/publication/2018-fgcs/</link>
       <pubDate>Sat, 01 Dec 2018 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2018-fgcs/</guid>
@@ -6113,7 +6185,7 @@ Download VS Code from: &lt;a href=&#34;https://code.visualstudio.com/download&#3
     </item>
     
     <item>
-      <title>EQuery: Enable event-driven declarative queries in programmable network measurement</title>
+      <title>EQuery: Enable Event-driven Declarative Queries in Programmable Network Measurement</title>
       <link>https://Peilong.github.io/publication/2018-noms-equery/</link>
       <pubDate>Mon, 23 Apr 2018 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2018-noms-equery/</guid>
@@ -6121,7 +6193,23 @@ Download VS Code from: &lt;a href=&#34;https://code.visualstudio.com/download&#3
     </item>
     
     <item>
-      <title>CareNet: Building Regulation-Compliant Home-Based Healthcare Services with Software-Defined Infrastructure</title>
+      <title>BMAcc: Accelerating P4-based Data Plane with DPDK</title>
+      <link>https://Peilong.github.io/publication/2017-dpdk-summit-bmacc/</link>
+      <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2017-dpdk-summit-bmacc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Programmable Policy Engine to Facilitate Time-efficient Science DMZ Management</title>
+      <link>https://Peilong.github.io/publication/2017-indis-sciencedmz/</link>
+      <pubDate>Sun, 12 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2017-indis-sciencedmz/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CareNet: Building Regulation-compliant Home-based Healthcare Services with Software-defined Infrastructure</title>
       <link>https://Peilong.github.io/publication/2017-chase/</link>
       <pubDate>Mon, 17 Jul 2017 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2017-chase/</guid>
@@ -6129,7 +6217,7 @@ Download VS Code from: &lt;a href=&#34;https://code.visualstudio.com/download&#3
     </item>
     
     <item>
-      <title>Dynamic Virtual Measurement Function scheduling in software-oriented measurement environment</title>
+      <title>Dynamic Virtual Measurement Function Scheduling in Software-oriented Measurement Environment</title>
       <link>https://Peilong.github.io/publication/2017-icc/</link>
       <pubDate>Sun, 21 May 2017 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2017-icc/</guid>
@@ -6145,18 +6233,10 @@ Download VS Code from: &lt;a href=&#34;https://code.visualstudio.com/download&#3
     </item>
     
     <item>
-      <title>Network Measurement for 100Gbps Links Using Multicore Processors</title>
-      <link>https://Peilong.github.io/publication/2016-fgcs/</link>
+      <title>Network measurement for 100 GbE network links using multicore processors</title>
+      <link>https://Peilong.github.io/publication/2017-fgcs/</link>
       <pubDate>Sat, 29 Apr 2017 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/2016-fgcs/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CareNet: Building a Secure Software-defined Infrastructure for Home-based Healthcare</title>
-      <link>https://Peilong.github.io/publication/2016-sdn-nfv/</link>
-      <pubDate>Fri, 24 Mar 2017 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/2016-sdn-nfv/</guid>
+      <guid>https://Peilong.github.io/publication/2017-fgcs/</guid>
       <description></description>
     </item>
     
@@ -6169,9 +6249,25 @@ Download VS Code from: &lt;a href=&#34;https://code.visualstudio.com/download&#3
     </item>
     
     <item>
-      <title>P4GPU: Acceleration of programmable data plane using a CPU-GPU heterogeneous architecture</title>
+      <title>Network Measurement for 100Gbps Links Using Multicore Processors</title>
+      <link>https://Peilong.github.io/publication/2016-fgcs/</link>
+      <pubDate>Sun, 13 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2016-fgcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NUMAware: Accelerate VM-to-VM I/O Performance in NUMA Servers for NFV Applications</title>
+      <link>https://Peilong.github.io/publication/2016-sdn-nfv/</link>
+      <pubDate>Mon, 07 Nov 2016 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2016-sdn-nfv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>P4GPU: Acceleration of Programmable Data Plane Using a CPU-GPU Heterogeneous Architecture</title>
       <link>https://Peilong.github.io/publication/2016-hpsr-p4gpu/</link>
-      <pubDate>Tue, 14 Jun 2016 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 14 Jul 2016 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2016-hpsr-p4gpu/</guid>
       <description></description>
     </item>
@@ -6198,7 +6294,7 @@ Download VS Code from: &lt;a href=&#34;https://code.visualstudio.com/download&#3
     </item>
     
     <item>
-      <title>P4GPU: Accelerate packet processing of a P4 program with a CPU-GPU heterogeneous architecture</title>
+      <title>P4GPU: Accelerate Packet Processing of a P4 Program with a CPU-GPU Heterogeneous Architecture</title>
       <link>https://Peilong.github.io/publication/2016-ancs/</link>
       <pubDate>Thu, 17 Mar 2016 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2016-ancs/</guid>
@@ -6206,10 +6302,10 @@ Download VS Code from: &lt;a href=&#34;https://code.visualstudio.com/download&#3
     </item>
     
     <item>
-      <title>Network measurement for 100 GbE network links using multicore processors</title>
-      <link>https://Peilong.github.io/publication/2017-fgcs/</link>
-      <pubDate>Sun, 10 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/2017-fgcs/</guid>
+      <title>P4GPU: Mapping a P4 Program onto a CPU-GPU Heterogeneous Architecture for Acceleration</title>
+      <link>https://Peilong.github.io/publication/2016-barc-p4gpu/</link>
+      <pubDate>Fri, 29 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2016-barc-p4gpu/</guid>
       <description></description>
     </item>
     
@@ -6222,10 +6318,50 @@ Download VS Code from: &lt;a href=&#34;https://code.visualstudio.com/download&#3
     </item>
     
     <item>
+      <title>Mapping a P4 Program onto GPU Target Architecture</title>
+      <link>https://Peilong.github.io/publication/2015-p4-workshop/</link>
+      <pubDate>Wed, 18 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2015-p4-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>HeteroSpark: A heterogeneous CPU/GPU Spark platform for machine learning algorithms</title>
       <link>https://Peilong.github.io/publication/2015-nas-heterospark/</link>
       <pubDate>Thu, 06 Aug 2015 00:00:00 +0000</pubDate>
       <guid>https://Peilong.github.io/publication/2015-nas-heterospark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GPU-accelerated Network Anomaly Detection</title>
+      <link>https://Peilong.github.io/publication/2015-acsc-forum/</link>
+      <pubDate>Wed, 01 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2015-acsc-forum/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HeteroSpark: A Heterogeneous CPU/GPU Spark Platform for Machine Learning Algorithms</title>
+      <link>https://Peilong.github.io/publication/2015-sparksummiteast-heterospark/</link>
+      <pubDate>Wed, 18 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2015-sparksummiteast-heterospark/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sparkling: Identification of Task Skew and Speculative Partition of Data for Spark Applications</title>
+      <link>https://Peilong.github.io/publication/2014-sparksummit-sparkling/</link>
+      <pubDate>Mon, 30 Jun 2014 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2014-sparksummit-sparkling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploration of Memory Hierarchy of Heterogeneous Architecture with Accelerators</title>
+      <link>https://Peilong.github.io/publication/2012-shaw/</link>
+      <pubDate>Sat, 25 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2012-shaw/</guid>
       <description></description>
     </item>
     
