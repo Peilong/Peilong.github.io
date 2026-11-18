@@ -5,7 +5,7 @@
     <link>https://Peilong.github.io/</link>
       <atom:link href="https://Peilong.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Peilong Li</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Thu, 01 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Thu, 18 Feb 2027 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Peilong.github.io/img/icon-192.png</url>
       <title>Peilong Li</title>
@@ -6022,6 +6022,22 @@ Download VS Code from: &lt;a href=&#34;https://code.visualstudio.com/download&#3
 &lt;h2 id=&#34;option-2-setup-seed-vm-on-google-cloud-platform&#34;&gt;Option 2: Setup SEED VM on Google Cloud Platform:&lt;/h2&gt;
 &lt;p&gt;This is prefered for MacBooks that are using M chips. A GCP setup guide can be found on Canvas.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Training Across FERPA Silos: A Differentially Private Vertical Federated System for Dropout Prediction</title>
+      <link>https://Peilong.github.io/publication/2027-sigcse-jayquery/</link>
+      <pubDate>Thu, 18 Feb 2027 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2027-sigcse-jayquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ARISE: Adaptive Multimodal Orchestration for Real-time Conversational Health Agents on Heterogeneous Edge Platforms</title>
+      <link>https://Peilong.github.io/publication/2026-qrs-arise/</link>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2026-qrs-arise/</guid>
+      <description></description>
     </item>
     
     <item>

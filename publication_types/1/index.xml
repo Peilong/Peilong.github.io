@@ -5,12 +5,28 @@
     <link>https://Peilong.github.io/publication_types/1/</link>
       <atom:link href="https://Peilong.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Wed, 26 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2019 Peilong Li</copyright><lastBuildDate>Thu, 18 Feb 2027 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Peilong.github.io/img/icon-192.png</url>
       <title>1</title>
       <link>https://Peilong.github.io/publication_types/1/</link>
     </image>
+    
+    <item>
+      <title>Training Across FERPA Silos: A Differentially Private Vertical Federated System for Dropout Prediction</title>
+      <link>https://Peilong.github.io/publication/2027-sigcse-jayquery/</link>
+      <pubDate>Thu, 18 Feb 2027 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2027-sigcse-jayquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ARISE: Adaptive Multimodal Orchestration for Real-time Conversational Health Agents on Heterogeneous Edge Platforms</title>
+      <link>https://Peilong.github.io/publication/2026-qrs-arise/</link>
+      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2026-qrs-arise/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>RydeeNLP: Personalized Japanese Learning Through NLP-Powered Proficiency Adaptation</title>
