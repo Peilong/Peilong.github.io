@@ -532,108 +532,6 @@
   
 
   
-    
-  
-
-  
-    
-    
-      
-    
-    
-    
-    
-    
-  
-
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  <section id="hero" class="home-section wg-hero dark  bg-image parallax " style="background-image: linear-gradient(#4bb4e3, #2b94c3);background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(&#39;https://Peilong.github.io/img/adal_bg.jpeg&#39;);" >
-    <div class="container">
-      
-
-
-
-
-<div class="row">
-  <div class="col-md-6 order-md-1 text-center text-md-left">
-
-
-    <h1 class="hero-title">
-      BlueJay ADAL
-    </h1>
-
-    
-    <div class="hero-lead"><p><strong>The Advanced Data Analytics Lab (ADAL) at Elizabethtown College</strong></p>
-<ul>
-<li>Unleash the power of data</li>
-<li>Awaken your enthusiasm in data science</li>
-<li>Pursue your career as a data scientist</li>
-</ul>
-</div>
-    
-
-    
-    
-      
-      
-      
-        
-      
-      
-      
-      
-      
-        
-      
-    <p class="cta-btns">
-      <a href="https://bluejayadal.github.io/" target="_blank" rel="noopener" class="btn btn-light btn-lg"><i class="fas fa-hand-point-right pr-1" aria-hidden="true"></i>Checkout ADAL</a>
-
-      
-      
-    </p>
-    
-
-    
-    
-
-  
-  
-  </div>
-  <div class="col-6 mx-auto col-md-6 order-md-2 hero-media">
-    <img src="/img/adal_logo.png" alt="">
-  </div>
-</div>
-
-
-    </div>
-  </section>
-
-  
-  
-  
-
-  
-
-  
 
   
 
@@ -838,6 +736,110 @@
     </div>
   </div>
 </div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="news" class="home-section wg-adal-news   " style="padding-top: 40px; padding-bottom: 40px;" >
+    <div class="container">
+      
+
+
+
+
+
+<style>
+  .adal-news { list-style: none; padding: 0; margin: 0 0 .75rem 0; min-height: calc(3 * 2.6em); }
+  .adal-news li { display: flex; align-items: baseline; gap: 1rem; padding: .45em 0; border-bottom: 1px solid rgba(127, 127, 127, .2); }
+  .adal-news li:last-child { border-bottom: 0; }
+  .adal-news-date { flex: 0 0 5.5em; font-size: .85em; opacity: .7; white-space: nowrap; }
+  .adal-news-title { flex: 1 1 auto; min-width: 0; overflow-wrap: anywhere; }
+  .adal-news-more { font-size: .9em; }
+</style>
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Latest News</h1>
+    <p>From the <a href="https://bluejayadal.github.io/">BlueJay ADAL lab</a></p>
+  </div>
+  <div class="col-12 col-lg-8">
+    <ul class="adal-news" id="adal-news-news" aria-live="polite"></ul>
+    <a class="adal-news-more" href="https://bluejayadal.github.io/post/">More news from ADAL &rarr;</a>
+  </div>
+</div>
+
+<script>
+(function () {
+  var list = document.getElementById("adal-news-news");
+  var feed = "https://bluejayadal.github.io/post/index.xml", count =  3 , more = "https://bluejayadal.github.io/post/";
+  var origin = new URL(feed).origin + "/";
+
+  function fallback() {
+    list.style.minHeight = "0";
+    list.innerHTML = "";
+  }
+
+  fetch(feed, { cache: "no-cache" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); })
+    .then(function (xml) {
+      var items = new DOMParser().parseFromString(xml, "application/xml").querySelectorAll("item");
+      if (!items.length) return fallback();
+      list.innerHTML = "";
+      Array.prototype.slice.call(items, 0, count).forEach(function (it) {
+        var title = (it.querySelector("title") || {}).textContent || "";
+        var link = (it.querySelector("link") || {}).textContent || more;
+        var date = new Date((it.querySelector("pubDate") || {}).textContent || "");
+        if (link.indexOf(origin) !== 0) link = more;  
+
+        var li = document.createElement("li");
+        var d = document.createElement("span");
+        d.className = "adal-news-date";
+        
+        d.textContent = isNaN(date) ? "" : date.toLocaleDateString("en-US", { month: "short", year: "numeric", timeZone: "UTC" });
+        var a = document.createElement("a");
+        a.className = "adal-news-title";
+        a.href = link;
+        a.textContent = title;
+        li.appendChild(d);
+        li.appendChild(a);
+        list.appendChild(li);
+      });
+    })
+    .catch(fallback);
+})();
+</script>
 
     </div>
   </section>
