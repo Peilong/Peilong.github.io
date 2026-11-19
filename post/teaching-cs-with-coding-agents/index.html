@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.3">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Peilong Li">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Coding agents like Claude Code and Codex can now finish most CS homework on their own. Here is what the evidence says about learning with them, and how I think a small liberal arts college should respond.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://Peilong.github.io/post/teaching-cs-with-coding-agents/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VNGHD0MGZ7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-VNGHD0MGZ7', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://Peilong.github.io/post/teaching-cs-with-coding-agents/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@@LiPeilong">
+  <meta property="twitter:creator" content="@@LiPeilong">
+  
+  <meta property="og:site_name" content="Peilong Li">
+  <meta property="og:url" content="https://Peilong.github.io/post/teaching-cs-with-coding-agents/">
+  <meta property="og:title" content="Coding Agents in the Small-College CS Classroom | Peilong Li">
+  <meta property="og:description" content="Coding agents like Claude Code and Codex can now finish most CS homework on their own. Here is what the evidence says about learning with them, and how I think a small liberal arts college should respond."><meta property="og:image" content="https://Peilong.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://Peilong.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2026-11-18T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2026-11-18T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://Peilong.github.io/post/teaching-cs-with-coding-agents/"
+  },
+  "headline": "Coding Agents in the Small-College CS Classroom",
+  
+  "datePublished": "2026-11-18T00:00:00Z",
+  "dateModified": "2026-11-18T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "Peilong Li"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Peilong Li",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://Peilong.github.io/img/icon-512.png"
+    }
+  },
+  "description": "Coding agents like Claude Code and Codex can now finish most CS homework on their own. Here is what the evidence says about learning with them, and how I think a small liberal arts college should respond."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Coding Agents in the Small-College CS Classroom | Peilong Li</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Peilong Li</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Peilong Li</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#grants"><span>Grants</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#awards"><span>Honor & Awards</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#service"><span>Service</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Writing</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://bluejayadal.github.io/" target="_blank" rel="noopener"><span>Research Lab</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Coding Agents in the Small-College CS Classroom</h1>
+
+  
+  <p class="page-subtitle">What the research says so far, and why a liberal arts college may be the best place to teach with these tools</p>
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  
+  <span><a href="/authors/admin/">Peilong Li</a></span>
+
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Nov 18, 2026
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    9 min read
+  </span>
+  
+
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/categories/teaching/">Teaching</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>A year ago, the question in CS department hallways was whether students should be allowed to use ChatGPT on homework. That question is already out of date. Tools like Claude Code and OpenAI&rsquo;s Codex are not chatbots that hand you a snippet. They are <em>agents</em>: they read a whole project, edit files, run the tests, see what broke and try again. Brown University&rsquo;s new intro course design puts the difference well. A chat tool produces code &ldquo;without an underlying validation and revision loop&rdquo;; an agent has that loop built in.</p>
+<p>For a typical assignment in an intro or mid-level course, an agent can produce working code in minutes. So the question for those of us who teach computing is no longer <em>whether</em> students will use these tools. It is what a computer science education should build when typing code is no longer the hard part.</p>
+<p>I teach computer science at Elizabethtown College, a small liberal arts college in Pennsylvania, and I run an undergraduate research lab. Below is my reading of the evidence so far, and why I think small colleges are in an unusually good position to get this right.</p>
+<h2 id="what-the-evidence-says-so-far">What the evidence says so far</h2>
+<p>The research is young, but a consistent picture is forming.</p>
+<p><strong>AI widens the gap between students.</strong> In &ldquo;The Widening Gap,&rdquo; Prather and colleagues watched novices solve a programming problem with generative AI tools across 21 lab sessions, using interviews and eye tracking. Students who were already doing well used the tools to speed up code they had planned to write anyway. Students who struggled found their existing difficulties compounded. Many thought they had done better than they had, and &ldquo;finished with an illusion of competence.&rdquo;</p>
+<p><strong>Handing off the work can cost the learning.</strong> In a randomized trial Anthropic published in January 2026, 52 mostly junior engineers learned an unfamiliar Python library, with or without AI help. The AI group averaged about 50% on the follow-up quiz, against 67% for those who coded by hand, and it was not significantly faster. The biggest gap was on debugging questions. How people used the AI mattered, though: participants who asked conceptual follow-up questions retained far more than those who let the AI write or fix the code for them.</p>
+<p><strong>Feeling faster is not the same as being faster.</strong> In METR&rsquo;s 2025 randomized study, experienced open-source developers working in their own large codebases took about 19% longer when they could use early-2025 AI tools. Afterward, they still believed the tools had sped them up by about 20%. If seasoned professionals misjudge their own productivity that badly, we should not expect students to judge their own learning accurately.</p>
+<p><strong>The entry-level job market is shifting.</strong> Using ADP payroll data, Brynjolfsson, Chandar and Chen at Stanford found a 13% relative decline in employment for 22- to 25-year-olds in the most AI-exposed occupations. Early-career software developers were among the hardest hit, and the declines were concentrated where AI automates work rather than assisting with it. Their monthly dashboard still shows the pattern. Our graduates will be competing for jobs where &ldquo;I can write the code&rdquo; is no longer enough.</p>
+<p><strong>Educators have not figured it out either.</strong> An ACM task force surveyed 763 computing educators from 49 countries in 2025. Their top concern was students&rsquo; growing dependency on the technology (87%). Of those who answered the question, 68% had already changed how they assess students. The most common barrier to adapting was a lack of examples of best practices (48%). Nobody has a playbook yet, so small programs can experiment without waiting for one.</p>
+<h2 id="why-a-small-college-is-well-placed">Why a small college is well placed</h2>
+<p>Most of the published experiments come from large universities. Yet nearly every promising idea in them depends on something small colleges already do well.</p>
+<p><strong>Small classes make oral assessment practical.</strong> The most direct response to AI-written code is to ask students to explain it. Researchers at Utah State made a 15-minute code review interview mandatory after every weekly assignment in a 96-student CS1 course. Students could use AI as much as they liked, as long as they could justify their code in the interview. Running it took eleven trained teaching assistants. At a college where classes are small, the professor can hold many of those conversations in person. We also know our students well enough to notice when a student&rsquo;s confidence has drifted away from their understanding, which is exactly the illusion of competence the research describes.</p>
+<p><strong>The liberal arts already teach the skills agents demand.</strong> Working well with an agent is mostly an exercise in writing and judgment: stating a problem precisely, breaking it into steps, reading someone else&rsquo;s work critically and defending a decision. Those are the habits a liberal arts education claims to build in every major. A clear specification is a piece of writing. A code review is an argument with evidence.</p>
+<p><strong>Ethics is not a separate course.</strong> Agents raise questions students will face on the job: who is responsible for code nobody typed, when and how to disclose AI use, which data should never be pasted into a third-party tool. Small programs can work these questions into every course instead of leaving them to a single ethics requirement.</p>
+<p><strong>Undergraduate research can be more ambitious.</strong> With agents, a small team of undergraduates can build systems that would have been out of reach a few years ago. That raises the bar for what students need to manage: specifications, branches, code review, tests and continuous integration. In my lab, <a href="https://bluejayadal.github.io/">ADAL</a>, the <a href="https://bluejayadal.github.io/#skills">list of what we look for in student researchers</a> now starts with agentic coding and verifying what agents write, ahead of fluency in any particular language.</p>
+<p><strong>The constraints are real.</strong> Small colleges do not have rooms full of teaching assistants, every new form of assessment costs faculty time, and agent access costs money. Brown gave the students in its Agentic Studio course $20-a-month Claude plans by design, and the instructors note that those limits &ldquo;curtailed some of what we asked them to do.&rdquo; If access depends on what each student can afford, these tools will widen exactly the gaps small colleges work hard to close. Colleges should plan to provide access rather than leave it to individual students.</p>
+<h2 id="how-i-think-we-should-teach-with-agents">How I think we should teach with agents</h2>
+<p>These are the principles I am planning around. None is fully proven, but all are consistent with the evidence above.</p>
+<ol>
+<li>
+<p><strong>Fundamentals by hand first, agents later.</strong> Writing code by hand is how students build mental models of how programs work, and the evidence says novices pay the highest price for handing that work off. Introductory courses should keep substantial hand-written work and in-person exams. Brown&rsquo;s pilot intro course allows only chat tools for the first two months and introduces agents in the last month. Upper-level courses and capstones are where agents belong, used fully.</p>
+</li>
+<li>
+<p><strong>Grade understanding, not just the artifact.</strong> If an agent can produce the artifact, the artifact alone tells me little about what the student learned. Short code walkthroughs, in-class problems and &ldquo;change this function while I watch&rdquo; questions show what a student actually understands. In the Utah State course, exam scores held steady, even rising slightly (though not significantly), while the share of pasted code went up.</p>
+</li>
+<li>
+<p><strong>Make verification a core skill.</strong> Treat everything an agent writes as a draft. Students should write tests before asking an agent for code, read every diff, and be able to explain why the result is correct. The Anthropic study found the largest losses in debugging, which is exactly the skill needed to catch an agent&rsquo;s mistakes. Debugging deserves more class time, not less.</p>
+</li>
+<li>
+<p><strong>Turn specifications and design into writing assignments.</strong> Have students write the specification, the design rationale and the code review, and grade them as seriously as the code. This plays directly to a liberal arts college&rsquo;s strengths.</p>
+</li>
+<li>
+<p><strong>Go bigger, earlier.</strong> Agents make it realistic for students to work on larger, longer-lived projects much sooner. Use that to teach what employers now look for in new graduates: working in an existing codebase, Git workflows, code review and testing. Brown&rsquo;s students &ldquo;found significant value in the peer-review and crit activities.&rdquo;</p>
+</li>
+<li>
+<p><strong>Ask for transparency.</strong> Brown&rsquo;s Agentic Studio required reflection journals and chat transcripts. In the instructors&rsquo; early observations, most students &ldquo;developed their own personal boundaries for when to use agents and for how much.&rdquo; Asking students to show how they worked, not just what they produced, turns reflection into a habit.</p>
+</li>
+</ol>
+<h2 id="the-case-for-the-liberal-arts-gets-stronger">The case for the liberal arts gets stronger</h2>
+<p>Brown&rsquo;s students named the risk themselves. According to the instructors, &ldquo;a majority of students were concerned about their lack of understanding of their code bases,&rdquo; and most worried about the loss of learning if agents arrived in intro courses. That worry is healthy. The goal is not to shield students from these tools, or to hand the tools over without a plan. It is to graduate people who can decide what software should exist, direct agents to build it, and show that it works.</p>
+<p>That has always been the promise of a liberal arts education: think clearly, write precisely, weigh evidence and take responsibility for your work. As coding agents take over more of the typing, those skills are no longer the soft side of a computer science degree. They are the job.</p>
+<p>If you teach computing at a small college and are trying any of this, I would like to compare notes. You can reach me at <a href="mailto:lip@etown.edu">lip@etown.edu</a>.</p>
+<h2 id="sources">Sources</h2>
+<ul>
+<li>Prather et al., <a href="https://arxiv.org/abs/2405.17739">The Widening Gap: The Benefits and Harms of Generative AI for Novice Programmers</a> (2024).</li>
+<li>Shen and Tamkin, <a href="https://www.anthropic.com/research/AI-assistance-coding-skills">How AI assistance impacts the formation of coding skills</a>, Anthropic (January 2026).</li>
+<li>Becker et al., <a href="https://arxiv.org/abs/2507.09089">Measuring the Impact of Early-2025 AI on Experienced Open-Source Developer Productivity</a>, METR (2025).</li>
+<li>Brynjolfsson, Chandar and Chen, <a href="https://digitaleconomy.stanford.edu/project/indicators/canaries/">Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence</a>, Stanford Digital Economy Lab, and the <a href="https://digitaleconomy.stanford.edu/project/canaries-dashboard/">monthly dashboard</a>.</li>
+<li>Gordon et al., <a href="https://acm-education-genai-task-force.github.io/ACM_Taskforce_GenAI_Report_16Feb26.pdf">ACM Task Force on Generative AI and Programming Assessment: Final Report</a> (February 2026).</li>
+<li>Fowles et al., <a href="https://arxiv.org/abs/2605.21374">Combating Harms of Generative AI in CS1 with Code Review Interviews and a Flipped Classroom</a> (preprint, May 2026).</li>
+<li>Brown University, <a href="https://www.brown.edu/news/2026-06-11/agentic-studio-ai-programming">Brown professors devise course to explore generative AI in computer science education</a> (June 2026); <a href="https://cs.brown.edu/courses/csci1970kf/agentic-spr-2026/visitors.html">Agentic Studio notes for visitors</a>; and <a href="https://cs.brown.edu/courses/csci0111e/fall26/course-design.html">CSCI 0111E course design</a> (Fall 2026).</li>
+</ul>
+
+    </div>
+
+    
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/teaching/">Teaching</a>
+  
+  <a class="badge badge-light" href="/tags/agentic-coding/">Agentic Coding</a>
+  
+  <a class="badge badge-light" href="/tags/ai-in-education/">AI in Education</a>
+  
+  <a class="badge badge-light" href="/tags/liberal-arts/">Liberal Arts</a>
+  
+</div>
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://Peilong.github.io/post/teaching-cs-with-coding-agents/&amp;text=Coding%20Agents%20in%20the%20Small-College%20CS%20Classroom" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://Peilong.github.io/post/teaching-cs-with-coding-agents/&amp;t=Coding%20Agents%20in%20the%20Small-College%20CS%20Classroom" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Coding%20Agents%20in%20the%20Small-College%20CS%20Classroom&amp;body=https://Peilong.github.io/post/teaching-cs-with-coding-agents/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://Peilong.github.io/post/teaching-cs-with-coding-agents/&amp;title=Coding%20Agents%20in%20the%20Small-College%20CS%20Classroom" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://web.whatsapp.com/send?text=Coding%20Agents%20in%20the%20Small-College%20CS%20Classroom%20https://Peilong.github.io/post/teaching-cs-with-coding-agents/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://Peilong.github.io/post/teaching-cs-with-coding-agents/&amp;title=Coding%20Agents%20in%20the%20Small-College%20CS%20Classroom" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hufe1ba004fc55819fb0b1d7b69cf32efd_94451_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://Peilong.github.io/">Peilong Li</a></h5>
+      <h6 class="card-subtitle">Associate Professor</h6>
+      <p class="card-text">Dr. Peilong Li is an Associate Professor of Computer Science at Elizabethtown College.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/LiPeilong" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=wFIBx94AAAAJ&amp;hl=en" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/Peilong" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/files/cv.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  </div>
+</article>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.3227ab49eed49815d1b4ba40154f74e7.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © 2019 Peilong Li &middot; 
+
+    Powered by the
+    <a href="https://www.etown.edu" target="_blank" rel="noopener">BlueJay</a> spirit. 
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
