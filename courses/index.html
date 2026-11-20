@@ -565,14 +565,34 @@
   .ch-stats { font-size: .9rem; opacity: .75; margin: -.4rem 0 1rem 0; }
   .courses-home .nav-tabs { margin-bottom: 1rem; }
    
-  .ch-grid-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-  .ch-grid { border-collapse: separate; border-spacing: 0; font-size: .85rem; width: 100%; }
-  .ch-grid th, .ch-grid td { padding: .35rem .2rem; text-align: center; white-space: nowrap;
+   
+  .ch-grid-wrap { position: relative; }
+  .ch-grid-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain; }
+  .ch-grid-scroll:focus { outline: 1px dotted rgba(127,127,127,.6); outline-offset: 2px; }
+  .ch-grid-wrap::after { content: ""; position: absolute; top: 0; right: 0; bottom: 0; width: 1.75rem; pointer-events: none;
+                         background: linear-gradient(to left, rgba(127,127,127,.28), transparent); opacity: 0; transition: opacity .2s; }
+  .ch-grid-wrap.can-scroll-right::after { opacity: 1; }
+  .ch-scroll-hint { font-size: .8rem; opacity: .7; margin: .4rem 0 0 0; }
+  .ch-grid { --ch-bg: #fff; border-collapse: separate; border-spacing: 0; font-size: .85rem; width: max-content; min-width: 100%;
+             display: table; overflow: visible; }   
+  body.dark .ch-grid { --ch-bg: #282a36; }   
+  .ch-grid th, .ch-grid td { padding: .35rem .4rem; text-align: center; white-space: nowrap;
                              border-bottom: 1px solid rgba(127,127,127,.15); }
   .ch-grid thead th { font-weight: 600; opacity: .8; border-bottom: 1px solid rgba(127,127,127,.35); }
   .ch-grid .ch-year th { border-bottom: 0; font-size: .8rem; opacity: .65; }
-  .ch-grid th.ch-row, .ch-grid td.ch-row { text-align: left; position: sticky; left: 0; z-index: 1; padding-right: 1rem; background: inherit; }
-  .ch-grid tbody tr:hover { background: rgba(127,127,127,.07); }
+  .ch-grid thead th.ch-row { opacity: 1; }   
+   
+  .ch-grid th + th, .ch-grid td + td { border-left: 1px solid rgba(127,127,127,.12); }
+  .ch-grid th.ch-ys, .ch-grid td.ch-ys { border-left-color: rgba(127,127,127,.45); }
+  .ch-grid .ch-row + th, .ch-grid .ch-row + td { border-left: 0; }
+   
+  .ch-grid tbody tr { --ch-tint: transparent; background: var(--ch-tint); }
+  .ch-grid tbody tr:nth-child(even) { --ch-tint: rgba(127,127,127,.09); }
+  .ch-grid tbody tr:hover { --ch-tint: rgba(127,127,127,.15); }
+  .ch-grid th.ch-row, .ch-grid td.ch-row { text-align: left; position: sticky; left: 0; z-index: 2; padding-right: 1rem;
+      background-color: var(--ch-bg); background-image: linear-gradient(var(--ch-tint, transparent), var(--ch-tint, transparent));
+      box-shadow: inset -1px 0 0 rgba(127,127,127,.45); }
+  .ch-grid-wrap.can-scroll-left .ch-row { box-shadow: inset -1px 0 0 rgba(127,127,127,.45), 6px 0 8px -6px rgba(0,0,0,.35); }
   .ch-row-code { font-weight: 700; }
   .ch-row-title { opacity: .8; }
   .ch-row-former { display: block; font-size: .75rem; opacity: .6; }
@@ -710,17 +730,19 @@
         
         
         <div class="ch-grid-wrap">
+          <div class="ch-grid-scroll" tabindex="0" role="region" aria-label="Teaching history by course and semester">
           <table class="ch-grid">
             <thead>
               <tr class="ch-year">
                 <th class="ch-row"></th>
-                <th colspan="1">2018</th><th colspan="2">2019</th><th colspan="2">2020</th><th colspan="2">2021</th><th colspan="2">2022</th><th colspan="2">2023</th><th colspan="2">2024</th><th colspan="2">2025</th><th colspan="2">2026</th>
-                <th>2027</th>
+                <th class="ch-ys" colspan="1">2018</th><th class="ch-ys" colspan="2">2019</th><th class="ch-ys" colspan="2">2020</th><th class="ch-ys" colspan="2">2021</th><th class="ch-ys" colspan="2">2022</th><th class="ch-ys" colspan="2">2023</th><th class="ch-ys" colspan="2">2024</th><th class="ch-ys" colspan="2">2025</th><th class="ch-ys" colspan="2">2026</th>
+                <th class="ch-ys">2027</th>
               </tr>
               <tr>
                 <th class="ch-row">Course</th>
-                <th title="Fall 2018">Fa</th><th title="Spring 2019">Sp</th><th title="Fall 2019">Fa</th><th title="Spring 2020">Sp</th><th title="Fall 2020">Fa</th><th title="Spring 2021">Sp</th><th title="Fall 2021">Fa</th><th title="Spring 2022">Sp</th><th title="Fall 2022">Fa</th><th title="Spring 2023">Sp</th><th title="Fall 2023">Fa</th><th title="Spring 2024">Sp</th><th title="Fall 2024">Fa</th><th title="Spring 2025">Sp</th><th title="Fall 2025">Fa</th><th title="Spring 2026">Sp</th><th class="ch-col-off" title="Fall 2026">Fa</th>
-                <th class="ch-col-now" title="Spring 2027 (current)">Sp</th>
+                
+                <th class="ch-ys " title="Fall 2018">Fa</th><th class="ch-ys " title="Spring 2019">Sp</th><th class="" title="Fall 2019">Fa</th><th class="ch-ys " title="Spring 2020">Sp</th><th class="" title="Fall 2020">Fa</th><th class="ch-ys " title="Spring 2021">Sp</th><th class="" title="Fall 2021">Fa</th><th class="ch-ys " title="Spring 2022">Sp</th><th class="" title="Fall 2022">Fa</th><th class="ch-ys " title="Spring 2023">Sp</th><th class="" title="Fall 2023">Fa</th><th class="ch-ys " title="Spring 2024">Sp</th><th class="" title="Fall 2024">Fa</th><th class="ch-ys " title="Spring 2025">Sp</th><th class="" title="Fall 2025">Fa</th><th class="ch-ys " title="Spring 2026">Sp</th><th class="ch-col-off" title="Fall 2026">Fa</th>
+                <th class="ch-col-now ch-ys" title="Spring 2027 (current)">Sp</th>
               </tr>
             </thead>
             <tbody>
@@ -733,41 +755,42 @@
                   
                 </td>
                 
-                <td></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td><a href="/courses/archive/2021-spring/cs113/" title="CS 113 &middot; Spring 2021" aria-label="CS 113, Spring 2021"><span class="ch-dot"></span></a></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2021-spring/cs113/" title="CS 113 &middot; Spring 2021" aria-label="CS 113, Spring 2021"><span class="ch-dot"></span></a></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
+                
+                <td class="ch-ys "></td>
                 
                 <td class="ch-col-off"></td>
                 
-                <td class="ch-col-now"></td>
+                <td class="ch-col-now ch-ys"></td>
               </tr>
               
               
@@ -778,41 +801,42 @@
                   
                 </td>
                 
-                <td><span class="ch-dot ch-none" title="CS 121 &middot; Fall 2018: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
                 
-                <td><span class="ch-dot ch-none" title="CS 121 &middot; Spring 2019: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
+                <td class="ch-ys "><span class="ch-dot ch-none" title="CS 121 &middot; Fall 2018: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
                 
-                <td><span class="ch-dot ch-none" title="CS 121 &middot; Fall 2019: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
+                <td class="ch-ys "><span class="ch-dot ch-none" title="CS 121 &middot; Spring 2019: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
                 
-                <td><a href="/courses/archive/2020-spring/cs121/" title="CS 121 &middot; Spring 2020" aria-label="CS 121, Spring 2020"><span class="ch-dot"></span></a></td>
+                <td class=""><span class="ch-dot ch-none" title="CS 121 &middot; Fall 2019: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
                 
-                <td><a href="/courses/archive/2020-fall/cs121/" title="CS 121 &middot; Fall 2020" aria-label="CS 121, Fall 2020"><span class="ch-dot"></span></a></td>
+                <td class="ch-ys "><a href="/courses/archive/2020-spring/cs121/" title="CS 121 &middot; Spring 2020" aria-label="CS 121, Spring 2020"><span class="ch-dot"></span></a></td>
                 
-                <td></td>
+                <td class=""><a href="/courses/archive/2020-fall/cs121/" title="CS 121 &middot; Fall 2020" aria-label="CS 121, Fall 2020"><span class="ch-dot"></span></a></td>
                 
-                <td><a href="/courses/archive/2021-fall/cs121/" title="CS 121 &middot; Fall 2021" aria-label="CS 121, Fall 2021"><span class="ch-dot"></span></a></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""><a href="/courses/archive/2021-fall/cs121/" title="CS 121 &middot; Fall 2021" aria-label="CS 121, Fall 2021"><span class="ch-dot"></span></a></td>
                 
-                <td><a href="/courses/archive/2022-fall/cs121/" title="CS 121 &middot; Fall 2022" aria-label="CS 121, Fall 2022"><span class="ch-dot"></span></a></td>
+                <td class="ch-ys "></td>
                 
-                <td><a href="/courses/archive/2023-spring/cs121/" title="CS 121 &middot; Spring 2023" aria-label="CS 121, Spring 2023"><span class="ch-dot"></span></a></td>
+                <td class=""><a href="/courses/archive/2022-fall/cs121/" title="CS 121 &middot; Fall 2022" aria-label="CS 121, Fall 2022"><span class="ch-dot"></span></a></td>
                 
-                <td><a href="/courses/archive/2023-fall/cs121/" title="CS 121 &middot; Fall 2023" aria-label="CS 121, Fall 2023"><span class="ch-dot"></span></a></td>
+                <td class="ch-ys "><a href="/courses/archive/2023-spring/cs121/" title="CS 121 &middot; Spring 2023" aria-label="CS 121, Spring 2023"><span class="ch-dot"></span></a></td>
                 
-                <td></td>
+                <td class=""><a href="/courses/archive/2023-fall/cs121/" title="CS 121 &middot; Fall 2023" aria-label="CS 121, Fall 2023"><span class="ch-dot"></span></a></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
+                
+                <td class="ch-ys "></td>
                 
                 <td class="ch-col-off"></td>
                 
-                <td class="ch-col-now"></td>
+                <td class="ch-col-now ch-ys"></td>
               </tr>
               
               
@@ -823,41 +847,42 @@
                   
                 </td>
                 
-                <td></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td><a href="/courses/archive/2024-fall/cs122/" title="CS 122 &middot; Fall 2024" aria-label="CS 122, Fall 2024"><span class="ch-dot"></span></a></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""><a href="/courses/archive/2024-fall/cs122/" title="CS 122 &middot; Fall 2024" aria-label="CS 122, Fall 2024"><span class="ch-dot"></span></a></td>
                 
-                <td><a href="/courses/archive/2025-fall/cs122/" title="CS 122 &middot; Fall 2025" aria-label="CS 122, Fall 2025"><span class="ch-dot"></span></a></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""><a href="/courses/archive/2025-fall/cs122/" title="CS 122 &middot; Fall 2025" aria-label="CS 122, Fall 2025"><span class="ch-dot"></span></a></td>
+                
+                <td class="ch-ys "></td>
                 
                 <td class="ch-col-off"></td>
                 
-                <td class="ch-col-now"><a href="/courses/cs122/" title="CS 122 &middot; Spring 2027 (current)"><span class="ch-dot ch-now"></span></a></td>
+                <td class="ch-col-now ch-ys"><a href="/courses/cs122/" title="CS 122 &middot; Spring 2027 (current)"><span class="ch-dot ch-now"></span></a></td>
               </tr>
               
               
@@ -868,41 +893,42 @@
                   
                 </td>
                 
-                <td></td>
                 
-                <td><span class="ch-dot ch-none" title="CS 222 &middot; Spring 2019: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class="ch-ys "><span class="ch-dot ch-none" title="CS 222 &middot; Spring 2019: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
                 
-                <td><a href="/courses/archive/2020-spring/cs222/" title="CS 222 &middot; Spring 2020" aria-label="CS 222, Spring 2020"><span class="ch-dot"></span></a></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2020-spring/cs222/" title="CS 222 &middot; Spring 2020" aria-label="CS 222, Spring 2020"><span class="ch-dot"></span></a></td>
                 
-                <td><a href="/courses/archive/2021-spring/cs222/" title="CS/EGR 222 &middot; Spring 2021" aria-label="CS/EGR 222, Spring 2021"><span class="ch-dot"></span></a></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2021-spring/cs222/" title="CS/EGR 222 &middot; Spring 2021" aria-label="CS/EGR 222, Spring 2021"><span class="ch-dot"></span></a></td>
                 
-                <td><a href="/courses/archive/2022-spring/cs222/" title="CS/EGR 222 &middot; Spring 2022" aria-label="CS/EGR 222, Spring 2022"><span class="ch-dot"></span></a></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2022-spring/cs222/" title="CS/EGR 222 &middot; Spring 2022" aria-label="CS/EGR 222, Spring 2022"><span class="ch-dot"></span></a></td>
                 
-                <td><a href="/courses/archive/2023-spring/cs222/" title="CS/EGR 222 &middot; Spring 2023" aria-label="CS/EGR 222, Spring 2023"><span class="ch-dot"></span></a></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2023-spring/cs222/" title="CS/EGR 222 &middot; Spring 2023" aria-label="CS/EGR 222, Spring 2023"><span class="ch-dot"></span></a></td>
                 
-                <td><a href="/courses/archive/2024-spring/cs222/" title="CS/EGR 222 &middot; Spring 2024" aria-label="CS/EGR 222, Spring 2024"><span class="ch-dot"></span></a></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2024-spring/cs222/" title="CS/EGR 222 &middot; Spring 2024" aria-label="CS/EGR 222, Spring 2024"><span class="ch-dot"></span></a></td>
                 
-                <td><a href="/courses/archive/2025-spring/cs222/" title="CS/EGR 222 &middot; Spring 2025" aria-label="CS/EGR 222, Spring 2025"><span class="ch-dot"></span></a></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2025-spring/cs222/" title="CS/EGR 222 &middot; Spring 2025" aria-label="CS/EGR 222, Spring 2025"><span class="ch-dot"></span></a></td>
                 
-                <td></td>
+                <td class=""></td>
+                
+                <td class="ch-ys "></td>
                 
                 <td class="ch-col-off"></td>
                 
-                <td class="ch-col-now"></td>
+                <td class="ch-col-now ch-ys"></td>
               </tr>
               
               
@@ -913,41 +939,42 @@
                   
                 </td>
                 
-                <td></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td><a href="/courses/archive/2025-spring/cs230/" title="CS 230 &middot; Spring 2025" aria-label="CS 230, Spring 2025"><span class="ch-dot"></span></a></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2025-spring/cs230/" title="CS 230 &middot; Spring 2025" aria-label="CS 230, Spring 2025"><span class="ch-dot"></span></a></td>
                 
-                <td><a href="/courses/archive/2026-spring/cs230/" title="CS 230 &middot; Spring 2026" aria-label="CS 230, Spring 2026"><span class="ch-dot"></span></a></td>
+                <td class=""></td>
+                
+                <td class="ch-ys "><a href="/courses/archive/2026-spring/cs230/" title="CS 230 &middot; Spring 2026" aria-label="CS 230, Spring 2026"><span class="ch-dot"></span></a></td>
                 
                 <td class="ch-col-off"></td>
                 
-                <td class="ch-col-now"><a href="/courses/cs230/" title="CS 230 &middot; Spring 2027 (current)"><span class="ch-dot ch-now"></span></a></td>
+                <td class="ch-col-now ch-ys"><a href="/courses/cs230/" title="CS 230 &middot; Spring 2027 (current)"><span class="ch-dot ch-now"></span></a></td>
               </tr>
               
               
@@ -958,41 +985,42 @@
                   <span class="ch-row-former">formerly DS 200 Introduction to Data Science</span>
                 </td>
                 
-                <td><span class="ch-dot ch-former ch-none" title="DS 200 &middot; Fall 2018: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
                 
-                <td><span class="ch-dot ch-former ch-none" title="DS 200 &middot; Spring 2019: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
+                <td class="ch-ys "><span class="ch-dot ch-former ch-none" title="DS 200 &middot; Fall 2018: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
                 
-                <td></td>
+                <td class="ch-ys "><span class="ch-dot ch-former ch-none" title="DS 200 &middot; Spring 2019: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
                 
-                <td><a href="/courses/archive/2020-spring/ds200/" title="DS 200 &middot; Spring 2020" aria-label="DS 200, Spring 2020"><span class="ch-dot ch-former"></span></a></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2020-spring/ds200/" title="DS 200 &middot; Spring 2020" aria-label="DS 200, Spring 2020"><span class="ch-dot ch-former"></span></a></td>
                 
-                <td><a href="/courses/archive/2021-spring/ds200/" title="DS 200 &middot; Spring 2021" aria-label="DS 200, Spring 2021"><span class="ch-dot ch-former"></span></a></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2021-spring/ds200/" title="DS 200 &middot; Spring 2021" aria-label="DS 200, Spring 2021"><span class="ch-dot ch-former"></span></a></td>
                 
-                <td><a href="/courses/archive/2022-spring/ds200/" title="DS 200 &middot; Spring 2022" aria-label="DS 200, Spring 2022"><span class="ch-dot ch-former"></span></a></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2022-spring/ds200/" title="DS 200 &middot; Spring 2022" aria-label="DS 200, Spring 2022"><span class="ch-dot ch-former"></span></a></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td><a href="/courses/archive/2024-spring/ds200/" title="DS 200 &middot; Spring 2024" aria-label="DS 200, Spring 2024"><span class="ch-dot ch-former"></span></a></td>
+                <td class=""></td>
                 
-                <td><a href="/courses/archive/2024-fall/cs250/" title="CS 250 &middot; Fall 2024" aria-label="CS 250, Fall 2024"><span class="ch-dot"></span></a></td>
+                <td class="ch-ys "><a href="/courses/archive/2024-spring/ds200/" title="DS 200 &middot; Spring 2024" aria-label="DS 200, Spring 2024"><span class="ch-dot ch-former"></span></a></td>
                 
-                <td></td>
+                <td class=""><a href="/courses/archive/2024-fall/cs250/" title="CS 250 &middot; Fall 2024" aria-label="CS 250, Fall 2024"><span class="ch-dot"></span></a></td>
                 
-                <td><a href="/courses/archive/2025-fall/cs250/" title="CS 250 &middot; Fall 2025" aria-label="CS 250, Fall 2025"><span class="ch-dot"></span></a></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""><a href="/courses/archive/2025-fall/cs250/" title="CS 250 &middot; Fall 2025" aria-label="CS 250, Fall 2025"><span class="ch-dot"></span></a></td>
+                
+                <td class="ch-ys "></td>
                 
                 <td class="ch-col-off"></td>
                 
-                <td class="ch-col-now"></td>
+                <td class="ch-col-now ch-ys"></td>
               </tr>
               
               
@@ -1003,41 +1031,42 @@
                   <span class="ch-row-former">formerly DS 300 Data Mining</span>
                 </td>
                 
-                <td></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td><span class="ch-dot ch-former ch-none" title="DS 300 &middot; Fall 2019: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""><span class="ch-dot ch-former ch-none" title="DS 300 &middot; Fall 2019: no archived page (before the site&#39;s archive began (Dec 2019))"></span></td>
                 
-                <td><a href="/courses/archive/2020-fall/ds300/" title="DS 300 &middot; Fall 2020" aria-label="DS 300, Fall 2020"><span class="ch-dot ch-former"></span></a></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""><a href="/courses/archive/2020-fall/ds300/" title="DS 300 &middot; Fall 2020" aria-label="DS 300, Fall 2020"><span class="ch-dot ch-former"></span></a></td>
                 
-                <td><span class="ch-dot ch-former ch-none" title="DS 300 &middot; Fall 2021: no archived page (the course page was not updated this semester)"></span></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""><span class="ch-dot ch-former ch-none" title="DS 300 &middot; Fall 2021: no archived page (the course page was not updated this semester)"></span></td>
                 
-                <td><a href="/courses/archive/2022-fall/ds300/" title="DS 300 &middot; Fall 2022" aria-label="DS 300, Fall 2022"><span class="ch-dot ch-former"></span></a></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""><a href="/courses/archive/2022-fall/ds300/" title="DS 300 &middot; Fall 2022" aria-label="DS 300, Fall 2022"><span class="ch-dot ch-former"></span></a></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td><a href="/courses/archive/2024-fall/cs350/" title="CS 350 &middot; Fall 2024" aria-label="CS 350, Fall 2024"><span class="ch-dot"></span></a></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""><a href="/courses/archive/2024-fall/cs350/" title="CS 350 &middot; Fall 2024" aria-label="CS 350, Fall 2024"><span class="ch-dot"></span></a></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td><a href="/courses/archive/2026-spring/cs350/" title="CS 350 &middot; Spring 2026" aria-label="CS 350, Spring 2026"><span class="ch-dot"></span></a></td>
+                <td class=""></td>
+                
+                <td class="ch-ys "><a href="/courses/archive/2026-spring/cs350/" title="CS 350 &middot; Spring 2026" aria-label="CS 350, Spring 2026"><span class="ch-dot"></span></a></td>
                 
                 <td class="ch-col-off"></td>
                 
-                <td class="ch-col-now"></td>
+                <td class="ch-col-now ch-ys"></td>
               </tr>
               
               
@@ -1048,41 +1077,42 @@
                   <span class="ch-row-former">formerly DS 420 Big Data</span>
                 </td>
                 
-                <td></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td><a href="/courses/archive/2020-fall/ds420/" title="DS 420 &middot; Fall 2020" aria-label="DS 420, Fall 2020"><span class="ch-dot ch-former"></span></a></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""><a href="/courses/archive/2020-fall/ds420/" title="DS 420 &middot; Fall 2020" aria-label="DS 420, Fall 2020"><span class="ch-dot ch-former"></span></a></td>
                 
-                <td><span class="ch-dot ch-former ch-none" title="DS 420 &middot; Fall 2021: no archived page (the course page was not updated this semester)"></span></td>
+                <td class="ch-ys "></td>
                 
-                <td><a href="/courses/archive/2022-spring/ds420/" title="DS 420 &middot; Spring 2022" aria-label="DS 420, Spring 2022"><span class="ch-dot ch-former"></span></a></td>
+                <td class=""><span class="ch-dot ch-former ch-none" title="DS 420 &middot; Fall 2021: no archived page (the course page was not updated this semester)"></span></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2022-spring/ds420/" title="DS 420 &middot; Spring 2022" aria-label="DS 420, Spring 2022"><span class="ch-dot ch-former"></span></a></td>
                 
-                <td><a href="/courses/archive/2023-spring/ds420/" title="DS 420 &middot; Spring 2023" aria-label="DS 420, Spring 2023"><span class="ch-dot ch-former"></span></a></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2023-spring/ds420/" title="DS 420 &middot; Spring 2023" aria-label="DS 420, Spring 2023"><span class="ch-dot ch-former"></span></a></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td><a href="/courses/archive/2025-spring/cs354/" title="CS 354 &middot; Spring 2025" aria-label="CS 354, Spring 2025"><span class="ch-dot"></span></a></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2025-spring/cs354/" title="CS 354 &middot; Spring 2025" aria-label="CS 354, Spring 2025"><span class="ch-dot"></span></a></td>
                 
-                <td></td>
+                <td class=""></td>
+                
+                <td class="ch-ys "></td>
                 
                 <td class="ch-col-off"></td>
                 
-                <td class="ch-col-now"><a href="/courses/cs354/" title="CS 354 &middot; Spring 2027 (current)"><span class="ch-dot ch-now"></span></a></td>
+                <td class="ch-col-now ch-ys"><a href="/courses/cs354/" title="CS 354 &middot; Spring 2027 (current)"><span class="ch-dot ch-now"></span></a></td>
               </tr>
               
               
@@ -1093,41 +1123,42 @@
                   
                 </td>
                 
-                <td></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td><a href="/courses/archive/2022-fall/cs363/" title="CS 363 &middot; Fall 2022" aria-label="CS 363, Fall 2022"><span class="ch-dot"></span></a></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""><a href="/courses/archive/2022-fall/cs363/" title="CS 363 &middot; Fall 2022" aria-label="CS 363, Fall 2022"><span class="ch-dot"></span></a></td>
                 
-                <td><a href="/courses/archive/2023-fall/cs363/" title="CS 363 &middot; Fall 2023" aria-label="CS 363, Fall 2023"><span class="ch-dot"></span></a></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""><a href="/courses/archive/2023-fall/cs363/" title="CS 363 &middot; Fall 2023" aria-label="CS 363, Fall 2023"><span class="ch-dot"></span></a></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td><a href="/courses/archive/2025-fall/cs363/" title="CS 363 &middot; Fall 2025" aria-label="CS 363, Fall 2025"><span class="ch-dot"></span></a></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""><a href="/courses/archive/2025-fall/cs363/" title="CS 363 &middot; Fall 2025" aria-label="CS 363, Fall 2025"><span class="ch-dot"></span></a></td>
+                
+                <td class="ch-ys "></td>
                 
                 <td class="ch-col-off"></td>
                 
-                <td class="ch-col-now"></td>
+                <td class="ch-col-now ch-ys"></td>
               </tr>
               
               
@@ -1138,41 +1169,42 @@
                   
                 </td>
                 
-                <td></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td><a href="/courses/archive/2024-spring/cs364/" title="CS 364 &middot; Spring 2024" aria-label="CS 364, Spring 2024"><span class="ch-dot"></span></a></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2024-spring/cs364/" title="CS 364 &middot; Spring 2024" aria-label="CS 364, Spring 2024"><span class="ch-dot"></span></a></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td><a href="/courses/archive/2026-spring/cs364/" title="CS 364 &middot; Spring 2026" aria-label="CS 364, Spring 2026"><span class="ch-dot"></span></a></td>
+                <td class=""></td>
+                
+                <td class="ch-ys "><a href="/courses/archive/2026-spring/cs364/" title="CS 364 &middot; Spring 2026" aria-label="CS 364, Spring 2026"><span class="ch-dot"></span></a></td>
                 
                 <td class="ch-col-off"></td>
                 
-                <td class="ch-col-now"></td>
+                <td class="ch-col-now ch-ys"></td>
               </tr>
               
               
@@ -1183,41 +1215,42 @@
                   
                 </td>
                 
-                <td></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td><a href="/courses/archive/2020-spring/cs400/" title="CS 400 &middot; Spring 2020" aria-label="CS 400, Spring 2020"><span class="ch-dot"></span></a></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2020-spring/cs400/" title="CS 400 &middot; Spring 2020" aria-label="CS 400, Spring 2020"><span class="ch-dot"></span></a></td>
                 
-                <td><a href="/courses/archive/2021-spring/cs400/" title="CS 400 &middot; Spring 2021" aria-label="CS 400, Spring 2021"><span class="ch-dot"></span></a></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2021-spring/cs400/" title="CS 400 &middot; Spring 2021" aria-label="CS 400, Spring 2021"><span class="ch-dot"></span></a></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td><a href="/courses/archive/2022-fall/cs400/" title="CS 400 &middot; Fall 2022" aria-label="CS 400, Fall 2022"><span class="ch-dot"></span></a></td>
+                <td class="ch-ys "></td>
                 
-                <td><a href="/courses/archive/2023-spring/cs400/" title="CS 400 &middot; Spring 2023" aria-label="CS 400, Spring 2023"><span class="ch-dot"></span></a></td>
+                <td class=""><a href="/courses/archive/2022-fall/cs400/" title="CS 400 &middot; Fall 2022" aria-label="CS 400, Fall 2022"><span class="ch-dot"></span></a></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2023-spring/cs400/" title="CS 400 &middot; Spring 2023" aria-label="CS 400, Spring 2023"><span class="ch-dot"></span></a></td>
                 
-                <td><span class="ch-dot ch-none" title="CS 400 &middot; Spring 2024: no archived page (the course page was not updated this semester)"></span></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><span class="ch-dot ch-none" title="CS 400 &middot; Spring 2024: no archived page (the course page was not updated this semester)"></span></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
+                
+                <td class="ch-ys "></td>
                 
                 <td class="ch-col-off"></td>
                 
-                <td class="ch-col-now"></td>
+                <td class="ch-col-now ch-ys"></td>
               </tr>
               
               
@@ -1228,41 +1261,42 @@
                   
                 </td>
                 
-                <td></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td><a href="/courses/archive/2020-spring/cs495/" title="CS 495 &middot; Spring 2020" aria-label="CS 495, Spring 2020"><span class="ch-dot"></span></a></td>
+                <td class=""></td>
                 
-                <td><a href="/courses/archive/2020-fall/cs495/" title="CS 495 &middot; Fall 2020" aria-label="CS 495, Fall 2020"><span class="ch-dot"></span></a></td>
+                <td class="ch-ys "><a href="/courses/archive/2020-spring/cs495/" title="CS 495 &middot; Spring 2020" aria-label="CS 495, Spring 2020"><span class="ch-dot"></span></a></td>
                 
-                <td></td>
+                <td class=""><a href="/courses/archive/2020-fall/cs495/" title="CS 495 &middot; Fall 2020" aria-label="CS 495, Fall 2020"><span class="ch-dot"></span></a></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td><span class="ch-dot ch-none" title="CS 495 &middot; Spring 2023: no archived page (the course page was not updated this semester)"></span></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><span class="ch-dot ch-none" title="CS 495 &middot; Spring 2023: no archived page (the course page was not updated this semester)"></span></td>
                 
-                <td><span class="ch-dot ch-none" title="CS 495 &middot; Spring 2024: no archived page (the course page was not updated this semester)"></span></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><span class="ch-dot ch-none" title="CS 495 &middot; Spring 2024: no archived page (the course page was not updated this semester)"></span></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
+                
+                <td class="ch-ys "></td>
                 
                 <td class="ch-col-off"></td>
                 
-                <td class="ch-col-now"></td>
+                <td class="ch-col-now ch-ys"></td>
               </tr>
               
               
@@ -1273,41 +1307,42 @@
                   
                 </td>
                 
-                <td></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td><a href="/courses/archive/2023-spring/ds400/" title="DS 400 &middot; Spring 2023" aria-label="DS 400, Spring 2023"><span class="ch-dot"></span></a></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2023-spring/ds400/" title="DS 400 &middot; Spring 2023" aria-label="DS 400, Spring 2023"><span class="ch-dot"></span></a></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td><span class="ch-dot ch-none" title="DS 400 &middot; Fall 2024: no archived page (the course page was not updated this semester)"></span></td>
+                <td class="ch-ys "></td>
                 
-                <td><span class="ch-dot ch-none" title="DS 400 &middot; Spring 2025: no archived page (the course page was not updated this semester)"></span></td>
+                <td class=""><span class="ch-dot ch-none" title="DS 400 &middot; Fall 2024: no archived page (the course page was not updated this semester)"></span></td>
                 
-                <td></td>
+                <td class="ch-ys "><span class="ch-dot ch-none" title="DS 400 &middot; Spring 2025: no archived page (the course page was not updated this semester)"></span></td>
                 
-                <td></td>
+                <td class=""></td>
+                
+                <td class="ch-ys "></td>
                 
                 <td class="ch-col-off"></td>
                 
-                <td class="ch-col-now"></td>
+                <td class="ch-col-now ch-ys"></td>
               </tr>
               
               
@@ -1318,41 +1353,42 @@
                   
                 </td>
                 
-                <td></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td><a href="/courses/archive/2020-fall/ds495/" title="DS 495 &middot; Fall 2020" aria-label="DS 495, Fall 2020"><span class="ch-dot"></span></a></td>
+                <td class="ch-ys "></td>
                 
-                <td><a href="/courses/archive/2021-spring/ds495/" title="DS 495 &middot; Spring 2021" aria-label="DS 495, Spring 2021"><span class="ch-dot"></span></a></td>
+                <td class=""><a href="/courses/archive/2020-fall/ds495/" title="DS 495 &middot; Fall 2020" aria-label="DS 495, Fall 2020"><span class="ch-dot"></span></a></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2021-spring/ds495/" title="DS 495 &middot; Spring 2021" aria-label="DS 495, Spring 2021"><span class="ch-dot"></span></a></td>
                 
-                <td><a href="/courses/archive/2022-spring/ds495/" title="DS 495 &middot; Spring 2022" aria-label="DS 495, Spring 2022"><span class="ch-dot"></span></a></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="/courses/archive/2022-spring/ds495/" title="DS 495 &middot; Spring 2022" aria-label="DS 495, Spring 2022"><span class="ch-dot"></span></a></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
+                
+                <td class="ch-ys "></td>
                 
                 <td class="ch-col-off"></td>
                 
-                <td class="ch-col-now"></td>
+                <td class="ch-col-now ch-ys"></td>
               </tr>
               
               
@@ -1363,46 +1399,49 @@
                   
                 </td>
                 
-                <td></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td><a href="https://users.etown.edu/w/wunderjt/syllabi/EGR401%20Wunderlich,Joseph%20and%20Li,Peilong.pdf" target="_blank" rel="noopener" title="EGR 401 &middot; Fall 2019 &middot; co-taught with Dr. Joseph Wunderlich (syllabus, PDF)" aria-label="EGR 401, Fall 2019, syllabus"><span class="ch-dot ch-ext"></span></a></td>
+                <td class="ch-ys "></td>
                 
-                <td><a href="https://users.etown.edu/w/wunderjt/syllabi/EGR401%20Wunderlich,Joseph%20and%20Li,Peilong.pdf" target="_blank" rel="noopener" title="EGR 401 &middot; Spring 2020 &middot; co-taught with Dr. Joseph Wunderlich (syllabus, PDF)" aria-label="EGR 401, Spring 2020, syllabus"><span class="ch-dot ch-ext"></span></a></td>
+                <td class=""><a href="https://users.etown.edu/w/wunderjt/syllabi/EGR401%20Wunderlich,Joseph%20and%20Li,Peilong.pdf" target="_blank" rel="noopener" title="EGR 401 &middot; Fall 2019 &middot; co-taught with Dr. Joseph Wunderlich (syllabus, PDF)" aria-label="EGR 401, Fall 2019, syllabus"><span class="ch-dot ch-ext"></span></a></td>
                 
-                <td></td>
+                <td class="ch-ys "><a href="https://users.etown.edu/w/wunderjt/syllabi/EGR401%20Wunderlich,Joseph%20and%20Li,Peilong.pdf" target="_blank" rel="noopener" title="EGR 401 &middot; Spring 2020 &middot; co-taught with Dr. Joseph Wunderlich (syllabus, PDF)" aria-label="EGR 401, Spring 2020, syllabus"><span class="ch-dot ch-ext"></span></a></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
                 
-                <td></td>
+                <td class="ch-ys "></td>
                 
-                <td></td>
+                <td class=""></td>
+                
+                <td class="ch-ys "></td>
                 
                 <td class="ch-col-off"></td>
                 
-                <td class="ch-col-now"></td>
+                <td class="ch-col-now ch-ys"></td>
               </tr>
               
             </tbody>
           </table>
+          </div>
         </div>
+        <p class="ch-scroll-hint" hidden>Showing the newest semesters. Scroll sideways for earlier ones.</p>
         <div class="ch-legend">
           <span><span class="ch-dot ch-sw"></span>archived course page</span>
           <span><span class="ch-dot ch-former ch-sw"></span>under its former course number</span>
@@ -1812,6 +1851,25 @@
     
   </div>
 </div>
+<script>
+  
+
+  (function () {
+    var wrap = document.querySelector('.ch-grid-wrap');
+    if (!wrap) return;
+    var sc = wrap.querySelector('.ch-grid-scroll'), hint = document.querySelector('.ch-scroll-hint');
+    function update() {
+      var max = sc.scrollWidth - sc.clientWidth, over = max > 1;
+      wrap.classList.toggle('can-scroll-left', over && sc.scrollLeft > 1);
+      wrap.classList.toggle('can-scroll-right', over && sc.scrollLeft < max - 1);
+      if (hint) hint.hidden = !over;
+    }
+    sc.scrollLeft = sc.scrollWidth;
+    sc.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  })();
+</script>
 
       
 
