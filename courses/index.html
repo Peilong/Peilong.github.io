@@ -550,7 +550,8 @@
   
 
 <style>
-  .courses-home { max-width: 1140px; }
+  .courses-home { max-width: 1140px; --ch-bg: #fff; }
+  body.dark .courses-home { --ch-bg: #282a36; }   
   .courses-home .ch-lead { font-size: 1.05rem; opacity: .85; margin-bottom: 2.25rem; }
   .ch-section { margin-bottom: 3rem; }
   .ch-eyebrow { text-transform: uppercase; letter-spacing: .08em; font-size: .75rem; font-weight: 700; opacity: .65; }
@@ -573,9 +574,8 @@
                          background: linear-gradient(to left, rgba(127,127,127,.28), transparent); opacity: 0; transition: opacity .2s; }
   .ch-grid-wrap.can-scroll-right::after { opacity: 1; }
   .ch-scroll-hint { font-size: .8rem; opacity: .7; margin: .4rem 0 0 0; }
-  .ch-grid { --ch-bg: #fff; border-collapse: separate; border-spacing: 0; font-size: .85rem; width: max-content; min-width: 100%;
+  .ch-grid { border-collapse: separate; border-spacing: 0; font-size: .85rem; width: max-content; min-width: 100%;
              display: table; overflow: visible; }   
-  body.dark .ch-grid { --ch-bg: #282a36; }   
   .ch-grid th, .ch-grid td { padding: .35rem .4rem; text-align: center; white-space: nowrap;
                              border-bottom: 1px solid rgba(127,127,127,.15); }
   .ch-grid thead th { font-weight: 600; opacity: .8; border-bottom: 1px solid rgba(127,127,127,.35); }
@@ -609,7 +609,36 @@
   .ch-legend { font-size: .8rem; opacity: .8; margin-top: .6rem; display: flex; flex-wrap: wrap; gap: .3rem 1.1rem; }
   .ch-legend .ch-sw { display: inline-block; width: .8rem; height: .8rem; vertical-align: middle; margin-right: .3rem; }
    
-  .ch-sem { display: flex; gap: 1rem; padding: .55rem 0; border-bottom: 1px solid rgba(127,127,127,.15); }
+  .ch-tl { position: sticky; top: 70px; z-index: 5; background: var(--ch-bg); padding: .6rem 0 .4rem 0;
+           margin-bottom: .25rem; border-bottom: 1px solid rgba(127,127,127,.25); }
+  .ch-tl-head { display: flex; align-items: baseline; gap: .6rem; margin-bottom: .2rem; }
+  .ch-tl-term { font-weight: 700; }
+  .ch-tl-track { --thumb: 18px; position: relative; padding-bottom: 1.3rem; }
+  .ch-tl-range { -webkit-appearance: none; appearance: none; display: block; width: 100%; height: 26px; margin: 0;
+                 background: transparent; cursor: pointer; position: relative; z-index: 2; }
+  .ch-tl-range:focus { outline: none; }
+  .ch-tl-range::-webkit-slider-runnable-track { height: 4px; border-radius: 2px; background: rgba(127,127,127,.35); }
+  .ch-tl-range::-moz-range-track { height: 4px; border-radius: 2px; background: rgba(127,127,127,.35); }
+  .ch-tl-range::-webkit-slider-thumb { -webkit-appearance: none; width: var(--thumb); height: var(--thumb); margin-top: -7px;
+      border-radius: 50%; background: #2962ff; border: 3px solid var(--ch-bg); box-shadow: 0 0 0 1px #2962ff; }
+  .ch-tl-range::-moz-range-thumb { width: 12px; height: 12px; border-radius: 50%; background: #2962ff;
+      border: 3px solid var(--ch-bg); box-shadow: 0 0 0 1px #2962ff; }
+  .ch-tl-range:focus-visible::-webkit-slider-thumb { box-shadow: 0 0 0 1px #2962ff, 0 0 0 5px rgba(41,98,255,.3); }
+  .ch-tl-range:focus-visible::-moz-range-thumb { box-shadow: 0 0 0 1px #2962ff, 0 0 0 5px rgba(41,98,255,.3); }
+   
+  .ch-tl-mark, .ch-tl-year { position: absolute; left: calc(var(--thumb) / 2 + (100% - var(--thumb)) * var(--i) / var(--n)); }
+  .ch-tl-mark { top: 8px; width: 2px; height: 10px; margin-left: -1px; background: rgba(127,127,127,.6); z-index: 1; }
+  .ch-tl-mark.ch-tl-off { background: transparent; border-left: 2px dotted rgba(127,127,127,.6); }
+  .ch-tl-mark.ch-tl-cur { background: #2962ff; }
+  .ch-tl-year { top: 26px; transform: translateX(-50%); font-size: .72rem; opacity: .7; cursor: pointer; white-space: nowrap;
+                background: none; border: 0; padding: 0 .15rem; color: inherit; line-height: 1.2; }
+  .ch-tl-year:hover { opacity: 1; color: #2962ff; }
+  .ch-tl-year .ch-tl-yy { display: none; }
+  @media (max-width: 575px) { .ch-tl-year .ch-tl-yyyy { display: none; } .ch-tl-year .ch-tl-yy { display: inline; } }
+   
+  .ch-sem { display: flex; gap: 1rem; padding: .55rem .5rem; border-bottom: 1px solid rgba(127,127,127,.15);
+            transition: background-color .3s; }
+  .ch-sem.ch-sem-active { background: rgba(41,98,255,.08); box-shadow: inset 3px 0 0 #2962ff; }
   .ch-sem-term { flex: 0 0 8.5rem; font-weight: 600; }
   .ch-sem-list { display: flex; flex-wrap: wrap; gap: .4rem .5rem; align-items: center; }
   .ch-chip { font-size: .85rem; padding: .15rem .6rem; border: 1px solid rgba(127,127,127,.3); border-radius: 1rem; }
@@ -1454,14 +1483,81 @@
 
       
       <div class="tab-pane fade" id="by-semester" role="tabpanel">
-        <div class="ch-sem">
+        
+        
+        
+        
+        <div class="ch-tl">
+          <div class="ch-tl-head"><span class="ch-eyebrow">Jump to a semester</span><span class="ch-tl-term" aria-live="polite">Spring 2027</span></div>
+          <div class="ch-tl-track" style="--n: 17">
+            <input type="range" class="ch-tl-range" min="0" max="17" step="1" value="17"
+                   aria-label="Jump to a semester" aria-valuetext="Spring 2027">
+            
+            
+            <span class="ch-tl-mark" style="--i: 0" data-term="Fall 2018" aria-hidden="true"></span>
+            <button type="button" class="ch-tl-year" style="--i: 0" data-i="0" tabindex="-1" aria-hidden="true"><span class="ch-tl-yyyy">2018</span><span class="ch-tl-yy">&rsquo;18</span></button>
+            
+            <span class="ch-tl-mark" style="--i: 1" data-term="Spring 2019" aria-hidden="true"></span>
+            <button type="button" class="ch-tl-year" style="--i: 1" data-i="1" tabindex="-1" aria-hidden="true"><span class="ch-tl-yyyy">2019</span><span class="ch-tl-yy">&rsquo;19</span></button>
+            
+            <span class="ch-tl-mark" style="--i: 2" data-term="Fall 2019" aria-hidden="true"></span>
+            
+            
+            <span class="ch-tl-mark" style="--i: 3" data-term="Spring 2020" aria-hidden="true"></span>
+            <button type="button" class="ch-tl-year" style="--i: 3" data-i="3" tabindex="-1" aria-hidden="true"><span class="ch-tl-yyyy">2020</span><span class="ch-tl-yy">&rsquo;20</span></button>
+            
+            <span class="ch-tl-mark" style="--i: 4" data-term="Fall 2020" aria-hidden="true"></span>
+            
+            
+            <span class="ch-tl-mark" style="--i: 5" data-term="Spring 2021" aria-hidden="true"></span>
+            <button type="button" class="ch-tl-year" style="--i: 5" data-i="5" tabindex="-1" aria-hidden="true"><span class="ch-tl-yyyy">2021</span><span class="ch-tl-yy">&rsquo;21</span></button>
+            
+            <span class="ch-tl-mark" style="--i: 6" data-term="Fall 2021" aria-hidden="true"></span>
+            
+            
+            <span class="ch-tl-mark" style="--i: 7" data-term="Spring 2022" aria-hidden="true"></span>
+            <button type="button" class="ch-tl-year" style="--i: 7" data-i="7" tabindex="-1" aria-hidden="true"><span class="ch-tl-yyyy">2022</span><span class="ch-tl-yy">&rsquo;22</span></button>
+            
+            <span class="ch-tl-mark" style="--i: 8" data-term="Fall 2022" aria-hidden="true"></span>
+            
+            
+            <span class="ch-tl-mark" style="--i: 9" data-term="Spring 2023" aria-hidden="true"></span>
+            <button type="button" class="ch-tl-year" style="--i: 9" data-i="9" tabindex="-1" aria-hidden="true"><span class="ch-tl-yyyy">2023</span><span class="ch-tl-yy">&rsquo;23</span></button>
+            
+            <span class="ch-tl-mark" style="--i: 10" data-term="Fall 2023" aria-hidden="true"></span>
+            
+            
+            <span class="ch-tl-mark" style="--i: 11" data-term="Spring 2024" aria-hidden="true"></span>
+            <button type="button" class="ch-tl-year" style="--i: 11" data-i="11" tabindex="-1" aria-hidden="true"><span class="ch-tl-yyyy">2024</span><span class="ch-tl-yy">&rsquo;24</span></button>
+            
+            <span class="ch-tl-mark" style="--i: 12" data-term="Fall 2024" aria-hidden="true"></span>
+            
+            
+            <span class="ch-tl-mark" style="--i: 13" data-term="Spring 2025" aria-hidden="true"></span>
+            <button type="button" class="ch-tl-year" style="--i: 13" data-i="13" tabindex="-1" aria-hidden="true"><span class="ch-tl-yyyy">2025</span><span class="ch-tl-yy">&rsquo;25</span></button>
+            
+            <span class="ch-tl-mark" style="--i: 14" data-term="Fall 2025" aria-hidden="true"></span>
+            
+            
+            <span class="ch-tl-mark" style="--i: 15" data-term="Spring 2026" aria-hidden="true"></span>
+            <button type="button" class="ch-tl-year" style="--i: 15" data-i="15" tabindex="-1" aria-hidden="true"><span class="ch-tl-yyyy">2026</span><span class="ch-tl-yy">&rsquo;26</span></button>
+            
+            <span class="ch-tl-mark ch-tl-off" style="--i: 16" data-term="Fall 2026" aria-hidden="true"></span>
+            
+            
+            <span class="ch-tl-mark ch-tl-cur" style="--i: 17" data-term="Spring 2027" aria-hidden="true"></span>
+            <button type="button" class="ch-tl-year" style="--i: 17" data-i="17" tabindex="-1" aria-hidden="true"><span class="ch-tl-yyyy">2027</span><span class="ch-tl-yy">&rsquo;27</span></button>
+            
+          </div>
+        </div>
+        <div class="ch-sem" data-term="Spring 2027">
           <div class="ch-sem-term">Spring 2027<br><span class="ch-eyebrow">current</span></div>
           <div class="ch-sem-list">
             <a class="ch-chip" href="/courses/cs122/"><b>CS 122</b>Computer Science II</a><a class="ch-chip" href="/courses/cs230/"><b>CS 230</b>Computer Architecture</a><a class="ch-chip" href="/courses/cs354/"><b>CS 354</b>Big Data</a>
           </div>
         </div>
         
-        <div class="ch-sem">
+        <div class="ch-sem" data-term="Fall 2026">
           <div class="ch-sem-term">Fall 2026</div>
           <div class="ch-sem-list">
             <span class="ch-sem-note">Sabbatical leave (no teaching)</span>
@@ -1469,7 +1565,7 @@
           </div>
         </div>
         
-        <div class="ch-sem">
+        <div class="ch-sem" data-term="Spring 2026">
           <div class="ch-sem-term">Spring 2026</div>
           <div class="ch-sem-list">
             
@@ -1489,7 +1585,7 @@
           </div>
         </div>
         
-        <div class="ch-sem">
+        <div class="ch-sem" data-term="Fall 2025">
           <div class="ch-sem-term">Fall 2025</div>
           <div class="ch-sem-list">
             
@@ -1509,7 +1605,7 @@
           </div>
         </div>
         
-        <div class="ch-sem">
+        <div class="ch-sem" data-term="Spring 2025">
           <div class="ch-sem-term">Spring 2025</div>
           <div class="ch-sem-list">
             
@@ -1532,7 +1628,7 @@
           </div>
         </div>
         
-        <div class="ch-sem">
+        <div class="ch-sem" data-term="Fall 2024">
           <div class="ch-sem-term">Fall 2024</div>
           <div class="ch-sem-list">
             
@@ -1555,7 +1651,7 @@
           </div>
         </div>
         
-        <div class="ch-sem">
+        <div class="ch-sem" data-term="Spring 2024">
           <div class="ch-sem-term">Spring 2024</div>
           <div class="ch-sem-list">
             
@@ -1581,7 +1677,7 @@
           </div>
         </div>
         
-        <div class="ch-sem">
+        <div class="ch-sem" data-term="Fall 2023">
           <div class="ch-sem-term">Fall 2023</div>
           <div class="ch-sem-list">
             
@@ -1597,7 +1693,7 @@
           </div>
         </div>
         
-        <div class="ch-sem">
+        <div class="ch-sem" data-term="Spring 2023">
           <div class="ch-sem-term">Spring 2023</div>
           <div class="ch-sem-list">
             
@@ -1628,7 +1724,7 @@
           </div>
         </div>
         
-        <div class="ch-sem">
+        <div class="ch-sem" data-term="Fall 2022">
           <div class="ch-sem-term">Fall 2022</div>
           <div class="ch-sem-list">
             
@@ -1652,7 +1748,7 @@
           </div>
         </div>
         
-        <div class="ch-sem">
+        <div class="ch-sem" data-term="Spring 2022">
           <div class="ch-sem-term">Spring 2022</div>
           <div class="ch-sem-list">
             
@@ -1676,7 +1772,7 @@
           </div>
         </div>
         
-        <div class="ch-sem">
+        <div class="ch-sem" data-term="Fall 2021">
           <div class="ch-sem-term">Fall 2021</div>
           <div class="ch-sem-list">
             
@@ -1694,7 +1790,7 @@
           </div>
         </div>
         
-        <div class="ch-sem">
+        <div class="ch-sem" data-term="Spring 2021">
           <div class="ch-sem-term">Spring 2021</div>
           <div class="ch-sem-list">
             
@@ -1722,7 +1818,7 @@
           </div>
         </div>
         
-        <div class="ch-sem">
+        <div class="ch-sem" data-term="Fall 2020">
           <div class="ch-sem-term">Fall 2020</div>
           <div class="ch-sem-list">
             
@@ -1750,7 +1846,7 @@
           </div>
         </div>
         
-        <div class="ch-sem">
+        <div class="ch-sem" data-term="Spring 2020">
           <div class="ch-sem-term">Spring 2020</div>
           <div class="ch-sem-list">
             
@@ -1782,7 +1878,7 @@
           </div>
         </div>
         
-        <div class="ch-sem">
+        <div class="ch-sem" data-term="Fall 2019">
           <div class="ch-sem-term">Fall 2019</div>
           <div class="ch-sem-list">
             
@@ -1800,7 +1896,7 @@
           </div>
         </div>
         
-        <div class="ch-sem">
+        <div class="ch-sem" data-term="Spring 2019">
           <div class="ch-sem-term">Spring 2019</div>
           <div class="ch-sem-list">
             
@@ -1817,7 +1913,7 @@
           </div>
         </div>
         
-        <div class="ch-sem">
+        <div class="ch-sem" data-term="Fall 2018">
           <div class="ch-sem-term">Fall 2018</div>
           <div class="ch-sem-list">
             
@@ -1868,6 +1964,63 @@
     sc.addEventListener('scroll', update, { passive: true });
     window.addEventListener('resize', update);
     update();
+  })();
+
+  
+
+  (function () {
+    var tl = document.querySelector('.ch-tl');
+    if (!tl) return;
+    var pane = document.getElementById('by-semester');
+    var range = tl.querySelector('.ch-tl-range'), label = tl.querySelector('.ch-tl-term');
+    var terms = Array.prototype.map.call(tl.querySelectorAll('.ch-tl-mark'), function (m) { return m.dataset.term; });
+    var rows = {};
+    Array.prototype.forEach.call(pane.querySelectorAll('.ch-sem'), function (r) { rows[r.dataset.term] = r; });
+    var nav = document.querySelector('.navbar'), dragging = false, lock = false, unlockTimer = null, active = null;
+
+    function stickyTop() { return nav ? nav.getBoundingClientRect().height : 70; }
+    function setActive(i) {
+      var term = terms[i], row = rows[term];
+      range.value = i; range.setAttribute('aria-valuetext', term); label.textContent = term;
+      if (active) active.classList.remove('ch-sem-active');
+      active = row || null;
+      if (active) active.classList.add('ch-sem-active');
+    }
+    function jump(i, smooth) {
+      setActive(i);
+      var row = rows[terms[i]];
+      if (!row) return;
+      var y = row.getBoundingClientRect().top + window.pageYOffset - stickyTop() - tl.offsetHeight - 8;
+      lock = true;
+      window.scrollTo({ top: Math.max(0, y), behavior: smooth ? 'smooth' : 'auto' });
+      clearTimeout(unlockTimer); unlockTimer = setTimeout(function () { lock = false; }, 700);
+    }
+    function onScroll() {
+      if (!pane.classList.contains('active')) return;
+      if (lock) { clearTimeout(unlockTimer); unlockTimer = setTimeout(function () { lock = false; }, 150); return; }
+      var line = stickyTop() + tl.offsetHeight + 12, best = null;
+      for (var i = terms.length - 1; i >= 0; i--) {          
+        var r = rows[terms[i]];
+        if (r && r.getBoundingClientRect().top <= line) best = i; else if (r) break;
+      }
+      if (best === null) best = terms.length - 1;
+      if (String(best) !== range.value || !active) setActive(best);
+    }
+
+    tl.style.top = stickyTop() + 'px';
+    range.addEventListener('pointerdown', function () { dragging = true; });
+    window.addEventListener('pointerup', function () { dragging = false; });
+    window.addEventListener('pointercancel', function () { dragging = false; });
+    range.addEventListener('input', function () { jump(+range.value, !dragging); });
+    Array.prototype.forEach.call(tl.querySelectorAll('.ch-tl-year'), function (b) {
+      b.addEventListener('click', function () { jump(+b.dataset.i, true); range.focus(); });
+    });
+    var ticking = false;
+    window.addEventListener('scroll', function () {
+      if (ticking) return; ticking = true;
+      requestAnimationFrame(function () { ticking = false; onScroll(); });
+    }, { passive: true });
+    window.addEventListener('resize', function () { tl.style.top = stickyTop() + 'px'; });
   })();
 </script>
 
