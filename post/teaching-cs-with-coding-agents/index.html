@@ -219,9 +219,14 @@
 
 
   
-
-
-
+<style>
+  .newsletter-signup { margin: 2.5rem 0 1.5rem; padding: 1.25rem 1.5rem; border: 1px solid rgba(0,0,0,.12); border-radius: .5rem; background: rgba(0,0,0,.025); }
+  body.dark .newsletter-signup { border-color: rgba(255,255,255,.18); background: rgba(255,255,255,.04); }
+  .newsletter-signup .newsletter-title { margin: 0 0 .35rem; font-size: 1.2rem; }
+  .newsletter-signup .newsletter-blurb { font-size: .95rem; margin-bottom: .75rem; }
+  .newsletter-signup .btn-primary { color: #fff; }
+  .newsletter-signup .newsletter-note { font-size: .8rem; margin: .6rem 0 0; opacity: .8; }
+</style>
 
 
   <title>Coding Agents in the Small-College CS Classroom | Peilong Li</title>
@@ -570,7 +575,9 @@
 </nav>
 
 
-  <article class="article">
+  
+
+<article class="article">
 
   
 
@@ -729,6 +736,29 @@
 </ul>
 
     </div>
+
+    
+
+
+
+<div class="newsletter-signup">
+  <h3 class="newsletter-title">Get new posts by email</h3>
+  <p class="newsletter-blurb">An occasional email when I publish something new about teaching, research and AI. No spam; unsubscribe anytime.</p>
+  <form action="https://buttondown.com/api/emails/embed-subscribe/dr.li" method="post" target="popupwindow"
+        onsubmit="window.open('https://buttondown.com/dr.li', 'popupwindow')">
+    <input type="hidden" name="embed" value="1">
+    <div class="input-group">
+      <label for="bd-email-post" class="sr-only">Email address</label>
+      <input type="email" name="email" id="bd-email-post" class="form-control" placeholder="Your email address" required>
+      <div class="input-group-append">
+        <button type="submit" class="btn btn-primary">Subscribe</button>
+      </div>
+    </div>
+  </form>
+  <p class="newsletter-note">Powered by <a href="https://buttondown.com/dr.li" target="_blank" rel="noopener">Buttondown</a>. You can also follow by <a href="/post/index.xml">RSS</a>.</p>
+</div>
+
+
 
     
 
@@ -1089,7 +1119,7 @@
   
 
   <p class="powered-by">
-    © 2019 Peilong Li &middot; 
+    © 2026 Peilong Li &middot; 
 
     Powered by the
     <a href="https://www.etown.edu" target="_blank" rel="noopener">BlueJay</a> spirit. 
