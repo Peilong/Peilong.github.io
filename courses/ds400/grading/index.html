@@ -183,6 +183,15 @@
   .newsletter-signup .newsletter-blurb { font-size: .95rem; margin-bottom: .75rem; }
   .newsletter-signup .btn-primary { color: #fff; }
   .newsletter-signup .newsletter-note { font-size: .8rem; margin: .6rem 0 0; opacity: .8; }
+   
+  .visitor-map { margin: 0 auto 1.5rem; text-align: center; }
+  .visitor-map .visitor-map-title { margin: 0 0 .5rem; font-size: .75rem; letter-spacing: .02em; opacity: .75; }
+  .visitor-map .visitor-map-card { display: inline-block; position: relative; border-radius: .75rem; overflow: hidden;
+    background: #1c3352; box-shadow: 0 1px 3px rgba(28,51,82,.25); line-height: 0; }
+  .visitor-map #mapmyvisitors-widget { border: 0 !important; }
+   
+  .visitor-map .visitor-map-card::after { content: ""; position: absolute; left: 0; bottom: 0; width: 24px; height: 48px;
+    background: #1c3352; pointer-events: none; z-index: 2; }
 </style>
 
 
@@ -802,6 +811,16 @@
       </article>
 
       <footer class="site-footer">
+  
+<div class="visitor-map" aria-label="Map of where visitors to this site come from">
+  <p class="visitor-map-title">Visitors from around the world</p>
+  <div class="visitor-map-card">
+    <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=3d6d9e&w=260&t=m&d=plfo7kxgDuGVyltSxPSIaaKelcsH_Ii7IP52datxGys&co=1c3352&cmo=8cbde6&ct=ffffff&cmn=ffffff"></script>
+  </div>
+</div>
+
+
+
   
 
   <p class="powered-by">
