@@ -5,12 +5,134 @@
     <link>https://Peilong.github.io/tags/ai-in-education/</link>
       <atom:link href="https://Peilong.github.io/tags/ai-in-education/index.xml" rel="self" type="application/rss+xml" />
     <description>AI in Education</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026 Peilong Li</copyright><lastBuildDate>Wed, 18 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026 Peilong Li</copyright><lastBuildDate>Mon, 23 Nov 2026 07:00:00 -0500</lastBuildDate>
     <image>
       <url>https://Peilong.github.io/img/icon-192.png</url>
       <title>AI in Education</title>
       <link>https://Peilong.github.io/tags/ai-in-education/</link>
     </image>
+    
+    <item>
+      <title>Let AI Draft, You Decide: Where AI Actually Saves Faculty and Staff Time</title>
+      <link>https://Peilong.github.io/post/ai-series-1-let-ai-draft-you-decide/</link>
+      <pubDate>Mon, 23 Nov 2026 07:00:00 -0500</pubDate>
+      <guid>https://Peilong.github.io/post/ai-series-1-let-ai-draft-you-decide/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Part 1 of 9 in the series &lt;a href=&#34;https://Peilong.github.io/tags/ai-at-a-small-college/&#34;&gt;AI at a Small College&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Ask colleagues whether AI saves them time, and the answers split. Some say it has given them back an evening a week. Others say it has added work: checking what it wrote, rewriting what it got wrong, and worrying about students who use it. Both groups are right, and the research explains why.&lt;/p&gt;
+&lt;p&gt;This series is for faculty and staff in every discipline, not just computer science. Over the next three weeks, I will cover one area per post: protecting student data, planning courses, making materials, giving feedback, tutoring, advising, scheduling and committee work. Every post ends with steps you can try that week with tools your college probably already has.&lt;/p&gt;
+&lt;h2 id=&#34;ai-use-is-now-normal-but-time-savings-are-not&#34;&gt;AI use is now normal, but time savings are not&lt;/h2&gt;
+&lt;p&gt;AI use among faculty grew quickly. In Tyton Partners&amp;rsquo; national surveys, the share of instructors using generative AI at least weekly rose from &lt;strong&gt;30% in 2025 to 52% in 2026&lt;/strong&gt;. In the California State University system&amp;rsquo;s fall 2025 survey of more than 6,000 faculty, &lt;strong&gt;55% said they use AI to develop course materials&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Time savings are a different story. Among instructors who use AI every day, 36% report a lighter workload, 39% report no change and 26% report a heavier one. Much of the extra work comes from dealing with students&amp;rsquo; AI use. So far, no controlled study has measured how many hours faculty save on syllabi, slides or quizzes compared with doing the work by hand.&lt;/p&gt;
+&lt;p&gt;The studies that do measure time point to a pattern:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Repeatable tasks with a clear structure get faster.&lt;/strong&gt; In one study, instructors took about 27 minutes to analyze their own course-evaluation comments. ChatGPT runs took 10 to 15 minutes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Open-ended &amp;ldquo;help me with this&amp;rdquo; use can be slower.&lt;/strong&gt; In a randomized study at a 2025 computing-education conference, teaching assistants who started from AI-drafted feedback took &lt;em&gt;longer&lt;/em&gt; than those who wrote their own, and some let the AI&amp;rsquo;s mistakes through.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Gains go to people who build a repeatable routine, not to people who simply have access.&lt;/p&gt;
+&lt;h2 id=&#34;the-rule-let-ai-draft-you-decide&#34;&gt;The rule: let AI draft, you decide&lt;/h2&gt;
+&lt;p&gt;Across all the research I reviewed, one rule kept appearing. AI is good at producing first drafts: rewording, summarizing, organizing, generating options and explaining. It is unreliable at anything with a right answer that it cannot check:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Facts and requirements&lt;/strong&gt; it was not given, such as a course prerequisite or a college policy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Dates&lt;/strong&gt;, such as which weekday a holiday falls on&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Citations&lt;/strong&gt;: in one 2025 study, GPT-4o made up &lt;strong&gt;almost 1 in 5&lt;/strong&gt; of the references it produced&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Judgments about people&lt;/strong&gt;, such as grades, advising decisions and hiring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So divide the work. Let AI draft. Then let something you trust decide: the official catalog, your calendar, your rubric, a test, a colleague, your own expertise.&lt;/p&gt;
+&lt;h2 id=&#34;three-habits-that-make-ai-worth-the-time&#34;&gt;Three habits that make AI worth the time&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;1. Give it your material, not its memory.&lt;/strong&gt; Upload your syllabus, the catalog or the reading, and tell it to work only from that. Then ask it to quote the sentence that supports each claim. That one instruction turns hidden guesses into things you can check in seconds.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2. One task per request.&lt;/strong&gt; Ask for one learning goal, one quiz question or one paragraph at a time. In a 2025 study of AI-generated programming exercises, tasks covered every requested concept 94% of the time when they targeted one concept, but only 40% of the time when they targeted three. Small requests are easier to get right and easier to check.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3. Check it like a reviewer, and time yourself.&lt;/strong&gt; Read every draft the way you would read a new colleague&amp;rsquo;s work: assume it is mostly right and look for the specific error. Write down how many minutes the task took. If AI makes a task slower or less accurate, stop using it for that task. That is a good result, not a failure.&lt;/p&gt;
+&lt;h2 id=&#34;why-this-matters-more-at-a-small-college&#34;&gt;Why this matters more at a small college&lt;/h2&gt;
+&lt;p&gt;Small colleges use AI about as much as large universities, but have far fewer people to support it. Nationally, only about 1 in 10 chief academic officers report a central AI strategy at their institution, and only 6% of faculty fully agree that their institution gives them enough training. At a small college, a few people&amp;rsquo;s time is the scarce resource. A short, shared playbook is worth more than another tool license.&lt;/p&gt;
+&lt;h2 id=&#34;the-series&#34;&gt;The series&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Part&lt;/th&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Topic&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;Nov 23&lt;/td&gt;
+&lt;td&gt;Let AI draft, you decide (this post)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;Nov 25&lt;/td&gt;
+&lt;td&gt;Before you paste: student privacy and choosing the right AI tool&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;Nov 27&lt;/td&gt;
+&lt;td&gt;Planning a course with AI: from learning goals to a draft syllabus&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;Nov 29&lt;/td&gt;
+&lt;td&gt;Course materials you can trust: quizzes, handouts, slides and accessibility&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;Dec 1&lt;/td&gt;
+&lt;td&gt;Feedback and grading: where AI helps and where it slows you down&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;Dec 3&lt;/td&gt;
+&lt;td&gt;A tutor for every student, without giving away answers or privacy&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;Dec 5&lt;/td&gt;
+&lt;td&gt;AI for faculty advisors: meeting prep without risking student records&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;Dec 7&lt;/td&gt;
+&lt;td&gt;For chairs: course offerings, teaching loads and schedules&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;Dec 9&lt;/td&gt;
+&lt;td&gt;Committee work, accreditation, and measuring the time you save&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;try-it-this-week&#34;&gt;Try it this week&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Pick one task you do every week&lt;/strong&gt;, such as writing a course announcement, summarizing a reading for discussion or drafting review questions. Choose something that uses no student information.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Time yourself doing it the usual way&lt;/strong&gt; once, and write down the minutes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Do it again with AI&lt;/strong&gt;, using your college&amp;rsquo;s licensed tool (Microsoft Copilot, Gemini, ChatGPT Edu or Claude, signed in with your college account) and this prompt:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;I will paste [my lecture notes / the reading / last week&#39;s announcement].
+Using ONLY this material, draft [a 150-word announcement / five discussion questions / a one-paragraph summary].
+After the draft, list each factual claim you made and quote the sentence from my material that supports it.
+If a claim is not supported by my material, mark it [CHECK].
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;4&#34;&gt;
+&lt;li&gt;&lt;strong&gt;Check the [CHECK] items&lt;/strong&gt;, edit the draft and time the whole process, including your checking.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compare the two times.&lt;/strong&gt; Keep the routine only if it was faster and at least as good.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Next time: what you may and may not paste into an AI tool, and how to find out which tools your college has approved.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Questions or examples from your own discipline? Write to me at lip AT etown DOT edu.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tyton Partners, &lt;a href=&#34;https://tytonpartners.com/time-for-class-2025/&#34;&gt;Time for Class 2025&lt;/a&gt; and the &lt;a href=&#34;https://www.globenewswire.com/news-release/2026/06/15/3311604/0/en/Tyton-Partners-Releases-2026-Time-for-Class-Report-The-AI-Tipping-Point-From-Monitoring-Students-to-Engaging-Them.html&#34;&gt;2026 report release&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Inside Higher Ed, &lt;a href=&#34;https://www.insidehighered.com/index%2ephp/node/206321&#34;&gt;California State University faculty AI survey&lt;/a&gt; (fall 2025)&lt;/li&gt;
+&lt;li&gt;eCampus News, &lt;a href=&#34;https://www.ecampusnews.com/news/2025/06/12/faculty-workload-can-drop-with-daily-ai-use/&#34;&gt;Faculty workload can drop with daily AI use&lt;/a&gt; (2025)&lt;/li&gt;
+&lt;li&gt;BMC Medical Education, &lt;a href=&#34;https://bmcmededuc.biomedcentral.com/articles/10.1186/s12909-024-05316-2&#34;&gt;AI analysis of course-evaluation comments&lt;/a&gt; (2024)&lt;/li&gt;
+&lt;li&gt;Ahmed et al., &lt;a href=&#34;https://sigcse2025.sigcse.org/details/sigcse-ts-2025-Papers/87/Feasibility-Study-of-Augmenting-Teaching-Assistants-with-AI-for-CS1-Programming-Feedb&#34;&gt;Augmenting teaching assistants with AI for programming feedback&lt;/a&gt;, SIGCSE 2025&lt;/li&gt;
+&lt;li&gt;Jacobs et al., &lt;a href=&#34;https://arxiv.org/abs/2503.11704&#34;&gt;Generating programming tasks with multiple concepts&lt;/a&gt; (2025)&lt;/li&gt;
+&lt;li&gt;JMIR, &lt;a href=&#34;https://mental.jmir.org/2025/1/e80371&#34;&gt;Citation fabrication by GPT-4o&lt;/a&gt; (2025)&lt;/li&gt;
+&lt;li&gt;Inside Higher Ed, &lt;a href=&#34;https://www.insidehighered.com/node/219751&#34;&gt;2026 survey of chief academic officers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Digital Education Council, &lt;a href=&#34;https://www.digitaleducationcouncil.com/post/what-faculty-want-key-results-from-the-global-ai-faculty-survey-2025&#34;&gt;Global AI Faculty Survey 2025&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;EDUCAUSE, &lt;a href=&#34;https://www.educause.edu/content/2025/2025-educause-ai-landscape-study/special-focus-the-digital-ai-divide-between-institutions&#34;&gt;The digital AI divide between institutions&lt;/a&gt; (2025)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Coding Agents in the Small-College CS Classroom</title>
