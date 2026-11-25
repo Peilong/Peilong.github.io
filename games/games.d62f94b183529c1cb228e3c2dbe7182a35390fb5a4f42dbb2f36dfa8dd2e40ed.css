@@ -1,0 +1,85 @@
+/* Games landing page (layouts/games/list.html). Same palette and type as the games themselves. */
+.games-page {
+  max-width: 980px;
+  --gp-card: #fff;
+  --gp-ink: #263038;
+  --gp-muted: #66737f;
+  --gp-line: rgba(28, 51, 82, .12);
+  --gp-line-strong: #c9d6e3;
+  --gp-accent: #2a7bbe;
+  --gp-on-accent: #fff;
+  --gp-navy: #1c3352;
+  --gp-tint: #e9f1f9;
+  --gp-good: #1f9d55;
+  --gp-lawn: #eef3ec;
+  --gp-road: #d6dde3;
+  --gp-water: #d3e6f5;
+  --gp-shadow: 0 12px 32px rgba(28, 51, 82, .10);
+  --gp-shadow-hover: 0 18px 40px rgba(28, 51, 82, .16);
+}
+body.dark .games-page {
+  --gp-card: #21222c;
+  --gp-ink: #f8f8f2;
+  --gp-muted: rgba(248, 248, 242, .62);
+  --gp-line: rgba(255, 255, 255, .10);
+  --gp-line-strong: #4a4e60;
+  --gp-accent: #6fb1ec;
+  --gp-on-accent: #0f2238;
+  --gp-navy: #e9f1f9;
+  --gp-tint: #2c2e3b;
+  --gp-good: #4cc38a;
+  --gp-lawn: #262833;
+  --gp-road: #3d4050;
+  --gp-water: #233a50;
+  --gp-shadow: none;
+  --gp-shadow-hover: 0 0 0 1px rgba(255, 255, 255, .14);
+}
+.games-page .gp-lead { font-size: 1.05rem; opacity: .85; margin-bottom: 1.75rem; max-width: 46em; }
+.games-page .gp-about { margin-top: 2.25rem; }
+
+.gp-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 22px; }
+.gp-card { display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--gp-line); border-radius: 22px;
+           background: var(--gp-card); box-shadow: var(--gp-shadow); color: var(--gp-ink);
+           font-family: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+           transition: transform .18s ease, box-shadow .18s ease; }
+.gp-card:hover, .gp-card:focus-visible { transform: translateY(-3px); box-shadow: var(--gp-shadow-hover); color: var(--gp-ink);
+                                         text-decoration: none; }
+.gp-card:focus-visible { outline: 3px solid var(--gp-accent); outline-offset: 3px; }
+.gp-art svg { display: block; width: 100%; height: auto; }
+.gp-body { display: flex; flex: 1 1 auto; flex-direction: column; padding: 16px 20px 18px; }
+.gp-title { margin: 0 0 6px; font-family: inherit; font-size: 1.3rem; font-weight: 600; color: var(--gp-navy); }
+.gp-tagline { flex: 1 1 auto; margin: 0 0 12px; font-size: .96rem; line-height: 1.5; color: var(--gp-muted); }
+.gp-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 14px; padding: 0; list-style: none; }
+.gp-tags li { padding: 3px 10px; border-radius: 999px; background: var(--gp-tint); color: var(--gp-navy); font-size: .78rem; font-weight: 600; }
+.gp-play { display: inline-flex; align-self: flex-start; align-items: center; gap: 6px; padding: 9px 20px; border-radius: 999px;
+           background: var(--gp-accent); color: var(--gp-on-accent); font-weight: 600; }
+.gp-play svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round;
+               transition: transform .18s ease; }
+.gp-card:hover .gp-play svg { transform: translateX(3px); }
+
+/* Card drawings (layouts/partials/games/card-art.html) */
+.ga-bg { fill: var(--gp-tint); }
+.ga-big { fill: var(--gp-navy); font: 600 54px "IBM Plex Mono", ui-monospace, monospace; }
+.ga-on { fill: var(--gp-accent); }
+.ga-off { fill: var(--gp-card); stroke: var(--gp-line-strong); stroke-width: 1.5; }
+.ga-small { fill: var(--gp-muted); font: 600 10px "IBM Plex Mono", ui-monospace, monospace; }
+.ga-bit { fill: var(--gp-navy); font: 600 17px "IBM Plex Mono", ui-monospace, monospace; }
+.ga-on-text { fill: var(--gp-on-accent); }
+.ga-lawn { fill: var(--gp-lawn); }
+.ga-water { fill: var(--gp-water); }
+.ga-road line { stroke: var(--gp-road); stroke-width: 7; stroke-linecap: round; }
+.ga-route line { stroke: var(--gp-good); stroke-width: 6; stroke-linecap: round; }
+.ga-pill rect { fill: var(--gp-card); stroke: var(--gp-line-strong); stroke-width: 1.2; }
+.ga-pill text { fill: var(--gp-navy); font: 600 11px "IBM Plex Mono", ui-monospace, monospace; text-anchor: middle; dominant-baseline: central; }
+.ga-pill-route rect { fill: var(--gp-good); stroke: var(--gp-good); }
+.ga-pill-route text { fill: #fff; }
+body.dark .ga-pill-route text { fill: #0f2a1c; }
+.ga-node { fill: var(--gp-card); stroke: var(--gp-line-strong); stroke-width: 2; }
+.ga-onroute { stroke: var(--gp-good); stroke-width: 3; }
+.ga-start { fill: var(--gp-accent); stroke: var(--gp-accent); }
+.ga-goal { fill: var(--gp-navy); stroke: var(--gp-navy); }
+
+@media (prefers-reduced-motion: reduce) {
+  .gp-card, .gp-play svg { transition: none; }
+  .gp-card:hover, .gp-card:focus-visible { transform: none; }
+}

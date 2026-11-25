@@ -6025,14 +6025,6 @@ Download VS Code from: &lt;a href=&#34;https://code.visualstudio.com/download&#3
     </item>
     
     <item>
-      <title>Training Across FERPA Silos: A Differentially Private Vertical Federated System for Dropout Prediction</title>
-      <link>https://Peilong.github.io/publication/2027-sigcse-jayquery/</link>
-      <pubDate>Thu, 18 Feb 2027 00:00:00 +0000</pubDate>
-      <guid>https://Peilong.github.io/publication/2027-sigcse-jayquery/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Bit Flip</title>
       <link>https://Peilong.github.io/games/bitflip/</link>
       <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
@@ -6043,6 +6035,29 @@ right: 1, 2, 4, 8, and so on up to 128. Eight of them together make a &lt;strong
 to 255. The row of 0s and 1s under the number is that byte, written the way a computer stores it. So when you made 37,
 you wrote &lt;strong&gt;00100101&lt;/strong&gt;, which is 37 in binary.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Campus Route</title>
+      <link>https://Peilong.github.io/games/campus-route/</link>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/games/campus-route/</guid>
+      <description>&lt;h3 id=&#34;how-a-map-app-finds-the-fastest-route&#34;&gt;How a map app finds the fastest route&lt;/h3&gt;
+&lt;p&gt;The shortest-looking route is often not the fastest one, which is why map apps don&amp;rsquo;t just pick the path with the
+fewest turns. They use a method worked out by the computer scientist Edsger Dijkstra in 1956 and published in 1959.&lt;/p&gt;
+&lt;p&gt;It works like this: start where you are, at 0 minutes. Then, again and again, take the closest place whose time
+isn&amp;rsquo;t final yet, mark its time as final, and see whether going through it gives any of its neighbors a faster time.
+When the destination&amp;rsquo;s time becomes final, it is guaranteed to be the fastest possible. Press &lt;strong&gt;Watch a computer
+solve it&lt;/strong&gt; after a puzzle to see each step on the map.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Training Across FERPA Silos: A Differentially Private Vertical Federated System for Dropout Prediction</title>
+      <link>https://Peilong.github.io/publication/2027-sigcse-jayquery/</link>
+      <pubDate>Thu, 18 Feb 2027 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/publication/2027-sigcse-jayquery/</guid>
+      <description></description>
     </item>
     
     <item>
