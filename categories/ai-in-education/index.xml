@@ -5,12 +5,126 @@
     <link>https://Peilong.github.io/categories/ai-in-education/</link>
       <atom:link href="https://Peilong.github.io/categories/ai-in-education/index.xml" rel="self" type="application/rss+xml" />
     <description>AI in Education</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026 Peilong Li</copyright><lastBuildDate>Mon, 23 Nov 2026 07:00:00 -0500</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026 Peilong Li</copyright><lastBuildDate>Wed, 25 Nov 2026 07:00:00 -0500</lastBuildDate>
     <image>
       <url>https://Peilong.github.io/img/icon-192.png</url>
       <title>AI in Education</title>
       <link>https://Peilong.github.io/categories/ai-in-education/</link>
     </image>
+    
+    <item>
+      <title>Before You Paste: Student Privacy and Choosing the Right AI Tool</title>
+      <link>https://Peilong.github.io/post/ai-series-2-before-you-paste/</link>
+      <pubDate>Wed, 25 Nov 2026 07:00:00 -0500</pubDate>
+      <guid>https://Peilong.github.io/post/ai-series-2-before-you-paste/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Part 2 of 9 in the series &lt;a href=&#34;https://Peilong.github.io/tags/ai-at-a-small-college/&#34;&gt;AI at a Small College&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;It is 11 p.m., you have 30 essays left, and a free chatbot is one tab away. Pasting in a student&amp;rsquo;s essay to &amp;ldquo;get started on feedback&amp;rdquo; feels harmless. It may not be. Before any of the later posts in this series, it is worth spending ten minutes on what you may put into which tool.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post is general guidance, not legal advice. Your college&amp;rsquo;s policies and counsel have the final word.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;ferpa-in-plain-words&#34;&gt;FERPA in plain words&lt;/h2&gt;
+&lt;p&gt;FERPA, the federal student-privacy law, covers &lt;strong&gt;education records&lt;/strong&gt;: grades, submitted work, advising notes, accommodation information and emails about a student, among others. You can see your own students&amp;rsquo; records because you have a legitimate educational interest in them. Sharing those records with an outside company is different.&lt;/p&gt;
+&lt;p&gt;An outside service may receive education records without each student&amp;rsquo;s consent only if the college treats it as a &amp;ldquo;school official&amp;rdquo;. That means it performs a service the college would otherwise do itself, is &lt;strong&gt;under the college&amp;rsquo;s direct control&lt;/strong&gt; over how the records are used and kept, and may not pass them on. In practice, that takes a contract.&lt;/p&gt;
+&lt;p&gt;Two misunderstandings are common:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;The company promises not to train on my data.&amp;quot;&lt;/strong&gt; A no-training promise is helpful, but on its own it is not the same as the college&amp;rsquo;s control over use, retention and deletion. Free personal accounts do not give the college that control.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&amp;ldquo;I removed the student&amp;rsquo;s name, so it&amp;rsquo;s anonymous.&amp;quot;&lt;/strong&gt; At a small college, often not. A course list, a project topic or a detail like &amp;ldquo;the only veteran in the class&amp;rdquo; can identify a student. Removing names is good practice. Do it, but don&amp;rsquo;t treat the result as anonymous.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;the-traffic-light-rule&#34;&gt;The traffic-light rule&lt;/h2&gt;
+&lt;p&gt;Most colleges already classify their data. Map those classes to AI tools like this, and post the table where you will see it.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Kind of information&lt;/th&gt;
+&lt;th&gt;Examples&lt;/th&gt;
+&lt;th&gt;Personal AI accounts&lt;/th&gt;
+&lt;th&gt;College-licensed AI (under contract)&lt;/th&gt;
+&lt;th&gt;College-hosted private AI&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Green: public&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Catalog, published syllabi, public web pages, published papers&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Yellow: internal&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Draft committee reports, internal procedures&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;td&gt;Yes&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Orange: confidential or student records&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Grades, student work, advising notes, personnel files, search materials&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;Only if your college approves that tool for this kind of data&lt;/td&gt;
+&lt;td&gt;Only if your college approves it for this kind of data&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;strong&gt;Red: highly restricted&lt;/strong&gt;&lt;/td&gt;
+&lt;td&gt;Social Security numbers, financial-aid tax data, health and disability records, passwords&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;td&gt;No&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Two rules sit on top of the table:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Never record&lt;/strong&gt; tenure, promotion, grievance or conduct deliberations, whatever tool you use.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Don&amp;rsquo;t ask an unapproved tool to &amp;ldquo;remove the names&amp;rdquo;&lt;/strong&gt; from identifiable text. By the time it removes them, it has already received them.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;which-tools-you-probably-already-have&#34;&gt;Which tools you probably already have&lt;/h2&gt;
+&lt;p&gt;Most colleges already pay for at least one education-tier AI tool, often without announcing it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Google campuses:&lt;/strong&gt; the Gemini app and NotebookLM are &amp;ldquo;core services&amp;rdquo; in Google Workspace for Education, turned on by default for higher education since 2025. Google states that this data is not reviewed by humans or used to train its models.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Microsoft campuses:&lt;/strong&gt; Microsoft 365 Copilot Chat with enterprise data protection comes with the standard education licenses. The full Microsoft 365 Copilot is a paid add-on.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contracted tools:&lt;/strong&gt; ChatGPT Edu and Claude for Education are sold to institutions under contract. Whether student records may go into them depends on that contract.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;College-hosted:&lt;/strong&gt; some colleges run their own AI on campus servers. My college&amp;rsquo;s &lt;a href=&#34;https://Peilong.github.io/post/local-llm-lessons-from-emtutor/&#34;&gt;EMTutor pilot&lt;/a&gt; is one example. Data stays on campus, but the college is responsible for securing it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Universities read the same product differently. One major university allows student records in ChatGPT Edu under its contract, while another advises against uploading academic records even with a license. Another found a data-sharing setting turned &lt;strong&gt;on&lt;/strong&gt; by default in its workspace. So the only list that matters is your own college&amp;rsquo;s.&lt;/p&gt;
+&lt;h2 id=&#34;try-it-this-week&#34;&gt;Try it this week&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Find your college&amp;rsquo;s approved-tools list.&lt;/strong&gt; Search your IT or teaching-center website for &amp;ldquo;AI tools&amp;rdquo; or &amp;ldquo;approved software&amp;rdquo;. If there is no list, email IT one question: &lt;em&gt;&amp;ldquo;Which AI tools are approved for FERPA-protected student information, and which only for public or internal information?&amp;quot;&lt;/em&gt; Until you hear back, treat everything except green as not allowed in AI tools.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sign in the protected way.&lt;/strong&gt; Use the AI tool through your college account, not a personal one. In Copilot, look for the indicator that enterprise data protection is on. In Gemini or NotebookLM, check that the account in the corner is your college account.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fix your personal account settings.&lt;/strong&gt; If you also use a personal ChatGPT account for public material, open Settings → Data controls and turn off &amp;ldquo;Improve the model for everyone&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clean up.&lt;/strong&gt; Look through your past chats in any personal AI account. Delete any that contain student work, grades or names.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Practice de-identifying.&lt;/strong&gt; Before pasting anything about students into an approved tool:
+&lt;ul&gt;
+&lt;li&gt;Remove names, ID numbers and email addresses.&lt;/li&gt;
+&lt;li&gt;Remove details that identify someone by context.&lt;/li&gt;
+&lt;li&gt;Summarize groups instead of individuals.&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t report on groups of fewer than five students.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;for-chairs-and-directors-a-one-page-policy&#34;&gt;For chairs and directors: a one-page policy&lt;/h2&gt;
+&lt;p&gt;If your department or office has no AI policy yet, one page is enough to cover:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Approved tools.&lt;/strong&gt; Which tools may be used with which kind of data (link the table above).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Responsibility.&lt;/strong&gt; Whoever uses AI is responsible for the accuracy of what they submit.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Decisions.&lt;/strong&gt; AI makes no final decisions on grades, admissions, hiring, discipline or financial aid.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Disclosure.&lt;/strong&gt; AI use is disclosed where an outside body requires it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Recording.&lt;/strong&gt; Meetings are recorded only with consent, and sensitive deliberations never.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Incidents.&lt;/strong&gt; Problems are reported to IT promptly.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Review.&lt;/strong&gt; The policy is reviewed once a year.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Next time, with the rules settled, we start on the fun part: planning a course with AI, from learning goals to a first-draft syllabus.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Questions about your own situation? Write to me at lip AT etown DOT edu.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;FERPA regulations, &lt;a href=&#34;https://www.law.cornell.edu/cfr/text/34/99.31&#34;&gt;34 CFR 99.31&lt;/a&gt; (the &amp;ldquo;school official&amp;rdquo; and de-identification provisions)&lt;/li&gt;
+&lt;li&gt;US Department of Education Privacy Technical Assistance Center, &lt;a href=&#34;https://studentprivacy.ed.gov/resources/protecting-student-privacy-while-using-online-educational-services-requirements-and-best&#34;&gt;Protecting student privacy while using online educational services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Future of Privacy Forum and Center for Democracy &amp;amp; Technology guidance on vendor contracts (&lt;a href=&#34;https://fpf.org/?p=13665&#34;&gt;FPF&lt;/a&gt;, &lt;a href=&#34;https://cdt.org/?p=12827&#34;&gt;CDT&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Google, &lt;a href=&#34;https://workspaceupdates.googleblog.com/2025/04/notebookLM-and-gemini-app-core-services-for-education-customers.html&#34;&gt;Gemini and NotebookLM as core services for education&lt;/a&gt; and &lt;a href=&#34;https://blog.google/products-and-platforms/products/education/gemini-enterprise-grade-data-protection/&#34;&gt;data protection&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Microsoft, &lt;a href=&#34;https://www.microsoft.com/en-us/education/products/copilot-in-education&#34;&gt;Copilot in education&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Examples of differing university guidance: &lt;a href=&#34;https://cmu.edu/computing/services/ai/chatgpt/index.html&#34;&gt;Carnegie Mellon&lt;/a&gt;, &lt;a href=&#34;https://ai.byu.edu/chatgpt-edu-data-restrictions-page&#34;&gt;BYU&lt;/a&gt;, &lt;a href=&#34;https://answers.illinois.edu/156622&#34;&gt;University of Illinois&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Virginia Tech, &lt;a href=&#34;https://advising.vt.edu/advising-resources/responsible-use-of-ai-in-advising.html&#34;&gt;Responsible use of AI in advising&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Let AI Draft, You Decide: Where AI Actually Saves Faculty and Staff Time</title>

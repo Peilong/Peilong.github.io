@@ -5,7 +5,7 @@
     <link>https://Peilong.github.io/games/</link>
       <atom:link href="https://Peilong.github.io/games/index.xml" rel="self" type="application/rss+xml" />
     <description>Games</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026 Peilong Li</copyright><lastBuildDate>Tue, 24 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026 Peilong Li</copyright><lastBuildDate>Wed, 25 Nov 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://Peilong.github.io/img/icon-192.png</url>
       <title>Games</title>
@@ -37,6 +37,21 @@ fewest turns. They use a method worked out by the computer scientist Edsger Dijk
 isn&amp;rsquo;t final yet, mark its time as final, and see whether going through it gives any of its neighbors a faster time.
 When the destination&amp;rsquo;s time becomes final, it is guaranteed to be the fastest possible. Press &lt;strong&gt;Watch a computer
 solve it&lt;/strong&gt; after a puzzle to see each step on the map.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Code Word</title>
+      <link>https://Peilong.github.io/games/code-word/</link>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/games/code-word/</guid>
+      <description>&lt;h3 id=&#34;how-the-clues-work&#34;&gt;How the clues work&lt;/h3&gt;
+&lt;p&gt;Every guess must be a real word with the same number of letters as the answer. After each guess, every letter gets
+a mark: a filled dot means the letter is in the right spot, a ring means the word has that letter somewhere else,
+and a dash means it doesn&amp;rsquo;t (or not that many times). The letter buttons keep track of what you have learned.&lt;/p&gt;
+&lt;h3 id=&#34;about-the-words&#34;&gt;About the words&lt;/h3&gt;
+&lt;p&gt;Each day&amp;rsquo;s word is a computing term that comes up in everyday life, from the cloud to cookies to chatbots. When the
+puzzle ends, you&amp;rsquo;ll see a short, plain explanation of what it means.&lt;/p&gt;
 </description>
     </item>
     
