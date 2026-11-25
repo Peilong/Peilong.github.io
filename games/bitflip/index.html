@@ -1,0 +1,901 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.3">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Peilong Li">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="A one-minute game about how computers count. Flip the switches so they add up to the number.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://Peilong.github.io/games/bitflip/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VNGHD0MGZ7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-VNGHD0MGZ7', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://Peilong.github.io/games/bitflip/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@@LiPeilong">
+  <meta property="twitter:creator" content="@@LiPeilong">
+  
+  <meta property="og:site_name" content="Peilong Li">
+  <meta property="og:url" content="https://Peilong.github.io/games/bitflip/">
+  <meta property="og:title" content="Bit Flip | Peilong Li">
+  <meta property="og:description" content="A one-minute game about how computers count. Flip the switches so they add up to the number."><meta property="og:image" content="https://Peilong.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://Peilong.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2026-11-24T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2026-11-24T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+<style>
+   
+  #navbar-main { transition: background-color .2s ease, box-shadow .2s ease; }
+  body.dark #navbar-main,
+  body.dark #navbar-main .navbar-collapse { background-color: #21222c; }
+  body.dark #navbar-main { box-shadow: 0 1px 0 rgba(255,255,255,.08), 0 .125rem .5rem rgba(0,0,0,.35); }
+  body.dark #navbar-main .navbar-brand,
+  body.dark #navbar-main .navbar-brand:hover,
+  body.dark #navbar-main .navbar-brand:focus { color: #f8f8f2; }
+  body.dark #navbar-main .navbar-nav .nav-link,
+  body.dark #navbar-main .navbar-toggler { color: rgba(248,248,242,.78); }
+  body.dark #navbar-main .navbar-nav .nav-link:hover,
+  body.dark #navbar-main .navbar-nav .nav-link:focus,
+  body.dark #navbar-main .navbar-toggler:hover { color: #fff; }
+  body.dark #navbar-main .navbar-nav .nav-link.active { color: #82b1ff !important; }
+  body.dark #navbar-main .dropdown-menu,
+  body.dark #navbar-main .dropdown-item { background-color: #21222c !important; color: rgba(248,248,242,.85) !important; }
+  body.dark #navbar-main .dropdown-menu { border-color: rgba(255,255,255,.12); }
+  body.dark #navbar-main .dropdown-item:hover,
+  body.dark #navbar-main .dropdown-item:focus { background-color: #2c2e3b !important; color: #fff !important; }
+  body.dark #navbar-main .dropdown-item.active,
+  body.dark #navbar-main .i18n-active { color: #82b1ff !important; }
+
+  .newsletter-signup { margin: 2.5rem 0 1.5rem; padding: 1.25rem 1.5rem; border: 1px solid rgba(0,0,0,.12); border-radius: .5rem; background: rgba(0,0,0,.025); }
+  body.dark .newsletter-signup { border-color: rgba(255,255,255,.18); background: rgba(255,255,255,.04); }
+  .newsletter-signup .newsletter-title { margin: 0 0 .35rem; font-size: 1.2rem; }
+  .newsletter-signup .newsletter-blurb { font-size: .95rem; margin-bottom: .75rem; }
+  .newsletter-signup .btn-primary { color: #fff; }
+  .newsletter-signup .newsletter-note { font-size: .8rem; margin: .6rem 0 0; opacity: .8; }
+   
+  .visitor-map { margin: 0 auto 1.5rem; text-align: center; }
+  .visitor-map .visitor-map-title { margin: 0 0 .5rem; font-size: .75rem; letter-spacing: .02em; opacity: .75; }
+  .visitor-map .visitor-map-card { display: inline-block; position: relative; border-radius: .75rem; overflow: hidden;
+    background: #1c3352; box-shadow: 0 1px 3px rgba(28,51,82,.25); line-height: 0; }
+  .visitor-map #mapmyvisitors-widget { border: 0 !important; }
+   
+  .visitor-map .visitor-map-card::after { content: ""; position: absolute; left: 0; bottom: 0; width: 24px; height: 48px;
+    background: #1c3352; pointer-events: none; z-index: 2; }
+</style>
+
+
+  <title>Bit Flip | Peilong Li</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Peilong Li</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Peilong Li</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#grants"><span>Grants</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#awards"><span>Honor & Awards</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#service"><span>Service</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Writing</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://bluejayadal.github.io/" target="_blank" rel="noopener"><span>Research Lab</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/games/bitflip/"><span>Games</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="/games/bitflip/bitflip.418a0319a4814637edec131975a26d25d74602ed54ef5faf92cfb34d84849ffd.css" integrity="sha256-QYoDGaSBRjft7BMZdaJtJddGAu1U71&#43;vks&#43;zTYSEn/0=">
+
+<div class="universal-wrapper bitflip-page">
+  <h1>Bit Flip</h1>
+  <p class="bf-lead">A one-minute game about how computers count. Flip the switches so they add up to the number.</p>
+
+  <div class="bitflip" id="bitflip" data-phase="ready" data-api="https://bitflip-leaderboard.bitflip-leaderboard.workers.dev">
+    <div class="bf-hud">
+      <div class="bf-stat">
+        <span class="bf-label">Score</span>
+        <span class="bf-value bf-mono" data-score>0</span>
+      </div>
+      <div class="bf-stat">
+        <span class="bf-label">Streak</span>
+        <span class="bf-streak-row">
+          <span class="bf-value bf-mono" data-mult>&times;1</span>
+          <span class="bf-pips" aria-hidden="true"><span class="bf-pip" data-pip></span><span class="bf-pip" data-pip></span><span class="bf-pip" data-pip></span></span>
+        </span>
+      </div>
+      <div class="bf-stat">
+        <span class="bf-label">Time</span>
+        <span class="bf-value bf-mono" data-time>60</span>
+      </div>
+    </div>
+    <div class="bf-timebar" aria-hidden="true"><span data-timebar></span></div>
+
+    <div class="bf-stage">
+      <div class="bf-play">
+        <div class="bf-target bf-mono" data-goal></div>
+        <div class="bf-sumline bf-mono" data-sumline><span data-binary>00000000</span> = <span data-sum>0</span></div>
+      </div>
+      <div class="bf-float bf-mono" data-float aria-hidden="true"></div>
+      <div class="bf-sr" data-live aria-live="polite"></div>
+
+      <div class="bf-overlay" data-screen="ready">
+        <span class="bf-eyebrow">How to play</span>
+        <h2>Make the switches add up to the number.</h2>
+        <p>Each switch is worth the number above it: to make 37, turn on 32, 4 and 1. You have 60 seconds.
+           Answer within 5 seconds to build a streak and multiply your points.</p>
+        <button type="button" class="bf-btn" data-start>Start</button>
+        <p class="bf-hint bf-keyboard-only">On a keyboard: keys 1&ndash;8 flip the switches, Enter starts.</p>
+      </div>
+      <div class="bf-overlay" data-screen="count" hidden>
+        <span class="bf-count bf-mono" data-count>3</span>
+      </div>
+      <div class="bf-overlay" data-screen="over" hidden>
+        <span class="bf-eyebrow">Time&rsquo;s up</span>
+        <span class="bf-final bf-mono" data-final-score>0</span>
+        <p data-final-stats></p>
+        <p class="bf-best" data-best></p>
+        <form class="bf-save" data-save hidden novalidate>
+          <label class="bf-save-label" for="bf-name">Put your score on the leaderboard</label>
+          <div class="bf-save-row">
+            <input id="bf-name" data-name type="text" maxlength="16" autocomplete="nickname" autocapitalize="words"
+                   spellcheck="false" enterkeyhint="done" placeholder="Your name">
+            <button type="submit" class="bf-btn bf-btn-small" data-save-btn>Save</button>
+          </div>
+          <p class="bf-save-msg" data-save-msg aria-live="polite"></p>
+        </form>
+        <p class="bf-save-note" data-save-note hidden></p>
+        <button type="button" class="bf-btn" data-start data-again>Play again</button>
+      </div>
+    </div>
+
+    <div class="bf-switches" role="group" aria-label="Switches">
+      <button type="button" class="bf-switch" role="switch" aria-checked="false" aria-label="128" data-value="128" disabled>
+        <kbd class="bf-key" aria-hidden="true">1</kbd>
+        <span class="bf-switch-value bf-mono">128</span>
+        <span class="bf-toggle" aria-hidden="true"><span class="bf-knob"></span></span>
+        <span class="bf-bit bf-mono" aria-hidden="true">0</span>
+      </button>
+      <button type="button" class="bf-switch" role="switch" aria-checked="false" aria-label="64" data-value="64" disabled>
+        <kbd class="bf-key" aria-hidden="true">2</kbd>
+        <span class="bf-switch-value bf-mono">64</span>
+        <span class="bf-toggle" aria-hidden="true"><span class="bf-knob"></span></span>
+        <span class="bf-bit bf-mono" aria-hidden="true">0</span>
+      </button>
+      <button type="button" class="bf-switch" role="switch" aria-checked="false" aria-label="32" data-value="32" disabled>
+        <kbd class="bf-key" aria-hidden="true">3</kbd>
+        <span class="bf-switch-value bf-mono">32</span>
+        <span class="bf-toggle" aria-hidden="true"><span class="bf-knob"></span></span>
+        <span class="bf-bit bf-mono" aria-hidden="true">0</span>
+      </button>
+      <button type="button" class="bf-switch" role="switch" aria-checked="false" aria-label="16" data-value="16" disabled>
+        <kbd class="bf-key" aria-hidden="true">4</kbd>
+        <span class="bf-switch-value bf-mono">16</span>
+        <span class="bf-toggle" aria-hidden="true"><span class="bf-knob"></span></span>
+        <span class="bf-bit bf-mono" aria-hidden="true">0</span>
+      </button>
+      <button type="button" class="bf-switch" role="switch" aria-checked="false" aria-label="8" data-value="8" disabled>
+        <kbd class="bf-key" aria-hidden="true">5</kbd>
+        <span class="bf-switch-value bf-mono">8</span>
+        <span class="bf-toggle" aria-hidden="true"><span class="bf-knob"></span></span>
+        <span class="bf-bit bf-mono" aria-hidden="true">0</span>
+      </button>
+      <button type="button" class="bf-switch" role="switch" aria-checked="false" aria-label="4" data-value="4" disabled>
+        <kbd class="bf-key" aria-hidden="true">6</kbd>
+        <span class="bf-switch-value bf-mono">4</span>
+        <span class="bf-toggle" aria-hidden="true"><span class="bf-knob"></span></span>
+        <span class="bf-bit bf-mono" aria-hidden="true">0</span>
+      </button>
+      <button type="button" class="bf-switch" role="switch" aria-checked="false" aria-label="2" data-value="2" disabled>
+        <kbd class="bf-key" aria-hidden="true">7</kbd>
+        <span class="bf-switch-value bf-mono">2</span>
+        <span class="bf-toggle" aria-hidden="true"><span class="bf-knob"></span></span>
+        <span class="bf-bit bf-mono" aria-hidden="true">0</span>
+      </button>
+      <button type="button" class="bf-switch" role="switch" aria-checked="false" aria-label="1" data-value="1" disabled>
+        <kbd class="bf-key" aria-hidden="true">8</kbd>
+        <span class="bf-switch-value bf-mono">1</span>
+        <span class="bf-toggle" aria-hidden="true"><span class="bf-knob"></span></span>
+        <span class="bf-bit bf-mono" aria-hidden="true">0</span>
+      </button>
+    </div>
+  </div>
+
+  <section class="bf-board" id="bitflip-board" aria-labelledby="bf-board-title" hidden>
+    <div class="bf-board-head">
+      <h2 id="bf-board-title">Leaderboard</h2>
+      <div class="bf-tabs" role="tablist" aria-label="Leaderboard period">
+        <button type="button" class="bf-tab" role="tab" aria-selected="true" data-board-tab="today">Today</button>
+        <button type="button" class="bf-tab" role="tab" aria-selected="false" data-board-tab="week" tabindex="-1">7 days</button>
+        <button type="button" class="bf-tab" role="tab" aria-selected="false" data-board-tab="all" tabindex="-1">All time</button>
+      </div>
+    </div>
+    <ol class="bf-board-list" data-board-list></ol>
+    <p class="bf-board-empty" data-board-empty>Loading&hellip;</p>
+    <p class="bf-board-note">Top 10, best score per name. &ldquo;Today&rdquo; follows Eastern time. Only the name you
+       type and your score are saved, and names with bad words are refused or removed.</p>
+  </section>
+
+  <div class="bf-about article-style"><h3 id="what-you-just-did">What you just did</h3>
+<p>Computers store every number as a row of on/off switches called <strong>bits</strong>. Each switch is worth double the one to its
+right: 1, 2, 4, 8, and so on up to 128. Eight of them together make a <strong>byte</strong>, which can hold any whole number from 0
+to 255. The row of 0s and 1s under the number is that byte, written the way a computer stores it. So when you made 37,
+you wrote <strong>00100101</strong>, which is 37 in binary.</p>
+</div>
+</div>
+
+<script src="/games/bitflip/core.e28cacfcc6264893eaf5b69a99c75cce775e237e7c163b44caa9d50b97c5fc18.js" integrity="sha256-4oys/MYmSJPq9baamcdczndeI358FjtEyqnVC5fF/Bg="></script>
+<script src="/games/bitflip/bitflip.9fcda6acb1a423e878465714613004e64bba7ff2d4acb516f6cf856bf11e44e6.js" integrity="sha256-n82mrLGkI&#43;h4RlcUYTAE5ku6f/LUrLUW9s&#43;Fa/EeROY="></script>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.3227ab49eed49815d1b4ba40154f74e7.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+<div class="visitor-map" aria-label="Map of where visitors to this site come from">
+  <p class="visitor-map-title">Visitors from around the world</p>
+  <div class="visitor-map-card">
+    <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=3d6d9e&w=260&t=m&d=plfo7kxgDuGVyltSxPSIaaKelcsH_Ii7IP52datxGys&co=1c3352&cmo=8cbde6&ct=ffffff&cmn=ffffff"></script>
+  </div>
+</div>
+
+
+
+  
+
+  <p class="powered-by">
+    © 2026 Peilong Li &middot; 
+
+    Powered by the
+    <a href="https://www.etown.edu" target="_blank" rel="noopener">BlueJay</a> spirit. 
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

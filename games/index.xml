@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Games | Peilong Li</title>
+    <link>https://Peilong.github.io/games/</link>
+      <atom:link href="https://Peilong.github.io/games/index.xml" rel="self" type="application/rss+xml" />
+    <description>Games</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026 Peilong Li</copyright><lastBuildDate>Tue, 24 Nov 2026 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://Peilong.github.io/img/icon-192.png</url>
+      <title>Games</title>
+      <link>https://Peilong.github.io/games/</link>
+    </image>
+    
+    <item>
+      <title>Bit Flip</title>
+      <link>https://Peilong.github.io/games/bitflip/</link>
+      <pubDate>Tue, 24 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/games/bitflip/</guid>
+      <description>&lt;h3 id=&#34;what-you-just-did&#34;&gt;What you just did&lt;/h3&gt;
+&lt;p&gt;Computers store every number as a row of on/off switches called &lt;strong&gt;bits&lt;/strong&gt;. Each switch is worth double the one to its
+right: 1, 2, 4, 8, and so on up to 128. Eight of them together make a &lt;strong&gt;byte&lt;/strong&gt;, which can hold any whole number from 0
+to 255. The row of 0s and 1s under the number is that byte, written the way a computer stores it. So when you made 37,
+you wrote &lt;strong&gt;00100101&lt;/strong&gt;, which is 37 in binary.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
