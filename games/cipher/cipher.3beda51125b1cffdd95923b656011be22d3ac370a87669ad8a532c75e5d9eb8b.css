@@ -1,0 +1,64 @@
+/* Crack the Cipher: the puzzle, letter counts and letter buttons. Shared colors and parts come from ../shared.css. */
+.cx-stage { display: grid; }
+.cx-stage > * { grid-area: 1 / 1; }
+.cx-puzzle { display: flex; flex-wrap: wrap; justify-content: center; align-content: flex-start; gap: 14px 18px; min-height: 160px;
+             padding: 16px 8px; border-radius: 18px; background: var(--g-tint); }
+.cx-puzzle[hidden] { display: none; }
+.cx-word { display: inline-flex; flex-wrap: nowrap; gap: 3px; }
+.cx-cell { display: flex; flex-direction: column; align-items: center; width: 30px; padding: 2px 0 3px; border: 0; border-radius: 9px;
+           background: transparent; color: var(--g-ink); cursor: pointer; touch-action: manipulation; }
+.cx-guess { display: block; width: 26px; height: 30px; border-bottom: 2.5px solid var(--g-line-strong); color: var(--g-navy);
+            font-size: 1.3rem; font-weight: 700; line-height: 30px; text-align: center; }
+.cx-code { margin-top: 3px; color: var(--g-muted); font-size: .8rem; font-weight: 600; }
+.cx-cell.is-filled .cx-guess { border-bottom-color: var(--g-navy); }
+.cx-cell.is-sel { background: var(--g-accent-soft); }
+.cx-cell.is-sel .cx-guess { border-bottom-color: var(--g-accent); }
+.cx-cell.is-given .cx-guess { color: var(--g-accent); }
+.cx-cell.is-dup .cx-guess { color: var(--g-warn); border-bottom-color: var(--g-warn); }
+.cx-cell:focus-visible { outline: 2px solid var(--g-accent); outline-offset: 1px; }
+.cx-cell:disabled { cursor: default; }
+.cipher[data-status="done"] .cx-guess { color: var(--g-good); border-bottom-color: var(--g-good); }
+.cx-punct { align-self: flex-start; padding-top: 4px; color: var(--g-navy); font-size: 1.3rem; font-weight: 700; }
+
+.cx-tools[hidden] { display: none; }
+.cx-counts { margin-top: 12px; }
+.cx-counts-head { margin: 0 0 6px; font-size: .82rem; text-align: center; color: var(--g-muted); }
+.cx-count-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 5px; }
+.cx-count { display: inline-flex; align-items: baseline; gap: 4px; padding: 4px 9px; border: 1.5px solid var(--g-line-strong); border-radius: 999px;
+            background: var(--g-card); color: var(--g-ink); font-size: .85rem; cursor: pointer; touch-action: manipulation; }
+.cx-count b { color: var(--g-navy); }
+.cx-count span { color: var(--g-muted); font-size: .75rem; }
+.cx-count i { color: var(--g-accent); font-style: normal; font-weight: 700; }
+.cx-count.is-sel { border-color: var(--g-accent); background: var(--g-accent-soft); }
+/* The letter buttons stay at the bottom of the screen while the puzzle scrolls, so code letters and buttons are
+   both in view. */
+.cx-keys { position: sticky; bottom: 0; z-index: 3; display: grid; gap: 6px; margin: 12px -6px 0; padding: 8px 6px;
+           border-radius: 16px 16px 0 0; background: var(--g-card); }
+.cx-keys[hidden] { display: none; }
+.cx-keyrow { display: flex; justify-content: center; gap: 5px; }
+.cx-key { flex: 0 1 46px; min-width: 0; height: 46px; padding: 0; border: 0; border-radius: 12px; background: var(--g-tint); color: var(--g-ink);
+          font-size: 1.05rem; font-weight: 600; cursor: pointer; touch-action: manipulation; }
+.cx-key.is-used { color: var(--g-muted); opacity: .55; }
+.cx-key:active:not(:disabled) { transform: scale(.95); }
+.cx-key:disabled { opacity: .45; cursor: default; }
+.cx-key-wide { flex: 0 1 200px; font: 600 .9rem "IBM Plex Sans", system-ui, sans-serif; }
+.cx-key-hint { background: transparent; color: var(--g-accent); box-shadow: inset 0 0 0 1.5px var(--g-line-strong); }
+
+.cx-quote { max-width: 36em; margin: 14px auto 6px; padding: 0; border: 0; font-size: 1.15rem; line-height: 1.55; }
+.cx-quote p { margin: 0; color: var(--g-ink) !important; font-size: 1.15rem !important; font-style: italic; }
+.cx-quote cite { display: block; margin-top: 8px; color: var(--g-muted); font-size: .9rem; font-style: normal; }
+.cx-pastitems { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin-top: 6px; color: var(--g-muted); }
+.cx-pastitem { display: inline-flex; gap: 8px; align-items: baseline; padding: 8px 14px; border: 1.5px solid var(--g-line-strong); border-radius: 999px;
+               background: var(--g-card); color: var(--g-ink); font: 500 .9rem "IBM Plex Sans", system-ui, sans-serif; cursor: pointer; }
+.cx-pastitem b { color: var(--g-accent); }
+
+@media (max-width: 560px) {
+  .cx-puzzle { gap: 8px 10px; padding: 10px 2px; min-height: 120px; }
+  .cx-word { gap: 1px; }
+  .cx-cell { width: 20px; padding: 1px 0 2px; border-radius: 7px; }
+  .cx-guess { width: 18px; height: 23px; font-size: 1rem; line-height: 23px; border-bottom-width: 2px; }
+  .cx-code { margin-top: 2px; font-size: .7rem; }
+  .cx-punct { padding-top: 2px; font-size: 1rem; }
+  .cx-key { height: 44px; border-radius: 10px; }
+  .cx-keyrow { gap: 4px; }
+}

@@ -1,0 +1,37 @@
+/* Logic Lights: the circuit board. Shared colors and parts come from ../shared.css (.game-page). */
+.ll-stage { display: grid; }
+.ll-stage > * { grid-area: 1 / 1; }
+.ll-svg { display: block; width: 100%; height: auto; max-height: 75vh; user-select: none; -webkit-user-select: none; }
+.ll-board { fill: var(--g-tint); }
+.ll-wire { fill: none; stroke: var(--g-line-strong); stroke-width: 5; stroke-linecap: round; transition: stroke .15s; }
+.ll-wire.is-on { stroke: var(--g-accent); stroke-width: 6; }
+.ll-gate path, .ll-gate circle { fill: var(--g-card); stroke: var(--g-navy); stroke-width: 3; stroke-linejoin: round; transition: fill .15s, stroke .15s; }
+.ll-gate.is-on path, .ll-gate.is-on circle { stroke: var(--g-accent); fill: var(--g-tint); }
+.ll-gate-label { fill: var(--g-navy); font: 700 15px "IBM Plex Mono", ui-monospace, monospace; letter-spacing: .02em; pointer-events: none; }
+.ll-gate-label.is-on { fill: var(--g-accent); }
+.ll-switch { cursor: pointer; outline: none; }
+.ll-hit { fill: transparent; }
+.ll-track { fill: var(--g-card); stroke: var(--g-line-strong); stroke-width: 2.5; transition: fill .15s, stroke .15s; }
+.ll-knob { fill: var(--g-muted); transition: cx .15s; }
+.ll-switch.is-on .ll-track { fill: var(--g-accent); stroke: var(--g-accent); }
+.ll-switch.is-on .ll-knob { fill: #fff; }
+.ll-switch:focus-visible .ll-track { stroke: var(--g-accent); stroke-width: 4; }
+.ll-letter { fill: var(--g-navy); font: 700 22px "IBM Plex Mono", ui-monospace, monospace; }
+.ll-bulb { fill: var(--g-card); stroke: var(--g-line-strong); stroke-width: 3; transition: fill .2s, stroke .2s; }
+.ll-filament { fill: none; stroke: var(--g-muted); stroke-width: 2.5; stroke-linecap: round; stroke-linejoin: round; }
+.ll-halo { fill: var(--g-glow); opacity: 0; transition: opacity .25s; }
+.ll-bulbg.is-lit .ll-bulb { fill: var(--g-glow); stroke: var(--g-glow); }
+.ll-bulbg.is-lit .ll-filament { stroke: #7a4b00; }
+.ll-bulbg.is-lit .ll-halo { opacity: .35; }
+.logic[data-status="intro"] .ll-svg { visibility: hidden; }
+
+.ll-levels { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin: -4px 0 12px; }
+.ll-levels[hidden] { display: none; }
+.ll-levels .g-modes { margin: 0; }
+.ll-legend { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; margin-top: 10px; font-size: .85rem; color: var(--g-muted); }
+.ll-legend[hidden] { display: none; }
+.ll-legend b { color: var(--g-navy); }
+
+@media (prefers-reduced-motion: reduce) {
+  .ll-wire, .ll-gate path, .ll-track, .ll-knob, .ll-bulb, .ll-halo { transition: none; }
+}

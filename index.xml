@@ -6068,6 +6068,43 @@ puzzle ends, you&amp;rsquo;ll see a short, plain explanation of what it means.&l
     </item>
     
     <item>
+      <title>Logic Lights</title>
+      <link>https://Peilong.github.io/games/logic-lights/</link>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/games/logic-lights/</guid>
+      <description>&lt;h3 id=&#34;what-the-gates-do&#34;&gt;What the gates do&lt;/h3&gt;
+&lt;p&gt;Every decision a computer makes is built from tiny circuits like this one. Each &lt;strong&gt;gate&lt;/strong&gt; takes signals that are
+on or off and passes on a new one: &lt;strong&gt;AND&lt;/strong&gt; is on only when both of its inputs are on, &lt;strong&gt;OR&lt;/strong&gt; is on when at least one
+is, &lt;strong&gt;NOT&lt;/strong&gt; flips its input, and &lt;strong&gt;XOR&lt;/strong&gt; (from Friday on) is on when exactly one input is on. A computer&amp;rsquo;s processor
+is built from gates like these, made of billions of tiny electronic switches called transistors.&lt;/p&gt;
+&lt;h3 id=&#34;why-watch-a-computer-solve-it-matters&#34;&gt;Why &amp;ldquo;Watch a computer solve it&amp;rdquo; matters&lt;/h3&gt;
+&lt;p&gt;A computer can simply try every combination of switches: with 6 switches there are only 64. But each extra switch
+doubles the count, so with 30 switches there would be over a billion combinations. Telling which circuits can
+ever be switched on is a famous hard problem in computer science, and much of the field is about finding cleverer
+ways than trying everything.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Crack the Cipher</title>
+      <link>https://Peilong.github.io/games/cipher/</link>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+      <guid>https://Peilong.github.io/games/cipher/</guid>
+      <description>&lt;h3 id=&#34;how-the-code-works&#34;&gt;How the code works&lt;/h3&gt;
+&lt;p&gt;Each day&amp;rsquo;s quotation is written in a &lt;strong&gt;substitution cipher&lt;/strong&gt;: every letter is swapped for another letter, and the
+same letter is always swapped the same way. Spaces and punctuation stay put. If &lt;strong&gt;Q&lt;/strong&gt; stands for &lt;strong&gt;E&lt;/strong&gt; once, it
+stands for &lt;strong&gt;E&lt;/strong&gt; everywhere.&lt;/p&gt;
+&lt;h3 id=&#34;how-to-crack-it&#34;&gt;How to crack it&lt;/h3&gt;
+&lt;p&gt;Start with what you know about English. Short words help: a one-letter word is almost always A or I, and
+three-letter words are often THE or AND. Letter counts help even more: E, T, A, O, I and N are the most common
+letters in English, so the most common letters in the puzzle are good first guesses. Counting letters to break
+a code is called &lt;strong&gt;frequency analysis&lt;/strong&gt;, and the Arab scholar al-Kindi described it in the 9th century.&lt;/p&gt;
+&lt;p&gt;Every quotation comes from a book in the public domain and was checked word for word against the book&amp;rsquo;s text at
+Project Gutenberg.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Training Across FERPA Silos: A Differentially Private Vertical Federated System for Dropout Prediction</title>
       <link>https://Peilong.github.io/publication/2027-sigcse-jayquery/</link>
       <pubDate>Thu, 18 Feb 2027 00:00:00 +0000</pubDate>
