@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.3">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Peilong Li">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="A daily scheduling puzzle: fit every exam into the fewest time slots so that no student has two exams at once.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://Peilong.github.io/games/exam-slots/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VNGHD0MGZ7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-VNGHD0MGZ7', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://Peilong.github.io/games/exam-slots/">
+
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@@LiPeilong">
+  <meta property="twitter:creator" content="@@LiPeilong">
+  
+  <meta property="og:site_name" content="Peilong Li">
+  <meta property="og:url" content="https://Peilong.github.io/games/exam-slots/">
+  <meta property="og:title" content="Exam Slots | Peilong Li">
+  <meta property="og:description" content="A daily scheduling puzzle: fit every exam into the fewest time slots so that no student has two exams at once."><meta property="og:image" content="https://Peilong.github.io/img/icon-192.png">
+  <meta property="twitter:image" content="https://Peilong.github.io/img/icon-192.png"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2026-11-25T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2026-11-25T00:00:00&#43;00:00">
+  
+
+  
+
+
+
+  
+
+
+  
+
+
+  
+<style>
+   
+  #navbar-main { transition: background-color .2s ease, box-shadow .2s ease; }
+  body.dark #navbar-main,
+  body.dark #navbar-main .navbar-collapse { background-color: #21222c; }
+  body.dark #navbar-main { box-shadow: 0 1px 0 rgba(255,255,255,.08), 0 .125rem .5rem rgba(0,0,0,.35); }
+  body.dark #navbar-main .navbar-brand,
+  body.dark #navbar-main .navbar-brand:hover,
+  body.dark #navbar-main .navbar-brand:focus { color: #f8f8f2; }
+  body.dark #navbar-main .navbar-nav .nav-link,
+  body.dark #navbar-main .navbar-toggler { color: rgba(248,248,242,.78); }
+  body.dark #navbar-main .navbar-nav .nav-link:hover,
+  body.dark #navbar-main .navbar-nav .nav-link:focus,
+  body.dark #navbar-main .navbar-toggler:hover { color: #fff; }
+  body.dark #navbar-main .navbar-nav .nav-link.active { color: #82b1ff !important; }
+  body.dark #navbar-main .dropdown-menu,
+  body.dark #navbar-main .dropdown-item { background-color: #21222c !important; color: rgba(248,248,242,.85) !important; }
+  body.dark #navbar-main .dropdown-menu { border-color: rgba(255,255,255,.12); }
+  body.dark #navbar-main .dropdown-item:hover,
+  body.dark #navbar-main .dropdown-item:focus { background-color: #2c2e3b !important; color: #fff !important; }
+  body.dark #navbar-main .dropdown-item.active,
+  body.dark #navbar-main .i18n-active { color: #82b1ff !important; }
+
+  .newsletter-signup { margin: 2.5rem 0 1.5rem; padding: 1.25rem 1.5rem; border: 1px solid rgba(0,0,0,.12); border-radius: .5rem; background: rgba(0,0,0,.025); }
+  body.dark .newsletter-signup { border-color: rgba(255,255,255,.18); background: rgba(255,255,255,.04); }
+  .newsletter-signup .newsletter-title { margin: 0 0 .35rem; font-size: 1.2rem; }
+  .newsletter-signup .newsletter-blurb { font-size: .95rem; margin-bottom: .75rem; }
+  .newsletter-signup .btn-primary { color: #fff; }
+  .newsletter-signup .newsletter-note { font-size: .8rem; margin: .6rem 0 0; opacity: .8; }
+   
+  .visitor-map { margin: 0 auto 1.5rem; text-align: center; }
+  .visitor-map .visitor-map-title { margin: 0 0 .5rem; font-size: .75rem; letter-spacing: .02em; opacity: .75; }
+  .visitor-map .visitor-map-card { display: inline-block; position: relative; border-radius: .75rem; overflow: hidden;
+    background: #1c3352; box-shadow: 0 1px 3px rgba(28,51,82,.25); line-height: 0; }
+  .visitor-map #mapmyvisitors-widget { border: 0 !important; }
+   
+  .visitor-map .visitor-map-card::after { content: ""; position: absolute; left: 0; bottom: 0; width: 24px; height: 48px;
+    background: #1c3352; pointer-events: none; z-index: 2; }
+</style>
+
+
+  <title>Exam Slots | Peilong Li</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">Peilong Li</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Peilong Li</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#grants"><span>Grants</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#awards"><span>Honor & Awards</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#service"><span>Service</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/courses/"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Writing</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+            
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="https://bluejayadal.github.io/" target="_blank" rel="noopener"><span>Research Lab</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link  active" href="/games/"><span>Games</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;600;700&family=IBM+Plex+Sans:wght@400;600;700&display=swap">
+<link rel="stylesheet" href="/games/shared.331d6b24821e7ce94cbb62664fecd064ad34e5e015e08fd8389bcbcc40c39d5a.css" integrity="sha256-Mx1rJIIefOlMu2JmT&#43;zQZK005eAV4I/YOJvLzEDDnVo=">
+<link rel="stylesheet" href="/games/exam-slots/exam-slots.2f0126d5066520a76619ee3d82bff68bbaa8b12359f72a0021ef8c2d29bc0aaa.css" integrity="sha256-LwEm1QZlIKdmGe49gr/2i7qosSNZ9yoAIe&#43;MLSm8Cqo=">
+
+<div class="universal-wrapper game-page slots-page">
+  <a class="games-back" href="/games/">&larr; All games</a>
+  <h1>Exam Slots</h1>
+  <p class="g-lead">A daily scheduling puzzle: fit every exam into the fewest time slots so that no student has two exams at once.</p>
+
+  <div class="g-modes" role="tablist" aria-label="Puzzle">
+    <button type="button" class="g-mode" role="tab" aria-selected="true" data-mode="daily">Today&rsquo;s exams</button>
+    <button type="button" class="g-mode" role="tab" aria-selected="false" data-mode="practice" tabindex="-1">Practice</button>
+  </div>
+
+  <div class="g-card slots" id="examslots" data-api="https://bitflip-leaderboard.bitflip-leaderboard.workers.dev">
+    <div class="g-top">
+      <div>
+        <span class="g-label" data-title>Today&rsquo;s exams</span>
+        <span class="g-meta" data-meta></span>
+      </div>
+      <div class="g-stat"><span class="g-label">Time</span><span class="g-value g-mono" data-clock>0:00</span></div>
+    </div>
+    <div class="es-levels" data-levels hidden>
+      <div class="g-modes" role="group" aria-label="Practice level">
+        <button type="button" class="g-mode" data-level="easy">Easy</button>
+        <button type="button" class="g-mode" data-level="medium" aria-selected="true">Medium</button>
+        <button type="button" class="g-mode" data-level="hard">Hard</button>
+      </div>
+      <button type="button" class="g-btn g-btn-small g-btn-ghost" data-new>New puzzle</button>
+    </div>
+
+    <div class="g-stage es-stage">
+      <svg class="es-svg" data-svg role="group" aria-label="Courses and the students they share"></svg>
+      <div class="g-intro" data-intro hidden>
+        <span class="g-eyebrow">Today&rsquo;s exams</span>
+        <h2>Schedule every exam so no student has two at once.</h2>
+        <p>A line joins two courses that share students, so their exams need different time slots. Fit all the exams
+           into the slots you are given: that is always the fewest possible. Easiest on Monday, hardest on Sunday,
+           and Thursdays need four slots.</p>
+        <button type="button" class="g-btn" data-start>Start</button>
+        <p class="g-hint">The clock starts when you press Start.</p>
+      </div>
+    </div>
+    <p class="es-hint" data-hint hidden>A line means two courses share students. Pick a slot, then tap courses; tap again to take one out.</p>
+
+    <div class="es-tools" data-tools hidden>
+      <div class="es-palette" data-palette role="group" aria-label="Exam slots"></div>
+      <button type="button" class="g-btn g-btn-small g-btn-ghost" data-clear>Clear all</button>
+    </div>
+    <p class="g-msg" data-msg aria-live="polite"></p>
+    <p class="g-explain" data-explain aria-live="polite" hidden></p>
+
+    <div class="g-result" data-result hidden>
+      <span class="g-eyebrow">Every exam scheduled!</span>
+      <div class="g-result-big g-mono" data-result-big></div>
+      <p data-result-detail></p>
+      <p class="g-result-extra" data-result-extra></p>
+      <form class="g-save" data-save hidden novalidate>
+  <label class="g-save-label" for="es-name">Put your result on today&rsquo;s board</label>
+  <div class="g-save-row">
+    <input id="es-name" data-name type="text" maxlength="16" autocomplete="nickname" autocapitalize="words"
+           spellcheck="false" enterkeyhint="done" placeholder="Your name">
+    <button type="submit" class="g-btn g-btn-small" data-save-btn>Save</button>
+  </div>
+  <p class="g-save-msg" data-save-msg aria-live="polite"></p>
+</form>
+<p class="g-save-note" data-save-note hidden></p>
+
+      <div class="g-actions">
+        <button type="button" class="g-btn" data-watch>Watch a computer solve it</button>
+        <button type="button" class="g-btn g-btn-ghost" data-next></button>
+      </div>
+    </div>
+  </div>
+
+  <section class="g-board" id="examslots-board" aria-labelledby="examslots-board-title" hidden>
+  <div class="g-board-head">
+    <h2 id="examslots-board-title">Leaderboard</h2>
+    <div class="g-tabs" role="tablist" aria-label="Leaderboard">
+      <button type="button" class="g-tab" role="tab" aria-selected="true" data-board-tab="today">Today</button>
+      <button type="button" class="g-tab" role="tab" aria-selected="false" data-board-tab="yesterday" tabindex="-1">Yesterday</button>
+      <button type="button" class="g-tab" role="tab" aria-selected="false" data-board-tab="days" tabindex="-1">Most days</button>
+    </div>
+  </div>
+  <ol class="g-board-list" data-board-list></ol>
+  <p class="g-board-empty" data-board-empty>Loading&hellip;</p>
+  <p class="g-board-note">Fastest time to schedule every exam with no clashes, measured by the server. Each name counts once a day; &ldquo;Most days&rdquo; counts the days a
+     name made the board. Only the name you type and your result are saved, and names with bad words are refused or removed.</p>
+</section>
+
+
+  <div class="g-about article-style"><h3 id="exam-schedules-are-a-coloring-puzzle">Exam schedules are a coloring puzzle</h3>
+<p>Every college has to fit its final exams into a few time slots so that no student has two exams at once. Computer
+scientists draw this as a <strong>graph</strong>: each course is a dot, and a line joins two courses that share a student. Giving
+every course a slot so that no line joins two courses in the same slot is called <strong>graph coloring</strong>, because the slots
+are usually drawn as colors. In 1967 the mathematicians Dominic Welsh and Martin Powell showed how a simple coloring
+method applies to timetabling, and scheduling software still builds on ideas like theirs.</p>
+<h3 id="why-the-fewest-slots-is-hard-to-find">Why the fewest slots is hard to find</h3>
+<p>Checking a finished schedule is easy: look at every line. Finding one with the fewest slots is another matter. In 1972
+Richard Karp showed that this problem belongs to a large family of problems for which nobody knows a fast method, and
+it is still one of computing&rsquo;s famous hard problems. With a few hundred courses, trying every schedule is out of
+reach, so real scheduling software uses clever shortcuts that find good answers, not always the best one.</p>
+<h3 id="four-slots-are-always-enough-here">Four slots are always enough here</h3>
+<p>These puzzles are drawn so that no two lines cross. For any drawing like that, four slots are always enough. This
+is the <strong>Four Color Theorem</strong>, first asked about maps in 1852 and proved in 1976 by Kenneth Appel and Wolfgang
+Haken: the first major theorem proved with the help of a computer. Real exam schedules have lines crossing
+everywhere, so they can need many more slots.</p>
+</div>
+</div>
+
+<script src="/games/shared.39b92f4c7f67df4e692be0ac2190dd0eb521674cbbd7c9f2fe1e70b6455507f1.js" integrity="sha256-ObkvTH9n305pK&#43;CsIZDdDrUhZ0y718ny/h5wtkVVB/E="></script>
+<script src="/games/exam-slots/core.e0694178215e27a20cc2c8b2ca7db43a6b0e2a03ff7e9516d988e2a79f203614.js" integrity="sha256-4GlBeCFeJ6IMwsiyyn20OmsOKgP/fpUW2Yjip58gNhQ="></script>
+<script src="/games/exam-slots/exam-slots.8d91dd5ceedf89625cc2c757b32cb41f7da1b4da9085efd19c97ee07eb7b3c56.js" integrity="sha256-jZHdXO7fiWJcwsdXsyy0H32htNqQhe/RnJfuB&#43;t7PFY="></script>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.3227ab49eed49815d1b4ba40154f74e7.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+<div class="visitor-map" aria-label="Map of where visitors to this site come from">
+  <p class="visitor-map-title">Visitors from around the world</p>
+  <div class="visitor-map-card">
+    <script type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=3d6d9e&w=260&t=m&d=plfo7kxgDuGVyltSxPSIaaKelcsH_Ii7IP52datxGys&co=1c3352&cmo=8cbde6&ct=ffffff&cmn=ffffff"></script>
+  </div>
+</div>
+
+
+
+  
+
+  <p class="powered-by">
+    © 2026 Peilong Li &middot; 
+
+    Powered by the
+    <a href="https://www.etown.edu" target="_blank" rel="noopener">BlueJay</a> spirit. 
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

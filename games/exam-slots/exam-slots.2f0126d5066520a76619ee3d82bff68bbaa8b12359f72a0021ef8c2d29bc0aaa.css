@@ -1,0 +1,74 @@
+/* Exam Slots: the course map, slot colors and the slot picker. Shared colors and parts come from ../shared.css.
+   Slot colors are from the Okabe-Ito color-blind-safe set (green darkened for white text); each also shows its number. */
+.slots-page {
+  --es-s0: #0072b2; --es-t0: #fff;
+  --es-s1: #e69f00; --es-t1: #1d1d1f;
+  --es-s2: #007a5a; --es-t2: #fff;
+  --es-s3: #cc79a7; --es-t3: #1d1d1f;
+  --es-clash: #d1372e;
+}
+body.dark .slots-page { --es-clash: #ff6b5e; }
+
+.es-stage { display: grid; }
+.es-stage > * { grid-area: 1 / 1; }
+.es-svg { display: block; width: 100%; height: auto; max-height: 78vh; user-select: none; -webkit-user-select: none; }
+.es-board { fill: var(--g-tint); }
+.slots[data-status="intro"] .es-svg { visibility: hidden; }
+
+.es-line { stroke: var(--g-line-strong); stroke-width: 3; stroke-linecap: round; transition: stroke .12s; }
+.es-line.is-near { stroke: var(--g-accent); stroke-width: 4; }
+.es-line.is-clash { stroke: var(--es-clash); stroke-width: 4.5; stroke-dasharray: 9 6; }
+
+.es-course { cursor: pointer; outline: none; }
+.slots[data-status="done"] .es-course { cursor: default; }
+.es-hit { fill: transparent; }
+.es-pill { fill: var(--g-card); stroke: var(--g-line-strong); stroke-width: 2; transition: fill .12s, stroke .12s; }
+.es-name { fill: var(--g-ink); font: 600 14px "IBM Plex Sans", system-ui, sans-serif; pointer-events: none; }
+.es-badge { display: none; pointer-events: none; }
+.es-badge circle { fill: #fff; stroke-width: 2.5; }
+.es-badge text { font: 700 11px "IBM Plex Mono", ui-monospace, monospace; }
+.es-course:hover .es-pill { stroke: var(--g-accent); }
+.es-course:focus-visible .es-pill { stroke: var(--g-accent); stroke-width: 3.5; }
+.es-course.is-clash .es-pill { stroke: var(--es-clash); stroke-width: 3.5; }
+.es-course[class*="is-s"] .es-badge { display: inline; }
+.es-course.is-s0 .es-pill { fill: var(--es-s0); stroke: var(--es-s0); } .es-course.is-s0 .es-name { fill: var(--es-t0); }
+.es-course.is-s1 .es-pill { fill: var(--es-s1); stroke: var(--es-s1); } .es-course.is-s1 .es-name { fill: var(--es-t1); }
+.es-course.is-s2 .es-pill { fill: var(--es-s2); stroke: var(--es-s2); } .es-course.is-s2 .es-name { fill: var(--es-t2); }
+.es-course.is-s3 .es-pill { fill: var(--es-s3); stroke: var(--es-s3); } .es-course.is-s3 .es-name { fill: var(--es-t3); }
+.es-course.is-s0 .es-badge circle { stroke: var(--es-s0); } .es-course.is-s0 .es-badge text { fill: var(--es-s0); }
+.es-course.is-s1 .es-badge circle { stroke: #b07900; } .es-course.is-s1 .es-badge text { fill: #8a5f00; }
+.es-course.is-s2 .es-badge circle { stroke: var(--es-s2); } .es-course.is-s2 .es-badge text { fill: var(--es-s2); }
+.es-course.is-s3 .es-badge circle { stroke: #a8508a; } .es-course.is-s3 .es-badge text { fill: #8f3f73; }
+.es-course.is-clash[class*="is-s"] .es-pill { stroke: var(--es-clash); }
+
+.es-hint { margin: 10px 0 0; font-size: .85rem; text-align: center; color: var(--g-muted); }
+.es-hint[hidden] { display: none; }
+.es-tools { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 14px; margin-top: 12px; }
+.es-tools[hidden] { display: none; }
+.es-palette { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; }
+.es-chip { display: inline-flex; align-items: center; gap: 8px; padding: 6px 14px 6px 6px; border: 2px solid var(--g-line-strong);
+           border-radius: 999px; background: var(--g-card); color: var(--g-ink); font: 600 .92rem/1.2 "IBM Plex Sans", system-ui, sans-serif;
+           cursor: pointer; touch-action: manipulation; transition: border-color .12s, box-shadow .12s; }
+.es-chip:focus-visible { outline: 2px solid var(--g-accent); outline-offset: 2px; }
+.es-dot { display: grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; font-size: .85rem; font-weight: 700; }
+.es-chip.is-s0 .es-dot { background: var(--es-s0); color: var(--es-t0); }
+.es-chip.is-s1 .es-dot { background: var(--es-s1); color: var(--es-t1); }
+.es-chip.is-s2 .es-dot { background: var(--es-s2); color: var(--es-t2); }
+.es-chip.is-s3 .es-dot { background: var(--es-s3); color: var(--es-t3); }
+.es-chip[aria-pressed="true"] { border-color: var(--g-navy); box-shadow: 0 0 0 3px var(--g-ring); }
+.es-chip.is-s0[aria-pressed="true"] { border-color: var(--es-s0); }
+.es-chip.is-s1[aria-pressed="true"] { border-color: var(--es-s1); }
+.es-chip.is-s2[aria-pressed="true"] { border-color: var(--es-s2); }
+.es-chip.is-s3[aria-pressed="true"] { border-color: var(--es-s3); }
+
+.es-levels { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin: -4px 0 12px; }
+.es-levels[hidden] { display: none; }
+.es-levels .g-modes { margin: 0; }
+
+@media (max-width: 560px) {
+  .es-name { font-size: 13px; }
+  .es-chip { gap: 6px; padding: 5px 10px 5px 5px; font-size: .85rem; }
+  .es-dot { width: 24px; height: 24px; }
+  .es-palette { gap: 6px; }
+}
+@media (prefers-reduced-motion: reduce) { .es-line, .es-pill, .es-chip { transition: none; } }
