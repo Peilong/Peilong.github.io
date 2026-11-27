@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Course Design | Peilong Li</title>
+    <link>https://Peilong.github.io/tags/course-design/</link>
+      <atom:link href="https://Peilong.github.io/tags/course-design/index.xml" rel="self" type="application/rss+xml" />
+    <description>Course Design</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2026 Peilong Li</copyright><lastBuildDate>Fri, 27 Nov 2026 07:00:00 -0500</lastBuildDate>
+    <image>
+      <url>https://Peilong.github.io/img/icon-192.png</url>
+      <title>Course Design</title>
+      <link>https://Peilong.github.io/tags/course-design/</link>
+    </image>
+    
+    <item>
+      <title>Planning a Course with AI: From Learning Goals to a First-Draft Syllabus</title>
+      <link>https://Peilong.github.io/post/ai-series-3-planning-a-course/</link>
+      <pubDate>Fri, 27 Nov 2026 07:00:00 -0500</pubDate>
+      <guid>https://Peilong.github.io/post/ai-series-3-planning-a-course/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Part 3 of 9 in the series &lt;a href=&#34;https://Peilong.github.io/tags/ai-at-a-small-college/&#34;&gt;AI at a Small College&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Course planning is where AI earns its keep for most faculty. It is also where its mistakes are easiest to miss. In the California State University system&amp;rsquo;s fall 2025 survey, developing course materials was the most common way faculty used AI, at 55%. This post gives a routine that works in any discipline, whether you teach organic chemistry, first-year writing or a studio course. It follows the familiar &amp;ldquo;backward design&amp;rdquo; order:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Decide what students should be able to do.&lt;/li&gt;
+&lt;li&gt;Decide how you will know they can do it.&lt;/li&gt;
+&lt;li&gt;Plan the weeks.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;AI drafts each step; you decide.&lt;/p&gt;
+&lt;h2 id=&#34;step-1-set-up-a-course-workspace-15-minutes-once&#34;&gt;Step 1: Set up a course workspace (15 minutes, once)&lt;/h2&gt;
+&lt;p&gt;Most licensed AI tools now let you save instructions and files in one place, so you don&amp;rsquo;t start from scratch each time. Depending on what your college offers, that place might be a NotebookLM notebook, a Gemini Gem, a ChatGPT project or custom GPT, a Claude project or a Copilot notebook.&lt;/p&gt;
+&lt;p&gt;Create one for the course and add:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the catalog description and any department or general-education outcomes the course must meet;&lt;/li&gt;
+&lt;li&gt;your last syllabus and schedule, if you have taught it before;&lt;/li&gt;
+&lt;li&gt;your own notes on what worked and what did not;&lt;/li&gt;
+&lt;li&gt;openly licensed or library-provided readings you already plan to use.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Do not add student work, grades or student comments&lt;/strong&gt; (see &lt;a href=&#34;https://Peilong.github.io/post/ai-series-2-before-you-paste/&#34;&gt;Part 2&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;Then paste in standing instructions, so every request follows the same rules:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;You are helping me plan [COURSE NAME], a [level, e.g., 200-level] course in [discipline]
+for [who takes it, e.g., sophomores, mostly non-majors] at a small liberal arts college.
+Work only from the files I provided and what I tell you. Never invent readings, citations,
+page numbers, dates or college policies. When you need one, write [READING NEEDED],
+[DATE NEEDED] or [POLICY NEEDED] instead. Keep suggestions realistic for a class of
+[number] students meeting [days and length]. Ask me a question if something is unclear.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;step-2-draft-learning-goals-15-minutes&#34;&gt;Step 2: Draft learning goals (15 minutes)&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;Draft 5 to 7 learning outcomes for this course. Each must start with an observable verb
+(analyze, design, compare, explain, create...), fit the catalog description, and be
+something a student could show in [the number of weeks] weeks. For each outcome, add one
+sentence on how a student would demonstrate it. Mark which outcomes cover the department
+or general-education outcomes in my files.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Read the list against your own sense of the course. Expect to rewrite. The value is a structured starting point and options you might not have considered, not a finished answer. Cut anything that sounds generic, such as &amp;ldquo;develop critical thinking skills&amp;rdquo;, unless you can say exactly how students will show it.&lt;/p&gt;
+&lt;h2 id=&#34;step-3-align-assignments-to-the-goals-20-minutes&#34;&gt;Step 3: Align assignments to the goals (20 minutes)&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;For the outcomes I approved (pasted below), propose a set of assessments for the semester.
+For each, give: which outcomes it measures, format, approximate student hours, and when in
+the term it fits. Include at least one assessment that students complete in class or
+explain orally, so it shows their own understanding. Finish with a table: rows = outcomes,
+columns = assessments, cells = how strongly each assessment measures each outcome.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;That last table, an alignment map, is the most useful thing in this step. It shows outcomes that nothing measures and assignments that measure nothing you care about. Check the student-hours column against your college&amp;rsquo;s credit-hour expectations. AI is often optimistic about how long things take.&lt;/p&gt;
+&lt;h2 id=&#34;step-4-map-the-weeks-but-do-the-dates-yourself&#34;&gt;Step 4: Map the weeks, but do the dates yourself&lt;/h2&gt;
+&lt;p&gt;AI tools are unreliable at calendar arithmetic, such as which weekday a holiday falls on or how many class meetings fit before break. So &lt;strong&gt;build the calendar first&lt;/strong&gt;:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Open your college&amp;rsquo;s academic calendar.&lt;/li&gt;
+&lt;li&gt;Type every class meeting date into a simple table in a document or spreadsheet, and mark holidays and breaks.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Then ask AI only to fill topics into the rows you made:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;Here is my table of class meetings (dates already filled in; do not change them).
+Fill in the Topic and Preparation columns so the course builds toward the assessments
+in the order I approved. Keep one main topic per meeting. Put [READING NEEDED] wherever
+a reading should go. Leave the rows marked BREAK empty.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;step-5-find-readings-yourself&#34;&gt;Step 5: Find readings yourself&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Never accept a citation an AI suggests without finding the source yourself.&lt;/strong&gt; In a 2025 study, GPT-4o fabricated almost 1 in 5 of the references it produced, and fabrication was worse on specialized topics, which is exactly where faculty need help. Ask instead for search terms and the kinds of sources to look for:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;For each [READING NEEDED] slot, suggest 3 search phrases I could use in our library
+databases and the type of source that would fit (primary source, review article,
+textbook chapter, case study, dataset). Do not name specific titles or authors.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then search your library&amp;rsquo;s databases or ask your subject librarian. Only list what you have actually opened.&lt;/p&gt;
+&lt;h2 id=&#34;step-6-write-the-policies-in-your-own-voice&#34;&gt;Step 6: Write the policies in your own voice&lt;/h2&gt;
+&lt;p&gt;AI can draft standard syllabus sections such as attendance, late work and accessibility. Start from your college&amp;rsquo;s required syllabus language. Your &lt;strong&gt;AI-use policy for students&lt;/strong&gt; is worth writing yourself, because it signals what you value. A useful structure:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Where AI is welcome.&lt;/li&gt;
+&lt;li&gt;Where it is not.&lt;/li&gt;
+&lt;li&gt;How students should disclose AI use.&lt;/li&gt;
+&lt;li&gt;What happens if they don&amp;rsquo;t.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;step-7-keep-it-yours&#34;&gt;Step 7: Keep it yours&lt;/h2&gt;
+&lt;p&gt;According to the US Copyright Office, prompts alone don&amp;rsquo;t make you the author of what AI generates, but your selection, arrangement and revision can be protected. Beyond copyright, the course should sound like you. Keep a short &amp;ldquo;changes&amp;rdquo; note as you edit: what you cut, rewrote or added. That note also becomes your starting point next year.&lt;/p&gt;
+&lt;h2 id=&#34;next-year-revise-from-evidence&#34;&gt;Next year: revise from evidence&lt;/h2&gt;
+&lt;p&gt;At the end of the term, add to the workspace:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;your &amp;ldquo;changes&amp;rdquo; note;&lt;/li&gt;
+&lt;li&gt;your reflections;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;aggregate&lt;/strong&gt; results only, such as which quiz questions most students missed, or the three most common themes in course evaluations, with no names and no quotes from small classes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Then ask:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;Using my notes and these aggregate results, suggest the three revisions most likely to
+improve student learning next term. For each, say which outcome it serves, what evidence
+in my files supports it, and what it would cost me in preparation time.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;try-it-this-week&#34;&gt;Try it this week&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Pick a course&lt;/strong&gt; you will teach next term.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Do Steps 1 to 3.&lt;/strong&gt; Plan on about 50 minutes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compare the alignment map&lt;/strong&gt; with your current syllabus. Find one outcome that nothing measures well, or one assignment that doesn&amp;rsquo;t map to any outcome.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Write down the minutes it took&lt;/strong&gt;, and whether the result was better than what you would have done alone.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Next time: making quizzes, handouts and slides with AI, and catching the specific mistakes AI tends to make.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Have a planning prompt that works well in your discipline? Send it to me at lip AT etown DOT edu, and I may include it in a later post.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;sources&#34;&gt;Sources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Inside Higher Ed, &lt;a href=&#34;https://www.insidehighered.com/index%2ephp/node/206321&#34;&gt;California State University faculty AI survey&lt;/a&gt; (fall 2025)&lt;/li&gt;
+&lt;li&gt;UConn eCampus, &lt;a href=&#34;https://ecampus.uconn.edu/?p=12928&#34;&gt;Backward design with AI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;JMIR, &lt;a href=&#34;https://mental.jmir.org/2025/1/e80371&#34;&gt;Citation fabrication by GPT-4o&lt;/a&gt; (2025)&lt;/li&gt;
+&lt;li&gt;US Copyright Office, &lt;a href=&#34;https://copyright.gov/newsnet/2025/1060.html&#34;&gt;Copyright and Artificial Intelligence, Part 2: Copyrightability&lt;/a&gt; (2025)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
